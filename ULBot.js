@@ -296,8 +296,8 @@
         settings: {
       botName: "Lietuviškas-Botas",
       language: "english",
-      chatLink: "https://bb.githack.com/mmcoding/ul-bot/raw/f3041d64607ed8ffa810baae71384b8b4f339bff/lt.json",
-      scriptLink: "https://bb.githack.com/mmcoding/ul-bot/raw/f3041d64607ed8ffa810baae71384b8b4f339bff/ULBot.js",
+      chatLink: "https://rawgit.com/PowerOfMad/bot/master/lt.json",
+      scriptLink: "https://rawgit.com/PowerOfMad/bot/master/ULBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap : 50, // 1-200
       startupVolume : 15, // 0-100

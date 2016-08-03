@@ -157,7 +157,6 @@
     "eta": "/me @%%NAME%% Jūs grosite po: %%TIME%%.",
     "facebook": "/me Prisijunkite prie mūsų Facebook`e: https://www.facebook.com/Už-Lietuvą-630256890371211",
     "starterhelp": "/me Komandos: http://prntscr.com/brmw04",
-    "discord": "/me Discord: https://discord.gg/M9k2Zrb"
     "roulettejoin": "/me @%%NAME%% Dalyvaujate ruletės žaidime!",
     "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% vartotojas buvo kambaryje %%TIME%%.",
     "kickrank": "/me [@%%NAME%%] Jūs negalite išmesti vartotojų kurie turi aukštesnes pareigas negu Jūs!",
@@ -198,8 +197,9 @@
     "unmuterank": "/me [@%%NAME%%] Jūs negalite leisti vėl rašyti vartotojams turintiems tokias pat ar aukštesnes pareigas.",
     "commandscd": "/me [@%%NAME%%] Komandų naudojimas paprastiems vartotojams apribotas iki: %%TIME%% sekundžių.",
     "voteratio": "/me [@%%NAME%%] @%%USERNAME%% ~ woots: %%WOOT%%, mehs: %%MEHS%%, reitingas (w/m): %%RATIO%%.",
-    "website": "/me Aplankykite mūsų svetainę adresu: %%LINK%%",
+    "website": "/me [%%NAME%%] Aplankykite mūsų svetainę adresu: %%LINK%%",
     "youtube": "/me [%%NAME%%] Prenumeruokite mus youtube: %%LINK%%",
+    "discord": "/me [%%NAME%%] Discord kanalas: https://discord.gg/M9k2Zrb",
     "songstatistics": "/me %%ARTIST%% - %%TITLE%%:musical_note: %%WOOTS%%:thumbsup:%%GRABS%%:star:%%MEHS%%:thumbsdown:",
     "ball": "/me %%NAME%%'s Klausėte: \"%%QUESTION%%\" ir %%BOTNAME%% atsakymas yra: \"%%RESPONSE%%\"",
     "botnameset": "/me Boto vardas pakeistas į: %%BOTNAME%%",

@@ -157,6 +157,7 @@
     "eta": "/me @%%NAME%% Jūs grosite po: %%TIME%%.",
     "facebook": "/me Prisijunkite prie mūsų Facebook`e: %%LINK%%",
     "starterhelp": "/me Komandos: http://prntscr.com/brmw04",
+    "discord": "/me Discord: https://discord.gg/M9k2Zrb"
     "roulettejoin": "/me @%%NAME%% Dalyvaujate ruletės žaidime!",
     "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% vartotojas buvo kambaryje %%TIME%%.",
     "kickrank": "/me [@%%NAME%%] Jūs negalite išmesti vartotojų kurie turi aukštesnes pareigas negu Jūs!",

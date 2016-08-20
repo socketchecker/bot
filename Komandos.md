@@ -17,7 +17,7 @@ Manager
 |!clearchat | | Išvalo chat`ą |
 |!cycle | | Įjungia DJ ciklą |
 |!cycletimer | X | Nustato ilgiausią DJ ciklo laiką, kai ciklo apsauga yra įjungta |
-|!language | (language) | Nustato boto kalbą |
+|!language | (kalba) | Nustato boto kalbą |
 |!locktimer | X | Nustato ilgiasią laiko tarpą kurio metu waitlist`as gali būti užrakintas  |
 |!maxlength | X | Nustato ilgiausią dainos trukmę |
 |!logout | | Išregistruoja boto paleidėjo paskyrą |

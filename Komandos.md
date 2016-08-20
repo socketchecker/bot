@@ -11,20 +11,20 @@ Manager
 |Komanda | Argumentas |  Aprašmas |
 |:------:|:---------:|:--------------------------------------:|
 |!afklimit | X | Nustato maksimalų laiką, kurio metu vartotojas gali nebalsuoti už dainas |
-|!botname | (vardas) | pakeičia boto vardą |
-|!bouncer+ | | įjungia bouncer+ papildinį |
-|!skippos | X | nustato vietą waitlist`e į kurią bus perkelti žmonės panaudojus skippos arba lockskip komandas |
-|!clearchat | | išvalo chat`ą |
-|!cycle | | įjungia DJ ciklą |
-|!cycletimer | X | nustato ilgiausią DJ ciklo laiką, kai ciklo apsauga yra įjungta |
-|!language | (language) | nustato boto kalbą |
-|!locktimer | X | nustato ilgiasią laiko tarpą kurio metu waitlist`as gali būti užrakintas  |
-|!maxlength | X | nustato ilgiausią dainos trukmę |
-|!logout | | išregistruoja boto paleidėjo paskyrą |
-|!refresh | | boto perkrovimas |
-|!usercmdcd | X | nustato komandų panaudojimo intervalą pilkiems vartotojiems |
-|!usercommands | | įjungia vartotojų komandas |
-|!voteskip | (X) | jei argumentas nenurodytas, parodo dabartinį nustatymą, jei X įvestas, voteskip limitas yra atnaujinamas. |
+|!botname | (vardas) | Pakeičia boto vardą |
+|!bouncer+ | | Įjungia bouncer+ papildinį |
+|!skippos | X | Nustato vietą waitlist`e į kurią bus perkelti žmonės panaudojus skippos arba lockskip komandas |
+|!clearchat | | Išvalo chat`ą |
+|!cycle | | Įjungia DJ ciklą |
+|!cycletimer | X | Nustato ilgiausią DJ ciklo laiką, kai ciklo apsauga yra įjungta |
+|!language | (language) | Nustato boto kalbą |
+|!locktimer | X | Nustato ilgiasią laiko tarpą kurio metu waitlist`as gali būti užrakintas  |
+|!maxlength | X | Nustato ilgiausią dainos trukmę |
+|!logout | | Išregistruoja boto paleidėjo paskyrą |
+|!refresh | | Boto perkrovimas |
+|!usercmdcd | X | Nustato komandų panaudojimo intervalą pilkiems vartotojiems |
+|!usercommands | | Įjungia vartotojų komandas |
+|!voteskip | (X) | Jei argumentas nenurodytas, parodo dabartinį nustatymą, jei X įvestas, voteskip limitas yra atnaujinamas. |
 
 
 Bouncer

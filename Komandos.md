@@ -48,11 +48,11 @@ Bouncer
 |!forceskip | | Praleidžia dabartinę dainą |
 |!historyskip | | Įjungia pasikartojančių dainų praleidimą |
 |!jointime | @user | Parodo kiek laiko vartotojas praleido kambaryje neatsijungęs |
-|!kick | (X) | išmeta vartotoją iš kambario X minutėms, numatyta reikšmė yra 15 sekundžių (0.25 minutės) |
+|!kick | (X) | Išmeta vartotoją iš kambario X minutėms, numatyta reikšmė yra 15 sekundžių (0.25 minutės) |
 |!kill | | Išjungia botą |
 |!lockguard | | Įjungia lockguard |
-|!lockskip | (priežastis) | praleidžią dainą, užrakiną waitlist`ą ir grąžina vartotoją į tam tikrą poziciją (pozicija nustatoma su !skippos komanda) |
-|!motd | (X)/(žinutė) | jei argumentas nenurodytas, parodo dabartinę nustatytą žinute, kai X nurodytas, dienos žinutė yra rodoma kas X dainas, jei "žinutė" nurodyta, dienos žinutė pakeičiama |
+|!lockskip | (priežastis) | Praleidžią dainą, užrakiną waitlist`ą ir grąžina vartotoją į tam tikrą poziciją (pozicija nustatoma su !skippos komanda) |
+|!motd | (X)/(žinutė) | Jei argumentas nenurodytas, parodo dabartinę nustatytą žinute, kai X nurodytas, dienos žinutė yra rodoma kas X dainas, jei "žinutė" nurodyta, dienos žinutė pakeičiama |
 |!mute | @vartotojas/(X) | Uždraudžia rašyti vartotojui, X minutėms jei X nurodytas, kitu atveju neribotam laikui |
 |!reload | | Perkrauna botą |
 |!restricteta | | Įjungi eta komandos apribojimą: pilki vartotojai komandą gali vartoti kas valandą |
@@ -82,26 +82,24 @@ Vartotojas
 
 |Komanda | Argumentas |  Aprašmas |
 |:------:|:---------:|:--------------------------------------:|
-|!8ball | (žinutė) | ask the bot a question, the bot will return random variations of a yes or no answer. |
-|!autowoot | | links to PlugCubed, the advised script/plugin to use for autowooting |
-|!ba | | explains the Brand Ambassador rank |
-|!commands | | gives a link to the commands |
-|!cookie | (@vartotojas) | give a cookie to user |
-|!dclookup / !dc | | use dclookup on yourself |
-|!emoji | | a link to a list with emoji's |
-|!eta | | shows how long before you reach the booth |
-|!fb | | links to the room's Facebook page (if set in the settings) |
-|!ghostbuster | @user | checks if user is ghosting |
-|!gif | (žinutė) | returns gif (from giphy) related to the tag provided. Returns a random gif if no tags are provided. |
-|!help | | links to an image to help get people started on plug |
-|!play | | join the roulette if it's up |
-|!leave | | leave the roulette if you joined |
-|!link | | when the user is the DJ, give a link to the current song |
-|!op | | links to the OverPlayed list (if set in the settings) |
-|!ping | | pong! |
+|!8ball | (žinutė) | Paklausia boto klausimo į kurį atsakymas būtų taip arba ne, botas parenka atsitiktinį atsakymą |
+|!autowoot | | Nurodo autowoot boto nuorodą |
+|!ba | | Paaiškina kas tai yra Brand Ambassador |
+|!commands | | Išmeta visų komandų linką |
+|!cookie | (@vartotojas) | Duoda vartotojui sausainį |
+|!dclookup / !dc | | Parodo vietą, kurioje buvote prieš atsijungdami |
+|!emoji | | Nurodo emoji jaustukų adresą |
+|!eta | | Nurodo po kiek laiko grosite savo pasirinktą dainą |
+|!fb | | Nurodo kambario facebook adresą (jei nustatytas) |
+|!gif | (kategorija) | Išmeta gif pagal nurodytą kategoriją, jeigu kategorija nenurodyta išrekama atsitiktinai |
+|!help | | Nurodo vartotojų komandų sąrašą |
+|!play | | Dalyvauti ruletės žaidime jei ji paleista |
+|!leave | | Palikti ruletės žaidimą |
+|!link | | Nurodo vartotojo leidžiamos dainos adresą |
+|!op | | Nurodo pasikartojančių dainų sąrašo adresą (jei nustatytas) |
+|!ping | | Pong! |
 |!purchase | | Nurodo plug taškų pirkimo adresą |
 |!rules | | Nurodo kambario taisyklių adresą (jei nustatytas) |
 |!theme | | Nurodo kambario dainų temą (jei nustatyta) |
-|!thor | | users get moved to position 1 in the waitlist if they're worthy of Thor's hammer. |
 |!website | | Nurodo kambario svetainės adresą (jei nustatytas |
 |!youtube | | Nurodo kambario youtube kanalo adresą (jei nustatytas) |

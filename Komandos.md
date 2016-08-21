@@ -51,9 +51,9 @@ Bouncer
 |!kick | (X) | išmeta vartotoją iš kambario X minutėms, numatyta reikšmė yra 15 sekundžių (0.25 minutės) |
 |!kill | | Išjungia botą |
 |!lockguard | | Įjungia lockguard |
-|!lockskip | (reason) | praleidžią dainą, užrakiną waitlist`ą ir grąžina vartotoją į tam tikrą poziciją (pozicija nustatoma su !skippos komanda) |
-|!motd | (X)/(message) | jei argumentas nenurodytas, parodo dabartinę nustatytą žinute, kai X nurodytas, dienos žinutė yra rodoma kas X dainas, jei "žinutė" nurodyta, dienos žinutė pakeičiama |
-|!mute | @user/(X) | Uždraudžia rašyti vartotojui, X minutėms jei X nurodytas, kitu atveju neribotam laikui |
+|!lockskip | (priežastis) | praleidžią dainą, užrakiną waitlist`ą ir grąžina vartotoją į tam tikrą poziciją (pozicija nustatoma su !skippos komanda) |
+|!motd | (X)/(žinutė) | jei argumentas nenurodytas, parodo dabartinę nustatytą žinute, kai X nurodytas, dienos žinutė yra rodoma kas X dainas, jei "žinutė" nurodyta, dienos žinutė pakeičiama |
+|!mute | @vartotojas/(X) | Uždraudžia rašyti vartotojui, X minutėms jei X nurodytas, kitu atveju neribotam laikui |
 |!reload | | Perkrauna botą |
 |!restricteta | | Įjungi eta komandos apribojimą: pilki vartotojai komandą gali vartoti kas valandą |
 |!sessionstats | | Parodo dabartinės sesijos būseną |
@@ -77,31 +77,31 @@ Nuolatinis DJ
 
 
 
-User
+Vartotojas
 ----
 
 |Komanda | Argumentas |  Aprašmas |
 |:------:|:---------:|:--------------------------------------:|
-|!8ball | (message) | ask the bot a question, the bot will return random variations of a yes or no answer. |
+|!8ball | (žinutė) | ask the bot a question, the bot will return random variations of a yes or no answer. |
 |!autowoot | | links to PlugCubed, the advised script/plugin to use for autowooting |
 |!ba | | explains the Brand Ambassador rank |
 |!commands | | gives a link to the commands |
-|!cookie | (@user) | give a cookie to user |
+|!cookie | (@vartotojas) | give a cookie to user |
 |!dclookup / !dc | | use dclookup on yourself |
 |!emoji | | a link to a list with emoji's |
 |!eta | | shows how long before you reach the booth |
 |!fb | | links to the room's Facebook page (if set in the settings) |
 |!ghostbuster | @user | checks if user is ghosting |
-|!gif | (message) | returns gif (from giphy) related to the tag provided. Returns a random gif if no tags are provided. |
+|!gif | (žinutė) | returns gif (from giphy) related to the tag provided. Returns a random gif if no tags are provided. |
 |!help | | links to an image to help get people started on plug |
-|~~!join~~ | | ~~join the roulette if it's up~~ |
-|~~!leave~~ | | ~~leave the roulette if you joined~~ |
+|!play | | join the roulette if it's up |
+|!leave | | leave the roulette if you joined |
 |!link | | when the user is the DJ, give a link to the current song |
 |!op | | links to the OverPlayed list (if set in the settings) |
 |!ping | | pong! |
-|!purchase | | returns link to purchase more plug notes |
-|!rules | | links to the rules (if set in the settings) |
-|!theme | | links to the room's theme (if set in the settings) |
+|!purchase | | Nurodo plug taškų pirkimo adresą |
+|!rules | | Nurodo kambario taisyklių adresą (jei nustatytas) |
+|!theme | | Nurodo kambario dainų temą (jei nustatyta) |
 |!thor | | users get moved to position 1 in the waitlist if they're worthy of Thor's hammer. |
-|!website | | links to the room's website (if set in the settings) |
-|!youtube | | links to the room's youtube page (if set in the settings) |
+|!website | | Nurodo kambario svetainės adresą (jei nustatytas |
+|!youtube | | Nurodo kambario youtube kanalo adresą (jei nustatytas) |

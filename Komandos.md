@@ -30,14 +30,14 @@ Manager
 Bouncer
 -------
 
-|Command | Arguments |  Description |
+|Komanda | Argumentas |  Aprašmas |
 |:------:|:---------:|:--------------------------------------:|
-|!active | (X) | shows how many users chatted in the past X minutes. If no X specified, 60 is set as default |
-|!afkreset | @user | resets the afk time of user |
-|!afktime | @user | shows how long user has been afk |
-|!autodisable | | toggle the autodisable |
-|!ban | @user | bans user for 1 day |
-|!blacklist / !bl | blacklistname | add the song to the specified blacklist |
+|!active | (X) | Parodo kiek vartotojų rašė žinutes per pastarasiąs X minutes. Jei X nenurodytas, rodoma paskutinės valandos statistika |
+|!afkreset | @vartotojas | Atstato vartotojo afk laiką |
+|!afktime | @vartotojas | Parodo kiek laiko vartotojas nedalyvavo chat`e |
+|!autodisable | | Įjungti autodisable komandą, kuri išjungia botą po tam tikro laiko |
+|!ban | @user | Užblokuoja vartotoją 1 dienai |
+|!blacklist / !bl | blacklistname | Įtraukią dainą į draudžiamų dainų sąrašą |
 |!commanddeletion | | toggles if bot commands gets deleted |
 |!blinfo | | get information required to blacklist a song |
 |!cycleguard | | toggles the cycleguard |

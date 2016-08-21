@@ -5,7 +5,7 @@ X - skaičius
 Priedai tarp ( ) yra nebūtini
 
 
-Manager
+Vadovas / Manager
 -------
 
 |Komanda | Argumentas |  Aprašmas |
@@ -27,7 +27,7 @@ Manager
 |!voteskip | (X) | Jei argumentas nenurodytas, parodo dabartinį nustatymą, jei X įvestas, voteskip limitas yra atnaujinamas. |
 
 
-Bouncer
+Apsauginis / Bouncer
 -------
 
 |Komanda | Argumentas |  Aprašmas |
@@ -68,7 +68,7 @@ Bouncer
 |!voteratio | @vartotojas | Parodo vartotojo balsavimo už dainas statistiką |
 |!whois | @vartotojas | Parodo informaciją apie vartotoją |
 
-Nuolatinis DJ
+Nuolatinis DJ / RDJ
 -----------
 
 |Komanda | Argumentas |  Aprašmas |
@@ -77,7 +77,7 @@ Nuolatinis DJ
 
 
 
-Vartotojas
+Vartotojas / User
 ----
 
 |Komanda | Argumentas |  Aprašmas |

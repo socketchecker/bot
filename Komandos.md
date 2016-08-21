@@ -36,51 +36,51 @@ Bouncer
 |!afkreset | @vartotojas | Atstato vartotojo afk laiką |
 |!afktime | @vartotojas | Parodo kiek laiko vartotojas nedalyvavo chat`e |
 |!autodisable | | Įjungti autodisable komandą, kuri išjungia botą po tam tikro laiko |
-|!ban | @user | Užblokuoja vartotoją 1 dienai |
-|!blacklist / !bl | blacklistname | Įtraukią dainą į draudžiamų dainų sąrašą |
-|!commanddeletion | | toggles if bot commands gets deleted |
-|!blinfo | | get information required to blacklist a song |
-|!cycleguard | | toggles the cycleguard |
-|!dclookup / !dc | (@user) | do dclookup for user |
-|!english | @user | ask user to speak english (asked in the language they set plug to) |
-|!eta | (@user) | shows when user will reach the booth |
-|!filter | | toggles the chat filter |
-|!forceskip | | forceskips the current song |
-|!historyskip | | toggles the history skip |
-|!jointime | @user | shows how long the user has been in the room |
-|!kick | (X) | kicks user for X minutes, default is 0.25 minutes (15 seconds) |
-|!kill | | shut down the bot |
-|!lockguard | | toggle the lockguard |
-|!lockskip | (reason) | skips, locks and moves the dj back up (the position can be set with !skippos) |
-|!motd | (X)/(message) | when no argument is specified, returns the Message of the Day, when X is specified, the MotD is given every X songs, when "message" is given, it sets the MotD to message |
-|!mute | @user/(X) | mute user, for X minutes if X is specified, otherwise for an undefined period |
-|!reload | | reload the bot |
-|!restricteta | | toggles the restriction on eta: grey users can use it once an hour |
-|!sessionstats | | display stats for the current session |
-|!skip | (reason) | skips the dj using smartskip. actions such as locking and moving user depends on various factors (the position the dj is moved to can be set with !skippos) |
-|!status | | display the bot's status and some settings |
-|!timeguard | | toggle the timeguard |
-|!togglebl | | toggle the blacklist |
-|!togglemotd | | toggle the motd |
-|!togglevoteskip | | toggle the voteskip |
-|!unban | @user | unban user |
-|!unmute | @user/all | unmute user |
-|!voteratio | @user | display the vote statistic for a user |
-|!whois | @user | returns plug related information about user |
+|!ban | @vartotojas | Užblokuoja vartotoją 1 dienai |
+|!blacklist / !bl | sąrašo pavadinimas | Įtraukią dainą į draudžiamų dainų sąrašą |
+|!commanddeletion | | Įjungia boto komandų trynimą |
+|!blinfo | | Pateikia informaciją apie dainą |
+|!cycleguard | | Įjungia ciklo apsaugą |
+|!dclookup / !dc | (@vartotojas) | Parodo vartoto pozicija iki atsijungimo |
+|!english | @vartotojas | Paprašo vartotojo kalbėti angliškai (prašoma ta kalba kurią vartotojas nusistatęs) |
+|!eta | (@vartotojas) | Nurodo laiką iki grojimo |
+|!filter | | Įjungią chat`o apsaugą |
+|!forceskip | | Praleidžia dabartinę dainą |
+|!historyskip | | Įjungia pasikartojančių dainų praleidimą |
+|!jointime | @user | Parodo kiek laiko vartotojas praleido kambaryje neatsijungęs |
+|!kick | (X) | išmeta vartotoją iš kambario X minutėms, numatyta reikšmė yra 15 sekundžių (0.25 minutės) |
+|!kill | | Išjungia botą |
+|!lockguard | | Įjungia lockguard |
+|!lockskip | (reason) | praleidžią dainą, užrakiną waitlist`ą ir grąžina vartotoją į tam tikrą poziciją (pozicija nustatoma su !skippos komanda) |
+|!motd | (X)/(message) | jei argumentas nenurodytas, parodo dabartinę nustatytą žinute, kai X nurodytas, dienos žinutė yra rodoma kas X dainas, jei "žinutė" nurodyta, dienos žinutė pakeičiama |
+|!mute | @user/(X) | Uždraudžia rašyti vartotojui, X minutėms jei X nurodytas, kitu atveju neribotam laikui |
+|!reload | | Perkrauna botą |
+|!restricteta | | Įjungi eta komandos apribojimą: pilki vartotojai komandą gali vartoti kas valandą |
+|!sessionstats | | Parodo dabartinės sesijos būseną |
+|!skip | (priežastis) | Praleidžia dainą bei parašo priežastį vartotojui |
+|!status | | Parodo boto informacija bei keletą nustatymų |
+|!timeguard | | Įjungia dainos trukmės limitą |
+|!togglebl | | Įjungia draudžiamajį sąrašą |
+|!togglemotd | | Įjungia dienos žinutę |
+|!togglevoteskip | | Įjungia voteskip komandą, kuri skaičiuoja balsus reikalingus pakeisti dainai |
+|!unban | @vartotojas | Atblokuja vartotoją |
+|!unmute | @vartotojas/all | Leidžia vartotojui vėl rašyti |
+|!voteratio | @vartotojas | Parodo vartotojo balsavimo už dainas statistiką |
+|!whois | @vartotojas | Parodo informaciją apie vartotoją |
 
-Resident DJ
+Nuolatinis DJ
 -----------
 
-|Command | Arguments |  Description |
+|Komanda | Argumentas |  Aprašmas |
 |:------:|:---------:|:--------------------------------------:|
-|!link | | give a link to the current song
+|!link | | Nurodo dabartinės dainos nuorodą
 
 
 
 User
 ----
 
-|Command | Arguments |  Description |
+|Komanda | Argumentas |  Aprašmas |
 |:------:|:---------:|:--------------------------------------:|
 |!8ball | (message) | ask the bot a question, the bot will return random variations of a yes or no answer. |
 |!autowoot | | links to PlugCubed, the advised script/plugin to use for autowooting |

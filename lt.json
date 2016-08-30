@@ -65,7 +65,7 @@
     "online": "/me %%BOTNAME%% sėkmingai paleistas!!",
 
 
-    "welcome": "/me Sveikas atvykęs į  LIETUVĄ @%%NAME%% Įsipūsk į save geros nuotaikos, bei įvairių hitų dozės! Nebijok bendrauti su visais, nes čia renkasi tik draugiškiausi žmonės. Gero klausymo!",
+    "welcome": "/me Sveiki atvykę į  LIETUVĄ @%%NAME%% Įsipūsk į save geros nuotaikos, bei įvairių hitų dozės! Nebijok bendrauti su visais, nes čia renkasi tik draugiškiausi žmonės. Gero klausymo!",
     "welcomeback": "/me @%%NAME%% Sveiki sugrįžę į Už Lietuvą muzikos kambarį! :)",
     "songknown": "/me @%%NAME%%, daina jau yra grojusi.",
     "timelimit": "/me @%%NAME%%, Jūsų daina buvo ilgesnė nei %%MAXLENGTH%% minutės.",

@@ -209,7 +209,7 @@
     "currentlang": "/me Dabartinė kalba: %%LANGUAGE%%",
     "forceskip": "/me [%%NAME%% panaudojo forceskip komandą.]",
     "ghosting": "[%%NAME1%%] %%NAME2%% is either ghosting or not here.",
-    "groju": "/me Dabar groja %%NAME%%, nes jis administratorius!",
+    "groju": "/me Dabar gros %%NAME%%, nes jis yra administratorius!",
     "inactivelonger": "/me [@%%NAME%%] @%%USERNAME%% buvo neaktyvus ilgiau nei %%BOTNAME%% buvo įjungtas.",
     "invalidgifrandom": "/me [@%%NAME%%] Neteisingas prašymas, bandykite iš naujo.",
     "invalidgiftags": "/me [@%%NAME%%] Neteisingi tagai bandykite iš naujo. [Tags: %%TAGS%%]",

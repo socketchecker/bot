@@ -189,7 +189,7 @@
     "activefor": "Aš buvau įjungtas %%TIME%%.",
     "swapinvalid": "/me [@%%NAME%%] Nurodytas netinkamas vartotojas.",
     "swapwlonly": "/me [@%%NAME%%] Keiskite pozicijas tik vartotojų esančių waitlist`e!",
-    "swapping": "/me  %%NAME1%% Keičiasi su %%NAME2%%.",
+    "swapping": "/me  %%NAME1%% keičiasi su %%NAME2%%.",
     "genres": "/me Leidžiamus groti žanrus rasite čia:: %%LINK%%",
     "notbanned": "/me [@%%NAME%%] Vartotojas nebuvo užblokuotas.",
     "unmutedeveryone": "/me [@%%NAME%%] Visi gali rašyti.",

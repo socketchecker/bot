@@ -70,7 +70,7 @@
     "songknown": "/me @%%NAME%%, daina jau yra grojusi.",
     "timelimit": "/me @%%NAME%%, Jūsų daina buvo ilgesnė nei %%MAXLENGTH%% minutės.",
     "permissionownsong": "/me :up: @%%NAME%% turi teisę groti savo muziką!",
-    "isblacklisted": "/me @%%NAME%% Ši daina yra draudžiamame sąraše: %%BLACKLIST%% ! Perjungiama...",
+    "isblacklisted": "/me Ši daina yra draudžiamame sąraše: %%BLACKLIST%% ! Perjungiama...",
 
 
     "isopen": "/me @djs :warning:RULETĖ:warning: Norėdami žaisti ruletę rašykite !play. Nugalėtojas bus perkeltas į 1 vietą!",

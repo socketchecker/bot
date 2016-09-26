@@ -77,7 +77,7 @@
     "winnerpicked": "/me :white_check_mark: Laimėtojas išrinktas! @%%NAME%% perkeltas į %%POSITION%% vietą.",
 
 
-    "alreadyadding": "/me Vartotjas jau pridėtas! Dabartinė vieta: %%POSITION%%.",
+    "alreadyadding": "/me Vartotjas jau yra pridėtas! Dabartinė vieta: %%POSITION%%.",
     "adding": "/me Pridėjo @%%NAME%% į eilę. Dabartinė vieta: %%POSITION%%.",
 
 

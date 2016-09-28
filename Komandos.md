@@ -95,7 +95,6 @@ Vartotojas / User
 |!help | | Nurodo vartotojų komandų sąrašą |
 |!play | | Dalyvauti ruletės žaidime jei ji paleista |
 |!leave | | Palikti ruletės žaidimą |
-|!link | | Nurodo vartotojo leidžiamos dainos adresą |
 |!op | | Nurodo pasikartojančių dainų sąrašo adresą (jei nustatytas) |
 |!ping | | Pong! |
 |!purchase | | Nurodo plug taškų pirkimo adresą |

@@ -1210,7 +1210,7 @@
                 return true;
             }
             if (!containsLetters && (msg.length === 1 || msg.length > 3)) return true;
-            msg = msg.replace(/[ ,;.:\/=~+%^*\-\\"'&@#]/g, '');
+            msg = msg.replace(/[ ,.\/=~+%^*\-\\"'&@#]/g, '');
             var capitals = 0;
             var ch;
             for (var i = 0; i < msg.length; i++) {
@@ -1228,11 +1228,10 @@
  
                 return true;
             }
-            for (var j = 0; j < basicBot.chatUtilities.spam.length; j++) {
-                if (msg === basicBot.chatUtilities.spam[j]) {
+            for (var j = 0; j < basicBot.chatUtilities.curses.length; j++) {
+                if (msg.includes(basicBot.chatUtilities.curses[j])) {
                     API.sendChat(subChat(basicBot.chat.spam, {name: chat.un}));
- 
- 
+
                     return true;
                 }
             }
@@ -2351,7 +2350,6 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
                     else {
                         if (chat.message.length === cmd.length) return API.sendChat('/me No user specified.');
-                        var name = chat.message.substring(cmd.length + 2);
                         var name = chat.message.substring(cmd.length + 2);
                         var user = basicBot.userUtilities.lookupUserName(name);
                         if (typeof user === 'boolean') return API.sendChat('/me Invalid user specified.');

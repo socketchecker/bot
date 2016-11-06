@@ -114,13 +114,10 @@
         var data = {users:API.getUsers(),userinfo:API.getUser(),room:location.pathname,basicBotSettings:basicBotSettings,basicBotRoom:basicBotRoom,basicBotInfo:basicBotInfo};
         return sock.msg(data);
     };*/
-     /*       /*pass*/
-     /*     var password;
-
+      /*   PASSWORD
+    var password;
     var pass1="UL1579";
-
     password=prompt('Įveskite slaptažodį!',' ');
-
    if (password==pass1)
      alert('Slaptažodis teisingas!');
     else
@@ -1398,12 +1395,12 @@
                 }
                 basicBot.room.roomstats.chatmessages++;
             },
-            spam: [
+          /*  spam: [
                 'hueh', 'hu3', 'brbr', 'heu', 'brbr', 'kkkk', 'spoder', 'mafia', 'zuera', 'zueira',
                 'zueria', 'aehoo', 'aheu', 'alguem', 'algum', 'brazil', 'zoeira', 'fuckadmins', 'affff', 'vaisefoder', 'huenaarea',
                 'hitler', 'ashua', 'ahsu', 'ashau', 'lulz', 'huehue', 'hue', 'huehuehue', 'merda', 'pqp', 'puta', 'mulher', 'pula', 'retarda', 'caralho', 'filha', 'ppk',
                 'gringo', 'fuder', 'foder', 'hua', 'ahue', 'modafuka', 'modafoka', 'mudafuka', 'mudafoka', 'ooooooooooooooo', 'foda'
-            ],
+            ],     */ 
             curses: [ 
                 "atmata", "acypisi", "atcypisi", "atsipisi", "atsipisk", "bibis", "blet", "blt", "bybi", "bybys", "ciulpk", "cbb", "ciulpk", "čiulpk", "čiulpk bybi", "duhas", "dūhas", "faggot", "fck", "fuck", "gandonas", "krv", "krw", "kurva", "kurwa", "kūrva", "modafocka", "motherfucker", "nahoi", "nahui", "nigga", "nigger", "niqqa", "nx", "pederastas", "pedikas", "pedofilas", "pidar", "pisk nx", "pisk nx", "pisk", "pohui", "pusk nx", "px", "pydaras", "pūsk nx", "uzsikrusk", "užsikrušk", "užsipisk"
             ]
@@ -2589,7 +2586,6 @@
                         setTimeout(function() {
                             basicBot.room.skippable = true
                         }, 5 * 1000);
-
                     }
                 }
             },

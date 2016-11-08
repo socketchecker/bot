@@ -1229,7 +1229,7 @@
                 return true;
             }
             for (var j = 0; j < basicBot.chatUtilities.curses.length; j++) {
-                if (msg === basicBot.chatUtilities.curses[j]) {
+                if (msg.includes(basicBot.chatUtilities.curses[j])) {
                     API.sendChat(subChat(basicBot.chat.spam, {name: chat.un}));
                     return true;
                 }

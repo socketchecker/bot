@@ -1512,13 +1512,13 @@
             }, 45 * 60 * 1000);
             basicBot.room.naktis = setInterval(function () {
             var naktis = new Date();
-            if (naktis.getHours() === 0 && naktis.getMinutes() === 0 && naktis.getSeconds() === 0) {
+            if (naktis.getHours() === 14 && naktis.getMinutes() === 40 && naktis.getSeconds() === 0) {
              API.sendChat('!autoroulette');
                 }
            }, 1000);
             basicBot.room.rytas = setInterval(function () {
             var rytas = new Date();
-            if (rytas.getHours() === 10 && rytas.getMinutes() === 0 && rytas.getSeconds() === 0) {
+            if (rytas.getHours() === 14 && rytas.getMinutes() === 45 && rytas.getSeconds() === 0) {
              API.sendChat('!autoroulette');
             }
            }, 1000);

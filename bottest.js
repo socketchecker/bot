@@ -389,6 +389,8 @@
             usercommand: true,
             allcommand: true,
             afkInterval: null,
+            naktis: null,
+            rytas: null,
             //autoskip: false,
             autoskipTimer: null,
             autorouletteInterval: null,
@@ -1508,6 +1510,18 @@
             basicBot.room.autorouletteInterval = setInterval(function() {
                 basicBot.room.autorouletteFunc();
             }, 45 * 60 * 1000);
+            basicBot.room.naktis = setInterval(function () {
+            var naktis = new Date();
+            if (naktis.getHours() === 0 && naktis.getMinutes() === 0 && naktis.getSeconds() === 0) {
+             API.sendChat('!autoroulette');
+                }
+           }, 1000);
+            basicBot.room.rytas = setInterval(function () {
+            var rytas = new Date();
+            if (rytas.getHours() === 10 && rytas.getMinutes() === 0 && rytas.getSeconds() === 0) {
+             API.sendChat('!autoroulette');
+            }
+           }, 1000);
             basicBot.loggedInID = API.getUser().id;
             basicBot.status = true;
             API.sendChat('/cap ' + basicBot.settings.startupCap);

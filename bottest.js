@@ -1,4 +1,4251 @@
-/***************************************************************************/
-// https://plug.dj/@/power-of-mad
-/***************************************************************************/
-var _$_5ca4=["\x63\x61\x6C\x6C","\x67\x65\x74\x57\x61\x69\x74\x4C\x69\x73\x74\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x69\x64","\x67\x65\x74\x55\x73\x65\x72","\x67\x65\x74\x57\x61\x69\x74\x4C\x69\x73\x74","\x6C\x65\x6E\x67\x74\x68","\x61\x75\x74\x6F\x64\x69\x73\x61\x62\x6C\x65\x49\x6E\x74\x65\x72\x76\x61\x6C","\x72\x6F\x6F\x6D","\x61\x75\x74\x6F\x72\x6F\x75\x6C\x65\x74\x74\x65\x49\x6E\x74\x65\x72\x76\x61\x6C","\x61\x66\x6B\x49\x6E\x74\x65\x72\x76\x61\x6C","\x73\x74\x61\x74\x75\x73","\x6E\x65\x67\x61\x74\x69\x76\x65","\x67\x65\x74\x53\x63\x6F\x72\x65","\x40","\x75\x73\x65\x72\x6E\x61\x6D\x65","\x67\x65\x74\x44\x4A","\x20\x44\x61\x69\x6E\x61\x20\x73\x75\x72\x69\x6E\x6B\x6F\x20\x70\x65\x72\x20\x64\x61\x75\x67\x20\x4D\x45\x48\x20","\x21","\x73\x65\x6E\x64\x43\x68\x61\x74","\x6D\x6F\x64\x65\x72\x61\x74\x65\x46\x6F\x72\x63\x65\x53\x6B\x69\x70","\x56\x4F\x54\x45\x5F\x55\x50\x44\x41\x54\x45","\x6F\x6E","\x41\x44\x56\x41\x4E\x43\x45","\x67\x65\x74\x55\x73\x65\x72\x73","\x72\x6F\x75\x6E\x64","\x62\x61\x73\x69\x63\x42\x6F\x74\x73\x65\x74\x74\x69\x6E\x67\x73","\x73\x65\x74\x74\x69\x6E\x67\x73","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x73\x65\x74\x49\x74\x65\x6D","\x62\x61\x73\x69\x63\x42\x6F\x74\x52\x6F\x6F\x6D","\x6E\x6F\x77","\x76\x65\x72\x73\x69\x6F\x6E","\x62\x61\x73\x69\x63\x42\x6F\x74\x53\x74\x6F\x72\x61\x67\x65\x49\x6E\x66\x6F","\x54\x68\x65\x72\x65\x20\x69\x73\x20\x61\x20\x63\x68\x61\x74\x20\x74\x65\x78\x74\x20\x6D\x69\x73\x73\x69\x6E\x67\x2E","\x63\x68\x61\x74\x4C\x6F\x67","\x6C\x6F\x67","\x5B\x45\x72\x72\x6F\x72\x5D\x20\x4E\x6F\x20\x74\x65\x78\x74\x20\x6D\x65\x73\x73\x61\x67\x65\x20\x66\x6F\x75\x6E\x64\x2E","\x25\x25","\x74\x6F\x55\x70\x70\x65\x72\x43\x61\x73\x65","\x72\x65\x70\x6C\x61\x63\x65","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x72\x61\x77\x67\x69\x74\x2E\x63\x6F\x6D\x2F\x62\x61\x73\x69\x63\x42\x6F\x74\x2F\x73\x6F\x75\x72\x63\x65\x2F\x6D\x61\x73\x74\x65\x72\x2F\x6C\x61\x6E\x67\x2F\x6C\x61\x6E\x67\x49\x6E\x64\x65\x78\x2E\x6A\x73\x6F\x6E","\x63\x68\x61\x74\x4C\x69\x6E\x6B","\x74\x6F\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\x6C\x61\x6E\x67\x75\x61\x67\x65","\x73\x74\x72\x69\x6E\x67","\x70\x61\x72\x73\x65","\x63\x68\x61\x74","\x67\x65\x74","\x67\x65\x74\x49\x74\x65\x6D","\x6E\x6F\x64\x61\x74\x61\x66\x6F\x75\x6E\x64","\x74\x69\x6D\x65","\x72\x65\x74\x72\x69\x65\x76\x69\x6E\x67\x64\x61\x74\x61","\x75\x73\x65\x72\x73","\x61\x66\x6B\x4C\x69\x73\x74","\x68\x69\x73\x74\x6F\x72\x79\x4C\x69\x73\x74","\x6D\x75\x74\x65\x64\x55\x73\x65\x72\x73","\x72\x6F\x6F\x6D\x73\x74\x61\x74\x73","\x6D\x65\x73\x73\x61\x67\x65\x73","\x71\x75\x65\x75\x65","\x6E\x65\x77\x42\x6C\x61\x63\x6B\x6C\x69\x73\x74\x65\x64","\x64\x61\x74\x61\x72\x65\x73\x74\x6F\x72\x65\x64","\x72\x6F\x6F\x6D\x2D\x73\x65\x74\x74\x69\x6E\x67\x73","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x40\x62\x61\x73\x69\x63\x42\x6F\x74\x3D","\x69\x6E\x64\x65\x78\x4F\x66","\x73\x75\x62\x73\x74\x72\x69\x6E\x67","\x20","\x0A","\x73\x70\x6C\x69\x74\x42\x65\x74\x77\x65\x65\x6E","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x73\x70\x6C\x69\x74","\x69\x73\x41\x72\x72\x61\x79","\x70\x75\x73\x68","\x73\x74\x61\x72\x74\x73\x57\x69\x74\x68","\x3C\x61\x20\x68\x72\x65\x66\x3D\x22","\x3C\x2F\x61\x3E","\x22","","\x70","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x69\x6E\x6E\x65\x72\x54\x65\x78\x74","\x59\x65\x6D\x61\x73\x74\x68\x75\x69","\x42\x65\x6E\x7A\x69","\x33\x38\x35\x31\x35\x33\x34","\x34\x31\x30\x35\x32\x30\x39","\x32\x2E\x39\x2E\x31","\x62\x61\x73\x69\x63\x42\x6F\x74","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x69\x74\x2E\x69\x6F\x2F\x76\x36\x44\x47\x61","\x4C\x69\x65\x74\x75\x76\x69\u0161\x6B\x61\x73\x2D\x42\x6F\x74\x61\x73","\x65\x6E\x67\x6C\x69\x73\x68","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x72\x61\x77\x67\x69\x74\x2E\x63\x6F\x6D\x2F\x50\x6F\x77\x65\x72\x4F\x66\x4D\x61\x64\x2F\x62\x6F\x74\x2F\x6D\x61\x73\x74\x65\x72\x2F\x6C\x74\x2E\x6A\x73\x6F\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x72\x61\x77\x67\x69\x74\x2E\x63\x6F\x6D\x2F\x50\x6F\x77\x65\x72\x4F\x66\x4D\x61\x64\x2F\x62\x6F\x74\x2F\x6D\x61\x73\x74\x65\x72\x2F\x55\x4C\x42\x6F\x74\x2E\x6A\x73","\x7A\x61\x6E\x72\x61\x73","\x44\x61\x69\x6E\x61\x20\x62\x75\x76\x6F\x20\x61\x62\x73\x75\x72\x64\x69\u0161\x6B\x61\x2E\x20","\x6F\x70","\x44\x61\x69\x6E\x61\x20\x62\x75\x76\x6F\x20\x70\x65\x72\x20\x64\x61\u017E\x6E\x61\x69\x20\x6C\x65\x69\x64\u017E\x69\x61\x6D\x61\x20\u0161\x69\x61\x6D\x65\x20\x6B\x61\x6D\x62\x61\x72\x79\x6A\x65\x2E\x20","\x68\x69\x73\x74\x6F\x72\x79","\u0160\x69\x20\x64\x61\x69\x6E\x61\x20\x6E\x65\x73\x65\x6E\x69\x61\x69\x20\x67\x72\x6F\x6A\x6F\x2E\x20","\x6E\x73\x66\x77","\x44\x61\x69\x6E\x61\x20\x6B\x75\x72\x69\u0105\x20\x70\x61\x6C\x65\x69\x64\x6F\x74\x65\x20\x62\x75\x76\x6F\x20\x4E\x53\x46\x57\x20\x28\x65\x72\x6F\x74\x69\x6B\x61\x20\x61\x72\x62\x61\x20\x70\x65\x72\x20\x64\x61\x75\x67\x20\x6B\x65\x69\x6B\x73\x6D\x61\u017E\x6F\x64\u017E\x69\u0173\x29\x2E\x20","\x6E\x65\x67\x72\x6F\x6A\x61","\x44\x61\x69\x6E\x61\x20\x6B\x75\x72\x69\u0105\x20\x70\x61\x6C\x65\x69\x64\x6F\x74\x65\x20\x6E\x65\x67\x72\x6F\x6A\x6F\x2E\x20","\x61\x6D\x62\x61\x73\x73\x61\x64\x6F\x72","\x40\x65\x76\x65\x72\x79\x6F\x6E\x65\x20\u010C\x69\x61\x20\u201E\x55\u017E\x20\x4C\x69\x65\x74\x75\x76\u0105\u201C\x20\x44\x69\x73\x63\x6F\x72\x64\x20\x70\x6F\x6B\x61\x6C\x62\x69\x61\x69\x20\x70\x72\x69\x65\x69\x6E\x61\x6D\x69\x20\x76\x69\x73\x69\x65\x6D\x73\x21\x20\x2D\x20\x68\x74\x74\x70\x73\x3A\x2F\x2F\x64\x69\x73\x63\x6F\x72\x64\x2E\x67\x67\x2F\x4B\x56\x6D\x4B\x52\x45\x56\x20\x2F\x2F\x20\x49\u0161\x6B\x72\x69\x74\x61\x69\x20\x69\u0161\x20\x44\x4A\x20\x65\x69\x6C\u0117\x73\x3F\x20\x52\x61\u0161\x79\x6B\x20\x21\x64\x63\x20\x73\x75\x67\x72\u012F\u017E\x69\x6D\x75\x69\x2E\x20","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x6F\x6F\x2E\x67\x6C\x2F\x5A\x6E\x55\x6D\x37\x6C","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x6F\x6F\x2E\x67\x6C\x2F\x6C\x62\x34\x75\x43\x6A","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x66\x62\x2E\x6D\x65\x2F\x41\x73\x74\x72\x6F\x6D\x61\x6E\x69\x61\x6B\x61\x73\x2F","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x64\x69\x73\x63\x6F\x72\x64\x2E\x67\x67\x2F\x4B\x56\x6D\x4B\x52\x45\x56","\x40\x73\x74\x61\x66\x66\x20\x56\x69\x73\x69\x20\x70\x72\x69\x73\x69\x6A\x75\x6E\x67\u0119\x20\x61\x64\x6D\x69\x6E\x69\x73\x74\x72\x61\x74\x6F\x72\x69\x61\x69\x20\x74\x61\x69\x70\x20\x70\x61\x74\x20\x69\x72\x20\x52\x44\x4A\x20\x74\x75\x72\x69\x20\x62\u016B\x74\x69\x20\x70\x72\x69\x73\x69\x6A\x75\x6E\x67\u0119\x20\x69\x72\x20\x44\x49\x53\x43\x4F\x52\x44\x20\x70\x72\x6F\x67\x72\x61\x6D\x6F\x6A\x65\x20\x44\x69\x73\x63\x6F\x72\x64\x3A\x20\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x6F\x6F\x2E\x67\x6C\x2F\x33\x47\x4C\x37\x51\x54","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x72\x61\x77\x67\x69\x74\x2E\x63\x6F\x6D\x2F\x50\x6F\x77\x65\x72\x4F\x66\x4D\x61\x64\x2F\x62\x6F\x74\x2F\x6D\x61\x73\x74\x65\x72\x2F\x62\x6C\x61\x63\x6B\x6C\x69\x73\x74\x73\x2F\x4E\x53\x46\x57\x2E\x6A\x73\x6F\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x72\x61\x77\x67\x69\x74\x2E\x63\x6F\x6D\x2F\x50\x6F\x77\x65\x72\x4F\x66\x4D\x61\x64\x2F\x62\x6F\x74\x2F\x6D\x61\x73\x74\x65\x72\x2F\x62\x6C\x61\x63\x6B\x6C\x69\x73\x74\x73\x2F\x4F\x50\x2E\x6A\x73\x6F\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x72\x61\x77\x67\x69\x74\x2E\x63\x6F\x6D\x2F\x50\x6F\x77\x65\x72\x4F\x66\x4D\x61\x64\x2F\x62\x6F\x74\x2F\x6D\x61\x73\x74\x65\x72\x2F\x62\x6C\x61\x63\x6B\x6C\x69\x73\x74\x73\x2F\x42\x41\x4E\x4E\x45\x44\x2E\x6A\x73\x6F\x6E","\x61\x75\x74\x6F\x72\x6F\x75\x6C\x65\x74\x74\x65","\x73\x74\x61\x72\x74\x52\x6F\x75\x6C\x65\x74\x74\x65","\x72\x6F\x75\x6C\x65\x74\x74\x65","\x61\x75\x74\x6F\x64\x69\x73\x61\x62\x6C\x65","\x21\x61\x66\x6B\x64\x69\x73\x61\x62\x6C\x65","\x21\x6A\x6F\x69\x6E\x64\x69\x73\x61\x62\x6C\x65","\x72\x6F\x75\x6C\x65\x74\x74\x65\x53\x74\x61\x74\x75\x73","\x63\x6F\x75\x6E\x74\x64\x6F\x77\x6E","\x65\x6E\x64\x52\x6F\x75\x6C\x65\x74\x74\x65","\x69\x73\x6F\x70\x65\x6E","\x72\x61\x6E\x64\x6F\x6D","\x70\x61\x72\x74\x69\x63\x69\x70\x61\x6E\x74\x73","\x66\x6C\x6F\x6F\x72","\x6C\x6F\x6F\x6B\x75\x70\x55\x73\x65\x72","\x75\x73\x65\x72\x55\x74\x69\x6C\x69\x74\x69\x65\x73","\x77\x69\x6E\x6E\x65\x72\x70\x69\x63\x6B\x65\x64","\x6D\x6F\x76\x65\x55\x73\x65\x72","\x53\x48\x4F\x52\x54","\x4D\x55\x54\x45","\x6D\x6F\x64\x65\x72\x61\x74\x65\x4D\x75\x74\x65\x55\x73\x65\x72","\x72\x6F\x75\x6C\x65\x74\x74\x65\x72\x69\x70","\x6A\x6F\x69\x6E\x74\x69\x6D\x65","\x6C\x61\x73\x74\x41\x63\x74\x69\x76\x69\x74\x79","\x76\x6F\x74\x65\x73","\x6C\x61\x73\x74\x45\x74\x61","\x61\x66\x6B\x57\x61\x72\x6E\x69\x6E\x67\x43\x6F\x75\x6E\x74","\x61\x66\x6B\x43\x6F\x75\x6E\x74\x64\x6F\x77\x6E","\x69\x6E\x52\x6F\x6F\x6D","\x69\x73\x4D\x75\x74\x65\x64","\x6C\x61\x73\x74\x44\x43","\x6C\x61\x73\x74\x4B\x6E\x6F\x77\x6E\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x70\x6F\x73\x69\x74\x69\x6F\x6E","\x73\x6F\x6E\x67\x43\x6F\x75\x6E\x74","\x74\x72\x69\x6D","\x6D\x65\x68","\x72\x61\x74\x69\x6F","\x74\x6F\x46\x69\x78\x65\x64","\x77\x6F\x6F\x74","\x6F\x62\x6A\x65\x63\x74","\x67\x52\x6F\x6C\x65","\x72\x6F\x6C\x65","\x6D\x6F\x64\x65\x72\x61\x74\x65\x41\x64\x64\x44\x4A","\x6D\x6F\x64\x65\x72\x61\x74\x65\x4D\x6F\x76\x65\x44\x4A","\x61\x6C\x72\x65\x61\x64\x79\x61\x64\x64\x69\x6E\x67","\x6C\x6F\x63\x6B\x42\x6F\x6F\x74\x68","\x62\x6F\x6F\x74\x68","\x72\x6F\x6F\x6D\x55\x74\x69\x6C\x69\x74\x69\x65\x73","\x75\x6E\x73\x68\x69\x66\x74","\x61\x64\x64\x69\x6E\x67","\x62\x6F\x6F\x6C\x65\x61\x6E","\x75\x73\x65\x72\x6E\x6F\x74\x66\x6F\x75\x6E\x64","\x6E\x6F\x74\x64\x69\x73\x63\x6F\x6E\x6E\x65\x63\x74\x65\x64","\x6E\x6F\x70\x6F\x73\x69\x74\x69\x6F\x6E","\x6D\x61\x78\x69\x6D\x75\x6D\x44\x63","\x6D\x73\x54\x6F\x53\x74\x72","\x74\x6F\x6F\x6C\x6F\x6E\x67\x61\x67\x6F","\x76\x61\x6C\x69\x64","\x61\x64\x6D\x69\x6E","\x68\x6F\x73\x74","\x63\x6F\x68\x6F\x73\x74","\x6D\x61\x6E\x61\x67\x65\x72","\x62\x6F\x75\x6E\x63\x65\x72","\x72\x65\x73\x69\x64\x65\x6E\x74\x64\x6A","\x75\x73\x65\x72","\x64\x61\x79","\x64\x61\x79\x73","\x68\x6F\x75\x72","\x68\x6F\x75\x72\x73","\x6D\x69\x6E\x75\x74\x65","\x6D\x69\x6E\x75\x74\x65\x73","\x73\x65\x63\x6F\x6E\x64","\x73\x65\x63\x6F\x6E\x64\x73","\x74\x6F\x53\x74\x72\x69\x6E\x67","\x64","\x68","\x6D","\x73","\x6C\x6F\x63\x6B\x65\x64","\x6D\x6F\x64\x65\x72\x61\x74\x65\x4C\x6F\x63\x6B\x57\x61\x69\x74\x4C\x69\x73\x74","\x6C\x6F\x63\x6B\x47\x75\x61\x72\x64","\x6C\x6F\x63\x6B\x54\x69\x6D\x65\x72","\x6D\x61\x78\x69\x6D\x75\x6D\x4C\x6F\x63\x6B\x74\x69\x6D\x65","\x61\x66\x6B\x52\x65\x6D\x6F\x76\x61\x6C","\x61\x66\x6B\x52\x61\x6E\x6B\x43\x68\x65\x63\x6B","\x72\x61\x6E\x6B\x54\x6F\x4E\x75\x6D\x62\x65\x72","\x61\x66\x6B\x70\x6F\x73\x69\x74\x69\x6F\x6E\x43\x68\x65\x63\x6B","\x6D\x69\x6E","\x67\x65\x74\x50\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E","\x67\x65\x74\x4C\x61\x73\x74\x41\x63\x74\x69\x76\x69\x74\x79","\x6D\x61\x78\x69\x6D\x75\x6D\x41\x66\x6B","\x77\x61\x72\x6E\x69\x6E\x67\x31","\x77\x61\x72\x6E\x69\x6E\x67\x32","\x6D\x6F\x64\x65\x72\x61\x74\x65\x52\x65\x6D\x6F\x76\x65\x44\x4A","\x61\x66\x6B\x72\x65\x6D\x6F\x76\x65","\x71\x75\x65\x75\x65\x61\x62\x6C\x65","\x73\x6B\x69\x70\x70\x61\x62\x6C\x65","\x73\x6B\x69\x70\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x75\x6E\x6C\x6F\x63\x6B\x42\x6F\x6F\x74\x68","\x2F\x5F\x2F\x72\x6F\x6F\x6D\x73\x2F\x73\x74\x61\x74\x65","\x73\x68\x6F\x75\x6C\x64\x43\x79\x63\x6C\x65","\x64\x61\x74\x61","\x6D\x6F\x64\x65\x72\x61\x74\x65\x44\x4A\x43\x79\x63\x6C\x65","\x63\x79\x63\x6C\x65\x54\x69\x6D\x65\x72","\x63\x79\x63\x6C\x65\x47\x75\x61\x72\x64","\x6D\x61\x78\x69\x6D\x75\x6D\x43\x79\x63\x6C\x65\x74\x69\x6D\x65","\x67\x65\x74\x4A\x53\x4F\x4E","\x6D\x6F\x74\x64\x45\x6E\x61\x62\x6C\x65\x64","\x6D\x6F\x74\x64\x49\x6E\x74\x65\x72\x76\x61\x6C","\x6D\x65\x73\x73\x61\x67\x65\x49\x6E\x74\x65\x72\x76\x61\x6C","\x6D\x6F\x74\x64","\x69\x6E\x74\x65\x72\x76\x61\x6C\x4D\x65\x73\x73\x61\x67\x65\x73","\x2F\x6D\x65\x20","\x62\x6C\x61\x63\x6B\x6C\x69\x73\x74\x73","\x66\x75\x6E\x63\x74\x69\x6F\x6E","\x6D\x69\x64","\x45\x72\x72\x6F\x72\x20\x73\x65\x74\x74\x69\x6E\x67","\x62\x6C\x61\x63\x6B\x6C\x69\x73\x74\x2E","\x74\x61\x62\x6C\x65","\x6C\x69\x73\x74","\x74\x69\x74\x6C\x65","\x61\x75\x74\x68\x6F\x72","\x6D\x65\x73\x73\x61\x67\x65","\x63\x69\x64","\x73\x75\x62","\x74\x69\x6D\x65\x73\x74\x61\x6D\x70","\x74\x79\x70\x65","\x75\x69\x64","\x75\x6E","\x63\x68\x61\x74\x4D\x65\x73\x73\x61\x67\x65\x73","\x73\x65\x74\x4C\x61\x73\x74\x41\x63\x74\x69\x76\x69\x74\x79","\x63\x68\x61\x74\x46\x69\x6C\x74\x65\x72","\x63\x68\x61\x74\x55\x74\x69\x6C\x69\x74\x69\x65\x73","\x63\x6F\x6D\x6D\x61\x6E\x64\x43\x68\x65\x63\x6B","\x61\x63\x74\x69\x6F\x6E","\x55\x73\x65\x72","\x77\x65\x6C\x63\x6F\x6D\x65","\x77\x65\x6C\x63\x6F\x6D\x65\x62\x61\x63\x6B","\x67\x65\x74\x48\x69\x73\x74\x6F\x72\x79","\x75\x70\x64\x61\x74\x65\x44\x43","\x75\x70\x64\x61\x74\x65\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x76\x6F\x74\x65","\x70\x6F\x73\x69\x74\x69\x76\x65","\x67\x65\x74\x54\x69\x6D\x65\x52\x65\x6D\x61\x69\x6E\x69\x6E\x67","\x67\x65\x74\x54\x69\x6D\x65\x45\x6C\x61\x70\x73\x65\x64","\x76\x6F\x74\x65\x53\x6B\x69\x70","\x76\x6F\x74\x65\x53\x6B\x69\x70\x4C\x69\x6D\x69\x74","\x76\x6F\x74\x65\x73\x6B\x69\x70\x65\x78\x63\x65\x65\x64\x65\x64\x6C\x69\x6D\x69\x74","\x73\x6D\x61\x72\x74\x53\x6B\x69\x70","\x63\x75\x72\x61\x74\x65","\x61\x75\x74\x6F\x77\x6F\x6F\x74","\x63\x6C\x69\x63\x6B","\x23\x77\x6F\x6F\x74","\x64\x6A","\x6C\x61\x73\x74\x50\x6C\x61\x79","\x73\x6F\x6E\x67\x73\x74\x61\x74\x73","\x73\x6F\x6E\x67\x73\x74\x61\x74\x69\x73\x74\x69\x63\x73","\x6D\x65\x64\x69\x61","\x20\x2D\x20","\x3A\x20","\x73\x63\x6F\x72\x65","\x57\x2F","\x67\x72\x61\x62\x73","\x47\x2F","\x4D\x2E","\x74\x6F\x74\x61\x6C\x57\x6F\x6F\x74\x73","\x74\x6F\x74\x61\x6C\x4D\x65\x68\x73","\x74\x6F\x74\x61\x6C\x43\x75\x72\x61\x74\x65\x73","\x69\x6E\x74\x65\x72\x76\x61\x6C\x4D\x65\x73\x73\x61\x67\x65","\x63\x75\x72\x72\x65\x6E\x74\x44\x4A\x49\x44","\x66\x6F\x72\x6D\x61\x74","\x3A","\x62\x6C\x61\x63\x6B\x6C\x69\x73\x74\x45\x6E\x61\x62\x6C\x65\x64","\x69\x73\x62\x6C\x61\x63\x6B\x6C\x69\x73\x74\x65\x64","\x74\x69\x6D\x65\x47\x75\x61\x72\x64","\x64\x75\x72\x61\x74\x69\x6F\x6E","\x6D\x61\x78\x69\x6D\x75\x6D\x53\x6F\x6E\x67\x4C\x65\x6E\x67\x74\x68","\x72\x6F\x6F\x6D\x65\x76\x65\x6E\x74","\x74\x69\x6D\x65\x6C\x69\x6D\x69\x74","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x67\x6F\x6F\x67\x6C\x65\x61\x70\x69\x73\x2E\x63\x6F\x6D\x2F\x79\x6F\x75\x74\x75\x62\x65\x2F\x76\x33\x2F\x76\x69\x64\x65\x6F\x73\x3F\x69\x64\x3D","\x26\x6B\x65\x79\x3D\x41\x49\x7A\x61\x53\x79\x44\x63\x66\x57\x75\x39\x63\x47\x61\x44\x6E\x54\x6A\x50\x4B\x68\x67\x5F\x64\x79\x39\x6D\x55\x68\x36\x48\x37\x69\x34\x65\x50\x5A\x30\x26\x70\x61\x72\x74\x3D\x73\x6E\x69\x70\x70\x65\x74\x26\x63\x61\x6C\x6C\x62\x61\x63\x6B\x3D\x3F","\x69\x74\x65\x6D\x73","\x6E\x6F\x74\x61\x76\x61\x69\x6C\x61\x62\x6C\x65","\x2F\x74\x72\x61\x63\x6B\x73\x2F","\x68\x69\x73\x74\x6F\x72\x79\x53\x6B\x69\x70","\x73\x6F\x6E\x67\x6B\x6E\x6F\x77\x6E","\x6F\x77\x6E\x53\x6F\x6E\x67","\x70\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E\x6F\x77\x6E\x73\x6F\x6E\x67","\x61\x75\x74\x6F\x73\x6B\x69\x70\x54\x69\x6D\x65\x72","\x61\x75\x74\x6F\x73\x6B\x69\x70","\x67\x65\x74\x4D\x65\x64\x69\x61","\x71\x75\x65\x75\x65\x69\x6E\x67","\x73\x70\x6C\x69\x63\x65","\x66\x69\x6C\x74\x65\x72\x43\x68\x61\x74","\x63\x68\x61\x72\x41\x74","\x61","\x7A","\x41","\x5A","\x30","\x39","\x5E","\x63\x61\x70\x73","\x73\x6B\x69\x70","\x61\x73\x6B\x73\x6B\x69\x70","\x63\x75\x72\x73\x65\x73","\x73\x70\x61\x6D","\x6D\x6F\x64\x65\x72\x61\x74\x65\x44\x65\x6C\x65\x74\x65\x43\x68\x61\x74","\x6C\x6F\x63\x6B\x64\x6F\x77\x6E\x45\x6E\x61\x62\x6C\x65\x64","\x63\x68\x61\x74\x63\x6C\x65\x61\x6E\x65\x72","\x63\x6D\x64\x44\x65\x6C\x65\x74\x69\x6F\x6E","\x63\x6F\x6D\x6D\x61\x6E\x64\x4C\x69\x74\x65\x72\x61\x6C","\x65\x78\x65\x63","\x72\x6F\x6F\x6D\x61\x64\x76\x65\x72\x74\x69\x73\x69\x6E\x67","\x50\x45\x52\x4D\x41","\x42\x41\x4E","\x6D\x6F\x64\x65\x72\x61\x74\x65\x42\x61\x6E\x55\x73\x65\x72","\x68\x74\x74\x70\x3A\x2F\x2F\x61\x64\x66\x2E\x6C\x79\x2F","\x61\x64\x66\x6C\x79","\x61\x75\x74\x6F\x6A\x6F\x69\x6E\x20\x77\x61\x73\x20\x6E\x6F\x74\x20\x65\x6E\x61\x62\x6C\x65\x64","\x41\x46\x4B\x20\x6D\x65\x73\x73\x61\x67\x65\x20\x77\x61\x73\x20\x6E\x6F\x74\x20\x65\x6E\x61\x62\x6C\x65\x64","\x61\x75\x74\x6F\x6A\x6F\x69\x6E\x20\x64\x69\x73\x61\x62\x6C\x65\x64","\x41\x46\x4B\x20\x6D\x65\x73\x73\x61\x67\x65\x20\x64\x69\x73\x61\x62\x6C\x65\x64","\x72\x6F\x75\x6C\x65\x74\x74\x65\x6A\x6F\x69\x6E","\x72\x6F\x75\x6C\x65\x74\x74\x65\x6C\x65\x61\x76\x65","\x25\x25\x4E\x41\x4D\x45\x25\x25","\x6C\x6F\x67\x67\x65\x64\x49\x6E\x49\x44","\x6A\x6F\x69\x6E","\x6C\x65\x61\x76\x65","\x75\x73\x65\x72\x63\x6F\x6D\x6D\x61\x6E\x64","\x61\x6C\x6C\x63\x6F\x6D\x6D\x61\x6E\x64","\x65\x74\x61","\x65\x74\x61\x52\x65\x73\x74\x72\x69\x63\x74\x69\x6F\x6E","\x63\x6F\x6D\x6D\x61\x6E\x64\x73","\x63\x6F\x6D\x6D\x61\x6E\x64","\x66\x75\x6E\x63\x74\x69\x6F\x6E\x61\x6C\x69\x74\x79","\x63\x6F\x6D\x6D\x61\x6E\x64\x43\x6F\x6F\x6C\x64\x6F\x77\x6E","\x63\x68\x61\x74\x6D\x65\x73\x73\x61\x67\x65\x73","\x68\x75\x65\x68","\x68\x75\x33","\x62\x72\x62\x72","\x68\x65\x75","\x6B\x6B\x6B\x6B","\x73\x70\x6F\x64\x65\x72","\x6D\x61\x66\x69\x61","\x7A\x75\x65\x72\x61","\x7A\x75\x65\x69\x72\x61","\x7A\x75\x65\x72\x69\x61","\x61\x65\x68\x6F\x6F","\x61\x68\x65\x75","\x61\x6C\x67\x75\x65\x6D","\x61\x6C\x67\x75\x6D","\x62\x72\x61\x7A\x69\x6C","\x7A\x6F\x65\x69\x72\x61","\x66\x75\x63\x6B\x61\x64\x6D\x69\x6E\x73","\x61\x66\x66\x66\x66","\x76\x61\x69\x73\x65\x66\x6F\x64\x65\x72","\x68\x75\x65\x6E\x61\x61\x72\x65\x61","\x68\x69\x74\x6C\x65\x72","\x61\x73\x68\x75\x61","\x61\x68\x73\x75","\x61\x73\x68\x61\x75","\x6C\x75\x6C\x7A","\x68\x75\x65\x68\x75\x65","\x68\x75\x65","\x68\x75\x65\x68\x75\x65\x68\x75\x65","\x6D\x65\x72\x64\x61","\x70\x71\x70","\x70\x75\x74\x61","\x6D\x75\x6C\x68\x65\x72","\x70\x75\x6C\x61","\x72\x65\x74\x61\x72\x64\x61","\x63\x61\x72\x61\x6C\x68\x6F","\x66\x69\x6C\x68\x61","\x70\x70\x6B","\x67\x72\x69\x6E\x67\x6F","\x66\x75\x64\x65\x72","\x66\x6F\x64\x65\x72","\x68\x75\x61","\x61\x68\x75\x65","\x6D\x6F\x64\x61\x66\x75\x6B\x61","\x6D\x6F\x64\x61\x66\x6F\x6B\x61","\x6D\x75\x64\x61\x66\x75\x6B\x61","\x6D\x75\x64\x61\x66\x6F\x6B\x61","\x6F\x6F\x6F\x6F\x6F\x6F\x6F\x6F\x6F\x6F\x6F\x6F\x6F\x6F\x6F","\x66\x6F\x64\x61","\x61\x74\x6D\x61\x74\x61","\x61\x63\x79\x70\x69\x73\x69","\x61\x74\x63\x79\x70\x69\x73\x69","\x61\x74\x73\x69\x70\x69\x73\x69","\x61\x74\x73\x69\x70\x69\x73\x6B","\x62\x69\x62\x69\x73","\x62\x6C\x65\x74","\x62\x6C\x74","\x62\x79\x62\x69","\x62\x79\x62\x79\x73","\x63\x69\x75\x6C\x70\x6B","\x63\x62\x62","\u010D\x69\x75\x6C\x70\x6B","\u010D\x69\x75\x6C\x70\x6B\x20\x62\x79\x62\x69","\x64\x75\x68\x61\x73","\x64\u016B\x68\x61\x73","\x66\x61\x67\x67\x6F\x74","\x66\x63\x6B","\x66\x75\x63\x6B","\x67\x61\x6E\x64\x6F\x6E\x61\x73","\x6B\x72\x76","\x6B\x72\x77","\x6B\x75\x72\x76\x61","\x6B\x75\x72\x77\x61","\x6B\u016B\x72\x76\x61","\x6D\x6F\x64\x61\x66\x6F\x63\x6B\x61","\x6D\x6F\x74\x68\x65\x72\x66\x75\x63\x6B\x65\x72","\x6E\x61\x68\x6F\x69","\x6E\x61\x68\x75\x69","\x6E\x69\x67\x67\x61","\x6E\x69\x67\x67\x65\x72","\x6E\x69\x71\x71\x61","\x6E\x78","\x70\x65\x64\x65\x72\x61\x73\x74\x61\x73","\x70\x65\x64\x69\x6B\x61\x73","\x70\x65\x64\x6F\x66\x69\x6C\x61\x73","\x70\x69\x64\x61\x72","\x70\x69\x73\x6B\x20\x6E\x78","\x70\x69\x73\x6B","\x70\x6F\x68\x75\x69","\x70\x75\x73\x6B\x20\x6E\x78","\x70\x78","\x70\x79\x64\x61\x72\x61\x73","\x70\u016B\x73\x6B\x20\x6E\x78","\x75\x7A\x73\x69\x6B\x72\x75\x73\x6B","\x75\u017E\x73\x69\x6B\x72\x75\u0161\x6B","\x75\u017E\x73\x69\x70\x69\x73\x6B","\x70\x72\x6F\x78\x79","\x65\x76\x65\x6E\x74\x43\x68\x61\x74","\x65\x76\x65\x6E\x74\x55\x73\x65\x72\x73\x6B\x69\x70","\x65\x76\x65\x6E\x74\x55\x73\x65\x72\x6A\x6F\x69\x6E","\x65\x76\x65\x6E\x74\x55\x73\x65\x72\x6C\x65\x61\x76\x65","\x65\x76\x65\x6E\x74\x56\x6F\x74\x65\x75\x70\x64\x61\x74\x65","\x65\x76\x65\x6E\x74\x43\x75\x72\x61\x74\x65\x75\x70\x64\x61\x74\x65","\x65\x76\x65\x6E\x74\x52\x6F\x6F\x6D\x73\x63\x6F\x72\x65\x75\x70\x64\x61\x74\x65","\x65\x76\x65\x6E\x74\x44\x6A\x61\x64\x76\x61\x6E\x63\x65","\x65\x76\x65\x6E\x74\x57\x61\x69\x74\x6C\x69\x73\x74\x75\x70\x64\x61\x74\x65","\x65\x76\x65\x6E\x74\x56\x6F\x74\x65\x73\x6B\x69\x70","\x65\x76\x65\x6E\x74\x4D\x6F\x64\x73\x6B\x69\x70","\x65\x76\x65\x6E\x74\x43\x68\x61\x74\x63\x6F\x6D\x6D\x61\x6E\x64","\x65\x76\x65\x6E\x74\x48\x69\x73\x74\x6F\x72\x79\x75\x70\x64\x61\x74\x65","\x43\x48\x41\x54","\x55\x53\x45\x52\x5F\x53\x4B\x49\x50","\x55\x53\x45\x52\x5F\x4A\x4F\x49\x4E","\x55\x53\x45\x52\x5F\x4C\x45\x41\x56\x45","\x47\x52\x41\x42\x5F\x55\x50\x44\x41\x54\x45","\x52\x4F\x4F\x4D\x5F\x53\x43\x4F\x52\x45\x5F\x55\x50\x44\x41\x54\x45","\x57\x41\x49\x54\x5F\x4C\x49\x53\x54\x5F\x55\x50\x44\x41\x54\x45","\x4D\x4F\x44\x5F\x53\x4B\x49\x50","\x43\x48\x41\x54\x5F\x43\x4F\x4D\x4D\x41\x4E\x44","\x48\x49\x53\x54\x4F\x52\x59\x5F\x55\x50\x44\x41\x54\x45","\x6F\x66\x66","\x43\x55\x52\x41\x54\x45\x5F\x55\x50\x44\x41\x54\x45","\x46\x75\x6E\x63\x74\x69\x6F\x6E\x2E","\x67\x72\x65\x79\x75\x73\x65\x72","\x63\x6F\x6E\x6E\x65\x63\x74\x41\x50\x49","\x2F\x5F\x2F\x63\x68\x61\x74\x2F","\x44\x45\x4C\x45\x54\x45","\x61\x6A\x61\x78","\x6E\x61\x6D\x65","\x70\x61\x74\x68\x6E\x61\x6D\x65","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x4B\x69\x6C\x6C\x69\x6E\x67\x20\x62\x6F\x74\x20\x61\x66\x74\x65\x72\x20\x72\x6F\x6F\x6D\x20\x63\x68\x61\x6E\x67\x65\x2E","\x64\x69\x73\x63\x6F\x6E\x6E\x65\x63\x74\x41\x50\x49","\x72\x6F\x6F\x6D\x4C\x6F\x63\x6B","\x62\x6F\x74","\x75\x70\x64\x61\x74\x65\x42\x6C\x61\x63\x6B\x6C\x69\x73\x74\x73","\x67\x65\x74\x4E\x65\x77\x42\x6C\x61\x63\x6B\x6C\x69\x73\x74\x65\x64\x53\x6F\x6E\x67\x73","\x65\x78\x70\x6F\x72\x74\x4E\x65\x77\x42\x6C\x61\x63\x6B\x6C\x69\x73\x74\x65\x64\x53\x6F\x6E\x67\x73","\x6C\x6F\x67\x4E\x65\x77\x42\x6C\x61\x63\x6B\x6C\x69\x73\x74\x65\x64\x53\x6F\x6E\x67\x73","\x6C\x61\x75\x6E\x63\x68\x54\x69\x6D\x65","\x61\x66\x6B\x43\x68\x65\x63\x6B","\x61\x75\x74\x6F\x64\x69\x73\x61\x62\x6C\x65\x46\x75\x6E\x63","\x61\x75\x74\x6F\x72\x6F\x75\x6C\x65\x74\x74\x65\x46\x75\x6E\x63","\x6E\x61\x6B\x74\x69\x73","\x67\x65\x74\x48\x6F\x75\x72\x73","\x67\x65\x74\x4D\x69\x6E\x75\x74\x65\x73","\x67\x65\x74\x53\x65\x63\x6F\x6E\x64\x73","\x21\x61\x75\x74\x6F\x72\x6F\x75\x6C\x65\x74\x74\x65","\x72\x79\x74\x61\x73","\x2F\x63\x61\x70\x20","\x73\x74\x61\x72\x74\x75\x70\x43\x61\x70","\x73\x74\x61\x72\x74\x75\x70\x56\x6F\x6C\x75\x6D\x65","\x73\x65\x74\x56\x6F\x6C\x75\x6D\x65","\x73\x74\x61\x72\x74\x75\x70\x45\x6D\x6F\x6A\x69","\x2E\x69\x63\x6F\x6E\x2D\x65\x6D\x6F\x6A\x69\x2D\x6F\x66\x66","\x3A\x73\x6D\x69\x6C\x65\x3A\x20\x45\x6D\x6F\x6A\x69\x73\x20\x65\x6E\x61\x62\x6C\x65\x64\x2E","\x2E\x69\x63\x6F\x6E\x2D\x65\x6D\x6F\x6A\x69\x2D\x6F\x6E","\x45\x6D\x6F\x6A\x69\x73\x20\x64\x69\x73\x61\x62\x6C\x65\x64\x2E","\x41\x76\x61\x74\x61\x72\x73\x20\x63\x61\x70\x70\x65\x64\x20\x61\x74\x20","\x56\x6F\x6C\x75\x6D\x65\x20\x73\x65\x74\x20\x74\x6F\x20","\x6F\x6E\x6C\x69\x6E\x65","\x62\x6F\x74\x4E\x61\x6D\x65","\x62\x6F\x75\x6E\x63\x65\x72\x50\x6C\x75\x73","\x6D\x6F\x64","\x65\x72\x72\x6F\x72\x20\x61\x73\x73\x69\x67\x6E\x69\x6E\x67\x20\x6D\x69\x6E\x69\x6D\x75\x6D\x20\x70\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E","\x61\x63\x74\x69\x76\x65","\x65\x78\x61\x63\x74","\x72\x61\x6E\x6B","\x65\x78\x65\x63\x75\x74\x61\x62\x6C\x65","\x69\x6E\x76\x61\x6C\x69\x64\x74\x69\x6D\x65","\x61\x63\x74\x69\x76\x65\x75\x73\x65\x72\x73\x69\x6E\x74\x69\x6D\x65","\x61\x64\x64","\x6E\x6F\x75\x73\x65\x72\x73\x70\x65\x63\x69\x66\x69\x65\x64","\x73\x75\x62\x73\x74\x72","\x6C\x6F\x6F\x6B\x75\x70\x55\x73\x65\x72\x4E\x61\x6D\x65","\x65\x76\x65\x6E\x74\x41\x72\x74\x69\x73\x74\x73","\x69\x6E\x76\x61\x6C\x69\x64\x75\x73\x65\x72\x73\x70\x65\x63\x69\x66\x69\x65\x64","\x61\x66\x6B\x6C\x69\x6D\x69\x74","\x6E\x6F\x6C\x69\x6D\x69\x74\x73\x70\x65\x63\x69\x66\x69\x65\x64","\x6D\x61\x78\x69\x6D\x75\x6D\x61\x66\x6B\x74\x69\x6D\x65\x73\x65\x74","\x69\x6E\x76\x61\x6C\x69\x64\x6C\x69\x6D\x69\x74\x73\x70\x65\x63\x69\x66\x69\x65\x64","\x61\x66\x6B\x72\x65\x6D\x6F\x76\x61\x6C","\x74\x6F\x67\x67\x6C\x65\x6F\x66\x66","\x74\x6F\x67\x67\x6C\x65\x6F\x6E","\x61\x66\x6B\x72\x65\x73\x65\x74","\x61\x66\x6B\x73\x74\x61\x74\x75\x73\x72\x65\x73\x65\x74","\x61\x66\x6B\x74\x69\x6D\x65","\x69\x6E\x61\x63\x74\x69\x76\x65\x6C\x6F\x6E\x67\x65\x72","\x69\x6E\x61\x63\x74\x69\x76\x65\x66\x6F\x72","\x73\x74\x6F\x70\x72\x6F\x75\x6C\x65\x74\x74\x65","\x2F\x6D\x65\x20\x52\x75\x6C\x65\x74\u0117\x20\x73\x75\x73\x74\x61\x62\x64\x79\x74\x61\x21","\x73\x68\x75\x73\x68","\x20\x68\x74\x74\x70\x3A\x2F\x2F\x69\x6D\x67\x75\x72\x2E\x63\x6F\x6D\x2F\x61\x62\x78\x78\x77\x4D\x6F\x2E\x70\x6E\x67","\x62\x61","\x62\x72\x61\x6E\x64\x61\x6D\x62\x61\x73\x73\x61\x64\x6F\x72","\x38\x62\x61\x6C\x6C","\x61\x73\x6B","\x62\x61\x6C\x6C\x73","\x62\x61\x6C\x6C","\x62\x61\x6E","\x44\x41\x59","\x62\x6C\x61\x63\x6B\x6C\x69\x73\x74","\x62\x6C","\x6E\x6F\x6C\x69\x73\x74\x73\x70\x65\x63\x69\x66\x69\x65\x64","\x69\x6E\x76\x61\x6C\x69\x64\x6C\x69\x73\x74\x73\x70\x65\x63\x69\x66\x69\x65\x64","\x6E\x65\x77\x62\x6C\x61\x63\x6B\x6C\x69\x73\x74\x65\x64","\x6E\x65\x77\x42\x6C\x61\x63\x6B\x6C\x69\x73\x74\x65\x64\x53\x6F\x6E\x67\x46\x75\x6E\x63\x74\x69\x6F\x6E","\x62\x6C\x69\x6E\x66\x6F","\x62\x6F\x75\x6E\x63\x65\x72\x2B","\x42\x6F\x75\x6E\x63\x65\x72\x2B","\x62\x6F\x75\x6E\x63\x65\x72\x70\x6C\x75\x73\x72\x61\x6E\x6B","\x62\x6F\x74\x6E\x61\x6D\x65","\x63\x75\x72\x72\x65\x6E\x74\x62\x6F\x74\x6E\x61\x6D\x65","\x62\x6F\x74\x6E\x61\x6D\x65\x73\x65\x74","\x63\x6C\x65\x61\x72\x63\x68\x61\x74","\x63\x68\x69\x6C\x64\x72\x65\x6E","\x23\x63\x68\x61\x74\x2D\x6D\x65\x73\x73\x61\x67\x65\x73","\x64\x61\x74\x61\x2D\x63\x69\x64","\x67\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x63\x68\x61\x74\x63\x6C\x65\x61\x72\x65\x64","\x63\x6C\x65\x61\x72\x6C\x6F\x63\x61\x6C\x73\x74\x6F\x72\x61\x67\x65","\x63\x6C\x65\x61\x72","\x43\x6C\x65\x61\x72\x65\x64\x20\x6C\x6F\x63\x61\x6C\x73\x74\x6F\x72\x61\x67\x65\x2C\x20\x70\x6C\x65\x61\x73\x65\x20\x72\x65\x66\x72\x65\x73\x68\x20\x74\x68\x65\x20\x70\x61\x67\x65\x21","\x63\x6F\x6D\x6D\x61\x6E\x64\x64\x65\x6C\x65\x74\x69\x6F\x6E","\x63\x6D\x64\x64\x65\x6C\x65\x74\x69\x6F\x6E","\x63\x6D\x64\x64\x65\x6C","\x63\x6F\x6D\x6D\x61\x6E\x64\x73\x6C\x69\x6E\x6B","\x63\x6D\x64\x4C\x69\x6E\x6B","\x63\x6F\x6F\x6B\x69\x65","\x63\x6F\x6F\x6B\x69\x65\x73","\x65\x61\x74\x63\x6F\x6F\x6B\x69\x65","\x6E\x6F\x75\x73\x65\x72\x63\x6F\x6F\x6B\x69\x65","\x73\x65\x6C\x66\x63\x6F\x6F\x6B\x69\x65","\x67\x65\x74\x43\x6F\x6F\x6B\x69\x65","\x63\x79\x63\x6C\x65","\x63\x68\x61\x6E\x67\x65\x44\x4A\x43\x79\x63\x6C\x65","\x63\x79\x63\x6C\x65\x67\x75\x61\x72\x64","\x63\x79\x63\x6C\x65\x74\x69\x6D\x65\x72","\x63\x79\x63\x6C\x65\x67\x75\x61\x72\x64\x74\x69\x6D\x65","\x64\x63\x6C\x6F\x6F\x6B\x75\x70","\x64\x63","\x64\x63\x6C\x6F\x6F\x6B\x75\x70\x72\x61\x6E\x6B","\x64\x65\x6C\x65\x74\x65\x63\x68\x61\x74","\x65\x6D\x6F\x6A\x69","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x65\x6D\x6F\x6A\x69\x2D\x63\x68\x65\x61\x74\x2D\x73\x68\x65\x65\x74\x2E\x63\x6F\x6D\x2F","\x65\x6D\x6F\x6A\x69\x6C\x69\x73\x74","\x2F\x6D\x65\x20\x4E\x6F\x20\x75\x73\x65\x72\x20\x73\x70\x65\x63\x69\x66\x69\x65\x64\x2E","\x2F\x6D\x65\x20\x49\x6E\x76\x61\x6C\x69\x64\x20\x75\x73\x65\x72\x20\x73\x70\x65\x63\x69\x66\x69\x65\x64\x2E","\x2F\x6D\x65\x20\x40","\x65\x6E","\x56\xE6\x72\x20\x76\x65\x6E\x6C\x69\x67\x20\x61\x74\x20\x74\x61\x6C\x65\x20\x65\x6E\x67\x65\x6C\x73\x6B\x2E","\x64\x61","\x42\x69\x74\x74\x65\x20\x73\x70\x72\x65\x63\x68\x65\x6E\x20\x53\x69\x65\x20\x45\x6E\x67\x6C\x69\x73\x63\x68\x2E","\x64\x65","\x50\x6F\x72\x20\x66\x61\x76\x6F\x72\x2C\x20\x68\x61\x62\x6C\x65\x20\x49\x6E\x67\x6C\xE9\x73\x2E","\x65\x73","\x50\x61\x72\x6C\x65\x7A\x20\x61\x6E\x67\x6C\x61\x69\x73\x2C\x20\x73\x27\x69\x6C\x20\x76\x6F\x75\x73\x20\x70\x6C\x61\xEE\x74\x2E","\x66\x72","\x53\x70\x72\x65\x65\x6B\x20\x45\x6E\x67\x65\x6C\x73\x2C\x20\x61\x6C\x73\x74\x75\x62\x6C\x69\x65\x66\x74\x2E","\x6E\x6C","\x50\x72\x6F\x73\x7A\u0119\x20\x6D\xF3\x77\x69\u0107\x20\x70\x6F\x20\x61\x6E\x67\x69\x65\x6C\x73\x6B\x75\x2E","\x70\x6C","\x50\x6F\x72\x20\x66\x61\x76\x6F\x72\x2C\x20\x66\x61\x6C\x65\x20\x49\x6E\x67\x6C\xEA\x73\x2E","\x70\x74","\x48\x6F\x76\x6F\x72\x74\x65\x20\x70\x6F\x20\x61\x6E\x67\x6C\x69\x63\x6B\x79\x2C\x20\x70\x72\x6F\x73\xED\x6D\x2E","\x73\x6B","\x4D\x6C\x75\x76\x74\x65\x20\x70\x72\x6F\x73\xED\x6D\x20\x61\x6E\x67\x6C\x69\x63\x6B\x79\x2E","\x63\x73","\u041C\u043E\u043B\u0438\u043C\x20\u0412\u0430\u0441\x2C\x20\u0433\u043E\u0432\u043E\u0440\u0438\u0442\u0435\x20\u0435\u043D\u0433\u043B\u0435\u0441\u043A\u0438\x2E","\x73\x72","\x20\x45\x6E\x67\x6C\x69\x73\x68\x20\x70\x6C\x65\x61\x73\x65\x2E","\x79\x6F\x75\x61\x72\x65\x64\x6A","\x6E\x6F\x74\x69\x6E\x77\x61\x69\x74\x6C\x69\x73\x74","\x79\x6F\x75\x61\x72\x65\x6E\x65\x78\x74","\x66\x62","\x66\x62\x4C\x69\x6E\x6B","\x66\x61\x63\x65\x62\x6F\x6F\x6B","\x66\x69\x6C\x74\x65\x72","\x63\x68\x61\x74\x66\x69\x6C\x74\x65\x72","\x66\x6F\x72\x63\x65\x73\x6B\x69\x70","\x66\x73","\x67\x72\x6F\x6A\x75","\x67\x68\x6F\x73\x74\x62\x75\x73\x74\x65\x72","\x67\x68\x6F\x73\x74\x69\x6E\x67","\x6E\x6F\x74\x67\x68\x6F\x73\x74\x69\x6E\x67","\x67\x69\x66","\x67\x69\x70\x68\x79","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x76\x2E\x67\x69\x70\x68\x79\x2E\x63\x6F\x6D\x2F\x76\x31\x2F\x67\x69\x66\x73\x2F\x72\x61\x6E\x64\x6F\x6D\x3F","\x6A\x73\x6F\x6E","\x64\x63\x36\x7A\x61\x54\x4F\x78\x46\x4A\x6D\x7A\x43","\x70\x67\x2D\x31\x33","\x2B","\x2C\x20","\x76\x61\x6C\x69\x64\x67\x69\x66\x74\x61\x67\x73","\x69\x6E\x76\x61\x6C\x69\x64\x67\x69\x66\x74\x61\x67\x73","\x76\x61\x6C\x69\x64\x67\x69\x66\x72\x61\x6E\x64\x6F\x6D","\x69\x6E\x76\x61\x6C\x69\x64\x67\x69\x66\x72\x61\x6E\x64\x6F\x6D","\x68\x65\x6C\x70","\x28\x55\x70\x64\x61\x74\x65\x64\x20\x6C\x69\x6E\x6B\x20\x63\x6F\x6D\x69\x6E\x67\x20\x73\x6F\x6F\x6E\x29","\x73\x74\x61\x72\x74\x65\x72\x68\x65\x6C\x70","\x68\x69\x73\x74\x6F\x72\x79\x73\x6B\x69\x70","\x70\x6C\x61\x79","\x67\x65\x74\x4A\x6F\x69\x6E\x74\x69\x6D\x65","\x6B\x69\x63\x6B","\x6C\x61\x73\x74\x49\x6E\x64\x65\x78\x4F\x66","\x6B\x69\x63\x6B\x72\x61\x6E\x6B","\x6D\x6F\x64\x65\x72\x61\x74\x65\x55\x6E\x62\x61\x6E\x55\x73\x65\x72","\x55\x6E\x62\x61\x6E\x6E\x65\x64\x20\x40","\x2E\x20\x28","\x29","\x6B\x69\x6C\x6C","\x63\x75\x72\x72\x65\x6E\x74\x6C\x61\x6E\x67","\x6C\x61\x6E\x67\x65\x72\x72\x6F\x72","\x68\x74\x74\x70\x3A\x2F\x2F\x67\x69\x74\x2E\x69\x6F\x2F\x76\x4A\x39\x6E\x49","\x6C\x61\x6E\x67\x73\x65\x74","\x6C\x69\x6E\x6B","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x79\x6F\x75\x74\x75\x2E\x62\x65\x2F","\x73\x6F\x6E\x67\x6C\x69\x6E\x6B","\x70\x65\x72\x6D\x61\x6C\x69\x6E\x6B\x5F\x75\x72\x6C","\x6C\x6F\x63\x6B","\x6C\x6F\x63\x6B\x64\x6F\x77\x6E","\x6C\x6F\x63\x6B\x67\x75\x61\x72\x64","\x6C\x6F\x63\x6B\x73\x6B\x69\x70","\x75\x73\x65\x64\x6C\x6F\x63\x6B\x73\x6B\x69\x70","\x6C\x6F\x63\x6B\x73\x6B\x69\x70\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x6C\x6F\x63\x6B\x73\x6B\x69\x70\x52\x65\x61\x73\x6F\x6E\x73","\x6C\x6F\x63\x6B\x74\x69\x6D\x65\x72","\x6C\x6F\x63\x6B\x67\x75\x61\x72\x64\x74\x69\x6D\x65","\x6C\x6F\x67\x6F\x75\x74","\x6D\x6F\x75\x73\x65\x64\x6F\x77\x6E","\x2E\x6C\x6F\x67\x6F\x75\x74","\x6D\x61\x78\x6C\x65\x6E\x67\x74\x68","\x6D\x61\x78\x6C\x65\x6E\x67\x74\x68\x74\x69\x6D\x65","\x2F\x6D\x65\x20\x4D\x6F\x74\x44\x3A\x20","\x6D\x6F\x74\x64\x73\x65\x74","\x6D\x6F\x74\x64\x69\x6E\x74\x65\x72\x76\x61\x6C\x73\x65\x74","\x6D\x6F\x76\x65","\x61\x64\x64\x62\x6F\x74\x77\x61\x69\x74\x6C\x69\x73\x74","\x69\x6E\x76\x61\x6C\x69\x64\x70\x6F\x73\x69\x74\x69\x6F\x6E\x73\x70\x65\x63\x69\x66\x69\x65\x64","\x6D\x75\x74\x65","\x4C\x4F\x4E\x47","\x6D\x75\x74\x65\x64\x6D\x61\x78\x74\x69\x6D\x65","\x34\x35","\x6D\x75\x74\x65\x64\x74\x69\x6D\x65","\x4D\x45\x44\x49\x55\x4D","\x6D\x75\x74\x65\x72\x61\x6E\x6B","\x6F\x70\x4C\x69\x6E\x6B","\x6F\x70\x6C\x69\x73\x74","\x70\x69\x6E\x67","\x70\x6F\x6E\x67","\x72\x65\x66\x72\x65\x73\x68","\x72\x65\x6C\x6F\x61\x64","\x73\x63\x72\x69\x70\x74\x4C\x69\x6E\x6B","\x67\x65\x74\x53\x63\x72\x69\x70\x74","\x72\x65\x6D\x6F\x76\x65","\x72\x65\x6D\x6F\x76\x65\x6E\x6F\x74\x69\x6E\x77\x6C","\x72\x65\x73\x74\x72\x69\x63\x74\x65\x74\x61","\x65\x74\x61\x72\x65\x73\x74\x72\x69\x63\x74\x69\x6F\x6E","\x72\x75\x6C\x65\x73","\x72\x75\x6C\x65\x73\x4C\x69\x6E\x6B","\x72\x6F\x6F\x6D\x72\x75\x6C\x65\x73","\x73\x65\x73\x73\x69\x6F\x6E\x73\x74\x61\x74\x73","\x73\x6D\x61\x72\x74\x73\x6B\x69\x70","\x75\x73\x65\x64\x73\x6B\x69\x70","\x73\x6B\x69\x70\x52\x65\x61\x73\x6F\x6E\x73","\x73\x6B\x69\x70\x70\x6F\x73","\x73\x6F\x75\x72\x63\x65","\x2F\x6D\x65\x20\x54\x68\x69\x73\x20\x62\x6F\x74\x20\x77\x61\x73\x20\x63\x72\x65\x61\x74\x65\x64\x20\x62\x79\x20","\x2C\x20\x62\x75\x74\x20\x69\x73\x20\x6E\x6F\x77\x20\x6D\x61\x69\x6E\x74\x61\x69\x6E\x65\x64\x20\x62\x79\x20","\x2E","\x5B\x40","\x5D\x20","\x4F\x4E","\x4F\x46\x46","\x2E\x20","\x61\x66\x6B\x73\x72\x65\x6D\x6F\x76\x65\x64","\x42\x6F\x75\x6E\x63\x65\x72\x2B\x3A\x20","\x74\x69\x6D\x65\x67\x75\x61\x72\x64","\x76\x6F\x74\x65\x73\x6B\x69\x70","\x61\x63\x74\x69\x76\x65\x66\x6F\x72","\x6D\x61\x74\x63\x68","\x73\x77\x61\x70","\x73\x77\x61\x70\x69\x6E\x76\x61\x6C\x69\x64","\x61\x64\x64\x62\x6F\x74\x74\x6F\x77\x61\x69\x74\x6C\x69\x73\x74","\x73\x77\x61\x70\x77\x6C\x6F\x6E\x6C\x79","\x73\x77\x61\x70\x70\x69\x6E\x67","\x74\x68\x65\x6D\x65","\x74\x68\x65\x6D\x65\x4C\x69\x6E\x6B","\x67\x65\x6E\x72\x65\x73","\x74\x68\x6F\x72","\x74\x68\x6F\x72\x43\x6F\x6D\x6D\x61\x6E\x64","\x75\x73\x65\x72\x73\x55\x73\x65\x64\x54\x68\x6F\x72","\x74\x68\x6F\x72\x43\x6F\x6F\x6C\x64\x6F\x77\x6E","\x70\x6F\x77","\x74\x68\x6F\x72\x4E\x6F\x74\x43\x6C\x6F\x73\x65","\x74\x68\x6F\x72\x63\x64","\x74\x68\x6F\x72\x57\x6F\x72\x74\x68\x79","\x74\x68\x6F\x72\x4E\x6F\x74\x57\x6F\x72\x74\x68\x79","\x74\x6F\x67\x67\x6C\x65\x62\x6C","\x74\x6F\x67\x67\x6C\x65\x6D\x6F\x74\x64","\x74\x6F\x67\x67\x6C\x65\x76\x6F\x74\x65\x73\x6B\x69\x70","\x75\x6E\x62\x61\x6E","\x2F\x5F\x2F\x62\x61\x6E\x73","\x6E\x6F\x74\x62\x61\x6E\x6E\x65\x64","\x55\x6E\x62\x61\x6E\x6E\x65\x64\x3A","\x75\x6E\x6C\x6F\x63\x6B","\x75\x6E\x6D\x75\x74\x65","\x2F\x5F\x2F\x6D\x75\x74\x65\x73","\x61\x6C\x6C","\x6D\x6F\x64\x65\x72\x61\x74\x65\x55\x6E\x6D\x75\x74\x65\x55\x73\x65\x72","\x75\x6E\x6D\x75\x74\x65\x64\x65\x76\x65\x72\x79\x6F\x6E\x65","\x75\x6E\x6D\x75\x74\x65\x65\x76\x65\x72\x79\x6F\x6E\x65\x72\x61\x6E\x6B","\x55\x6E\x6D\x75\x74\x65\x64\x3A","\x75\x73\x65\x72\x63\x6D\x64\x63\x64","\x63\x6F\x6D\x6D\x61\x6E\x64\x73\x63\x64","\x75\x73\x65\x72\x63\x6F\x6D\x6D\x61\x6E\x64\x73","\x75\x73\x65\x72\x63\x6F\x6D\x6D\x61\x6E\x64\x73\x45\x6E\x61\x62\x6C\x65\x64","\x76\x6F\x74\x65\x72\x61\x74\x69\x6F","\x76\x6F\x74\x65\x73\x6B\x69\x70\x6C\x69\x6D\x69\x74","\x76\x6F\x74\x65\x73\x6B\x69\x70\x69\x6E\x76\x61\x6C\x69\x64\x6C\x69\x6D\x69\x74","\x76\x6F\x74\x65\x73\x6B\x69\x70\x73\x65\x74\x6C\x69\x6D\x69\x74","\x77\x65\x6C\x63\x6F\x6D\x65\x6D\x73\x67","\x77\x65\x62\x73\x69\x74\x65","\x77\x68\x6F\x69\x73","\x61\x76\x61\x74\x61\x72\x49\x44","\x6C\x65\x76\x65\x6C","\x6A\x6F\x69\x6E\x65\x64","\x45\x6E\x67\x6C\x69\x73\x68","\x62\x67","\x42\x75\x6C\x67\x61\x72\x69\x61\x6E","\x43\x7A\x65\x63\x68","\x66\x69","\x46\x69\x6E\x6E\x69\x73\x68","\x46\x72\x65\x6E\x63\x68","\x50\x6F\x72\x74\x75\x67\x75\x65\x73\x65","\x7A\x68","\x43\x68\x69\x6E\x65\x73\x65","\x53\x6C\x6F\x76\x61\x6B","\x44\x75\x74\x63\x68","\x6D\x73","\x4D\x61\x6C\x61\x79","\x31","\x52\x65\x73\x69\x64\x65\x6E\x74\x20\x44\x4A","\x32","\x42\x6F\x75\x6E\x63\x65\x72","\x33","\x4D\x61\x6E\x61\x67\x65\x72","\x34","\x43\x6F\x2D\x48\x6F\x73\x74","\x35","\x48\x6F\x73\x74","\x37","\x42\x72\x61\x6E\x64\x20\x41\x6D\x62\x61\x73\x73\x61\x64\x6F\x72","\x31\x30","\x41\x64\x6D\x69\x6E","\x73\x6C\x75\x67","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x70\x6C\x75\x67\x2E\x64\x6A\x2F\x40\x2F","\x7E","\x64\x69\x73\x63\x6F\x72\x64","\x64\x69\x73\x63\x6F\x72\x64\x4C\x69\x6E\x6B","\x79\x6F\x75\x74\x75\x62\x65","\x79\x6F\x75\x74\x75\x62\x65\x4C\x69\x6E\x6B","\x73\x74\x61\x72\x74\x75\x70"];(function(){API[_$_5ca4[1]]= function(r){if( typeof r=== _$_5ca4[2]|| r=== null){r= API[_$_5ca4[4]]()[_$_5ca4[3]]};var s=API[_$_5ca4[5]]();for(var q=0;q< s[_$_5ca4[6]];q++){if(s[q][_$_5ca4[3]]=== r){return q}};return -1};var i=function(){clearInterval(a[_$_5ca4[8]][_$_5ca4[7]]);clearInterval(a[_$_5ca4[8]][_$_5ca4[9]]);clearInterval(a[_$_5ca4[8]][_$_5ca4[10]]);a[_$_5ca4[11]]= false};var h=false;var l=Infinity;function f(){if(API[_$_5ca4[13]]()[_$_5ca4[12]]< l|| h){return};h= true;API[_$_5ca4[19]](_$_5ca4[14]+ API[_$_5ca4[16]]()[_$_5ca4[15]]+ _$_5ca4[17]+ l+ _$_5ca4[18]);API[_$_5ca4[20]]();setTimeout(function(){h= false},10000)}API[_$_5ca4[22]](API[_$_5ca4[21]],f);API[_$_5ca4[22]](API[_$_5ca4[23]],function(u){var w=API[_$_5ca4[5]]()[_$_5ca4[6]];var v=API[_$_5ca4[24]]()[_$_5ca4[6]];if(w<= 50){var t=Math[_$_5ca4[25]]((w/ 3)+ 2);if(v>= 50){if(t< 8){t= 8}}else {if(t< 6){t= 6}}};l= t;setTimeout(function(){},2500)});API[_$_5ca4[1]]= function(r){if( typeof r=== _$_5ca4[2]|| r=== null){r= API[_$_5ca4[4]]()[_$_5ca4[3]]};var s=API[_$_5ca4[5]]();for(var q=0;q< s[_$_5ca4[6]];q++){if(s[q][_$_5ca4[3]]=== r){return q}};return -1};var o=function(){localStorage[_$_5ca4[29]](_$_5ca4[26],JSON[_$_5ca4[28]](a[_$_5ca4[27]]));localStorage[_$_5ca4[29]](_$_5ca4[30],JSON[_$_5ca4[28]](a[_$_5ca4[8]]));var x={time:Date[_$_5ca4[31]](),stored:true,version:a[_$_5ca4[32]]};localStorage[_$_5ca4[29]](_$_5ca4[33],JSON[_$_5ca4[28]](x))};var p=function(y,u){if( typeof y=== _$_5ca4[2]){API[_$_5ca4[35]](_$_5ca4[34]);console[_$_5ca4[36]](_$_5ca4[34]);return _$_5ca4[37]};var z=_$_5ca4[38];for(var A in u){y= y[_$_5ca4[40]](z+ A[_$_5ca4[39]]()+ z,u[A])};return y};var k=function(B){if(!B){B= function(){}};$[_$_5ca4[48]](_$_5ca4[41],function(C){var D=a[_$_5ca4[42]];if(C!== null&&  typeof C!== _$_5ca4[2]){langIndex= C;D= langIndex[a[_$_5ca4[27]][_$_5ca4[44]][_$_5ca4[43]]()];if(a[_$_5ca4[27]][_$_5ca4[42]]!== a[_$_5ca4[42]]){D= a[_$_5ca4[27]][_$_5ca4[42]]}else {if( typeof D=== _$_5ca4[2]){D= a[_$_5ca4[42]]}};$[_$_5ca4[48]](D,function(C){if(C!== null&&  typeof C!== _$_5ca4[2]){if( typeof C=== _$_5ca4[45]){C= JSON[_$_5ca4[46]](C)};a[_$_5ca4[47]]= C;B()}})}else {$[_$_5ca4[48]](a[_$_5ca4[42]],function(C){if(C!== null&&  typeof C!== _$_5ca4[2]){if( typeof C=== _$_5ca4[45]){C= JSON[_$_5ca4[46]](C)};a[_$_5ca4[47]]= C;B()}})}})};var n=function(){var E=JSON[_$_5ca4[46]](localStorage[_$_5ca4[49]](_$_5ca4[26]));if(E!== null){for(var A in E){a[_$_5ca4[27]][A]= E[A]}}};var m=function(){var I=localStorage[_$_5ca4[49]](_$_5ca4[33]);if(I=== null){API[_$_5ca4[35]](a[_$_5ca4[47]][_$_5ca4[50]])}else {var E=JSON[_$_5ca4[46]](localStorage[_$_5ca4[49]](_$_5ca4[26]));var L=JSON[_$_5ca4[46]](localStorage[_$_5ca4[49]](_$_5ca4[30]));var F=Date[_$_5ca4[31]]()- JSON[_$_5ca4[46]](I)[_$_5ca4[51]];if((F< 1* 60* 60* 1000)){API[_$_5ca4[35]](a[_$_5ca4[47]][_$_5ca4[52]]);for(var A in E){a[_$_5ca4[27]][A]= E[A]};a[_$_5ca4[8]][_$_5ca4[53]]= L[_$_5ca4[53]];a[_$_5ca4[8]][_$_5ca4[54]]= L[_$_5ca4[54]];a[_$_5ca4[8]][_$_5ca4[55]]= L[_$_5ca4[55]];a[_$_5ca4[8]][_$_5ca4[56]]= L[_$_5ca4[56]];a[_$_5ca4[8]][_$_5ca4[57]]= L[_$_5ca4[57]];a[_$_5ca4[8]][_$_5ca4[58]]= L[_$_5ca4[58]];a[_$_5ca4[8]][_$_5ca4[59]]= L[_$_5ca4[59]];a[_$_5ca4[8]][_$_5ca4[60]]= L[_$_5ca4[60]];API[_$_5ca4[35]](a[_$_5ca4[47]][_$_5ca4[61]])}};var J=null;var M=document[_$_5ca4[63]](_$_5ca4[62]);I= M[_$_5ca4[64]];var K=_$_5ca4[65];var G=I[_$_5ca4[66]](K);if(G> 0){var D=I[_$_5ca4[67]](G+ K[_$_5ca4[6]],I[_$_5ca4[6]]);var H=null;if(D[_$_5ca4[66]](_$_5ca4[68])< D[_$_5ca4[66]](_$_5ca4[69])){H= D[_$_5ca4[66]](_$_5ca4[68])}else {H= D[_$_5ca4[66]](_$_5ca4[69])};D= D[_$_5ca4[67]](0,H);$[_$_5ca4[48]](D,function(C){if(C!== null&&  typeof C!== _$_5ca4[2]){J= JSON[_$_5ca4[46]](C);for(var A in J){a[_$_5ca4[27]][A]= J[A]}}})}};String[_$_5ca4[71]][_$_5ca4[70]]= function(N,P){var R=this;R= this[_$_5ca4[72]](N);for(var q=0;q< R[_$_5ca4[6]];q++){R[q]= R[q][_$_5ca4[72]](P)};var O=[];for(var q=0;q< R[_$_5ca4[6]];q++){if(Array[_$_5ca4[73]](R[q])){for(var Q=0;Q< R[q][_$_5ca4[6]];Q++){O[_$_5ca4[74]](R[q][Q])}}else {O[_$_5ca4[74]](R[q])}};return O};String[_$_5ca4[71]][_$_5ca4[75]]= function(S){return this[_$_5ca4[67]](0,S[_$_5ca4[6]])=== S};function j(bk){var eF=bk[_$_5ca4[70]](_$_5ca4[76],_$_5ca4[77]);for(var q=1;q< eF[_$_5ca4[6]];q= q+ 2){var D=eF[q][_$_5ca4[72]](_$_5ca4[78])[0];eF[q]= D};var eE=_$_5ca4[79];for(var q=0;q< eF[_$_5ca4[6]];q++){eE+= eF[q]};return eE}function g(eD){var S,dN=document[_$_5ca4[81]](_$_5ca4[80]);dN[_$_5ca4[82]]= eD;S= dN[_$_5ca4[64]]|| dN[_$_5ca4[83]];dN= null;return S}var b=_$_5ca4[84];var d=_$_5ca4[85];var c=[_$_5ca4[86],_$_5ca4[87]];var a={version:_$_5ca4[88],status:false,name:_$_5ca4[89],loggedInID:null,cmdLink:_$_5ca4[90],chat:null,loadChat:k,retrieveSettings:n,retrieveFromStorage:m,settings:{botName:_$_5ca4[91],language:_$_5ca4[92],chatLink:_$_5ca4[93],scriptLink:_$_5ca4[94],roomLock:false,startupCap:50,startupVolume:15,startupEmoji:true,autowoot:true,autoskip:false,smartSkip:true,cmdDeletion:true,maximumAfk:120,afkRemoval:false,maximumDc:120,bouncerPlus:false,blacklistEnabled:true,lockdownEnabled:false,lockGuard:false,autoroulette:true,maximumLocktime:10,cycleGuard:false,maximumCycletime:10,voteSkip:false,voteSkipLimit:15,historySkip:true,timeGuard:true,maximumSongLength:7,autodisable:false,commandCooldown:1,usercommandsEnabled:true,thorCommand:false,thorCooldown:10,lockskipPosition:10,lockskipReasons:[[_$_5ca4[95],_$_5ca4[96]],[_$_5ca4[97],_$_5ca4[98]],[_$_5ca4[99],_$_5ca4[100]],[_$_5ca4[101],_$_5ca4[102]],[_$_5ca4[103],_$_5ca4[104]]],skipReasons:[[_$_5ca4[95],_$_5ca4[96]],[_$_5ca4[97],_$_5ca4[98]],[_$_5ca4[99],_$_5ca4[100]],[_$_5ca4[101],_$_5ca4[102]],[_$_5ca4[103],_$_5ca4[104]]],afkpositionCheck:0,afkRankCheck:_$_5ca4[105],motdEnabled:true,motdInterval:5,motd:_$_5ca4[106],filterChat:true,etaRestriction:true,welcome:true,opLink:_$_5ca4[107],rulesLink:_$_5ca4[108],themeLink:null,fbLink:_$_5ca4[109],discordLink:_$_5ca4[110],twitter:null,intervalMessages:[_$_5ca4[111]],messageInterval:4,songstats:true,commandLiteral:_$_5ca4[18],blacklists:{NSFW:_$_5ca4[112],OP:_$_5ca4[113],BANNED:_$_5ca4[114]}},room:{name:null,chatMessages:[],users:[],afkList:[],mutedUsers:[],bannedUsers:[],skippable:true,usercommand:true,allcommand:true,afkInterval:null,naktis:null,rytas:null,autoskipTimer:null,autorouletteInterval:null,autorouletteFunc:function(){if(a[_$_5ca4[11]]&& a[_$_5ca4[27]][_$_5ca4[115]]){a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[116]]();return}},autodisableInterval:null,autodisableFunc:function(){if(a[_$_5ca4[11]]&& a[_$_5ca4[27]][_$_5ca4[118]]){API[_$_5ca4[19]](_$_5ca4[119]);API[_$_5ca4[19]](_$_5ca4[120])}},queueing:0,queueable:true,currentDJID:null,historyList:[],cycleTimer:setTimeout(function(){},1),roomstats:{accountName:null,totalWoots:0,totalCurates:0,totalMehs:0,launchTime:null,songCount:0,chatmessages:0},messages:{from:[],to:[],message:[]},queue:{id:[],position:[]},blacklists:{},newBlacklisted:[],newBlacklistedSongFunction:null,roulette:{rouletteStatus:false,participants:[],countdown:null,startRoulette:function(){a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[121]]= true;a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[122]]= setTimeout(function(){a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[123]]()},120* 1000);API[_$_5ca4[19]](a[_$_5ca4[47]][_$_5ca4[124]])},endRoulette:function(){a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[121]]= false;var T=Math[_$_5ca4[127]](Math[_$_5ca4[125]]()* a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[126]][_$_5ca4[6]]);var Y=a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[126]][T];a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[126]]= [];var V=1;var X=a[_$_5ca4[129]][_$_5ca4[128]](Y);var W=API[_$_5ca4[1]](Y);var U=X[_$_5ca4[15]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[130]],{name:U,position:V}));if(W<= 5){a[_$_5ca4[129]][_$_5ca4[131]](Y,5,false),API[_$_5ca4[134]](Y,1,API[_$_5ca4[133]][_$_5ca4[132]]),API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[135]],{name:U}))}else {setTimeout(function(Y,V){a[_$_5ca4[129]][_$_5ca4[131]](Y,V,false)},1* 1000,Y,V)}}},usersUsedThor:[]},User:function(r,U){this[_$_5ca4[3]]= r;this[_$_5ca4[15]]= U;this[_$_5ca4[136]]= Date[_$_5ca4[31]]();this[_$_5ca4[137]]= Date[_$_5ca4[31]]();this[_$_5ca4[138]]= {woot:0,meh:0,curate:0};this[_$_5ca4[139]]= null;this[_$_5ca4[140]]= 0;this[_$_5ca4[141]]= null;this[_$_5ca4[142]]= true;this[_$_5ca4[143]]= false;this[_$_5ca4[144]]= {time:null,position:null,songCount:0};this[_$_5ca4[145]]= null},userUtilities:{getJointime:function(X){return X[_$_5ca4[136]]},getUser:function(X){return API[_$_5ca4[4]](X[_$_5ca4[3]])},updatePosition:function(X,Z){X[_$_5ca4[145]]= Z},updateDC:function(X){X[_$_5ca4[144]][_$_5ca4[51]]= Date[_$_5ca4[31]]();X[_$_5ca4[144]][_$_5ca4[146]]= X[_$_5ca4[145]];X[_$_5ca4[144]][_$_5ca4[147]]= a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[147]]},setLastActivity:function(X){X[_$_5ca4[137]]= Date[_$_5ca4[31]]();X[_$_5ca4[140]]= 0;clearTimeout(X[_$_5ca4[141]])},getLastActivity:function(X){return X[_$_5ca4[137]]},getWarningCount:function(X){return X[_$_5ca4[140]]},setWarningCount:function(X,ba){X[_$_5ca4[140]]= ba},lookupUser:function(r){for(var q=0;q< a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]];q++){if(a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[3]]=== r){return a[_$_5ca4[8]][_$_5ca4[53]][q]}};return false},lookupUserName:function(U){for(var q=0;q< a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]];q++){var bb=a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[15]][_$_5ca4[148]]()== U[_$_5ca4[148]]();if(bb){return a[_$_5ca4[8]][_$_5ca4[53]][q]}};return false},voteRatio:function(r){var X=a[_$_5ca4[129]][_$_5ca4[128]](r);var bc=X[_$_5ca4[138]];if(bc[_$_5ca4[149]]=== 0){bc[_$_5ca4[150]]= 1}else {bc[_$_5ca4[150]]= (bc[_$_5ca4[152]]/ bc[_$_5ca4[149]])[_$_5ca4[151]](2)};return bc},getPermission:function(u){var bd;if( typeof u=== _$_5ca4[153]){bd= u}else {bd= API[_$_5ca4[4]](u)};for(var q=0;q< c[_$_5ca4[6]];q++){if(c[q][_$_5ca4[66]](bd[_$_5ca4[3]])>  -1){return 10}};if(bd[_$_5ca4[154]]< 2){return bd[_$_5ca4[155]]}else {switch(bd[_$_5ca4[154]]){case 2:return 7;case 3:return 8;case 4:return 9;case 5:return 10}};return 0},moveUser:function(r,V,bf){var X=a[_$_5ca4[129]][_$_5ca4[128]](r);var bg=API[_$_5ca4[5]]();if(API[_$_5ca4[1]](r)===  -1){if(bg[_$_5ca4[6]]< 50){API[_$_5ca4[156]](r);if(V!== 0){setTimeout(function(r,V){API[_$_5ca4[157]](r,V)},1250,r,V)}}else {var be=-1;for(var q=0;q< a[_$_5ca4[8]][_$_5ca4[59]][_$_5ca4[3]][_$_5ca4[6]];q++){if(a[_$_5ca4[8]][_$_5ca4[59]][_$_5ca4[3]][q]=== r){be= q}};if(be!==  -1){a[_$_5ca4[8]][_$_5ca4[59]][_$_5ca4[146]][be]= V;return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[158]],{position:a[_$_5ca4[8]][_$_5ca4[59]][_$_5ca4[146]][be]}))};a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[159]]();if(bf){a[_$_5ca4[8]][_$_5ca4[59]][_$_5ca4[3]][_$_5ca4[162]](r);a[_$_5ca4[8]][_$_5ca4[59]][_$_5ca4[146]][_$_5ca4[162]](V)}else {a[_$_5ca4[8]][_$_5ca4[59]][_$_5ca4[3]][_$_5ca4[74]](r);a[_$_5ca4[8]][_$_5ca4[59]][_$_5ca4[146]][_$_5ca4[74]](V)};var U=X[_$_5ca4[15]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[163]],{name:U,position:a[_$_5ca4[8]][_$_5ca4[59]][_$_5ca4[146]][_$_5ca4[6]]}))}}else {API[_$_5ca4[157]](r,V)}},dclookup:function(r){var X=a[_$_5ca4[129]][_$_5ca4[128]](r);if( typeof X=== _$_5ca4[164]){return a[_$_5ca4[47]][_$_5ca4[165]]};var U=X[_$_5ca4[15]];if(X[_$_5ca4[144]][_$_5ca4[51]]=== null){return p(a[_$_5ca4[47]][_$_5ca4[166]],{name:U})};var bj=X[_$_5ca4[144]][_$_5ca4[51]];var V=X[_$_5ca4[144]][_$_5ca4[146]];if(V=== null){return a[_$_5ca4[47]][_$_5ca4[167]]};var bq=Date[_$_5ca4[31]]()- bj;var br=false;if(a[_$_5ca4[27]][_$_5ca4[168]]* 60* 1000> bq){br= true};var bo=a[_$_5ca4[161]][_$_5ca4[169]](bq);if(!br){return (p(a[_$_5ca4[47]][_$_5ca4[170]],{name:a[_$_5ca4[129]][_$_5ca4[4]](X)[_$_5ca4[15]],time:bo}))};var bn=a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[147]]- X[_$_5ca4[144]][_$_5ca4[147]];var bi=0;var bh=a[_$_5ca4[8]][_$_5ca4[54]];for(var q=0;q< bh[_$_5ca4[6]];q++){var bp=bh[q][1];var bm=bh[q][2];if(bj< bp&& bm< V){bi++}};var bl=X[_$_5ca4[144]][_$_5ca4[146]]- bn- bi;if(bl<= 0){return p(a[_$_5ca4[47]][_$_5ca4[166]],{name:U})};var bk=p(a[_$_5ca4[47]][_$_5ca4[171]],{name:a[_$_5ca4[129]][_$_5ca4[4]](X)[_$_5ca4[15]],time:bo,position:bl});a[_$_5ca4[129]][_$_5ca4[131]](X[_$_5ca4[3]],bl,true);return bk}},roomUtilities:{rankToNumber:function(bt){var bs=null;switch(bt){case _$_5ca4[172]:bs= 10;break;case _$_5ca4[105]:bs= 7;break;case _$_5ca4[173]:bs= 5;break;case _$_5ca4[174]:bs= 4;break;case _$_5ca4[175]:bs= 3;break;case _$_5ca4[176]:bs= 2;break;case _$_5ca4[177]:bs= 1;break;case _$_5ca4[178]:bs= 0;break};return bs},msToStr:function(bv){var bu,bk,bw;bk= _$_5ca4[79];bw= {"\x64\x61\x79\x73":0,"\x68\x6F\x75\x72\x73":0,"\x6D\x69\x6E\x75\x74\x65\x73":0,"\x73\x65\x63\x6F\x6E\x64\x73":0};bu= {"\x64\x61\x79":24* 60* 60* 1000,"\x68\x6F\x75\x72":60* 60* 1000,"\x6D\x69\x6E\x75\x74\x65":60* 1000,"\x73\x65\x63\x6F\x6E\x64":1000};if(bv> bu[_$_5ca4[179]]){bw[_$_5ca4[180]]= Math[_$_5ca4[127]](bv/ bu[_$_5ca4[179]]);bv= bv% bu[_$_5ca4[179]]};if(bv> bu[_$_5ca4[181]]){bw[_$_5ca4[182]]= Math[_$_5ca4[127]](bv/ bu[_$_5ca4[181]]);bv= bv% bu[_$_5ca4[181]]};if(bv> bu[_$_5ca4[183]]){bw[_$_5ca4[184]]= Math[_$_5ca4[127]](bv/ bu[_$_5ca4[183]]);bv= bv% bu[_$_5ca4[183]]};if(bv> bu[_$_5ca4[185]]){bw[_$_5ca4[186]]= Math[_$_5ca4[127]](bv/ bu[_$_5ca4[185]])};if(bw[_$_5ca4[180]]!== 0){bk+= bw[_$_5ca4[180]][_$_5ca4[187]]()+ _$_5ca4[188]};if(bw[_$_5ca4[182]]!== 0){bk+= bw[_$_5ca4[182]][_$_5ca4[187]]()+ _$_5ca4[189]};if(bw[_$_5ca4[184]]!== 0){bk+= bw[_$_5ca4[184]][_$_5ca4[187]]()+ _$_5ca4[190]};if(bw[_$_5ca4[184]]< 1&& bw[_$_5ca4[182]]< 1&& bw[_$_5ca4[180]]< 1){bk+= bw[_$_5ca4[186]][_$_5ca4[187]]()+ _$_5ca4[191]};if(bk!== _$_5ca4[79]){return bk}else {return false}},booth:{lockTimer:setTimeout(function(){},1000),locked:false,lockBooth:function(){API[_$_5ca4[193]](!a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[192]]);a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[192]]= false;if(a[_$_5ca4[27]][_$_5ca4[194]]){a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[195]]= setTimeout(function(){API[_$_5ca4[193]](a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[192]])},a[_$_5ca4[27]][_$_5ca4[196]]* 60* 1000)}},unlockBooth:function(){API[_$_5ca4[193]](a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[192]]);clearTimeout(a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[195]])}},afkCheck:function(){if(!a[_$_5ca4[11]]|| !a[_$_5ca4[27]][_$_5ca4[197]]){return void((0))};var bC=a[_$_5ca4[161]][_$_5ca4[199]](a[_$_5ca4[27]][_$_5ca4[198]]);var bx=API[_$_5ca4[5]]();var bA=Math[_$_5ca4[201]](bx[_$_5ca4[6]],a[_$_5ca4[27]][_$_5ca4[200]]);if(bA- 1> bx[_$_5ca4[6]]){return void((0))};for(var q=0;q< bA;q++){if( typeof bx[q]!== _$_5ca4[2]){var r=bx[q][_$_5ca4[3]];var X=a[_$_5ca4[129]][_$_5ca4[128]](r);if( typeof X!== _$_5ca4[164]){var bB=a[_$_5ca4[129]][_$_5ca4[4]](X);if(bC!== null&& a[_$_5ca4[129]][_$_5ca4[202]](bB)<= bC){var U=bB[_$_5ca4[15]];var bz=a[_$_5ca4[129]][_$_5ca4[203]](X);var by=Date[_$_5ca4[31]]()- bz;var bo=a[_$_5ca4[161]][_$_5ca4[169]](by);var bD=X[_$_5ca4[140]];if(by> a[_$_5ca4[27]][_$_5ca4[204]]* 60* 1000){if(bD=== 0){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[205]],{name:U,time:bo}));X[_$_5ca4[140]]= 3;X[_$_5ca4[141]]= setTimeout(function(bE){bE[_$_5ca4[140]]= 1},90* 1000,X)}else {if(bD=== 1){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[206]],{name:U}));X[_$_5ca4[140]]= 3;X[_$_5ca4[141]]= setTimeout(function(bE){bE[_$_5ca4[140]]= 2},30* 1000,X)}else {if(bD=== 2){var V=API[_$_5ca4[1]](r);if(V!==  -1){V++;a[_$_5ca4[8]][_$_5ca4[54]][_$_5ca4[74]]([r,Date[_$_5ca4[31]](),V]);X[_$_5ca4[144]]= {time:null,position:null,songCount:0};API[_$_5ca4[207]](r);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[208]],{name:U,time:bo,position:V,maximumafk:a[_$_5ca4[27]][_$_5ca4[204]]}))};X[_$_5ca4[140]]= 0}}}}}}}}},smartSkip:function(bH){var bF=API[_$_5ca4[16]]();var r=bF[_$_5ca4[3]];var bI=API[_$_5ca4[5]]()[_$_5ca4[6]];var bG=false;a[_$_5ca4[8]][_$_5ca4[209]]= false;if(bI== 50){a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[159]]();bG= true};setTimeout(function(r){API[_$_5ca4[20]]();setTimeout(function(){if( typeof bH!== _$_5ca4[2]){API[_$_5ca4[19]](bH)}},500);a[_$_5ca4[8]][_$_5ca4[210]]= false;setTimeout(function(){a[_$_5ca4[8]][_$_5ca4[210]]= true},5* 1000);setTimeout(function(r){a[_$_5ca4[129]][_$_5ca4[131]](r,a[_$_5ca4[27]][_$_5ca4[211]],false);a[_$_5ca4[8]][_$_5ca4[209]]= true;if(bG){setTimeout(function(){a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[212]]()},1000)}},1500,r)},1000,r)},changeDJCycle:function(){$[_$_5ca4[220]](_$_5ca4[213],function(bJ){if(bJ[_$_5ca4[215]][0][_$_5ca4[160]][_$_5ca4[214]]){API[_$_5ca4[216]](false);clearTimeout(a[_$_5ca4[8]][_$_5ca4[217]])}else {if(a[_$_5ca4[27]][_$_5ca4[218]]){API[_$_5ca4[216]](true);a[_$_5ca4[8]][_$_5ca4[217]]= setTimeout(function(){API[_$_5ca4[216]](false)},a[_$_5ca4[27]][_$_5ca4[219]]* 60* 1000)}else {API[_$_5ca4[216]](true)}}})},intervalMessage:function(){var bK;if(a[_$_5ca4[27]][_$_5ca4[221]]){bK= a[_$_5ca4[27]][_$_5ca4[222]]}else {bK= a[_$_5ca4[27]][_$_5ca4[223]]};if((a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[147]]% bK)=== 0&& a[_$_5ca4[11]]){var bk;if(a[_$_5ca4[27]][_$_5ca4[221]]){bk= a[_$_5ca4[27]][_$_5ca4[224]]}else {if(a[_$_5ca4[27]][_$_5ca4[225]][_$_5ca4[6]]=== 0){return void((0))};var bL=a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[147]]% a[_$_5ca4[27]][_$_5ca4[225]][_$_5ca4[6]];bk= a[_$_5ca4[27]][_$_5ca4[225]][bL]};API[_$_5ca4[19]](_$_5ca4[226]+ bk)}},updateBlacklists:function(){for(var bM in a[_$_5ca4[27]][_$_5ca4[227]]){a[_$_5ca4[8]][_$_5ca4[227]][bM]= [];if( typeof a[_$_5ca4[27]][_$_5ca4[227]][bM]=== _$_5ca4[228]){a[_$_5ca4[8]][_$_5ca4[227]][bM]= a[_$_5ca4[27]][_$_5ca4[227]]()}else {if( typeof a[_$_5ca4[27]][_$_5ca4[227]][bM]=== _$_5ca4[45]){if(a[_$_5ca4[27]][_$_5ca4[227]][bM]=== _$_5ca4[79]){continue};try{(function(bN){$[_$_5ca4[48]](a[_$_5ca4[27]][_$_5ca4[227]][bN],function(bJ){if( typeof bJ=== _$_5ca4[45]){bJ= JSON[_$_5ca4[46]](bJ)};var bO=[];for(var A in bJ){if( typeof bJ[A][_$_5ca4[229]]!== _$_5ca4[2]){bO[_$_5ca4[74]](bJ[A][_$_5ca4[229]])}};a[_$_5ca4[8]][_$_5ca4[227]][bN]= bO})})(bM)}catch(e){API[_$_5ca4[35]](_$_5ca4[230]+ bM+ _$_5ca4[231]);console[_$_5ca4[36]](_$_5ca4[230]+ bM+ _$_5ca4[231]);console[_$_5ca4[36]](e)}}}}},logNewBlacklistedSongs:function(){if( typeof console[_$_5ca4[232]]!== _$_5ca4[2]){console[_$_5ca4[232]](a[_$_5ca4[8]][_$_5ca4[60]])}else {console[_$_5ca4[36]](a[_$_5ca4[8]][_$_5ca4[60]])}},exportNewBlacklistedSongs:function(){var bO={};for(var q=0;q< a[_$_5ca4[8]][_$_5ca4[60]][_$_5ca4[6]];q++){var bP=a[_$_5ca4[8]][_$_5ca4[60]][q];bO[bP[_$_5ca4[233]]]= [];bO[bP[_$_5ca4[233]]][_$_5ca4[74]]({title:bP[_$_5ca4[234]],author:bP[_$_5ca4[235]],mid:bP[_$_5ca4[229]]})};return bO}},eventChat:function(y){y[_$_5ca4[236]]= j(y[_$_5ca4[236]]);y[_$_5ca4[236]]= g(y[_$_5ca4[236]]);y[_$_5ca4[236]]= y[_$_5ca4[236]][_$_5ca4[148]]();a[_$_5ca4[8]][_$_5ca4[243]][_$_5ca4[74]]([y[_$_5ca4[237]],y[_$_5ca4[236]],y[_$_5ca4[238]],y[_$_5ca4[239]],y[_$_5ca4[240]],y[_$_5ca4[241]],y[_$_5ca4[242]]]);for(var q=0;q< a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]];q++){if(a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[3]]=== y[_$_5ca4[241]]){a[_$_5ca4[129]][_$_5ca4[244]](a[_$_5ca4[8]][_$_5ca4[53]][q]);if(a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[15]]!== y[_$_5ca4[242]]){a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[15]]= y[_$_5ca4[242]]}}};if(a[_$_5ca4[246]][_$_5ca4[245]](y)){return void((0))};if(!a[_$_5ca4[246]][_$_5ca4[247]](y)){a[_$_5ca4[246]][_$_5ca4[248]](y)}},eventUserjoin:function(X){var bT=false;var bR=null;for(var q=0;q< a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]];q++){if(a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[3]]=== X[_$_5ca4[3]]){bT= true;bR= q}};var bQ=true;var bV=null;if(bT){a[_$_5ca4[8]][_$_5ca4[53]][bR][_$_5ca4[142]]= true;var bd=a[_$_5ca4[129]][_$_5ca4[128]](X[_$_5ca4[3]]);var bS=bd[_$_5ca4[136]];var bU=Date[_$_5ca4[31]]()- bS;if(bU< 10* 1000){bQ= false}else {bV= true}}else {a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[74]]( new a[_$_5ca4[249]](X[_$_5ca4[3]],X[_$_5ca4[15]]));bV= false};for(var Q=0;Q< a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]];Q++){if(a[_$_5ca4[129]][_$_5ca4[4]](a[_$_5ca4[8]][_$_5ca4[53]][Q])[_$_5ca4[3]]=== X[_$_5ca4[3]]){a[_$_5ca4[129]][_$_5ca4[244]](a[_$_5ca4[8]][_$_5ca4[53]][Q]);a[_$_5ca4[8]][_$_5ca4[53]][Q][_$_5ca4[136]]= Date[_$_5ca4[31]]()}};if(a[_$_5ca4[27]][_$_5ca4[250]]&& bQ){bV?setTimeout(function(X){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[251]],{name:X[_$_5ca4[15]]}))},1* 1000,X):setTimeout(function(X){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[250]],{name:X[_$_5ca4[15]]}))},1* 1000,X)}},eventUserleave:function(X){var bW=API[_$_5ca4[252]]()[0][_$_5ca4[178]][_$_5ca4[3]];for(var q=0;q< a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]];q++){if(a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[3]]=== X[_$_5ca4[3]]){a[_$_5ca4[129]][_$_5ca4[253]](a[_$_5ca4[8]][_$_5ca4[53]][q]);a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[142]]= false;if(bW== X[_$_5ca4[3]]){var X=a[_$_5ca4[129]][_$_5ca4[128]](a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[3]]);a[_$_5ca4[129]][_$_5ca4[254]](X,0);X[_$_5ca4[144]][_$_5ca4[51]]= null;X[_$_5ca4[144]][_$_5ca4[146]]= X[_$_5ca4[145]]}}}},eventVoteupdate:function(u){for(var q=0;q< a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]];q++){if(a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[3]]=== u[_$_5ca4[178]][_$_5ca4[3]]){if(u[_$_5ca4[255]]=== 1){a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[138]][_$_5ca4[152]]++}else {a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[138]][_$_5ca4[149]]++}}};var bX=API[_$_5ca4[13]]()[_$_5ca4[12]];var ca=API[_$_5ca4[13]]()[_$_5ca4[256]];var bF=API[_$_5ca4[16]]();var bZ=API[_$_5ca4[257]]();var bY=API[_$_5ca4[258]]();if(a[_$_5ca4[27]][_$_5ca4[259]]){if((bX- ca)>= (a[_$_5ca4[27]][_$_5ca4[260]])){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[261]],{name:bF[_$_5ca4[15]],limit:a[_$_5ca4[27]][_$_5ca4[260]]}));if(a[_$_5ca4[27]][_$_5ca4[262]]&& bZ> bY){a[_$_5ca4[161]][_$_5ca4[262]]()}else {API[_$_5ca4[20]]()}}}},eventCurateupdate:function(u){for(var q=0;q< a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]];q++){if(a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[3]]=== u[_$_5ca4[178]][_$_5ca4[3]]){a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[138]][_$_5ca4[263]]++}}},eventDjadvance:function(u){if(a[_$_5ca4[27]][_$_5ca4[264]]){$(_$_5ca4[266])[_$_5ca4[265]]()};var X=a[_$_5ca4[129]][_$_5ca4[128]](u[_$_5ca4[267]][_$_5ca4[3]]);for(var q=0;q< a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]];q++){if(a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[3]]=== X[_$_5ca4[3]]){a[_$_5ca4[8]][_$_5ca4[53]][q][_$_5ca4[144]]= {time:null,position:null,songCount:0}}};var ci=u[_$_5ca4[268]];if( typeof ci=== _$_5ca4[2]){return};if(a[_$_5ca4[27]][_$_5ca4[269]]){if( typeof a[_$_5ca4[47]][_$_5ca4[270]]=== _$_5ca4[2]){API[_$_5ca4[19]](_$_5ca4[226]+ ci[_$_5ca4[271]][_$_5ca4[235]]+ _$_5ca4[272]+ ci[_$_5ca4[271]][_$_5ca4[234]]+ _$_5ca4[273]+ ci[_$_5ca4[274]][_$_5ca4[256]]+ _$_5ca4[275]+ ci[_$_5ca4[274]][_$_5ca4[276]]+ _$_5ca4[277]+ ci[_$_5ca4[274]][_$_5ca4[12]]+ _$_5ca4[278])}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[270]],{artist:ci[_$_5ca4[271]][_$_5ca4[235]],title:ci[_$_5ca4[271]][_$_5ca4[234]],woots:ci[_$_5ca4[274]][_$_5ca4[256]],grabs:ci[_$_5ca4[274]][_$_5ca4[276]],mehs:ci[_$_5ca4[274]][_$_5ca4[12]]}))}};a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[279]]+= ci[_$_5ca4[274]][_$_5ca4[256]];a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[280]]+= ci[_$_5ca4[274]][_$_5ca4[12]];a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[281]]+= ci[_$_5ca4[274]][_$_5ca4[276]];a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[147]]++;a[_$_5ca4[161]][_$_5ca4[282]]();a[_$_5ca4[8]][_$_5ca4[283]]= u[_$_5ca4[267]][_$_5ca4[3]];var ce=setTimeout(function(){var co=u[_$_5ca4[271]][_$_5ca4[284]]+ _$_5ca4[285]+ u[_$_5ca4[271]][_$_5ca4[237]];for(var bM in a[_$_5ca4[8]][_$_5ca4[227]]){if(a[_$_5ca4[27]][_$_5ca4[286]]){if(a[_$_5ca4[8]][_$_5ca4[227]][bM][_$_5ca4[66]](co)>  -1){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[287]],{blacklist:bM}));if(a[_$_5ca4[27]][_$_5ca4[262]]){return a[_$_5ca4[161]][_$_5ca4[262]]()}else {return API[_$_5ca4[20]]()}}}}},2000);var ck=u[_$_5ca4[271]];var cn=setTimeout(function(){if(a[_$_5ca4[27]][_$_5ca4[288]]&& ck[_$_5ca4[289]]> a[_$_5ca4[27]][_$_5ca4[290]]* 60&& !a[_$_5ca4[8]][_$_5ca4[291]]){var U=u[_$_5ca4[267]][_$_5ca4[15]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[292]],{name:U,maxlength:a[_$_5ca4[27]][_$_5ca4[290]]}));if(a[_$_5ca4[27]][_$_5ca4[262]]){return a[_$_5ca4[161]][_$_5ca4[262]]()}else {return API[_$_5ca4[20]]()}}},2000);var cg=u[_$_5ca4[271]][_$_5ca4[284]];var cf=u[_$_5ca4[271]][_$_5ca4[237]];var cj=setTimeout(function(){if(cg== 1){$[_$_5ca4[220]](_$_5ca4[293]+ cf+ _$_5ca4[294],function(bP){if( typeof (bP[_$_5ca4[295]][0])=== _$_5ca4[2]){var U=u[_$_5ca4[267]][_$_5ca4[15]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[296]],{name:U}));if(a[_$_5ca4[27]][_$_5ca4[262]]){return a[_$_5ca4[161]][_$_5ca4[262]]()}else {return API[_$_5ca4[20]]()}}})}else {var cp=SC[_$_5ca4[48]](_$_5ca4[297]+ cf,function(bP){if( typeof bP[_$_5ca4[234]]=== _$_5ca4[2]){var U=u[_$_5ca4[267]][_$_5ca4[15]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[296]],{name:U}));if(a[_$_5ca4[27]][_$_5ca4[262]]){return a[_$_5ca4[161]][_$_5ca4[262]]()}else {return API[_$_5ca4[20]]()}}})}},2000);clearTimeout(ch);if(a[_$_5ca4[27]][_$_5ca4[298]]){var cc=false;var cd=API[_$_5ca4[252]]();var U=u[_$_5ca4[267]][_$_5ca4[15]];var ch=setTimeout(function(){for(var q=0;q< cd[_$_5ca4[6]];q++){if(cd[q][_$_5ca4[271]][_$_5ca4[237]]=== u[_$_5ca4[271]][_$_5ca4[237]]){a[_$_5ca4[8]][_$_5ca4[55]][q][_$_5ca4[74]](+ new Date());cc= true;API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[299]],{name:U}));if(a[_$_5ca4[27]][_$_5ca4[262]]){return a[_$_5ca4[161]][_$_5ca4[262]]()}else {return API[_$_5ca4[20]]()}}};if(!cc){a[_$_5ca4[8]][_$_5ca4[55]][_$_5ca4[74]]([u[_$_5ca4[271]][_$_5ca4[237]],+ new Date()])}},2000)};if(X[_$_5ca4[300]]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[301]],{name:X[_$_5ca4[15]]}));X[_$_5ca4[300]]= false};clearTimeout(a[_$_5ca4[8]][_$_5ca4[302]]);if(a[_$_5ca4[27]][_$_5ca4[303]]){var cl=u[_$_5ca4[271]][_$_5ca4[289]]* 1000;var cm=API[_$_5ca4[304]]()[_$_5ca4[237]];a[_$_5ca4[8]][_$_5ca4[302]]= setTimeout(function(){var cq=API[_$_5ca4[304]]()[_$_5ca4[237]];if(cm=== cq){API[_$_5ca4[20]]()}},cl+ 5000)};o()},eventWaitlistupdate:function(cr){if(cr[_$_5ca4[6]]< 50){if(a[_$_5ca4[8]][_$_5ca4[59]][_$_5ca4[3]][_$_5ca4[6]]> 0&& a[_$_5ca4[8]][_$_5ca4[209]]){a[_$_5ca4[8]][_$_5ca4[209]]= false;setTimeout(function(){a[_$_5ca4[8]][_$_5ca4[209]]= true},500);a[_$_5ca4[8]][_$_5ca4[305]]++;var r,V;setTimeout(function(){r= a[_$_5ca4[8]][_$_5ca4[59]][_$_5ca4[3]][_$_5ca4[306]](0,1)[0];V= a[_$_5ca4[8]][_$_5ca4[59]][_$_5ca4[146]][_$_5ca4[306]](0,1)[0];API[_$_5ca4[156]](r,V);setTimeout(function(r,V){API[_$_5ca4[157]](r,V);a[_$_5ca4[8]][_$_5ca4[305]]--;if(a[_$_5ca4[8]][_$_5ca4[59]][_$_5ca4[3]][_$_5ca4[6]]=== 0){setTimeout(function(){a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[212]]()},1000)}},1000,r,V)},1000+ a[_$_5ca4[8]][_$_5ca4[305]]* 2500)}};for(var q=0;q< cr[_$_5ca4[6]];q++){var X=a[_$_5ca4[129]][_$_5ca4[128]](cr[q][_$_5ca4[3]]);a[_$_5ca4[129]][_$_5ca4[254]](X,API[_$_5ca4[1]](cr[q][_$_5ca4[3]])+ 1)}},chatcleaner:function(y){if(!a[_$_5ca4[27]][_$_5ca4[307]]){return false};if(a[_$_5ca4[129]][_$_5ca4[202]](y[_$_5ca4[241]])> 1){return false};var bk=y[_$_5ca4[236]];var cu=false;for(var q=0;q< bk[_$_5ca4[6]];q++){ct= bk[_$_5ca4[308]](q);if((ct>= _$_5ca4[309]&& ct<= _$_5ca4[310])|| (ct>= _$_5ca4[311]&& ct<= _$_5ca4[312])|| (ct>= _$_5ca4[313]&& ct<= _$_5ca4[314])|| ct=== _$_5ca4[285]|| ct=== _$_5ca4[315]){cu= true}};if(bk=== _$_5ca4[79]){return true};if(!cu&& (bk[_$_5ca4[6]]=== 1|| bk[_$_5ca4[6]]> 3)){return true};bk= bk[_$_5ca4[40]](/[ ,.\/=~+%^*\-\\"'&@#]/g,_$_5ca4[79]);var cs=0;var ct;for(var q=0;q< bk[_$_5ca4[6]];q++){ct= bk[_$_5ca4[308]](q);if(ct>= _$_5ca4[311]&& ct<= _$_5ca4[312]){cs++}};if(cs>= 40){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[316]],{name:y[_$_5ca4[242]]}));return true};bk= bk[_$_5ca4[43]]();if(bk=== _$_5ca4[317]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[318]],{name:y[_$_5ca4[242]]}));return true};for(var Q=0;Q< a[_$_5ca4[246]][_$_5ca4[319]][_$_5ca4[6]];Q++){if(bk=== a[_$_5ca4[246]][_$_5ca4[319]][Q]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[320]],{name:y[_$_5ca4[242]]}));return true}};return false},chatUtilities:{chatFilter:function(y){var bk=y[_$_5ca4[236]];var cy=a[_$_5ca4[129]][_$_5ca4[202]](y[_$_5ca4[241]]);var X=a[_$_5ca4[129]][_$_5ca4[128]](y[_$_5ca4[241]]);var cv=false;for(var q=0;q< a[_$_5ca4[8]][_$_5ca4[56]][_$_5ca4[6]];q++){if(a[_$_5ca4[8]][_$_5ca4[56]][q]=== y[_$_5ca4[241]]){cv= true}};if(cv){API[_$_5ca4[321]](y[_$_5ca4[237]]);return true};if(a[_$_5ca4[27]][_$_5ca4[322]]){if(cy=== 0){API[_$_5ca4[321]](y[_$_5ca4[237]]);return true}};if(a[_$_5ca4[323]](y)){API[_$_5ca4[321]](y[_$_5ca4[237]]);return true};if(a[_$_5ca4[27]][_$_5ca4[324]]&& bk[_$_5ca4[75]](a[_$_5ca4[27]][_$_5ca4[325]])){API[_$_5ca4[321]](y[_$_5ca4[237]])};var cz=/(\bhttps?:\/\/(www.)?plug\.dj[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;if(cz[_$_5ca4[326]](bk)){if(cy=== 0){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[327]],{name:y[_$_5ca4[242]]}));API[_$_5ca4[330]](X[_$_5ca4[3]],1,API[_$_5ca4[329]][_$_5ca4[328]]);return true}};if(bk[_$_5ca4[66]](_$_5ca4[331])>  -1){API[_$_5ca4[321]](y[_$_5ca4[237]]);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[332]],{name:y[_$_5ca4[242]]}));return true};if(bk[_$_5ca4[66]](_$_5ca4[333])> 0|| bk[_$_5ca4[66]](_$_5ca4[334])> 0|| bk[_$_5ca4[66]](_$_5ca4[119])> 0|| bk[_$_5ca4[66]](_$_5ca4[120])> 0|| bk[_$_5ca4[66]](_$_5ca4[335])> 0|| bk[_$_5ca4[66]](_$_5ca4[336])> 0){API[_$_5ca4[321]](y[_$_5ca4[237]]);return true};var cA=a[_$_5ca4[47]][_$_5ca4[337]];var cB=a[_$_5ca4[47]][_$_5ca4[338]];var cw=cA[_$_5ca4[72]](_$_5ca4[339]);if(cw[1][_$_5ca4[6]]> cw[0][_$_5ca4[6]]){cw= cw[1]}else {cw= cw[0]};var cx=cB[_$_5ca4[72]](_$_5ca4[339]);if(cx[1][_$_5ca4[6]]> cx[0][_$_5ca4[6]]){cx= cx[1]}else {cx= cx[0]};if((bk[_$_5ca4[66]](cw)> -1|| bk[_$_5ca4[66]](cx)>  -1)&& y[_$_5ca4[241]]=== a[_$_5ca4[340]]){setTimeout(function(r){API[_$_5ca4[321]](r)},5* 1000,y[_$_5ca4[237]]);return true};return false},commandCheck:function(y){var cC;if(y[_$_5ca4[236]][_$_5ca4[308]](0)=== a[_$_5ca4[27]][_$_5ca4[325]]){var cG=y[_$_5ca4[236]][_$_5ca4[66]](_$_5ca4[68]);if(cG===  -1){cC= y[_$_5ca4[236]]}else {cC= y[_$_5ca4[236]][_$_5ca4[67]](0,cG)}}else {return false};var cH=a[_$_5ca4[129]][_$_5ca4[202]](y[_$_5ca4[241]]);if(y[_$_5ca4[236]]!== a[_$_5ca4[27]][_$_5ca4[325]]+ _$_5ca4[341]&& y[_$_5ca4[236]]!== a[_$_5ca4[27]][_$_5ca4[325]]+ _$_5ca4[342]){if(cH=== 0&& !a[_$_5ca4[8]][_$_5ca4[343]]){return void((0))};if(!a[_$_5ca4[8]][_$_5ca4[344]]){return void((0))}};if(y[_$_5ca4[236]]=== a[_$_5ca4[27]][_$_5ca4[325]]+ _$_5ca4[345]&& a[_$_5ca4[27]][_$_5ca4[346]]){if(cH< 2){var bd=a[_$_5ca4[129]][_$_5ca4[128]](y[_$_5ca4[241]]);if(bd[_$_5ca4[139]]!== null&& (Date[_$_5ca4[31]]()- bd[_$_5ca4[139]])< 1* 60* 60* 1000){API[_$_5ca4[321]](y[_$_5ca4[237]]);return void((0))}else {bd[_$_5ca4[139]]= Date[_$_5ca4[31]]()}}};var cF=false;for(var cE in a[_$_5ca4[347]]){var cD=a[_$_5ca4[347]][cE][_$_5ca4[348]];if(!Array[_$_5ca4[73]](cD)){cD= [cD]};for(var q=0;q< cD[_$_5ca4[6]];q++){if(a[_$_5ca4[27]][_$_5ca4[325]]+ cD[q]=== cC){a[_$_5ca4[347]][cE][_$_5ca4[349]](y,a[_$_5ca4[27]][_$_5ca4[325]]+ cD[q]);cF= true;break}}};if(cF&& cH=== 0){a[_$_5ca4[8]][_$_5ca4[343]]= false;setTimeout(function(){a[_$_5ca4[8]][_$_5ca4[343]]= true},a[_$_5ca4[27]][_$_5ca4[350]]* 1000)};if(cF){a[_$_5ca4[8]][_$_5ca4[344]]= true};return cF},action:function(y){var X=a[_$_5ca4[129]][_$_5ca4[128]](y[_$_5ca4[241]]);if(y[_$_5ca4[240]]=== _$_5ca4[236]){for(var Q=0;Q< a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]];Q++){if(a[_$_5ca4[129]][_$_5ca4[4]](a[_$_5ca4[8]][_$_5ca4[53]][Q])[_$_5ca4[3]]=== y[_$_5ca4[241]]){a[_$_5ca4[129]][_$_5ca4[244]](a[_$_5ca4[8]][_$_5ca4[53]][Q])}}};a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[351]]++},spam:[_$_5ca4[352],_$_5ca4[353],_$_5ca4[354],_$_5ca4[355],_$_5ca4[354],_$_5ca4[356],_$_5ca4[357],_$_5ca4[358],_$_5ca4[359],_$_5ca4[360],_$_5ca4[361],_$_5ca4[362],_$_5ca4[363],_$_5ca4[364],_$_5ca4[365],_$_5ca4[366],_$_5ca4[367],_$_5ca4[368],_$_5ca4[369],_$_5ca4[370],_$_5ca4[371],_$_5ca4[372],_$_5ca4[373],_$_5ca4[374],_$_5ca4[375],_$_5ca4[376],_$_5ca4[377],_$_5ca4[378],_$_5ca4[379],_$_5ca4[380],_$_5ca4[381],_$_5ca4[382],_$_5ca4[383],_$_5ca4[384],_$_5ca4[385],_$_5ca4[386],_$_5ca4[387],_$_5ca4[388],_$_5ca4[389],_$_5ca4[390],_$_5ca4[391],_$_5ca4[392],_$_5ca4[393],_$_5ca4[394],_$_5ca4[395],_$_5ca4[396],_$_5ca4[397],_$_5ca4[398],_$_5ca4[399]],curses:[_$_5ca4[400],_$_5ca4[401],_$_5ca4[402],_$_5ca4[403],_$_5ca4[404],_$_5ca4[405],_$_5ca4[406],_$_5ca4[407],_$_5ca4[408],_$_5ca4[409],_$_5ca4[410],_$_5ca4[411],_$_5ca4[410],_$_5ca4[412],_$_5ca4[413],_$_5ca4[414],_$_5ca4[415],_$_5ca4[416],_$_5ca4[417],_$_5ca4[418],_$_5ca4[419],_$_5ca4[420],_$_5ca4[421],_$_5ca4[422],_$_5ca4[423],_$_5ca4[424],_$_5ca4[425],_$_5ca4[426],_$_5ca4[427],_$_5ca4[428],_$_5ca4[429],_$_5ca4[430],_$_5ca4[431],_$_5ca4[432],_$_5ca4[433],_$_5ca4[434],_$_5ca4[435],_$_5ca4[436],_$_5ca4[437],_$_5ca4[437],_$_5ca4[438],_$_5ca4[439],_$_5ca4[440],_$_5ca4[441],_$_5ca4[442],_$_5ca4[443],_$_5ca4[444],_$_5ca4[445],_$_5ca4[446]]},connectAPI:function(){this[_$_5ca4[447]]= {eventChat:$[_$_5ca4[447]](this[_$_5ca4[448]],this),eventUserskip:$[_$_5ca4[447]](this[_$_5ca4[449]],this),eventUserjoin:$[_$_5ca4[447]](this[_$_5ca4[450]],this),eventUserleave:$[_$_5ca4[447]](this[_$_5ca4[451]],this),eventVoteupdate:$[_$_5ca4[447]](this[_$_5ca4[452]],this),eventCurateupdate:$[_$_5ca4[447]](this[_$_5ca4[453]],this),eventRoomscoreupdate:$[_$_5ca4[447]](this[_$_5ca4[454]],this),eventDjadvance:$[_$_5ca4[447]](this[_$_5ca4[455]],this),eventWaitlistupdate:$[_$_5ca4[447]](this[_$_5ca4[456]],this),eventVoteskip:$[_$_5ca4[447]](this[_$_5ca4[457]],this),eventModskip:$[_$_5ca4[447]](this[_$_5ca4[458]],this),eventChatcommand:$[_$_5ca4[447]](this[_$_5ca4[459]],this),eventHistoryupdate:$[_$_5ca4[447]](this[_$_5ca4[460]],this)};API[_$_5ca4[22]](API[_$_5ca4[461]],this[_$_5ca4[447]][_$_5ca4[448]]);API[_$_5ca4[22]](API[_$_5ca4[462]],this[_$_5ca4[447]][_$_5ca4[449]]);API[_$_5ca4[22]](API[_$_5ca4[463]],this[_$_5ca4[447]][_$_5ca4[450]]);API[_$_5ca4[22]](API[_$_5ca4[464]],this[_$_5ca4[447]][_$_5ca4[451]]);API[_$_5ca4[22]](API[_$_5ca4[21]],this[_$_5ca4[447]][_$_5ca4[452]]);API[_$_5ca4[22]](API[_$_5ca4[465]],this[_$_5ca4[447]][_$_5ca4[453]]);API[_$_5ca4[22]](API[_$_5ca4[466]],this[_$_5ca4[447]][_$_5ca4[454]]);API[_$_5ca4[22]](API[_$_5ca4[23]],this[_$_5ca4[447]][_$_5ca4[455]]);API[_$_5ca4[22]](API[_$_5ca4[467]],this[_$_5ca4[447]][_$_5ca4[456]]);API[_$_5ca4[22]](API[_$_5ca4[468]],this[_$_5ca4[447]][_$_5ca4[458]]);API[_$_5ca4[22]](API[_$_5ca4[469]],this[_$_5ca4[447]][_$_5ca4[459]]);API[_$_5ca4[22]](API[_$_5ca4[470]],this[_$_5ca4[447]][_$_5ca4[460]])},disconnectAPI:function(){API[_$_5ca4[471]](API[_$_5ca4[461]],this[_$_5ca4[447]][_$_5ca4[448]]);API[_$_5ca4[471]](API[_$_5ca4[462]],this[_$_5ca4[447]][_$_5ca4[449]]);API[_$_5ca4[471]](API[_$_5ca4[463]],this[_$_5ca4[447]][_$_5ca4[450]]);API[_$_5ca4[471]](API[_$_5ca4[464]],this[_$_5ca4[447]][_$_5ca4[451]]);API[_$_5ca4[471]](API[_$_5ca4[21]],this[_$_5ca4[447]][_$_5ca4[452]]);API[_$_5ca4[471]](API[_$_5ca4[472]],this[_$_5ca4[447]][_$_5ca4[453]]);API[_$_5ca4[471]](API[_$_5ca4[466]],this[_$_5ca4[447]][_$_5ca4[454]]);API[_$_5ca4[471]](API[_$_5ca4[23]],this[_$_5ca4[447]][_$_5ca4[455]]);API[_$_5ca4[471]](API[_$_5ca4[467]],this[_$_5ca4[447]][_$_5ca4[456]]);API[_$_5ca4[471]](API[_$_5ca4[468]],this[_$_5ca4[447]][_$_5ca4[458]]);API[_$_5ca4[471]](API[_$_5ca4[469]],this[_$_5ca4[447]][_$_5ca4[459]]);API[_$_5ca4[471]](API[_$_5ca4[470]],this[_$_5ca4[447]][_$_5ca4[460]])},startup:function(){Function[_$_5ca4[71]][_$_5ca4[187]]= function(){return _$_5ca4[473]};var bd=API[_$_5ca4[4]]();if(a[_$_5ca4[129]][_$_5ca4[202]](bd)< 2){return API[_$_5ca4[35]](a[_$_5ca4[47]][_$_5ca4[474]])};if(a[_$_5ca4[129]][_$_5ca4[202]](bd)=== 2){API[_$_5ca4[35]](a[_$_5ca4[47]][_$_5ca4[176]])};a[_$_5ca4[475]]();API[_$_5ca4[321]]= function(cf){$[_$_5ca4[478]]({url:_$_5ca4[476]+ cf,type:_$_5ca4[477]})};a[_$_5ca4[8]][_$_5ca4[479]]= window[_$_5ca4[481]][_$_5ca4[480]];var cI;console[_$_5ca4[36]](a[_$_5ca4[8]][_$_5ca4[479]]);var cJ=function(){if(a[_$_5ca4[8]][_$_5ca4[479]]!= window[_$_5ca4[481]][_$_5ca4[480]]){console[_$_5ca4[36]](_$_5ca4[482]);o();a[_$_5ca4[483]]();setTimeout(function(){i()},1000);if(a[_$_5ca4[27]][_$_5ca4[484]]){window[_$_5ca4[481]]= a[_$_5ca4[8]][_$_5ca4[479]]}else {clearInterval(cI)}}};cI= setInterval(function(){cJ()},2000);n();m();window[_$_5ca4[485]]= a;a[_$_5ca4[161]][_$_5ca4[486]]();setInterval(a[_$_5ca4[161]][_$_5ca4[486]],60* 60* 1000);a[_$_5ca4[487]]= a[_$_5ca4[161]][_$_5ca4[488]];a[_$_5ca4[489]]= a[_$_5ca4[161]][_$_5ca4[489]];if(a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[490]]=== null){a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[490]]= Date[_$_5ca4[31]]()};for(var Q=0;Q< a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]];Q++){a[_$_5ca4[8]][_$_5ca4[53]][Q][_$_5ca4[142]]= false};var cM=API[_$_5ca4[24]]();for(var q=0;q< cM[_$_5ca4[6]];q++){var bT=false;var T=null;for(var Q=0;Q< a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]];Q++){if(a[_$_5ca4[8]][_$_5ca4[53]][Q][_$_5ca4[3]]=== cM[q][_$_5ca4[3]]){bT= true;T= Q}};if(bT){a[_$_5ca4[8]][_$_5ca4[53]][T][_$_5ca4[142]]= true}else {a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[74]]( new a[_$_5ca4[249]](cM[q][_$_5ca4[3]],cM[q][_$_5ca4[15]]));T= a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]]- 1};var cN=API[_$_5ca4[1]](a[_$_5ca4[8]][_$_5ca4[53]][T][_$_5ca4[3]])+ 1;a[_$_5ca4[129]][_$_5ca4[254]](a[_$_5ca4[8]][_$_5ca4[53]][T],cN)};a[_$_5ca4[8]][_$_5ca4[10]]= setInterval(function(){a[_$_5ca4[161]][_$_5ca4[491]]()},10* 1000);a[_$_5ca4[8]][_$_5ca4[7]]= setInterval(function(){a[_$_5ca4[8]][_$_5ca4[492]]()},60* 60* 1000);a[_$_5ca4[8]][_$_5ca4[9]]= setInterval(function(){a[_$_5ca4[8]][_$_5ca4[493]]()},45* 60* 1000);a[_$_5ca4[8]][_$_5ca4[494]]= setInterval(function(){var cO= new Date();if(cO[_$_5ca4[495]]()=== 6&& cO[_$_5ca4[496]]()=== 45&& cO[_$_5ca4[497]]()=== 0){API[_$_5ca4[19]](_$_5ca4[498])}},1000);a[_$_5ca4[8]][_$_5ca4[499]]= setInterval(function(){var cP= new Date();if(cP[_$_5ca4[495]]()=== 6&& cP[_$_5ca4[496]]()=== 55&& cP[_$_5ca4[497]]()=== 0){API[_$_5ca4[19]](_$_5ca4[498])}},1000);a[_$_5ca4[340]]= API[_$_5ca4[4]]()[_$_5ca4[3]];a[_$_5ca4[11]]= true;API[_$_5ca4[19]](_$_5ca4[500]+ a[_$_5ca4[27]][_$_5ca4[501]]);API[_$_5ca4[503]](a[_$_5ca4[27]][_$_5ca4[502]]);if(a[_$_5ca4[27]][_$_5ca4[264]]){$(_$_5ca4[266])[_$_5ca4[265]]()};if(a[_$_5ca4[27]][_$_5ca4[504]]){var cK=$(_$_5ca4[505]);if(cK[_$_5ca4[6]]> 0){cK[0][_$_5ca4[265]]()};API[_$_5ca4[35]](_$_5ca4[506])}else {var cL=$(_$_5ca4[507]);if(cL[_$_5ca4[6]]> 0){cL[0][_$_5ca4[265]]()};API[_$_5ca4[35]](_$_5ca4[508])};API[_$_5ca4[35]](_$_5ca4[509]+ a[_$_5ca4[27]][_$_5ca4[501]]);API[_$_5ca4[35]](_$_5ca4[510]+ a[_$_5ca4[27]][_$_5ca4[502]]);k(API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[511]],{botname:a[_$_5ca4[27]][_$_5ca4[512]],version:a[_$_5ca4[32]]})))},commands:{executable:function(cR,y){var r=y[_$_5ca4[241]];var cy=a[_$_5ca4[129]][_$_5ca4[202]](r);var cQ;switch(cR){case _$_5ca4[172]:cQ= 10;break;case _$_5ca4[105]:cQ= 7;break;case _$_5ca4[173]:cQ= 5;break;case _$_5ca4[174]:cQ= 4;break;case _$_5ca4[175]:cQ= 3;break;case _$_5ca4[514]:if(a[_$_5ca4[27]][_$_5ca4[513]]){cQ= 2}else {cQ= 3};break;case _$_5ca4[176]:cQ= 2;break;case _$_5ca4[177]:cQ= 1;break;case _$_5ca4[178]:cQ= 0;break;default:API[_$_5ca4[35]](_$_5ca4[515])};return cy>= cQ},activeCommand:{command:_$_5ca4[516],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];var cV=Date[_$_5ca4[31]]();var cS=0;var bo;var cU=a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[490]];var cT=Date[_$_5ca4[31]]()- cU;var cW=cT/ 1000;if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){bo= cW}else {bo= bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);if(isNaN(bo)){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[520]],{name:y[_$_5ca4[242]]}))}};for(var q=0;q< a[_$_5ca4[8]][_$_5ca4[53]][_$_5ca4[6]];q++){userTime= a[_$_5ca4[129]][_$_5ca4[203]](a[_$_5ca4[8]][_$_5ca4[53]][q]);if((cV- userTime)<= (bo* 60* 1000)){cS++}};API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[521]],{name:y[_$_5ca4[242]],amount:cS,time:bo}))}}},addCommand:{command:_$_5ca4[522],rank:_$_5ca4[514],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[523]],{name:y[_$_5ca4[242]]}))};var U=bk[_$_5ca4[524]](cC[_$_5ca4[6]]+ 2);var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if(bk[_$_5ca4[6]]> cC[_$_5ca4[6]]+ 2){if( typeof X!== _$_5ca4[2]){if(a[_$_5ca4[8]][_$_5ca4[291]]){a[_$_5ca4[8]][_$_5ca4[526]][_$_5ca4[74]](X[_$_5ca4[3]])};API[_$_5ca4[156]](X[_$_5ca4[3]])}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[527]],{name:y[_$_5ca4[242]]}))}}}}},afklimitCommand:{command:_$_5ca4[528],rank:_$_5ca4[175],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[529]],{name:y[_$_5ca4[242]]}))};var cX=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);if(!isNaN(cX)){a[_$_5ca4[27]][_$_5ca4[204]]= parseInt(cX,10);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[530]],{name:y[_$_5ca4[242]],time:a[_$_5ca4[27]][_$_5ca4[204]]}))}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[531]],{name:y[_$_5ca4[242]]}))}}}},afkremovalCommand:{command:_$_5ca4[532],rank:_$_5ca4[514],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[197]]){a[_$_5ca4[27]][_$_5ca4[197]]= !a[_$_5ca4[27]][_$_5ca4[197]];clearInterval(a[_$_5ca4[8]][_$_5ca4[10]]);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[532]]}))}else {a[_$_5ca4[27]][_$_5ca4[197]]= !a[_$_5ca4[27]][_$_5ca4[197]];a[_$_5ca4[8]][_$_5ca4[10]]= setInterval(function(){a[_$_5ca4[161]][_$_5ca4[491]]()},2* 1000);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[532]]}))}}}},afkresetCommand:{command:_$_5ca4[535],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[523]],{name:y[_$_5ca4[242]]}))};var U=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2);var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if( typeof X=== _$_5ca4[164]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[527]],{name:y[_$_5ca4[242]]}))};a[_$_5ca4[129]][_$_5ca4[244]](X);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[536]],{name:y[_$_5ca4[242]],username:U}))}}},afktimeCommand:{command:_$_5ca4[537],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[523]],{name:y[_$_5ca4[242]]}))};var U=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2);var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if( typeof X=== _$_5ca4[164]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[527]],{name:y[_$_5ca4[242]]}))};var bz=a[_$_5ca4[129]][_$_5ca4[203]](X);var by=Date[_$_5ca4[31]]()- bz;var bo=a[_$_5ca4[161]][_$_5ca4[169]](by);var cU=a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[490]];var cT=Date[_$_5ca4[31]]()- cU;if(by== cT){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[538]],{botname:a[_$_5ca4[27]][_$_5ca4[512]],name:y[_$_5ca4[242]],username:U}))}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[539]],{name:y[_$_5ca4[242]],username:U,time:bo}))}}}},autoroulette:{command:_$_5ca4[115],rank:_$_5ca4[175],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[115]]){a[_$_5ca4[27]][_$_5ca4[115]]= !a[_$_5ca4[27]][_$_5ca4[115]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[115]]}))}else {a[_$_5ca4[27]][_$_5ca4[115]]= !a[_$_5ca4[27]][_$_5ca4[115]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[115]]}))}}}},stoprouletteCommand:{command:_$_5ca4[540],rank:_$_5ca4[175],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {API[_$_5ca4[19]](_$_5ca4[541]);clearTimeout(bot[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[122]]);a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[121]]= false}}},shushCommand:{command:_$_5ca4[542],rank:_$_5ca4[178],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return};if(!bot[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return}else {var bk=y[_$_5ca4[236]];var cG=bk[_$_5ca4[66]](_$_5ca4[68]);var U=bk[_$_5ca4[67]](cG+ 2);API[_$_5ca4[19]](_$_5ca4[14]+ U+ _$_5ca4[543])}}},autodisableCommand:{command:_$_5ca4[118],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[118]]){a[_$_5ca4[27]][_$_5ca4[118]]= !a[_$_5ca4[27]][_$_5ca4[118]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[118]]}))}else {a[_$_5ca4[27]][_$_5ca4[118]]= !a[_$_5ca4[27]][_$_5ca4[118]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[118]]}))}}}},autoskipCommand:{command:_$_5ca4[303],rank:_$_5ca4[514],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[303]]){a[_$_5ca4[27]][_$_5ca4[303]]= !a[_$_5ca4[27]][_$_5ca4[303]];clearTimeout(a[_$_5ca4[8]][_$_5ca4[302]]);return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[303]]}))}else {a[_$_5ca4[27]][_$_5ca4[303]]= !a[_$_5ca4[27]][_$_5ca4[303]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[303]]}))}}}},autowootCommand:{command:_$_5ca4[264],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {API[_$_5ca4[19]](a[_$_5ca4[47]][_$_5ca4[264]])}}},baCommand:{command:_$_5ca4[544],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {API[_$_5ca4[19]](a[_$_5ca4[47]][_$_5ca4[545]])}}},ballCommand:{command:[_$_5ca4[546],_$_5ca4[547]],rank:_$_5ca4[178],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var cZ=API[_$_5ca4[24]]();var bk=y[_$_5ca4[236]];var cY=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1)[_$_5ca4[40]](/@/g,_$_5ca4[79]);var dd=Math[_$_5ca4[127]](Math[_$_5ca4[125]]()* cZ[_$_5ca4[6]]);var da=Math[_$_5ca4[127]](Math[_$_5ca4[125]]()* a[_$_5ca4[47]][_$_5ca4[548]][_$_5ca4[6]]);var db=Math[_$_5ca4[127]](Math[_$_5ca4[125]]()* 1);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[549]],{name:y[_$_5ca4[242]],botname:a[_$_5ca4[27]][_$_5ca4[512]],question:cY,response:a[_$_5ca4[47]][_$_5ca4[548]][da]}))}}},banCommand:{command:_$_5ca4[550],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[523]],{name:y[_$_5ca4[242]]}))};var U=bk[_$_5ca4[524]](cC[_$_5ca4[6]]+ 2);var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if( typeof X=== _$_5ca4[164]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[527]],{name:y[_$_5ca4[242]]}))};var de=a[_$_5ca4[129]][_$_5ca4[202]](y[_$_5ca4[241]]);var df=a[_$_5ca4[129]][_$_5ca4[202]](X[_$_5ca4[3]]);if(df>= de){return void((0))};API[_$_5ca4[330]](X[_$_5ca4[3]],1,API[_$_5ca4[329]][_$_5ca4[551]])}}},blacklistCommand:{command:[_$_5ca4[552],_$_5ca4[553]],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[554]],{name:y[_$_5ca4[242]]}))};var bO=bk[_$_5ca4[524]](cC[_$_5ca4[6]]+ 1);if( typeof a[_$_5ca4[8]][_$_5ca4[227]][bO]=== _$_5ca4[2]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[555]],{name:y[_$_5ca4[242]]}))}else {var dg=API[_$_5ca4[304]]();var bZ=API[_$_5ca4[257]]();var bY=API[_$_5ca4[258]]();var bP={list:bO,author:dg[_$_5ca4[235]],title:dg[_$_5ca4[234]],mid:dg[_$_5ca4[284]]+ _$_5ca4[285]+ dg[_$_5ca4[237]]};a[_$_5ca4[8]][_$_5ca4[60]][_$_5ca4[74]](bP);a[_$_5ca4[8]][_$_5ca4[227]][bO][_$_5ca4[74]](dg[_$_5ca4[284]]+ _$_5ca4[285]+ dg[_$_5ca4[237]]);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[556]],{name:y[_$_5ca4[242]],blacklist:bO,author:dg[_$_5ca4[235]],title:dg[_$_5ca4[234]],mid:dg[_$_5ca4[284]]+ _$_5ca4[285]+ dg[_$_5ca4[237]]}));if(a[_$_5ca4[27]][_$_5ca4[262]]&& bZ> bY){a[_$_5ca4[161]][_$_5ca4[262]]()}else {API[_$_5ca4[20]]()};if( typeof a[_$_5ca4[8]][_$_5ca4[557]]=== _$_5ca4[228]){a[_$_5ca4[8]][_$_5ca4[557]](bP)}}}}},blinfoCommand:{command:_$_5ca4[558],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var dh=API[_$_5ca4[304]]()[_$_5ca4[235]];var dk=API[_$_5ca4[304]]()[_$_5ca4[234]];var U=y[_$_5ca4[242]];var cg=API[_$_5ca4[304]]()[_$_5ca4[284]];var cf=API[_$_5ca4[304]]()[_$_5ca4[237]];var di=cg+ _$_5ca4[285]+ cf;API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[558]],{name:U,author:dh,title:dk,songid:di}))}}},bouncerPlusCommand:{command:_$_5ca4[559],rank:_$_5ca4[175],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(a[_$_5ca4[27]][_$_5ca4[513]]){a[_$_5ca4[27]][_$_5ca4[513]]= false;return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":_$_5ca4[560]}))}else {if(!a[_$_5ca4[27]][_$_5ca4[513]]){var r=y[_$_5ca4[241]];var cy=a[_$_5ca4[129]][_$_5ca4[202]](r);if(cy> 2){a[_$_5ca4[27]][_$_5ca4[513]]= true;return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":_$_5ca4[560]}))}}else {return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[561]],{name:y[_$_5ca4[242]]}))}}}}},botnameCommand:{command:_$_5ca4[562],rank:_$_5ca4[175],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]<= cC[_$_5ca4[6]]+ 1){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[563]],{botname:a[_$_5ca4[27]][_$_5ca4[512]]}))};var cY=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);if(cY){a[_$_5ca4[27]][_$_5ca4[512]]= cY;API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[564]],{botName:a[_$_5ca4[27]][_$_5ca4[512]]}))}}}},clearchatCommand:{command:_$_5ca4[565],rank:_$_5ca4[175],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var dl=$(_$_5ca4[567])[_$_5ca4[566]]();for(var q=0;q< dl[_$_5ca4[6]];q++){API[_$_5ca4[321]](dl[q][_$_5ca4[569]](_$_5ca4[568]))};return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[570]],{name:y[_$_5ca4[242]]}))}}},clearlocalstorageCommand:{command:_$_5ca4[571],rank:_$_5ca4[175],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {localStorage[_$_5ca4[572]]();API[_$_5ca4[35]](_$_5ca4[573])}}},cmddeletionCommand:{command:[_$_5ca4[574],_$_5ca4[575],_$_5ca4[576]],rank:_$_5ca4[514],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[324]]){a[_$_5ca4[27]][_$_5ca4[324]]= !a[_$_5ca4[27]][_$_5ca4[324]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[575]]}))}else {a[_$_5ca4[27]][_$_5ca4[324]]= !a[_$_5ca4[27]][_$_5ca4[324]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[575]]}))}}}},commandsCommand:{command:_$_5ca4[347],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[577]],{botname:a[_$_5ca4[27]][_$_5ca4[512]],link:a[_$_5ca4[578]]}))}}},cookieCommand:{command:_$_5ca4[579],rank:_$_5ca4[178],type:_$_5ca4[75],getCookie:function(y){var dm=Math[_$_5ca4[127]](Math[_$_5ca4[125]]()* a[_$_5ca4[47]][_$_5ca4[580]][_$_5ca4[6]]);return a[_$_5ca4[47]][_$_5ca4[580]][dm]},functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];var cG=bk[_$_5ca4[66]](_$_5ca4[68]);if(cG===  -1){API[_$_5ca4[19]](a[_$_5ca4[47]][_$_5ca4[581]]);return false}else {var U=bk[_$_5ca4[67]](cG+ 2);var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if(X=== false|| !X[_$_5ca4[142]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[582]],{name:U}))}else {if(X[_$_5ca4[15]]=== y[_$_5ca4[242]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[583]],{name:U}))}else {return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[579]],{nameto:X[_$_5ca4[15]],namefrom:y[_$_5ca4[242]],cookie:this[_$_5ca4[584]]()}))}}}}}},cycleCommand:{command:_$_5ca4[585],rank:_$_5ca4[175],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {a[_$_5ca4[161]][_$_5ca4[586]]()}}},cycleguardCommand:{command:_$_5ca4[587],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[218]]){a[_$_5ca4[27]][_$_5ca4[218]]= !a[_$_5ca4[27]][_$_5ca4[218]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[587]]}))}else {a[_$_5ca4[27]][_$_5ca4[218]]= !a[_$_5ca4[27]][_$_5ca4[218]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[587]]}))}}}},cycletimerCommand:{command:_$_5ca4[588],rank:_$_5ca4[175],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];var dn=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);if(!isNaN(dn)&& dn!== _$_5ca4[79]){a[_$_5ca4[27]][_$_5ca4[219]]= dn;return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[589]],{name:y[_$_5ca4[242]],time:a[_$_5ca4[27]][_$_5ca4[219]]}))}else {return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[520]],{name:y[_$_5ca4[242]]}))}}}},dclookupCommand:{command:[_$_5ca4[590],_$_5ca4[591]],rank:_$_5ca4[178],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];var U;if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){U= y[_$_5ca4[242]]}else {U= bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2);var cy=a[_$_5ca4[129]][_$_5ca4[202]](y[_$_5ca4[241]]);if(cy< 2){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[592]],{name:y[_$_5ca4[242]]}))}};var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if( typeof X=== _$_5ca4[164]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[527]],{name:y[_$_5ca4[242]]}))};var dp=a[_$_5ca4[129]][_$_5ca4[590]](X[_$_5ca4[3]]);API[_$_5ca4[19]](dp)}}},deletechatCommand:{command:_$_5ca4[593],rank:_$_5ca4[514],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[523]],{name:y[_$_5ca4[242]]}))};var U=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2);var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if( typeof X=== _$_5ca4[164]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[527]],{name:y[_$_5ca4[242]]}))};for(var q=1;q< a[_$_5ca4[8]][_$_5ca4[243]][_$_5ca4[6]];q++){if(a[_$_5ca4[8]][_$_5ca4[243]][q][_$_5ca4[66]](X[_$_5ca4[3]])>  -1){API[_$_5ca4[321]](a[_$_5ca4[8]][_$_5ca4[243]][q][0]);a[_$_5ca4[8]][_$_5ca4[243]][q][_$_5ca4[306]](0)}};API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[593]],{name:y[_$_5ca4[242]],username:U}))}}},emojiCommand:{command:_$_5ca4[594],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var D=_$_5ca4[595];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[596]],{link:D}))}}},englishCommand:{command:_$_5ca4[92],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(y[_$_5ca4[236]][_$_5ca4[6]]=== cC[_$_5ca4[6]]){return API[_$_5ca4[19]](_$_5ca4[597])};var U=y[_$_5ca4[236]][_$_5ca4[67]](cC[_$_5ca4[6]]+ 2);var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if( typeof X=== _$_5ca4[164]){return API[_$_5ca4[19]](_$_5ca4[598])};var dq=a[_$_5ca4[129]][_$_5ca4[4]](X)[_$_5ca4[44]];var ct=_$_5ca4[599]+ U+ _$_5ca4[68];switch(dq){case _$_5ca4[600]:break;case _$_5ca4[602]:ct+= _$_5ca4[601];break;case _$_5ca4[604]:ct+= _$_5ca4[603];break;case _$_5ca4[606]:ct+= _$_5ca4[605];break;case _$_5ca4[608]:ct+= _$_5ca4[607];break;case _$_5ca4[610]:ct+= _$_5ca4[609];break;case _$_5ca4[612]:ct+= _$_5ca4[611];break;case _$_5ca4[614]:ct+= _$_5ca4[613];break;case _$_5ca4[616]:ct+= _$_5ca4[615];break;case _$_5ca4[618]:ct+= _$_5ca4[617];break;case _$_5ca4[620]:ct+= _$_5ca4[619];break};ct+= _$_5ca4[621];API[_$_5ca4[19]](ct)}}},etaCommand:{command:_$_5ca4[345],rank:_$_5ca4[178],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var cy=a[_$_5ca4[129]][_$_5ca4[202]](y[_$_5ca4[241]]);var bk=y[_$_5ca4[236]];var bF=API[_$_5ca4[16]]()[_$_5ca4[15]];var U;if(bk[_$_5ca4[6]]> cC[_$_5ca4[6]]){if(cy< 2){return void((0))};U= bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2)}else {U= y[_$_5ca4[242]]};var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if( typeof X=== _$_5ca4[164]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[527]],{name:y[_$_5ca4[242]]}))};var V=API[_$_5ca4[1]](X[_$_5ca4[3]]);var dt=V+ 1;if(U== bF){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[622]],{name:U}))};if(V< 0){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[623]],{name:U}))};if(V== 0){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[624]],{name:U}))};var du=API[_$_5ca4[257]]();var dr=((V+ 1)* 4* 60+ du)* 1000;var ds=a[_$_5ca4[161]][_$_5ca4[169]](dr);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[345]],{name:U,time:ds,position:dt}))}}},fbCommand:{command:_$_5ca4[625],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if( typeof a[_$_5ca4[27]][_$_5ca4[626]]=== _$_5ca4[45]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[627]],{link:a[_$_5ca4[27]][_$_5ca4[626]]}))}}}},filterCommand:{command:_$_5ca4[628],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[307]]){a[_$_5ca4[27]][_$_5ca4[307]]= !a[_$_5ca4[27]][_$_5ca4[307]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[629]]}))}else {a[_$_5ca4[27]][_$_5ca4[307]]= !a[_$_5ca4[27]][_$_5ca4[307]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[629]]}))}}}},forceskipCommand:{command:[_$_5ca4[630],_$_5ca4[631]],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[630]],{name:y[_$_5ca4[242]]}));API[_$_5ca4[20]]();a[_$_5ca4[8]][_$_5ca4[210]]= false;setTimeout(function(){a[_$_5ca4[8]][_$_5ca4[210]]= true},5* 1000)}}},grojuCommand:{command:_$_5ca4[632],rank:_$_5ca4[174],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var r=y[_$_5ca4[241]];var dv=y[_$_5ca4[242]];a[_$_5ca4[129]][_$_5ca4[131]](r,1,false),API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[632]],{name:dv}))}}},ghostbusterCommand:{command:_$_5ca4[633],rank:_$_5ca4[178],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];var U;if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){U= y[_$_5ca4[242]]}else {U= bk[_$_5ca4[524]](cC[_$_5ca4[6]]+ 2)};var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if(X=== false|| !X[_$_5ca4[142]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[634]],{name1:y[_$_5ca4[242]],name2:U}))}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[635]],{name1:y[_$_5ca4[242]],name2:U}))}}}},gifCommand:{command:[_$_5ca4[636],_$_5ca4[637]],rank:_$_5ca4[178],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]!== cC[_$_5ca4[6]]){function dz(dw,dy,dD){$[_$_5ca4[220]](_$_5ca4[638],{"\x66\x6F\x72\x6D\x61\x74":_$_5ca4[639],"\x61\x70\x69\x5F\x6B\x65\x79":dw,"\x72\x61\x74\x69\x6E\x67":dB,"\x74\x61\x67":dy},function(dE){dD(dE[_$_5ca4[215]][_$_5ca4[3]])})}var dw=_$_5ca4[640];var dB=_$_5ca4[641];var dC=bk[_$_5ca4[524]](cC[_$_5ca4[6]]+ 1);var dy=dC[_$_5ca4[40]](/ /g,_$_5ca4[642]);var dx=dC[_$_5ca4[40]](/ /g,_$_5ca4[643]);dz(dw,dC,function(r){if( typeof r!== _$_5ca4[2]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[644]],{name:y[_$_5ca4[242]],id:r,tags:dx}))}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[645]],{name:y[_$_5ca4[242]],tags:dx}))}})}else {function dA(dw,dD){$[_$_5ca4[220]](_$_5ca4[638],{"\x66\x6F\x72\x6D\x61\x74":_$_5ca4[639],"\x61\x70\x69\x5F\x6B\x65\x79":dw,"\x72\x61\x74\x69\x6E\x67":dB},function(dE){dD(dE[_$_5ca4[215]][_$_5ca4[3]])})}var dw=_$_5ca4[640];var dB=_$_5ca4[641];dA(dw,function(r){if( typeof r!== _$_5ca4[2]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[646]],{name:y[_$_5ca4[242]],id:r}))}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[647]],{name:y[_$_5ca4[242]]}))}})}}}},helpCommand:{command:_$_5ca4[648],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var D=_$_5ca4[649];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[650]],{link:D}))}}},historyskipCommand:{command:_$_5ca4[651],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[298]]){a[_$_5ca4[27]][_$_5ca4[298]]= !a[_$_5ca4[27]][_$_5ca4[298]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[651]]}))}else {a[_$_5ca4[27]][_$_5ca4[298]]= !a[_$_5ca4[27]][_$_5ca4[298]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[651]]}))}}}},joinCommand:{command:_$_5ca4[652],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[121]]&& a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[126]][_$_5ca4[66]](y[_$_5ca4[241]])< 0){a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[126]][_$_5ca4[74]](y[_$_5ca4[241]]);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[337]],{name:y[_$_5ca4[242]]}))}}}},jointimeCommand:{command:_$_5ca4[136],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[523]],{name:y[_$_5ca4[242]]}))};var U=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2);var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if( typeof X=== _$_5ca4[164]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[527]],{name:y[_$_5ca4[242]]}))};var dF=a[_$_5ca4[129]][_$_5ca4[653]](X);var bo=Date[_$_5ca4[31]]()- dF;var dG=a[_$_5ca4[161]][_$_5ca4[169]](bo);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[136]],{namefrom:y[_$_5ca4[242]],username:U,time:dG}))}}},kickCommand:{command:_$_5ca4[654],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];var dH=bk[_$_5ca4[655]](_$_5ca4[68]);var bo;var U;if(dH=== bk[_$_5ca4[66]](_$_5ca4[68])){bo= 0.25;U= bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2)}else {bo= bk[_$_5ca4[67]](dH+ 1);U= bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2,dH)};var X=a[_$_5ca4[129]][_$_5ca4[525]](U);var dv=y[_$_5ca4[242]];if( typeof X=== _$_5ca4[164]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[523]],{name:y[_$_5ca4[242]]}))};var de=a[_$_5ca4[129]][_$_5ca4[202]](y[_$_5ca4[241]]);var dI=a[_$_5ca4[129]][_$_5ca4[202]](X[_$_5ca4[3]]);if(de<= dI){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[656]],{name:y[_$_5ca4[242]]}))};if(!isNaN(bo)){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[654]],{name:y[_$_5ca4[242]],username:U,time:bo}));if(bo> 24* 60* 60){API[_$_5ca4[330]](X[_$_5ca4[3]],1,API[_$_5ca4[329]][_$_5ca4[328]])}else {API[_$_5ca4[330]](X[_$_5ca4[3]],1,API[_$_5ca4[329]][_$_5ca4[551]])};setTimeout(function(r,U){API[_$_5ca4[657]](r);console[_$_5ca4[36]](_$_5ca4[658]+ U+ _$_5ca4[659]+ r+ _$_5ca4[660])},bo* 60* 1000,X[_$_5ca4[3]],U)}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[520]],{name:y[_$_5ca4[242]]}))}}}},killCommand:{command:_$_5ca4[661],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {o();API[_$_5ca4[19]](a[_$_5ca4[47]][_$_5ca4[661]]);a[_$_5ca4[483]]();setTimeout(function(){i()},1000)}}},languageCommand:{command:_$_5ca4[44],rank:_$_5ca4[175],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]<= cC[_$_5ca4[6]]+ 1){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[662]],{language:a[_$_5ca4[27]][_$_5ca4[44]]}))};var cY=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);$[_$_5ca4[48]](_$_5ca4[41],function(C){var dJ=C;var D=dJ[cY[_$_5ca4[43]]()];if( typeof D=== _$_5ca4[2]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[663]],{link:_$_5ca4[664]}))}else {a[_$_5ca4[27]][_$_5ca4[44]]= cY;k();API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[665]],{language:a[_$_5ca4[27]][_$_5ca4[44]]}))}})}}},leaveCommand:{command:_$_5ca4[342],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var T=a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[126]][_$_5ca4[66]](y[_$_5ca4[241]]);if(T>  -1){a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[126]][_$_5ca4[306]](T,1);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[338]],{name:y[_$_5ca4[242]]}))}}}},linkCommand:{command:_$_5ca4[666],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var dg=API[_$_5ca4[304]]();var dv=y[_$_5ca4[242]];var X=a[_$_5ca4[129]][_$_5ca4[128]](y[_$_5ca4[241]]);var cy=a[_$_5ca4[129]][_$_5ca4[202]](y[_$_5ca4[241]]);var bF=API[_$_5ca4[16]]()[_$_5ca4[3]];var dK=false;if(bF=== y[_$_5ca4[241]]){dK= true};if(cy>= 1|| dK){if(dg[_$_5ca4[284]]=== 1){var dL=_$_5ca4[667]+ dg[_$_5ca4[237]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[668]],{name:dv,link:dL}))};if(dg[_$_5ca4[284]]=== 2){SC[_$_5ca4[48]](_$_5ca4[297]+ dg[_$_5ca4[237]],function(dM){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[668]],{name:dv,link:dM[_$_5ca4[669]]}))})}}}}},lockCommand:{command:_$_5ca4[670],rank:_$_5ca4[514],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[159]]()}}},lockdownCommand:{command:_$_5ca4[671],rank:_$_5ca4[514],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var dN=a[_$_5ca4[27]][_$_5ca4[322]];a[_$_5ca4[27]][_$_5ca4[322]]=  !dN;if(a[_$_5ca4[27]][_$_5ca4[322]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[671]]}))}else {return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[671]]}))}}}},lockguardCommand:{command:_$_5ca4[672],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[194]]){a[_$_5ca4[27]][_$_5ca4[194]]= !a[_$_5ca4[27]][_$_5ca4[194]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[672]]}))}else {a[_$_5ca4[27]][_$_5ca4[194]]= !a[_$_5ca4[27]][_$_5ca4[194]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[672]]}))}}}},lockskipCommand:{command:_$_5ca4[673],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[8]][_$_5ca4[210]]){var bF=API[_$_5ca4[16]]();var r=bF[_$_5ca4[3]];var U=bF[_$_5ca4[15]];var dO=_$_5ca4[14]+ U+ _$_5ca4[273];a[_$_5ca4[8]][_$_5ca4[209]]= false;if(y[_$_5ca4[236]][_$_5ca4[6]]=== cC[_$_5ca4[6]]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[674]],{name:y[_$_5ca4[242]]}));a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[159]]();setTimeout(function(r){API[_$_5ca4[20]]();a[_$_5ca4[8]][_$_5ca4[210]]= false;setTimeout(function(){a[_$_5ca4[8]][_$_5ca4[210]]= true},5* 1000);setTimeout(function(r){a[_$_5ca4[129]][_$_5ca4[131]](r,a[_$_5ca4[27]][_$_5ca4[675]],false);a[_$_5ca4[8]][_$_5ca4[209]]= true;setTimeout(function(){a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[212]]()},1000)},1500,r)},1000,r);return void((0))};var dQ=false;var bk=y[_$_5ca4[236]];var bH=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);for(var q=0;q< a[_$_5ca4[27]][_$_5ca4[676]][_$_5ca4[6]];q++){var dP=a[_$_5ca4[27]][_$_5ca4[676]][q][0];if(bH[_$_5ca4[66]](dP)!==  -1){dQ= true;dO+= a[_$_5ca4[27]][_$_5ca4[676]][q][1]}};if(dQ){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[674]],{name:y[_$_5ca4[242]]}));a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[159]]();setTimeout(function(r){API[_$_5ca4[20]]();a[_$_5ca4[8]][_$_5ca4[210]]= false;API[_$_5ca4[19]](dO);setTimeout(function(){a[_$_5ca4[8]][_$_5ca4[210]]= true},5* 1000);setTimeout(function(r){a[_$_5ca4[129]][_$_5ca4[131]](r,a[_$_5ca4[27]][_$_5ca4[675]],false);a[_$_5ca4[8]][_$_5ca4[209]]= true;setTimeout(function(){a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[212]]()},1000)},1500,r)},1000,r);return void((0))}}}}},locktimerCommand:{command:_$_5ca4[677],rank:_$_5ca4[175],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];var dR=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);if(!isNaN(dR)&& dR!== _$_5ca4[79]){a[_$_5ca4[27]][_$_5ca4[196]]= dR;return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[678]],{name:y[_$_5ca4[242]],time:a[_$_5ca4[27]][_$_5ca4[196]]}))}else {return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[520]],{name:y[_$_5ca4[242]]}))}}}},logoutCommand:{command:_$_5ca4[679],rank:_$_5ca4[175],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[679]],{name:y[_$_5ca4[242]],botname:a[_$_5ca4[27]][_$_5ca4[512]]}));setTimeout(function(){$(_$_5ca4[681])[_$_5ca4[680]]()},1000)}}},maxlengthCommand:{command:_$_5ca4[682],rank:_$_5ca4[175],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];var dS=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);if(!isNaN(dS)){a[_$_5ca4[27]][_$_5ca4[290]]= dS;return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[683]],{name:y[_$_5ca4[242]],time:a[_$_5ca4[27]][_$_5ca4[290]]}))}else {return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[520]],{name:y[_$_5ca4[242]]}))}}}},motdCommand:{command:_$_5ca4[224],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]<= cC[_$_5ca4[6]]+ 1){return API[_$_5ca4[19]](_$_5ca4[684]+ a[_$_5ca4[27]][_$_5ca4[224]])};var cY=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);if(!a[_$_5ca4[27]][_$_5ca4[221]]){a[_$_5ca4[27]][_$_5ca4[221]]= !a[_$_5ca4[27]][_$_5ca4[221]]};if(isNaN(cY)){a[_$_5ca4[27]][_$_5ca4[224]]= cY;API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[685]],{msg:a[_$_5ca4[27]][_$_5ca4[224]]}))}else {a[_$_5ca4[27]][_$_5ca4[222]]= cY;API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[686]],{interval:a[_$_5ca4[27]][_$_5ca4[222]]}))}}}},moveCommand:{command:_$_5ca4[687],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[523]],{name:y[_$_5ca4[242]]}))};var dT=bk[_$_5ca4[66]](_$_5ca4[68]);var dH=bk[_$_5ca4[655]](_$_5ca4[68]);var V;var U;if(isNaN(parseInt(bk[_$_5ca4[67]](dH+ 1)))){V= 1;U= bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2)}else {V= parseInt(bk[_$_5ca4[67]](dH+ 1));U= bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2,dH)};var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if( typeof X=== _$_5ca4[164]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[527]],{name:y[_$_5ca4[242]]}))};if(X[_$_5ca4[3]]=== a[_$_5ca4[340]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[688]],{name:y[_$_5ca4[242]]}))};if(!isNaN(V)){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[687]],{name:y[_$_5ca4[242]]}));a[_$_5ca4[129]][_$_5ca4[131]](X[_$_5ca4[3]],V,false)}else {return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[689]],{name:y[_$_5ca4[242]]}))}}}},muteCommand:{command:_$_5ca4[690],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[523]],{name:y[_$_5ca4[242]]}))};var dH=bk[_$_5ca4[655]](_$_5ca4[68]);var bo=null;var U;if(dH=== bk[_$_5ca4[66]](_$_5ca4[68])){U= bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2);bo= 45}else {bo= bk[_$_5ca4[67]](dH+ 1);if(isNaN(bo)|| bo== _$_5ca4[79]|| bo== null||  typeof bo== _$_5ca4[2]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[520]],{name:y[_$_5ca4[242]]}))};U= bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2,dH)};var dv=y[_$_5ca4[242]];var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if( typeof X=== _$_5ca4[164]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[527]],{name:y[_$_5ca4[242]]}))};var de=a[_$_5ca4[129]][_$_5ca4[202]](y[_$_5ca4[241]]);var df=a[_$_5ca4[129]][_$_5ca4[202]](X[_$_5ca4[3]]);if(df== 0){if(bo> 45){API[_$_5ca4[134]](X[_$_5ca4[3]],1,API[_$_5ca4[133]][_$_5ca4[691]]);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[692]],{name:y[_$_5ca4[242]],time:_$_5ca4[693]}))}else {if(bo=== 45){API[_$_5ca4[134]](X[_$_5ca4[3]],1,API[_$_5ca4[133]][_$_5ca4[691]]);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[694]],{name:y[_$_5ca4[242]],username:U,time:bo}))}else {if(bo> 30){API[_$_5ca4[134]](X[_$_5ca4[3]],1,API[_$_5ca4[133]][_$_5ca4[691]]);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[694]],{name:y[_$_5ca4[242]],username:U,time:bo}))}else {if(bo> 15){API[_$_5ca4[134]](X[_$_5ca4[3]],1,API[_$_5ca4[133]][_$_5ca4[695]]);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[694]],{name:y[_$_5ca4[242]],username:U,time:bo}))}else {API[_$_5ca4[134]](X[_$_5ca4[3]],1,API[_$_5ca4[133]][_$_5ca4[132]]);API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[694]],{name:y[_$_5ca4[242]],username:U,time:bo}))}}}}}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[696]],{name:y[_$_5ca4[242]]}))}}}},opCommand:{command:_$_5ca4[97],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if( typeof a[_$_5ca4[27]][_$_5ca4[697]]=== _$_5ca4[45]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[698]],{link:a[_$_5ca4[27]][_$_5ca4[697]]}))}}}},pingCommand:{command:_$_5ca4[699],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {API[_$_5ca4[19]](a[_$_5ca4[47]][_$_5ca4[700]])}}},refreshCommand:{command:_$_5ca4[701],rank:_$_5ca4[175],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {o();a[_$_5ca4[483]]();setTimeout(function(){window[_$_5ca4[481]][_$_5ca4[702]](false)},1000)}}},reloadCommand:{command:_$_5ca4[702],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {API[_$_5ca4[19]](a[_$_5ca4[47]][_$_5ca4[702]]);o();a[_$_5ca4[483]]();i();setTimeout(function(){$[_$_5ca4[704]](a[_$_5ca4[27]][_$_5ca4[703]])},2000)}}},removeCommand:{command:_$_5ca4[705],rank:_$_5ca4[514],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]> cC[_$_5ca4[6]]+ 2){var U=bk[_$_5ca4[524]](cC[_$_5ca4[6]]+ 2);var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if( typeof X!== _$_5ca4[164]){X[_$_5ca4[144]]= {time:null,position:null,songCount:0};if(API[_$_5ca4[16]]()[_$_5ca4[3]]=== X[_$_5ca4[3]]){API[_$_5ca4[20]]();setTimeout(function(){API[_$_5ca4[207]](X[_$_5ca4[3]])},1* 1000,X)}else {API[_$_5ca4[207]](X[_$_5ca4[3]])}}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[706]],{name:y[_$_5ca4[242]],username:U}))}}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[523]],{name:y[_$_5ca4[242]]}))}}}},restrictetaCommand:{command:_$_5ca4[707],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[346]]){a[_$_5ca4[27]][_$_5ca4[346]]= !a[_$_5ca4[27]][_$_5ca4[346]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[708]]}))}else {a[_$_5ca4[27]][_$_5ca4[346]]= !a[_$_5ca4[27]][_$_5ca4[346]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[708]]}))}}}},rouletteCommand:{command:_$_5ca4[117],rank:_$_5ca4[514],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(!a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[121]]){a[_$_5ca4[8]][_$_5ca4[117]][_$_5ca4[116]]()}}}},rulesCommand:{command:_$_5ca4[709],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if( typeof a[_$_5ca4[27]][_$_5ca4[710]]=== _$_5ca4[45]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[711]],{link:a[_$_5ca4[27]][_$_5ca4[710]]}))}}}},sessionstatsCommand:{command:_$_5ca4[712],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var dv=y[_$_5ca4[242]];var ca=a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[279]];var bX=a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[280]];var dU=a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[281]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[712]],{name:dv,woots:ca,mehs:bX,grabs:dU}))}}},skipCommand:{command:[_$_5ca4[317],_$_5ca4[713]],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[8]][_$_5ca4[210]]){var bZ=API[_$_5ca4[257]]();var bY=API[_$_5ca4[258]]();var bF=API[_$_5ca4[16]]();var U=bF[_$_5ca4[15]];var dO=_$_5ca4[14]+ U+ _$_5ca4[643];if(y[_$_5ca4[236]][_$_5ca4[6]]=== cC[_$_5ca4[6]]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[714]],{name:y[_$_5ca4[242]]}));if(a[_$_5ca4[27]][_$_5ca4[262]]&& bZ> bY){a[_$_5ca4[161]][_$_5ca4[262]]()}else {API[_$_5ca4[20]]()}};var dQ=false;var bk=y[_$_5ca4[236]];var bH=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);for(var q=0;q< a[_$_5ca4[27]][_$_5ca4[715]][_$_5ca4[6]];q++){var dP=a[_$_5ca4[27]][_$_5ca4[715]][q][0];if(bH[_$_5ca4[66]](dP)!==  -1){dQ= true;dO+= a[_$_5ca4[27]][_$_5ca4[715]][q][1]}};if(dQ){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[714]],{name:y[_$_5ca4[242]]}));if(a[_$_5ca4[27]][_$_5ca4[262]]&& bZ> bY){a[_$_5ca4[161]][_$_5ca4[262]](dO)}else {API[_$_5ca4[20]]();setTimeout(function(){API[_$_5ca4[19]](dO)},500)}}}}}},skipposCommand:{command:_$_5ca4[716],rank:_$_5ca4[175],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];var V=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);if(!isNaN(V)){a[_$_5ca4[27]][_$_5ca4[211]]= V;return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[716]],{name:y[_$_5ca4[242]],position:a[_$_5ca4[27]][_$_5ca4[211]]}))}else {return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[689]],{name:y[_$_5ca4[242]]}))}}}},songstatsCommand:{command:_$_5ca4[269],rank:_$_5ca4[514],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[269]]){a[_$_5ca4[27]][_$_5ca4[269]]= !a[_$_5ca4[27]][_$_5ca4[269]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[269]]}))}else {a[_$_5ca4[27]][_$_5ca4[269]]= !a[_$_5ca4[27]][_$_5ca4[269]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[269]]}))}}}},sourceCommand:{command:_$_5ca4[717],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {API[_$_5ca4[19]](_$_5ca4[718]+ b+ _$_5ca4[719]+ d+ _$_5ca4[720])}}},statusCommand:{command:_$_5ca4[11],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var dv=y[_$_5ca4[242]];var bk=_$_5ca4[721]+ dv+ _$_5ca4[722];bk+= a[_$_5ca4[47]][_$_5ca4[532]]+ _$_5ca4[273];if(a[_$_5ca4[27]][_$_5ca4[197]]){bk+= _$_5ca4[723]}else {bk+= _$_5ca4[724]};bk+= _$_5ca4[725];bk+= a[_$_5ca4[47]][_$_5ca4[726]]+ _$_5ca4[273]+ a[_$_5ca4[8]][_$_5ca4[54]][_$_5ca4[6]]+ _$_5ca4[725];bk+= a[_$_5ca4[47]][_$_5ca4[528]]+ _$_5ca4[273]+ a[_$_5ca4[27]][_$_5ca4[204]]+ _$_5ca4[725];bk+= _$_5ca4[727];if(a[_$_5ca4[27]][_$_5ca4[513]]){bk+= _$_5ca4[723]}else {bk+= _$_5ca4[724]};bk+= _$_5ca4[725];bk+= a[_$_5ca4[47]][_$_5ca4[552]]+ _$_5ca4[273];if(a[_$_5ca4[27]][_$_5ca4[286]]){bk+= _$_5ca4[723]}else {bk+= _$_5ca4[724]};bk+= _$_5ca4[725];bk+= a[_$_5ca4[47]][_$_5ca4[672]]+ _$_5ca4[273];if(a[_$_5ca4[27]][_$_5ca4[194]]){bk+= _$_5ca4[723]}else {bk+= _$_5ca4[724]};bk+= _$_5ca4[725];bk+= a[_$_5ca4[47]][_$_5ca4[587]]+ _$_5ca4[273];if(a[_$_5ca4[27]][_$_5ca4[218]]){bk+= _$_5ca4[723]}else {bk+= _$_5ca4[724]};bk+= _$_5ca4[725];bk+= a[_$_5ca4[47]][_$_5ca4[728]]+ _$_5ca4[273];if(a[_$_5ca4[27]][_$_5ca4[288]]){bk+= _$_5ca4[723]}else {bk+= _$_5ca4[724]};bk+= _$_5ca4[725];bk+= a[_$_5ca4[47]][_$_5ca4[629]]+ _$_5ca4[273];if(a[_$_5ca4[27]][_$_5ca4[307]]){bk+= _$_5ca4[723]}else {bk+= _$_5ca4[724]};bk+= _$_5ca4[725];bk+= a[_$_5ca4[47]][_$_5ca4[651]]+ _$_5ca4[273];if(a[_$_5ca4[27]][_$_5ca4[298]]){bk+= _$_5ca4[723]}else {bk+= _$_5ca4[724]};bk+= _$_5ca4[725];bk+= a[_$_5ca4[47]][_$_5ca4[729]]+ _$_5ca4[273];if(a[_$_5ca4[27]][_$_5ca4[259]]){bk+= _$_5ca4[723]}else {bk+= _$_5ca4[724]};bk+= _$_5ca4[725];bk+= a[_$_5ca4[47]][_$_5ca4[575]]+ _$_5ca4[273];if(a[_$_5ca4[27]][_$_5ca4[324]]){bk+= _$_5ca4[723]}else {bk+= _$_5ca4[724]};bk+= _$_5ca4[725];bk+= a[_$_5ca4[47]][_$_5ca4[303]]+ _$_5ca4[273];if(a[_$_5ca4[27]][_$_5ca4[303]]){bk+= _$_5ca4[723]}else {bk+= _$_5ca4[724]};bk+= _$_5ca4[725];var cU=a[_$_5ca4[8]][_$_5ca4[57]][_$_5ca4[490]];var cT=Date[_$_5ca4[31]]()- cU;var cW=a[_$_5ca4[161]][_$_5ca4[169]](cT);bk+= p(a[_$_5ca4[47]][_$_5ca4[730]],{time:cW});if(bk[_$_5ca4[6]]> 250){var dV=bk[_$_5ca4[731]](/.{1,250}/g);for(var q=0;q< dV[_$_5ca4[6]];q++){var dD=function(bR){setTimeout(function(){API[_$_5ca4[19]](_$_5ca4[226]+ dV[bR])},500* bR)};dD(q)}}else {return API[_$_5ca4[19]](bk)}}}},swapCommand:{command:_$_5ca4[732],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[523]],{name:y[_$_5ca4[242]]}))};var dT=bk[_$_5ca4[66]](_$_5ca4[68]);var dH=bk[_$_5ca4[655]](_$_5ca4[68]);var dW=bk[_$_5ca4[72]](_$_5ca4[14])[1][_$_5ca4[148]]();var dX=bk[_$_5ca4[72]](_$_5ca4[14])[2][_$_5ca4[148]]();var ea=a[_$_5ca4[129]][_$_5ca4[525]](dW);var eb=a[_$_5ca4[129]][_$_5ca4[525]](dX);if( typeof ea=== _$_5ca4[164]||  typeof eb=== _$_5ca4[164]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[733]],{name:y[_$_5ca4[242]]}))};if(ea[_$_5ca4[3]]=== a[_$_5ca4[340]]|| eb[_$_5ca4[3]]=== a[_$_5ca4[340]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[734]],{name:y[_$_5ca4[242]]}))};var dY=API[_$_5ca4[1]](ea[_$_5ca4[3]])+ 1;var dZ=API[_$_5ca4[1]](eb[_$_5ca4[3]])+ 1;if(dY< 0&& dZ< 0){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[735]],{name:y[_$_5ca4[242]]}))};API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[736]],{"\x6E\x61\x6D\x65\x31":dW,"\x6E\x61\x6D\x65\x32":dX}));if(dY===  -1){API[_$_5ca4[207]](eb[_$_5ca4[3]]);setTimeout(function(ea,dZ){a[_$_5ca4[129]][_$_5ca4[131]](ea[_$_5ca4[3]],dZ,true)},2000,ea,dZ)}else {if(dZ===  -1){API[_$_5ca4[207]](ea[_$_5ca4[3]]);setTimeout(function(eb,dY){a[_$_5ca4[129]][_$_5ca4[131]](eb[_$_5ca4[3]],dY,true)},2000,eb,dY)}else {if(dY< dZ){a[_$_5ca4[129]][_$_5ca4[131]](eb[_$_5ca4[3]],dY,false);setTimeout(function(ea,dZ){a[_$_5ca4[129]][_$_5ca4[131]](ea[_$_5ca4[3]],dZ,false)},2000,ea,dZ)}else {a[_$_5ca4[129]][_$_5ca4[131]](ea[_$_5ca4[3]],dZ,false);setTimeout(function(eb,dY){a[_$_5ca4[129]][_$_5ca4[131]](eb[_$_5ca4[3]],dY,false)},2000,eb,dY)}}}}}},themeCommand:{command:_$_5ca4[737],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if( typeof a[_$_5ca4[27]][_$_5ca4[738]]=== _$_5ca4[45]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[739]],{link:a[_$_5ca4[27]][_$_5ca4[738]]}))}}}},thorCommand:{command:_$_5ca4[740],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[741]]){var r=y[_$_5ca4[241]],dK=API[_$_5ca4[16]]()[_$_5ca4[3]]== r?true:false,dv=y[_$_5ca4[242]],bx=API[_$_5ca4[5]](),ed=false,ee=0,eh=false,ec,ef=false,eg=0,ej=Math[_$_5ca4[127]](Math[_$_5ca4[125]]()* 10),ei=ej== 10?true:false;for(var q=0;q< bx[_$_5ca4[6]];q++){if(bx[q][_$_5ca4[3]]== r){ed= true}};if(ed){for(var q=0;q< a[_$_5ca4[8]][_$_5ca4[742]][_$_5ca4[6]];q++){if(a[_$_5ca4[8]][_$_5ca4[742]][q][_$_5ca4[3]]== r){ee= a[_$_5ca4[8]][_$_5ca4[742]][q][_$_5ca4[51]];eh= true;ec= q}};if(eh){eg= (a[_$_5ca4[27]][_$_5ca4[743]]+ 1)- (Math[_$_5ca4[127]]((ee- Date[_$_5ca4[31]]())* Math[_$_5ca4[744]](10,-5))*  -1);ef= eg> 0?true:false;if(ef== false){a[_$_5ca4[8]][_$_5ca4[742]][_$_5ca4[306]](ec,1)}};if(ef== false|| eh== false){var X={id:r,time:Date[_$_5ca4[31]]()};a[_$_5ca4[8]][_$_5ca4[742]][_$_5ca4[74]](X)}};if(!ed){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[745]],{name:dv}))}else {if(ef){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[746]],{name:dv,time:eg}))}};if(ei){if(API[_$_5ca4[1]](r)!= 0){a[_$_5ca4[129]][_$_5ca4[131]](r,1,false)};API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[747]],{name:dv}))}else {if(API[_$_5ca4[1]](r)!= bx[_$_5ca4[6]]- 1){a[_$_5ca4[129]][_$_5ca4[131]](r,bx[_$_5ca4[6]],false)};API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[748]],{name:dv}))}}}}},timeguardCommand:{command:_$_5ca4[728],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[288]]){a[_$_5ca4[27]][_$_5ca4[288]]= !a[_$_5ca4[27]][_$_5ca4[288]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[728]]}))}else {a[_$_5ca4[27]][_$_5ca4[288]]= !a[_$_5ca4[27]][_$_5ca4[288]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[728]]}))}}}},toggleblCommand:{command:_$_5ca4[749],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var dN=a[_$_5ca4[27]][_$_5ca4[286]];a[_$_5ca4[27]][_$_5ca4[286]]=  !dN;if(a[_$_5ca4[27]][_$_5ca4[286]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[552]]}))}else {return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[552]]}))}}}},togglemotdCommand:{command:_$_5ca4[750],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[221]]){a[_$_5ca4[27]][_$_5ca4[221]]= !a[_$_5ca4[27]][_$_5ca4[221]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[224]]}))}else {a[_$_5ca4[27]][_$_5ca4[221]]= !a[_$_5ca4[27]][_$_5ca4[221]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[224]]}))}}}},togglevoteskipCommand:{command:_$_5ca4[751],rank:_$_5ca4[176],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[259]]){a[_$_5ca4[27]][_$_5ca4[259]]= !a[_$_5ca4[27]][_$_5ca4[259]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[729]]}))}else {a[_$_5ca4[27]][_$_5ca4[259]]= !a[_$_5ca4[27]][_$_5ca4[259]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[729]]}))}}}},unbanCommand:{command:_$_5ca4[752],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {$[_$_5ca4[220]](_$_5ca4[753],function(C){var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return};var U=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2);var el=C[_$_5ca4[215]];var em=false;var ek=null;for(var q=0;q< el[_$_5ca4[6]];q++){var X=el[q];if(X[_$_5ca4[15]]=== U){ek= X;em= true}};if(!em){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[754]],{name:y[_$_5ca4[242]]}))};API[_$_5ca4[657]](ek[_$_5ca4[3]]);console[_$_5ca4[36]](_$_5ca4[755],U)})}}},unlockCommand:{command:_$_5ca4[756],rank:_$_5ca4[514],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {a[_$_5ca4[161]][_$_5ca4[160]][_$_5ca4[212]]()}}},unmuteCommand:{command:_$_5ca4[757],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {$[_$_5ca4[220]](_$_5ca4[758],function(C){var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return};var U=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2);var en=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);var ep=C[_$_5ca4[215]];var em=false;var eo=null;var de=a[_$_5ca4[129]][_$_5ca4[202]](y[_$_5ca4[241]]);if(bk[_$_5ca4[66]](_$_5ca4[14])=== -1&& en=== _$_5ca4[759]){if(de> 2){for(var q=0;q< ep[_$_5ca4[6]];q++){API[_$_5ca4[760]](ep[q][_$_5ca4[3]])};API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[761]],{name:y[_$_5ca4[242]]}))}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[762]],{name:y[_$_5ca4[242]]}))}}else {for(var q=0;q< ep[_$_5ca4[6]];q++){var X=ep[q];if(X[_$_5ca4[15]]=== U){eo= X;em= true}};if(!em){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[754]],{name:y[_$_5ca4[242]]}))};API[_$_5ca4[760]](eo[_$_5ca4[3]]);console[_$_5ca4[36]](_$_5ca4[763],U)}})}}},usercmdcdCommand:{command:_$_5ca4[764],rank:_$_5ca4[175],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];var eq=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);if(!isNaN(eq)){a[_$_5ca4[27]][_$_5ca4[350]]= eq;return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[765]],{name:y[_$_5ca4[242]],time:a[_$_5ca4[27]][_$_5ca4[350]]}))}else {return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[520]],{name:y[_$_5ca4[242]]}))}}}},usercommandsCommand:{command:_$_5ca4[766],rank:_$_5ca4[175],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[767]]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[766]]}));a[_$_5ca4[27]][_$_5ca4[767]]= !a[_$_5ca4[27]][_$_5ca4[767]]}else {API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[766]]}));a[_$_5ca4[27]][_$_5ca4[767]]= !a[_$_5ca4[27]][_$_5ca4[767]]}}}},voteratioCommand:{command:_$_5ca4[768],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[523]],{name:y[_$_5ca4[242]]}))};var U=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 2);var X=a[_$_5ca4[129]][_$_5ca4[525]](U);if(X=== false){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[527]],{name:y[_$_5ca4[242]]}))};var es=X[_$_5ca4[138]];var er=es[_$_5ca4[152]]/ es[_$_5ca4[149]];API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[768]],{name:y[_$_5ca4[242]],username:U,woot:es[_$_5ca4[152]],mehs:es[_$_5ca4[149]],ratio:er[_$_5ca4[151]](2)}))}}},voteskipCommand:{command:_$_5ca4[729],rank:_$_5ca4[175],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];if(bk[_$_5ca4[6]]<= cC[_$_5ca4[6]]+ 1){return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[769]],{name:y[_$_5ca4[242]],limit:a[_$_5ca4[27]][_$_5ca4[260]]}))};var cY=bk[_$_5ca4[67]](cC[_$_5ca4[6]]+ 1);if(!a[_$_5ca4[27]][_$_5ca4[259]]){a[_$_5ca4[27]][_$_5ca4[259]]= !a[_$_5ca4[27]][_$_5ca4[259]]};if(isNaN(cY)){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[770]],{name:y[_$_5ca4[242]]}))}else {a[_$_5ca4[27]][_$_5ca4[260]]= cY;API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[771]],{name:y[_$_5ca4[242]],limit:a[_$_5ca4[27]][_$_5ca4[260]]}))}}}},welcomeCommand:{command:_$_5ca4[250],rank:_$_5ca4[514],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if(a[_$_5ca4[27]][_$_5ca4[250]]){a[_$_5ca4[27]][_$_5ca4[250]]= !a[_$_5ca4[27]][_$_5ca4[250]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[533]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[772]]}))}else {a[_$_5ca4[27]][_$_5ca4[250]]= !a[_$_5ca4[27]][_$_5ca4[250]];return API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[534]],{name:y[_$_5ca4[242]],"\x66\x75\x6E\x63\x74\x69\x6F\x6E":a[_$_5ca4[47]][_$_5ca4[772]]}))}}}},websiteCommand:{command:_$_5ca4[773],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if( typeof a[_$_5ca4[27]][_$_5ca4[773]]=== _$_5ca4[45]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[773]],{link:a[_$_5ca4[27]][_$_5ca4[773]]}))}}}},whoisCommand:{command:_$_5ca4[774],rank:_$_5ca4[176],type:_$_5ca4[75],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {var bk=y[_$_5ca4[236]];var U;if(bk[_$_5ca4[6]]=== cC[_$_5ca4[6]]){U= y[_$_5ca4[242]]}else {U= bk[_$_5ca4[524]](cC[_$_5ca4[6]]+ 2)};users= API[_$_5ca4[24]]();var ew=users[_$_5ca4[6]];for(var q=0;q< ew;++q){if(users[q][_$_5ca4[15]]== U){var r=users[q][_$_5ca4[3]];var et=API[_$_5ca4[4]](r)[_$_5ca4[775]];var ex=API[_$_5ca4[4]](r)[_$_5ca4[776]];var ez=API[_$_5ca4[4]](r)[_$_5ca4[777]];var eu=ez[_$_5ca4[524]](0,10);var eA=API[_$_5ca4[4]](r)[_$_5ca4[44]];if(eA== _$_5ca4[600]){var ev=_$_5ca4[778]}else {if(eA== _$_5ca4[779]){var ev=_$_5ca4[780]}else {if(eA== _$_5ca4[618]){var ev=_$_5ca4[781]}else {if(eA== _$_5ca4[782]){var ev=_$_5ca4[783]}else {if(eA== _$_5ca4[608]){var ev=_$_5ca4[784]}else {if(eA== _$_5ca4[614]){var ev=_$_5ca4[785]}else {if(eA== _$_5ca4[786]){var ev=_$_5ca4[787]}else {if(eA== _$_5ca4[616]){var ev=_$_5ca4[788]}else {if(eA== _$_5ca4[610]){var ev=_$_5ca4[789]}else {if(eA== _$_5ca4[790]){var ev=_$_5ca4[791]}}}}}}}}}};var eB=API[_$_5ca4[4]](r)[_$_5ca4[155]];if(eB== _$_5ca4[313]){var bC=_$_5ca4[249]}else {if(eB== _$_5ca4[792]){var bC=_$_5ca4[793]}else {if(eB== _$_5ca4[794]){var bC=_$_5ca4[795]}else {if(eB== _$_5ca4[796]){var bC=_$_5ca4[797]}else {if(eB== _$_5ca4[798]){var bC=_$_5ca4[799]}else {if(eB== _$_5ca4[800]){var bC=_$_5ca4[801]}else {if(eB== _$_5ca4[802]){var bC=_$_5ca4[803]}else {if(eB== _$_5ca4[804]){var bC=_$_5ca4[805]}}}}}}}};var eC=API[_$_5ca4[4]](r)[_$_5ca4[806]];if( typeof eC!== _$_5ca4[2]){var ey=_$_5ca4[807]+ eC}else {var ey=_$_5ca4[808]};API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[774]],{name1:y[_$_5ca4[242]],name2:U,id:r,avatar:et,profile:ey,language:ev,level:ex,joined:eu,rank:bC}))}}}}},discordCommand:{command:_$_5ca4[809],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if( typeof a[_$_5ca4[27]][_$_5ca4[810]]=== _$_5ca4[45]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[809]],{link:a[_$_5ca4[27]][_$_5ca4[810]]}))}}}},youtubeCommand:{command:_$_5ca4[811],rank:_$_5ca4[178],type:_$_5ca4[517],functionality:function(y,cC){if(this[_$_5ca4[240]]=== _$_5ca4[517]&& y[_$_5ca4[236]][_$_5ca4[6]]!== cC[_$_5ca4[6]]){return void((0))};if(!a[_$_5ca4[347]][_$_5ca4[519]](this[_$_5ca4[518]],y)){return void((0))}else {if( typeof a[_$_5ca4[27]][_$_5ca4[812]]=== _$_5ca4[45]){API[_$_5ca4[19]](p(a[_$_5ca4[47]][_$_5ca4[811]],{name:y[_$_5ca4[242]],link:a[_$_5ca4[27]][_$_5ca4[812]]}))}}}}}};k(a[_$_5ca4[813]])})[_$_5ca4[0]](this)
+/**
+ *Copyright 2015 basicBot
+ *Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original source.
+ *This software is not for profit, any extension, or unauthorised person providing this software is not authorised to be in a position of any monetary gain from this use of this software. Any and all money gained under the use of the software (which includes donations) must be passed on to the original author.
+ */
+(function() {
+
+    /*window.onerror = function() {
+        var room = JSON.parse(localStorage.getItem("basicBotRoom"));
+        window.location = 'https://plug.dj' + room.name;
+    };*/
+
+    API.getWaitListPosition = function(id) {
+        if (typeof id === 'undefined' || id === null) {
+            id = API.getUser().id;
+        }
+        var wl = API.getWaitList();
+        for (var i = 0; i < wl.length; i++) {
+            if (wl[i].id === id) {
+                return i;
+            }
+        }
+        return -1;
+    };
+
+    var kill = function() {
+        clearInterval(basicBot.room.autodisableInterval);
+        clearInterval(basicBot.room.autorouletteInterval);
+        clearInterval(basicBot.room.afkInterval);
+        basicBot.status = false;
+    };
+    //Mehs to skip komanda
+    var isRecent = false;
+    var mehLimit = Infinity;
+
+    function callback() {
+        if (API.getScore().negative < mehLimit || isRecent) return;
+        isRecent = true;
+        API.sendChat("@" + API.getDJ().username + " Daina surinko per daug MEH " + mehLimit + "!");
+        API.moderateForceSkip();
+        setTimeout(function() {
+            isRecent = false;
+        }, 10000);
+    }
+    API.on(API.VOTE_UPDATE, callback);
+    API.on(API.ADVANCE, function(obj) {
+        var WaitlistCount = API.getWaitList().length;
+        var UserCount = API.getUsers().length;
+        if (WaitlistCount <= 50) {
+            var mehSkipCount = Math.round((WaitlistCount / 3) + 2);
+            if (UserCount >= 50) {
+                if (mehSkipCount < 8) {
+                    mehSkipCount = 8;
+                }
+            } else {
+                if (mehSkipCount < 6) {
+                    mehSkipCount = 6;
+                }
+            }
+        }
+        mehLimit = mehSkipCount;
+        setTimeout(function() {
+            // API.sendChat("/me Mehs to skip: " + mehLimit);
+        }, 2500);
+    });
+
+    API.getWaitListPosition = function(id) {
+        if (typeof id === 'undefined' || id === null) {
+            id = API.getUser().id;
+        }
+        var wl = API.getWaitList();
+        for (var i = 0; i < wl.length; i++) {
+            if (wl[i].id === id) {
+                return i;
+            }
+        }
+        return -1;
+    };
+
+    // This socket server is used solely for statistical and troubleshooting purposes.
+    // This server may not always be up, but will be used to get live data at any given time.
+
+    /*var socket = function () {
+        function loadSocket() {
+            SockJS.prototype.msg = function(a){this.send(JSON.stringify(a))};
+            sock = new SockJS('https://benzi.io:4964/socket');
+            sock.onopen = function() {
+                console.log('Connected to socket!');
+                sendToSocket();
+            };
+            sock.onclose = function() {
+                console.log('Disconnected from socket, reconnecting every minute ..');
+                var reconnect = setTimeout(function(){ loadSocket() }, 60 * 1000);
+            };
+            sock.onmessage = function(broadcast) {
+                var rawBroadcast = broadcast.data;
+                var broadcastMessage = rawBroadcast.replace(/["\\]+/g, '');
+                API.chatLog(broadcastMessage);
+                console.log(broadcastMessage);
+            };
+        }
+        if (typeof SockJS == 'undefined') {
+            $.getScript('https://cdn.jsdelivr.net/sockjs/1.0.3/sockjs.min.js', loadSocket);
+        } else loadSocket();
+    }
+
+    var sendToSocket = function () {
+        var basicBotSettings = basicBot.settings;
+        var basicBotRoom = basicBot.room;
+        var basicBotInfo = {
+            time: Date.now(),
+            version: basicBot.version
+        };
+        var data = {users:API.getUsers(),userinfo:API.getUser(),room:location.pathname,basicBotSettings:basicBotSettings,basicBotRoom:basicBotRoom,basicBotInfo:basicBotInfo};
+        return sock.msg(data);
+    };*/
+     /*       /*pass*/
+     /*     var password;
+
+    var pass1="UL1579";
+
+    password=prompt('Įveskite slaptažodį!',' ');
+
+   if (password==pass1)
+     alert('Slaptažodis teisingas!');
+    else
+      {
+      window.location="https://plug.dj/uz-lietuva-";
+      };
+*/
+    
+    var storeToStorage = function() {
+        localStorage.setItem("basicBotsettings", JSON.stringify(basicBot.settings));
+        localStorage.setItem("basicBotRoom", JSON.stringify(basicBot.room));
+        var basicBotStorageInfo = {
+            time: Date.now(),
+            stored: true,
+            version: basicBot.version
+        };
+        localStorage.setItem("basicBotStorageInfo", JSON.stringify(basicBotStorageInfo));
+
+    };
+
+    var subChat = function(chat, obj) {
+        if (typeof chat === "undefined") {
+            API.chatLog("There is a chat text missing.");
+            console.log("There is a chat text missing.");
+            return "[Error] No text message found.";
+
+            // TODO: Get missing chat messages from source.
+        }
+        var lit = '%%';
+        for (var prop in obj) {
+            chat = chat.replace(lit + prop.toUpperCase() + lit, obj[prop]);
+        }
+        return chat;
+    };
+
+    var loadChat = function(cb) {
+        if (!cb) cb = function() {
+        };
+        $.get("https://rawgit.com/basicBot/source/master/lang/langIndex.json", function(json) {
+            var link = basicBot.chatLink;
+            if (json !== null && typeof json !== "undefined") {
+                langIndex = json;
+                link = langIndex[basicBot.settings.language.toLowerCase()];
+                if (basicBot.settings.chatLink !== basicBot.chatLink) {
+                    link = basicBot.settings.chatLink; 
+                }
+                else {
+                    if (typeof link === "undefined") {
+                        link = basicBot.chatLink;
+                    }
+                }
+                $.get(link, function(json) {
+                    if (json !== null && typeof json !== "undefined") {
+                        if (typeof json === "string") json = JSON.parse(json);
+                        basicBot.chat = json;
+                        cb();
+                    }
+                });
+            } 
+            else {
+                $.get(basicBot.chatLink, function(json) {
+                    if (json !== null && typeof json !== "undefined") {
+                        if (typeof json === "string") json = JSON.parse(json);
+                        basicBot.chat = json;
+                        cb();
+                    }
+                });
+            }
+        });
+    };
+
+    var retrieveSettings = function() {
+        var settings = JSON.parse(localStorage.getItem("basicBotsettings"));
+        if (settings !== null) {
+            for (var prop in settings) {
+                basicBot.settings[prop] = settings[prop];
+            }
+        }
+    };
+
+    var retrieveFromStorage = function() {
+        var info = localStorage.getItem("basicBotStorageInfo");
+        if (info === null) API.chatLog(basicBot.chat.nodatafound);
+        else {
+            var settings = JSON.parse(localStorage.getItem("basicBotsettings"));
+            var room = JSON.parse(localStorage.getItem("basicBotRoom"));
+            var elapsed = Date.now() - JSON.parse(info).time;
+            if ((elapsed < 1 * 60 * 60 * 1000)) {
+                API.chatLog(basicBot.chat.retrievingdata);
+                for (var prop in settings) {
+                    basicBot.settings[prop] = settings[prop];
+                }
+                basicBot.room.users = room.users;
+                basicBot.room.afkList = room.afkList;
+                basicBot.room.historyList = room.historyList;
+                basicBot.room.mutedUsers = room.mutedUsers;
+                //basicBot.room.autoskip = room.autoskip;
+                basicBot.room.roomstats = room.roomstats;
+                basicBot.room.messages = room.messages;
+                basicBot.room.queue = room.queue;
+                basicBot.room.newBlacklisted = room.newBlacklisted;
+                API.chatLog(basicBot.chat.datarestored);
+            }
+        }
+        var json_sett = null;
+        var roominfo = document.getElementById("room-settings");
+        info = roominfo.textContent;
+        var ref_bot = "@basicBot=";
+        var ind_ref = info.indexOf(ref_bot);
+        if (ind_ref > 0) {
+            var link = info.substring(ind_ref + ref_bot.length, info.length);
+            var ind_space = null;
+            if (link.indexOf(" ") < link.indexOf("\n")) ind_space = link.indexOf(" ");
+            else ind_space = link.indexOf("\n");
+            link = link.substring(0, ind_space);
+            $.get(link, function(json) {
+                if (json !== null && typeof json !== "undefined") {
+                    json_sett = JSON.parse(json);
+                    for (var prop in json_sett) {
+                        basicBot.settings[prop] = json_sett[prop];
+                    }
+                }
+            });
+        }
+
+    };
+
+    String.prototype.splitBetween = function(a, b) {
+        var self = this;
+        self = this.split(a);
+        for (var i = 0; i < self.length; i++) {
+            self[i] = self[i].split(b);
+        }
+        var arr = [];
+        for (var i = 0; i < self.length; i++) {
+            if (Array.isArray(self[i])) {
+                for (var j = 0; j < self[i].length; j++) {
+                    arr.push(self[i][j]);
+                }
+            } 
+            else arr.push(self[i]);
+        }
+        return arr;
+    };
+
+    String.prototype.startsWith = function(str) {
+        return this.substring(0, str.length) === str;
+    };
+
+    function linkFixer(msg) {
+        var parts = msg.splitBetween('<a href="', '<\/a>');
+        for (var i = 1; i < parts.length; i = i + 2) {
+            var link = parts[i].split('"')[0];
+            parts[i] = link;
+        }
+        var m = '';
+        for (var i = 0; i < parts.length; i++) {
+            m += parts[i];
+        }
+        return m;
+    };
+
+    function decodeEntities(s) {
+        var str, temp = document.createElement('p');
+        temp.innerHTML = s;
+        str = temp.textContent || temp.innerText;
+        temp = null;
+        return str;
+    };
+
+    var botCreator = "Yemasthui";
+    var botMaintainer = "Benzi"
+    var botCreatorIDs = ["3851534", "4105209"];
+
+    var basicBot = {
+        version: "2.9.1",
+        status: false,
+        name: "basicBot",
+        loggedInID: null,
+        cmdLink: "https://git.io/v6DGa",
+        chat: null,
+        loadChat: loadChat,
+        retrieveSettings: retrieveSettings,
+        retrieveFromStorage: retrieveFromStorage,
+        settings: {
+            botName: "Lietuviškas-Botas",
+            language: "english",
+            chatLink: "https://rawgit.com/PowerOfMad/bot/master/lt.json",
+            scriptLink: "https://rawgit.com/PowerOfMad/bot/master/ULBot.js",
+            roomLock: false, // Requires an extension to re-load the script
+            startupCap: 50, // 1-200
+            startupVolume: 15, // 0-100
+            startupEmoji: true, // true or false
+            autowoot: true,
+            autoskip: false,
+            smartSkip: true,
+            cmdDeletion: true,
+            maximumAfk: 120,
+            afkRemoval: false,
+            maximumDc: 120,
+            bouncerPlus: false,
+            blacklistEnabled: true,
+            lockdownEnabled: false,
+            lockGuard: false,
+            autoroulette: true,
+            maximumLocktime: 10,
+            cycleGuard: false,
+            maximumCycletime: 10,
+            voteSkip: false,
+            voteSkipLimit: 15,
+            historySkip: true,
+            timeGuard: true,
+            maximumSongLength: 7,
+            autodisable: false,
+            commandCooldown: 1,
+            usercommandsEnabled: true,
+            thorCommand: false,
+            thorCooldown: 10,
+            lockskipPosition: 10,
+            lockskipReasons: [
+                ["zanras", "Daina buvo absurdiška. "],
+                ["op", "Daina buvo per dažnai leidžiama šiame kambaryje. "],
+                ["history", "Ši daina neseniai grojo. "],
+                ["nsfw", "Daina kurią paleidote buvo NSFW (erotika arba per daug keiksmažodžių). "],
+                ["negroja", "Daina kurią paleidote negrojo. "]
+            ],
+            skipReasons: [
+                ["zanras", "Daina buvo absurdiška. "],
+                ["op", "Daina buvo per dažnai leidžiama šiame kambaryje. "],
+                ["history", "Ši daina neseniai grojo. "],
+                ["nsfw", "Daina kurią paleidote buvo NSFW (erotika arba per daug keiksmažodžių). "],
+                ["negroja", "Daina kurią paleidote negrojo. "]
+            ],
+            afkpositionCheck: 0,
+            afkRankCheck: "ambassador",
+            motdEnabled: true,
+            motdInterval: 5,
+            motd: "@everyone Čia „Už Lietuvą“ Discord pokalbiai prieinami visiems! - https://discord.gg/KVmKREV // Iškritai iš DJ eilės? Rašyk !dc sugrįžimui. ",
+            filterChat: true,
+            etaRestriction: true,
+            welcome: true,
+            opLink: "https://goo.gl/ZnUm7l",
+            rulesLink: "https://goo.gl/lb4uCj",
+            themeLink: null,
+            fbLink: "https://www.fb.me/Astromaniakas/",
+            discordLink: "https://discord.gg/KVmKREV",
+            twitter: null,
+            intervalMessages: ["@staff Visi prisijungę administratoriai taip pat ir RDJ turi būti prisijungę ir DISCORD programoje Discord: https://goo.gl/3GL7QT"],
+            messageInterval: 4,
+            songstats: true,
+            commandLiteral: "!",
+            blacklists: {
+                NSFW: "https://rawgit.com/PowerOfMad/bot/master/blacklists/NSFW.json",
+                OP: "https://rawgit.com/PowerOfMad/bot/master/blacklists/OP.json",
+                BANNED: "https://rawgit.com/PowerOfMad/bot/master/blacklists/BANNED.json"
+            }
+        },
+        room: {
+            name: null,
+            chatMessages: [],
+            users: [],
+            afkList: [],
+            mutedUsers: [],
+            bannedUsers: [],
+            skippable: true,
+            usercommand: true,
+            allcommand: true,
+            afkInterval: null,
+            naktis: null,
+            rytas: null,
+            //autoskip: false,
+            autoskipTimer: null,
+            autorouletteInterval: null,
+            autorouletteFunc: function() {
+                if (basicBot.status && basicBot.settings.autoroulette) {
+                    basicBot.room.roulette.startRoulette();
+                    return;
+                }
+            },
+            autodisableInterval: null,
+            autodisableFunc: function() {
+                if (basicBot.status && basicBot.settings.autodisable) {
+                    API.sendChat('!afkdisable');
+                    API.sendChat('!joindisable');
+                }
+            },
+            queueing: 0,
+            queueable: true,
+            currentDJID: null,
+            historyList: [],
+            cycleTimer: setTimeout(function() {
+            }, 1),
+            roomstats: {
+                accountName: null,
+                totalWoots: 0,
+                totalCurates: 0,
+                totalMehs: 0,
+                launchTime: null,
+                songCount: 0,
+                chatmessages: 0
+            },
+            messages: {
+                from: [],
+                to: [],
+                message: []
+            },
+            queue: {
+                id: [],
+                position: []
+            },
+            blacklists: {
+
+            },
+            newBlacklisted: [],
+            newBlacklistedSongFunction: null,
+            roulette: {
+                rouletteStatus: false,
+                participants: [],
+                countdown: null,
+                startRoulette: function() {
+                    basicBot.room.roulette.rouletteStatus = true;
+                    basicBot.room.roulette.countdown = setTimeout(function() {
+                        basicBot.room.roulette.endRoulette();
+                    }, 120 * 1000);
+                    API.sendChat(basicBot.chat.isopen);
+                },
+                endRoulette: function() {
+                    basicBot.room.roulette.rouletteStatus = false;
+                    var ind = Math.floor(Math.random() * basicBot.room.roulette.participants.length);
+                    var winner = basicBot.room.roulette.participants[ind];
+                    basicBot.room.roulette.participants = [];
+                    var pos = 1;
+                    var user = basicBot.userUtilities.lookupUser(winner);
+                    var rip = API.getWaitListPosition(winner);
+                    var name = user.username;
+                    API.sendChat(subChat(basicBot.chat.winnerpicked, {name: name, position: pos}));
+                    if (rip <= 5) {
+                        basicBot.userUtilities.moveUser(winner, 5, false),
+                            API.moderateMuteUser(winner, 1, API.MUTE.SHORT),
+                            API.sendChat(subChat(basicBot.chat.rouletterip, {name: name}));
+                    } 
+                    else {
+                        setTimeout(function(winner, pos) {
+                            basicBot.userUtilities.moveUser(winner, pos, false);
+                        }, 1 * 1000, winner, pos);
+                    }
+                }
+            },
+            usersUsedThor: []
+        },
+        User: function(id, name) {
+            this.id = id;
+            this.username = name;
+            this.jointime = Date.now();
+            this.lastActivity = Date.now();
+            this.votes = {
+                woot: 0,
+                meh: 0,
+                curate: 0
+            };
+            this.lastEta = null;
+            this.afkWarningCount = 0;
+            this.afkCountdown = null;
+            this.inRoom = true;
+            this.isMuted = false;
+            this.lastDC = {
+                time: null,
+                position: null,
+                songCount: 0
+            };
+            this.lastKnownPosition = null;
+        },
+        userUtilities: {
+            getJointime: function(user) {
+                return user.jointime;
+            },
+            getUser: function(user) {
+                return API.getUser(user.id);
+            },
+            updatePosition: function(user, newPos) {
+                user.lastKnownPosition = newPos;
+            },
+            updateDC: function(user) {
+                user.lastDC.time = Date.now();
+                user.lastDC.position = user.lastKnownPosition;
+                user.lastDC.songCount = basicBot.room.roomstats.songCount;
+            },
+            setLastActivity: function(user) {
+                user.lastActivity = Date.now();
+                user.afkWarningCount = 0;
+                clearTimeout(user.afkCountdown);
+            },
+            getLastActivity: function(user) {
+                return user.lastActivity;
+            },
+            getWarningCount: function(user) {
+                return user.afkWarningCount;
+            },
+            setWarningCount: function(user, value) {
+                user.afkWarningCount = value;
+            },
+            lookupUser: function(id) {
+                for (var i = 0; i < basicBot.room.users.length; i++) {
+                    if (basicBot.room.users[i].id === id) {
+                        return basicBot.room.users[i];
+                    }
+                }
+                return false;
+            },
+            lookupUserName: function(name) {
+                for (var i = 0; i < basicBot.room.users.length; i++) {
+                    var match = basicBot.room.users[i].username.trim() == name.trim();
+                    if (match) {
+                        return basicBot.room.users[i];
+                    }
+                }
+                return false;
+            },
+            voteRatio: function(id) {
+                var user = basicBot.userUtilities.lookupUser(id);
+                var votes = user.votes;
+                if (votes.meh === 0) votes.ratio = 1;
+                else votes.ratio = (votes.woot / votes.meh).toFixed(2);
+                return votes;
+
+            },
+            getPermission: function(obj) { //1 requests
+                var u;
+                if (typeof obj === "object") u = obj;
+                else u = API.getUser(obj);
+                for (var i = 0; i < botCreatorIDs.length; i++) {
+                    if (botCreatorIDs[i].indexOf(u.id) > -1) return 10;
+                }
+                if (u.gRole < 2) return u.role;
+                else {
+                    switch (u.gRole) {
+                        case 2:
+                            return 7;
+                        case 3:
+                            return 8;
+                        case 4:
+                            return 9;
+                        case 5:
+                            return 10;
+                    }
+                }
+                return 0;
+            },
+            moveUser: function(id, pos, priority) {
+                var user = basicBot.userUtilities.lookupUser(id);
+                var wlist = API.getWaitList();
+                if (API.getWaitListPosition(id) === -1) {
+                    if (wlist.length < 50) {
+                        API.moderateAddDJ(id);
+                        if (pos !== 0) setTimeout(function(id, pos) {
+                            API.moderateMoveDJ(id, pos);
+                        }, 1250, id, pos);
+                    } 
+                    else {
+                        var alreadyQueued = -1;
+                        for (var i = 0; i < basicBot.room.queue.id.length; i++) {
+                            if (basicBot.room.queue.id[i] === id) alreadyQueued = i;
+                        }
+                        if (alreadyQueued !== -1) {
+                            basicBot.room.queue.position[alreadyQueued] = pos;
+                            return API.sendChat(subChat(basicBot.chat.alreadyadding, {position: basicBot.room.queue.position[alreadyQueued]}));
+                        }
+                        basicBot.roomUtilities.booth.lockBooth();
+                        if (priority) {
+                            basicBot.room.queue.id.unshift(id);
+                            basicBot.room.queue.position.unshift(pos);
+                        }
+                        else {
+                            basicBot.room.queue.id.push(id);
+                            basicBot.room.queue.position.push(pos);
+                        }
+                        var name = user.username;
+                        return API.sendChat(subChat(basicBot.chat.adding, {name: name, position: basicBot.room.queue.position.length}));
+                    }
+                }
+                else API.moderateMoveDJ(id, pos);
+            },
+            dclookup: function (id) {
+                var user = basicBot.userUtilities.lookupUser(id);
+                if (typeof user === 'boolean') return basicBot.chat.usernotfound;
+                var name = user.username;
+                if (user.lastDC.time === null) return subChat(basicBot.chat.notdisconnected, {name: name});
+ 
+ 
+                var dc = user.lastDC.time;
+                var pos = user.lastDC.position;
+                if (pos === null) return basicBot.chat.noposition;
+                var timeDc = Date.now() - dc;
+                var validDC = false;
+                if (basicBot.settings.maximumDc * 60 * 1000 > timeDc) {
+                    validDC = true;
+                }
+                var time = basicBot.roomUtilities.msToStr(timeDc);
+                if (!validDC) return (subChat(basicBot.chat.toolongago, {name: basicBot.userUtilities.getUser(user).username, time: time}));
+ 
+ 
+ 
+                var songsPassed = basicBot.room.roomstats.songCount - user.lastDC.songCount;
+                var afksRemoved = 0;
+                var afkList = basicBot.room.afkList;
+                for (var i = 0; i < afkList.length; i++) {
+                    var timeAfk = afkList[i][1];
+                    var posAfk = afkList[i][2];
+                    if (dc < timeAfk && posAfk < pos) {
+                        afksRemoved++;
+                    }
+                }
+                var newPosition = user.lastDC.position - songsPassed - afksRemoved;
+                if (newPosition <= 0) return subChat(basicBot.chat.notdisconnected, {name: name});
+                var msg = subChat(basicBot.chat.valid, {name: basicBot.userUtilities.getUser(user).username, time: time, position: newPosition});
+ 
+                basicBot.userUtilities.moveUser(user.id, newPosition, true);
+                return msg;
+            }
+        },
+
+        roomUtilities: {
+            rankToNumber: function(rankString) {
+                var rankInt = null;
+                switch (rankString) {
+                    case "admin":
+                        rankInt = 10;
+                        break;
+                    case "ambassador":
+                        rankInt = 7;
+                        break;
+                    case "host":
+                        rankInt = 5;
+                        break;
+                    case "cohost":
+                        rankInt = 4;
+                        break;
+                    case "manager":
+                        rankInt = 3;
+                        break;
+                    case "bouncer":
+                        rankInt = 2;
+                        break;
+                    case "residentdj":
+                        rankInt = 1;
+                        break;
+                    case "user":
+                        rankInt = 0;
+                        break;
+                }
+                return rankInt;
+            },
+            msToStr: function(msTime) {
+                var ms, msg, timeAway;
+                msg = '';
+                timeAway = {
+                    'days': 0,
+                    'hours': 0,
+                    'minutes': 0,
+                    'seconds': 0
+                };
+                ms = {
+                    'day': 24 * 60 * 60 * 1000,
+                    'hour': 60 * 60 * 1000,
+                    'minute': 60 * 1000,
+                    'second': 1000
+                };
+                if (msTime > ms.day) {
+                    timeAway.days = Math.floor(msTime / ms.day);
+                    msTime = msTime % ms.day;
+                }
+                if (msTime > ms.hour) {
+                    timeAway.hours = Math.floor(msTime / ms.hour);
+                    msTime = msTime % ms.hour;
+                }
+                if (msTime > ms.minute) {
+                    timeAway.minutes = Math.floor(msTime / ms.minute);
+                    msTime = msTime % ms.minute;
+                }
+                if (msTime > ms.second) {
+                    timeAway.seconds = Math.floor(msTime / ms.second);
+                }
+                if (timeAway.days !== 0) {
+                    msg += timeAway.days.toString() + 'd';
+                }
+                if (timeAway.hours !== 0) {
+                    msg += timeAway.hours.toString() + 'h';
+                }
+                if (timeAway.minutes !== 0) {
+                    msg += timeAway.minutes.toString() + 'm';
+                }
+                if (timeAway.minutes < 1 && timeAway.hours < 1 && timeAway.days < 1) {
+                    msg += timeAway.seconds.toString() + 's';
+                }
+                if (msg !== '') {
+                    return msg;
+                } else {
+                    return false;
+                }
+            },
+            booth: {
+                lockTimer: setTimeout(function() {
+                }, 1000),
+                locked: false,
+                lockBooth: function() {
+                    API.moderateLockWaitList(!basicBot.roomUtilities.booth.locked);
+                    basicBot.roomUtilities.booth.locked = false;
+                    if (basicBot.settings.lockGuard) {
+                        basicBot.roomUtilities.booth.lockTimer = setTimeout(function() {
+                            API.moderateLockWaitList(basicBot.roomUtilities.booth.locked);
+                        }, basicBot.settings.maximumLocktime * 60 * 1000);
+                    }
+                },
+                unlockBooth: function() {
+                    API.moderateLockWaitList(basicBot.roomUtilities.booth.locked);
+                    clearTimeout(basicBot.roomUtilities.booth.lockTimer);
+                }
+            },
+            afkCheck: function() {
+                if (!basicBot.status || !basicBot.settings.afkRemoval) return void(0);
+                var rank = basicBot.roomUtilities.rankToNumber(basicBot.settings.afkRankCheck);
+                var djlist = API.getWaitList();
+                var lastPos = Math.min(djlist.length, basicBot.settings.afkpositionCheck);
+                if (lastPos - 1 > djlist.length) return void(0);
+                for (var i = 0; i < lastPos; i++) {
+                    if (typeof djlist[i] !== 'undefined') {
+                        var id = djlist[i].id;
+                        var user = basicBot.userUtilities.lookupUser(id);
+                        if (typeof user !== 'boolean') {
+                            var plugUser = basicBot.userUtilities.getUser(user);
+                            if (rank !== null && basicBot.userUtilities.getPermission(plugUser) <= rank) {
+                                var name = plugUser.username;
+                                var lastActive = basicBot.userUtilities.getLastActivity(user);
+                                var inactivity = Date.now() - lastActive;
+                                var time = basicBot.roomUtilities.msToStr(inactivity);
+                                var warncount = user.afkWarningCount;
+                                if (inactivity > basicBot.settings.maximumAfk * 60 * 1000) {
+                                    if (warncount === 0) {
+                                        API.sendChat(subChat(basicBot.chat.warning1, {name: name, time: time}));
+                                        user.afkWarningCount = 3;
+                                        user.afkCountdown = setTimeout(function(userToChange) {
+                                            userToChange.afkWarningCount = 1;
+                                        }, 90 * 1000, user);
+                                    } 
+                                    else if (warncount === 1) {
+                                        API.sendChat(subChat(basicBot.chat.warning2, {name: name}));
+                                        user.afkWarningCount = 3;
+                                        user.afkCountdown = setTimeout(function(userToChange) {
+                                            userToChange.afkWarningCount = 2;
+                                        }, 30 * 1000, user);
+                                    } 
+                                    else if (warncount === 2) {
+                                        var pos = API.getWaitListPosition(id);
+                                        if (pos !== -1) {
+                                            pos++;
+                                            basicBot.room.afkList.push([id, Date.now(), pos]);
+                                            user.lastDC = {
+
+                                                time: null,
+                                                position: null,
+                                                songCount: 0
+                                            };
+                                            API.moderateRemoveDJ(id);
+                                            API.sendChat(subChat(basicBot.chat.afkremove, { name: name, time: time, position: pos, maximumafk: basicBot.settings.maximumAfk}));
+                                        }
+                                        user.afkWarningCount = 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            smartSkip: function(reason) {
+                var dj = API.getDJ();
+                var id = dj.id;
+                var waitlistlength = API.getWaitList().length;
+                var locked = false;
+                basicBot.room.queueable = false;
+
+                if (waitlistlength == 50) {
+                    basicBot.roomUtilities.booth.lockBooth();
+                    locked = true;
+                }
+                setTimeout(function(id) {
+                    API.moderateForceSkip();
+                    setTimeout(function() {
+                        if (typeof reason !== 'undefined') {
+                            API.sendChat(reason);
+                        }
+                    }, 500);
+                    basicBot.room.skippable = false;
+                    setTimeout(function() {
+                        basicBot.room.skippable = true
+                    }, 5 * 1000);
+                    setTimeout(function(id) {
+                        basicBot.userUtilities.moveUser(id, basicBot.settings.skipPosition, false);
+                        basicBot.room.queueable = true;
+                        if (locked) {
+                            setTimeout(function() {
+                                basicBot.roomUtilities.booth.unlockBooth();
+                            }, 1000);
+                        }
+                    }, 1500, id);
+                }, 1000, id);
+            },
+            changeDJCycle: function() {
+                $.getJSON('/_/rooms/state', function(data) {
+                    if (data.data[0].booth.shouldCycle) { // checks "" "shouldCycle": true "" if its true
+                        API.moderateDJCycle(false); // Disables the DJ Cycle
+                        clearTimeout(basicBot.room.cycleTimer); // Clear the cycleguard timer
+                    } 
+                    else { // If cycle is already disable; enable it
+                        if (basicBot.settings.cycleGuard) { // Is cycle guard on?
+                            API.moderateDJCycle(true); // Enables DJ cycle
+                            basicBot.room.cycleTimer = setTimeout(function() { // Start timer
+                                API.moderateDJCycle(false); // Disable cycle
+                            }, basicBot.settings.maximumCycletime * 60 * 1000); // The time
+                        } 
+                        else { // So cycleguard is not on?
+                            API.moderateDJCycle(true); // Enables DJ cycle
+                        }
+                    };
+                });
+            },
+            intervalMessage: function() {
+                var interval;
+                if (basicBot.settings.motdEnabled) interval = basicBot.settings.motdInterval;
+                else interval = basicBot.settings.messageInterval;
+                if ((basicBot.room.roomstats.songCount % interval) === 0 && basicBot.status) {
+                    var msg;
+                    if (basicBot.settings.motdEnabled) {
+                        msg = basicBot.settings.motd;
+                    } 
+                    else {
+                        if (basicBot.settings.intervalMessages.length === 0) return void(0);
+                        var messageNumber = basicBot.room.roomstats.songCount % basicBot.settings.intervalMessages.length;
+                        msg = basicBot.settings.intervalMessages[messageNumber];
+                    }
+                    API.sendChat('/me ' + msg);
+                }
+            },
+            updateBlacklists: function() {
+                for (var bl in basicBot.settings.blacklists) {
+                    basicBot.room.blacklists[bl] = [];
+                    if (typeof basicBot.settings.blacklists[bl] === 'function') {
+                        basicBot.room.blacklists[bl] = basicBot.settings.blacklists();
+                    } 
+                    else if (typeof basicBot.settings.blacklists[bl] === 'string') {
+                        if (basicBot.settings.blacklists[bl] === '') {
+                            continue;
+                        }
+                        try {
+                            (function(l) {
+                                $.get(basicBot.settings.blacklists[l], function(data) {
+                                    if (typeof data === 'string') {
+                                        data = JSON.parse(data);
+                                    }
+                                    var list = [];
+                                    for (var prop in data) {
+                                        if (typeof data[prop].mid !== 'undefined') {
+                                            list.push(data[prop].mid);
+                                        }
+                                    }
+                                    basicBot.room.blacklists[l] = list;
+                                })
+                            })(bl);
+                        } 
+                        catch (e) {
+                            API.chatLog('Error setting' + bl + 'blacklist.');
+                            console.log('Error setting' + bl + 'blacklist.');
+                            console.log(e);
+                        }
+                    }
+                }
+            },
+            logNewBlacklistedSongs: function() {
+                if (typeof console.table !== 'undefined') {
+                    console.table(basicBot.room.newBlacklisted);
+                } 
+                else {
+                    console.log(basicBot.room.newBlacklisted);
+                }
+            },
+            exportNewBlacklistedSongs: function() {
+                var list = {};
+                for (var i = 0; i < basicBot.room.newBlacklisted.length; i++) {
+                    var track = basicBot.room.newBlacklisted[i];
+                    list[track.list] = [];
+                    list[track.list].push({
+                        title: track.title,
+                        author: track.author,
+                        mid: track.mid
+                    });
+                }
+                return list;
+            }
+        },
+        eventChat: function(chat) {
+            chat.message = linkFixer(chat.message);
+            chat.message = decodeEntities(chat.message);
+            chat.message = chat.message.trim();
+
+            basicBot.room.chatMessages.push([chat.cid, chat.message, chat.sub, chat.timestamp, chat.type, chat.uid, chat.un]);
+
+            for (var i = 0; i < basicBot.room.users.length; i++) {
+                if (basicBot.room.users[i].id === chat.uid) {
+                    basicBot.userUtilities.setLastActivity(basicBot.room.users[i]);
+                    if (basicBot.room.users[i].username !== chat.un) {
+                        basicBot.room.users[i].username = chat.un;
+                    }
+                }
+            }
+            if (basicBot.chatUtilities.chatFilter(chat)) return void(0);
+            if (!basicBot.chatUtilities.commandCheck(chat))
+                basicBot.chatUtilities.action(chat);
+        },
+        eventUserjoin: function(user) {
+            var known = false;
+            var index = null;
+            for (var i = 0; i < basicBot.room.users.length; i++) {
+                if (basicBot.room.users[i].id === user.id) {
+                    known = true;
+                    index = i;
+                }
+            }
+            var greet = true;
+            var welcomeback = null;
+            if (known) {
+                basicBot.room.users[index].inRoom = true;
+                var u = basicBot.userUtilities.lookupUser(user.id);
+                var jt = u.jointime;
+                var t = Date.now() - jt;
+                if (t < 10 * 1000) greet = false;
+                else welcomeback = true;
+            } 
+            else {
+                basicBot.room.users.push(new basicBot.User(user.id, user.username));
+                welcomeback = false;
+            }
+            for (var j = 0; j < basicBot.room.users.length; j++) {
+                if (basicBot.userUtilities.getUser(basicBot.room.users[j]).id === user.id) {
+                    basicBot.userUtilities.setLastActivity(basicBot.room.users[j]);
+                    basicBot.room.users[j].jointime = Date.now();
+                }
+
+            }
+            if (basicBot.settings.welcome && greet) {
+                welcomeback ?
+                    setTimeout(function(user) {
+                        API.sendChat(subChat(basicBot.chat.welcomeback, {name: user.username}));
+                    }, 1 * 1000, user) 
+                    :
+                    setTimeout(function(user) {
+                        API.sendChat(subChat(basicBot.chat.welcome, {name: user.username}));
+                    }, 1 * 1000, user);
+            }
+        },
+        eventUserleave: function(user) {
+            var lastDJ = API.getHistory()[0].user.id;
+            for (var i = 0; i < basicBot.room.users.length; i++) {
+                if (basicBot.room.users[i].id === user.id) {
+                    basicBot.userUtilities.updateDC(basicBot.room.users[i]);
+                    basicBot.room.users[i].inRoom = false;
+                    if (lastDJ == user.id) {
+                        var user = basicBot.userUtilities.lookupUser(basicBot.room.users[i].id);
+                        basicBot.userUtilities.updatePosition(user, 0);
+                        user.lastDC.time = null;
+                        user.lastDC.position = user.lastKnownPosition;
+                    }
+                }
+            }
+        },
+        eventVoteupdate: function(obj) {
+            for (var i = 0; i < basicBot.room.users.length; i++) {
+                if (basicBot.room.users[i].id === obj.user.id) {
+                    if (obj.vote === 1) {
+                        basicBot.room.users[i].votes.woot++;
+                    } 
+                    else {
+                        basicBot.room.users[i].votes.meh++;
+                    }
+                }
+            }
+
+            var mehs = API.getScore().negative;
+            var woots = API.getScore().positive;
+            var dj = API.getDJ();
+            var timeLeft = API.getTimeRemaining();
+            var timeElapsed = API.getTimeElapsed();
+
+            if (basicBot.settings.voteSkip) {
+                if ((mehs - woots) >= (basicBot.settings.voteSkipLimit)) {
+                    API.sendChat(subChat(basicBot.chat.voteskipexceededlimit, {name: dj.username, limit: basicBot.settings.voteSkipLimit}));
+                    if (basicBot.settings.smartSkip && timeLeft > timeElapsed) {
+                        basicBot.roomUtilities.smartSkip();
+                    } 
+                    else {
+                        API.moderateForceSkip();
+                    }
+                }
+            }
+
+        },
+        eventCurateupdate: function(obj) {
+            for (var i = 0; i < basicBot.room.users.length; i++) {
+                if (basicBot.room.users[i].id === obj.user.id) {
+                    basicBot.room.users[i].votes.curate++;
+                }
+            }
+        },
+        eventDjadvance: function(obj) {
+            if (basicBot.settings.autowoot) {
+                $("#woot").click(); // autowoot
+            }
+
+            var user = basicBot.userUtilities.lookupUser(obj.dj.id)
+            for (var i = 0; i < basicBot.room.users.length; i++) {
+                if (basicBot.room.users[i].id === user.id) {
+                    basicBot.room.users[i].lastDC = {
+                        time: null,
+                        position: null,
+                        songCount: 0
+                    };
+                }
+            }
+
+            var lastplay = obj.lastPlay;
+            if (typeof lastplay === 'undefined') return;
+            if (basicBot.settings.songstats) {
+                if (typeof basicBot.chat.songstatistics === "undefined") {
+                    API.sendChat("/me " + lastplay.media.author + " - " + lastplay.media.title + ": " + lastplay.score.positive + "W/" + lastplay.score.grabs + "G/" + lastplay.score.negative + "M.")
+                } 
+                else {
+                    API.sendChat(subChat(basicBot.chat.songstatistics, {artist: lastplay.media.author, title: lastplay.media.title, woots: lastplay.score.positive, grabs: lastplay.score.grabs, mehs: lastplay.score.negative}))
+                }
+            }
+            basicBot.room.roomstats.totalWoots += lastplay.score.positive;
+            basicBot.room.roomstats.totalMehs += lastplay.score.negative;
+            basicBot.room.roomstats.totalCurates += lastplay.score.grabs;
+            basicBot.room.roomstats.songCount++;
+            basicBot.roomUtilities.intervalMessage();
+            basicBot.room.currentDJID = obj.dj.id;
+
+            var blacklistSkip = setTimeout(function() {
+                var mid = obj.media.format + ':' + obj.media.cid;
+                for (var bl in basicBot.room.blacklists) {
+                    if (basicBot.settings.blacklistEnabled) {
+                        if (basicBot.room.blacklists[bl].indexOf(mid) > -1) {
+                            API.sendChat(subChat(basicBot.chat.isblacklisted, {blacklist: bl}));
+                            if (basicBot.settings.smartSkip) {
+                                return basicBot.roomUtilities.smartSkip();
+                            } 
+                            else {
+                                return API.moderateForceSkip();
+                            }
+                        }
+                    }
+                }
+            }, 2000);
+            var newMedia = obj.media;
+            var timeLimitSkip = setTimeout(function() {
+                if (basicBot.settings.timeGuard && newMedia.duration > basicBot.settings.maximumSongLength * 60 && !basicBot.room.roomevent) {
+                    var name = obj.dj.username;
+                    API.sendChat(subChat(basicBot.chat.timelimit, {name: name, maxlength: basicBot.settings.maximumSongLength}));
+                    if (basicBot.settings.smartSkip) {
+                        return basicBot.roomUtilities.smartSkip();
+                    } 
+                    else {
+                        return API.moderateForceSkip();
+                    }
+                }
+            }, 2000);
+            var format = obj.media.format;
+            var cid = obj.media.cid;
+            var naSkip = setTimeout(function() {
+                if (format == 1) {
+                    $.getJSON('https://www.googleapis.com/youtube/v3/videos?id=' + cid + '&key=AIzaSyDcfWu9cGaDnTjPKhg_dy9mUh6H7i4ePZ0&part=snippet&callback=?', function(track) {
+                        if (typeof(track.items[0]) === 'undefined') {
+                            var name = obj.dj.username;
+                            API.sendChat(subChat(basicBot.chat.notavailable, {name: name}));
+                            if (basicBot.settings.smartSkip) {
+                                return basicBot.roomUtilities.smartSkip();
+                            } 
+                            else {
+                                return API.moderateForceSkip();
+                            }
+                        }
+                    });
+                } 
+                else {
+                    var checkSong = SC.get('/tracks/' + cid, function(track) {
+                        if (typeof track.title === 'undefined') {
+                            var name = obj.dj.username;
+                            API.sendChat(subChat(basicBot.chat.notavailable, {name: name}));
+                            if (basicBot.settings.smartSkip) {
+                                return basicBot.roomUtilities.smartSkip();
+                            } 
+                            else {
+                                return API.moderateForceSkip();
+                            }
+                        }
+                    });
+                }
+            }, 2000);
+            clearTimeout(historySkip);
+            if (basicBot.settings.historySkip) {
+                var alreadyPlayed = false;
+                var apihistory = API.getHistory();
+                var name = obj.dj.username;
+                var historySkip = setTimeout(function() {
+                    for (var i = 0; i < apihistory.length; i++) {
+                        if (apihistory[i].media.cid === obj.media.cid) {
+                            basicBot.room.historyList[i].push(+new Date());
+                            alreadyPlayed = true;
+                            API.sendChat(subChat(basicBot.chat.songknown, {name: name}));
+                            if (basicBot.settings.smartSkip) {
+                                return basicBot.roomUtilities.smartSkip();
+                            } 
+                            else {
+                                return API.moderateForceSkip();
+                            }
+                        }
+                    }
+                    if (!alreadyPlayed) {
+                        basicBot.room.historyList.push([obj.media.cid, +new Date()]);
+                    }
+                }, 2000);
+            }
+            if (user.ownSong) {
+                API.sendChat(subChat(basicBot.chat.permissionownsong, {name: user.username}));
+                user.ownSong = false;
+            }
+            clearTimeout(basicBot.room.autoskipTimer);
+            if (basicBot.settings.autoskip) {
+                var remaining = obj.media.duration * 1000;
+                var startcid = API.getMedia().cid;
+                basicBot.room.autoskipTimer = setTimeout(function() {
+                    var endcid = API.getMedia().cid;
+                    if (startcid === endcid) {
+                        //API.sendChat('Song stuck, skipping...');
+                        API.moderateForceSkip();
+                    }
+                }, remaining + 5000);
+            }
+            storeToStorage();
+            //sendToSocket();
+        },
+        eventWaitlistupdate: function(users) {
+            if (users.length < 50) {
+                if (basicBot.room.queue.id.length > 0 && basicBot.room.queueable) {
+                    basicBot.room.queueable = false;
+                    setTimeout(function() {
+                        basicBot.room.queueable = true;
+                    }, 500);
+                    basicBot.room.queueing++;
+                    var id, pos;
+                    setTimeout(
+                        function() {
+                            id = basicBot.room.queue.id.splice(0, 1)[0];
+                            pos = basicBot.room.queue.position.splice(0, 1)[0];
+                            API.moderateAddDJ(id, pos);
+                            setTimeout(
+                                function(id, pos) {
+                                    API.moderateMoveDJ(id, pos);
+                                    basicBot.room.queueing--;
+                                    if (basicBot.room.queue.id.length === 0) setTimeout(function() {
+                                        basicBot.roomUtilities.booth.unlockBooth();
+                                    }, 1000);
+                                }, 1000, id, pos);
+                        }, 1000 + basicBot.room.queueing * 2500);
+                }
+            }
+            for (var i = 0; i < users.length; i++) {
+                var user = basicBot.userUtilities.lookupUser(users[i].id);
+                basicBot.userUtilities.updatePosition(user, API.getWaitListPosition(users[i].id) + 1);
+            }
+        },
+        chatcleaner: function (chat) {
+            if (!basicBot.settings.filterChat) return false;
+            if (basicBot.userUtilities.getPermission(chat.uid) > 1) return false;
+            var msg = chat.message;
+            var containsLetters = false;
+            for (var i = 0; i < msg.length; i++) {
+                ch = msg.charAt(i);
+                if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z') || (ch >= '0' && ch <= '9') || ch === ':' || ch === '^') containsLetters = true;
+            }
+            if (msg === '') {
+                return true;
+            }
+            if (!containsLetters && (msg.length === 1 || msg.length > 3)) return true;
+            msg = msg.replace(/[ ,.\/=~+%^*\-\\"'&@#]/g, '');
+            var capitals = 0;
+            var ch;
+            for (var i = 0; i < msg.length; i++) {
+                ch = msg.charAt(i);
+                if (ch >= 'A' && ch <= 'Z') capitals++;
+            }
+            if (capitals >= 40) {
+                API.sendChat(subChat(basicBot.chat.caps, {name: chat.un}));
+                return true;
+            }
+            msg = msg.toLowerCase();
+            if (msg === 'skip') {
+                API.sendChat(subChat(basicBot.chat.askskip, {name: chat.un}));
+                return true;
+            }
+            for (var j = 0; j < basicBot.chatUtilities.curses.length; j++) {
+                if (msg === basicBot.chatUtilities.curses[j]) {
+                    API.sendChat(subChat(basicBot.chat.spam, {name: chat.un}));
+                    return true;
+                }
+            }
+            return false;
+        },
+        chatUtilities: {
+            chatFilter: function(chat) {
+                var msg = chat.message;
+                var perm = basicBot.userUtilities.getPermission(chat.uid);
+                var user = basicBot.userUtilities.lookupUser(chat.uid);
+                var isMuted = false;
+                for (var i = 0; i < basicBot.room.mutedUsers.length; i++) {
+                    if (basicBot.room.mutedUsers[i] === chat.uid) isMuted = true;
+                }
+                if (isMuted) {
+                    API.moderateDeleteChat(chat.cid);
+                    return true;
+                }
+                if (basicBot.settings.lockdownEnabled) {
+                    if (perm === 0) {
+                        API.moderateDeleteChat(chat.cid);
+                        return true;
+                    }
+                }
+                if (basicBot.chatcleaner(chat)) {
+                    API.moderateDeleteChat(chat.cid);
+                    return true;
+                }
+                if (basicBot.settings.cmdDeletion && msg.startsWith(basicBot.settings.commandLiteral)) {
+                    API.moderateDeleteChat(chat.cid);
+                }
+                var plugRoomLinkPatt = /(\bhttps?:\/\/(www.)?plug\.dj[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+                if (plugRoomLinkPatt.exec(msg)) {
+                    if (perm === 0) {
+                        API.sendChat(subChat(basicBot.chat.roomadvertising, {name: chat.un}));
+                        API.moderateBanUser(user.id, 1, API.BAN.PERMA);
+                        return true;
+                    }
+                }
+
+                if (msg.indexOf('http://adf.ly/') > -1) {
+                    API.moderateDeleteChat(chat.cid);
+                    API.sendChat(subChat(basicBot.chat.adfly, {name: chat.un}));
+                    return true;
+                }
+                if (msg.indexOf('autojoin was not enabled') > 0 || msg.indexOf('AFK message was not enabled') > 0 || msg.indexOf('!afkdisable') > 0 || msg.indexOf('!joindisable') > 0 || msg.indexOf('autojoin disabled') > 0 || msg.indexOf('AFK message disabled') > 0) {
+                    API.moderateDeleteChat(chat.cid);
+                    return true;
+                }
+
+                var rlJoinChat = basicBot.chat.roulettejoin;
+                var rlLeaveChat = basicBot.chat.rouletteleave;
+
+                var joinedroulette = rlJoinChat.split('%%NAME%%');
+                if (joinedroulette[1].length > joinedroulette[0].length) joinedroulette = joinedroulette[1];
+                else joinedroulette = joinedroulette[0];
+
+                var leftroulette = rlLeaveChat.split('%%NAME%%');
+                if (leftroulette[1].length > leftroulette[0].length) leftroulette = leftroulette[1];
+                else leftroulette = leftroulette[0];
+
+                if ((msg.indexOf(joinedroulette) > -1 || msg.indexOf(leftroulette) > -1) && chat.uid === basicBot.loggedInID) {
+                    setTimeout(function(id) {
+                        API.moderateDeleteChat(id);
+                    }, 5 * 1000, chat.cid);
+                    return true;
+                }
+                return false;
+            },
+            commandCheck: function(chat) {
+                var cmd;
+                if (chat.message.charAt(0) === basicBot.settings.commandLiteral) {
+                    var space = chat.message.indexOf(' ');
+                    if (space === -1) {
+                        cmd = chat.message;
+                    } 
+                    else cmd = chat.message.substring(0, space);
+                } 
+                else return false;
+                var userPerm = basicBot.userUtilities.getPermission(chat.uid);
+                //console.log("name: " + chat.un + ", perm: " + userPerm);
+                if (chat.message !== basicBot.settings.commandLiteral + 'join' && chat.message !== basicBot.settings.commandLiteral + "leave") {
+                    if (userPerm === 0 && !basicBot.room.usercommand) return void(0);
+                    if (!basicBot.room.allcommand) return void(0);
+                }
+                if (chat.message === basicBot.settings.commandLiteral + 'eta' && basicBot.settings.etaRestriction) {
+                    if (userPerm < 2) {
+                        var u = basicBot.userUtilities.lookupUser(chat.uid);
+                        if (u.lastEta !== null && (Date.now() - u.lastEta) < 1 * 60 * 60 * 1000) {
+                            API.moderateDeleteChat(chat.cid);
+                            return void(0);
+                        } 
+                        else u.lastEta = Date.now();
+                    }
+                }
+                var executed = false;
+
+                for (var comm in basicBot.commands) {
+                    var cmdCall = basicBot.commands[comm].command;
+                    if (!Array.isArray(cmdCall)) {
+                        cmdCall = [cmdCall]
+                    }
+                    for (var i = 0; i < cmdCall.length; i++) {
+                        if (basicBot.settings.commandLiteral + cmdCall[i] === cmd) {
+                            basicBot.commands[comm].functionality(chat, basicBot.settings.commandLiteral + cmdCall[i]);
+                            executed = true;
+                            break;
+                        }
+                    }
+                }
+
+                if (executed && userPerm === 0) {
+                    basicBot.room.usercommand = false;
+                    setTimeout(function() {
+                        basicBot.room.usercommand = true;
+                    }, basicBot.settings.commandCooldown * 1000);
+                }
+                if (executed) {
+                    /*if (basicBot.settings.cmdDeletion) {
+                        API.moderateDeleteChat(chat.cid);
+                    }*/
+
+                    //basicBot.room.allcommand = false;
+                    //setTimeout(function () {
+                    basicBot.room.allcommand = true;
+                    //}, 5 * 1000);
+                }
+                return executed;
+            },
+            action: function(chat) {
+                var user = basicBot.userUtilities.lookupUser(chat.uid);
+                if (chat.type === 'message') {
+                    for (var j = 0; j < basicBot.room.users.length; j++) {
+                        if (basicBot.userUtilities.getUser(basicBot.room.users[j]).id === chat.uid) {
+                            basicBot.userUtilities.setLastActivity(basicBot.room.users[j]);
+                        }
+
+                    }
+                }
+                basicBot.room.roomstats.chatmessages++;
+            },
+            spam: [
+                'hueh', 'hu3', 'brbr', 'heu', 'brbr', 'kkkk', 'spoder', 'mafia', 'zuera', 'zueira',
+                'zueria', 'aehoo', 'aheu', 'alguem', 'algum', 'brazil', 'zoeira', 'fuckadmins', 'affff', 'vaisefoder', 'huenaarea',
+                'hitler', 'ashua', 'ahsu', 'ashau', 'lulz', 'huehue', 'hue', 'huehuehue', 'merda', 'pqp', 'puta', 'mulher', 'pula', 'retarda', 'caralho', 'filha', 'ppk',
+                'gringo', 'fuder', 'foder', 'hua', 'ahue', 'modafuka', 'modafoka', 'mudafuka', 'mudafoka', 'ooooooooooooooo', 'foda'
+            ],
+            curses: [ 
+                "atmata", "acypisi", "atcypisi", "atsipisi", "atsipisk", "bibis", "blet", "blt", "bybi", "bybys", "ciulpk", "cbb", "ciulpk", "čiulpk", "čiulpk bybi", "duhas", "dūhas", "faggot", "fck", "fuck", "gandonas", "krv", "krw", "kurva", "kurwa", "kūrva", "modafocka", "motherfucker", "nahoi", "nahui", "nigga", "nigger", "niqqa", "nx", "pederastas", "pedikas", "pedofilas", "pidar", "pisk nx", "pisk nx", "pisk", "pohui", "pusk nx", "px", "pydaras", "pūsk nx", "uzsikrusk", "užsikrušk", "užsipisk"
+            ]
+        },
+        connectAPI: function() {
+            this.proxy = {
+                eventChat: $.proxy(this.eventChat, this),
+                eventUserskip: $.proxy(this.eventUserskip, this),
+                eventUserjoin: $.proxy(this.eventUserjoin, this),
+                eventUserleave: $.proxy(this.eventUserleave, this),
+                //eventFriendjoin: $.proxy(this.eventFriendjoin, this),
+                eventVoteupdate: $.proxy(this.eventVoteupdate, this),
+                eventCurateupdate: $.proxy(this.eventCurateupdate, this),
+                eventRoomscoreupdate: $.proxy(this.eventRoomscoreupdate, this),
+                eventDjadvance: $.proxy(this.eventDjadvance, this),
+                //eventDjupdate: $.proxy(this.eventDjupdate, this),
+                eventWaitlistupdate: $.proxy(this.eventWaitlistupdate, this),
+                eventVoteskip: $.proxy(this.eventVoteskip, this),
+                eventModskip: $.proxy(this.eventModskip, this),
+                eventChatcommand: $.proxy(this.eventChatcommand, this),
+                eventHistoryupdate: $.proxy(this.eventHistoryupdate, this),
+
+            };
+            API.on(API.CHAT, this.proxy.eventChat);
+            API.on(API.USER_SKIP, this.proxy.eventUserskip);
+            API.on(API.USER_JOIN, this.proxy.eventUserjoin);
+            API.on(API.USER_LEAVE, this.proxy.eventUserleave);
+            API.on(API.VOTE_UPDATE, this.proxy.eventVoteupdate);
+            API.on(API.GRAB_UPDATE, this.proxy.eventCurateupdate);
+            API.on(API.ROOM_SCORE_UPDATE, this.proxy.eventRoomscoreupdate);
+            API.on(API.ADVANCE, this.proxy.eventDjadvance);
+            API.on(API.WAIT_LIST_UPDATE, this.proxy.eventWaitlistupdate);
+            API.on(API.MOD_SKIP, this.proxy.eventModskip);
+            API.on(API.CHAT_COMMAND, this.proxy.eventChatcommand);
+            API.on(API.HISTORY_UPDATE, this.proxy.eventHistoryupdate);
+        },
+        disconnectAPI: function() {
+            API.off(API.CHAT, this.proxy.eventChat);
+            API.off(API.USER_SKIP, this.proxy.eventUserskip);
+            API.off(API.USER_JOIN, this.proxy.eventUserjoin);
+            API.off(API.USER_LEAVE, this.proxy.eventUserleave);
+            API.off(API.VOTE_UPDATE, this.proxy.eventVoteupdate);
+            API.off(API.CURATE_UPDATE, this.proxy.eventCurateupdate);
+            API.off(API.ROOM_SCORE_UPDATE, this.proxy.eventRoomscoreupdate);
+            API.off(API.ADVANCE, this.proxy.eventDjadvance);
+            API.off(API.WAIT_LIST_UPDATE, this.proxy.eventWaitlistupdate);
+            API.off(API.MOD_SKIP, this.proxy.eventModskip);
+            API.off(API.CHAT_COMMAND, this.proxy.eventChatcommand);
+            API.off(API.HISTORY_UPDATE, this.proxy.eventHistoryupdate);
+        },
+        startup: function() {
+            Function.prototype.toString = function() {
+                return 'Function.'
+            };
+            var u = API.getUser();
+            if (basicBot.userUtilities.getPermission(u) < 2) return API.chatLog(basicBot.chat.greyuser);
+            if (basicBot.userUtilities.getPermission(u) === 2) API.chatLog(basicBot.chat.bouncer);
+            basicBot.connectAPI();
+            API.moderateDeleteChat = function(cid) {
+                $.ajax({
+                    url: "/_/chat/" + cid,
+                    type: "DELETE"
+                })
+            };
+
+            basicBot.room.name = window.location.pathname;
+            var Check;
+
+            console.log(basicBot.room.name);
+
+            var detect = function() {
+                if (basicBot.room.name != window.location.pathname) {
+                    console.log("Killing bot after room change.");
+                    storeToStorage();
+                    basicBot.disconnectAPI();
+                    setTimeout(function() {
+                        kill();
+                    }, 1000);
+                    if (basicBot.settings.roomLock) {
+                        window.location = basicBot.room.name;
+                    } 
+                    else {
+                        clearInterval(Check);
+                    }
+                }
+            };
+
+            Check = setInterval(function() {detect()}, 2000);
+
+            retrieveSettings();
+            retrieveFromStorage();
+            window.bot = basicBot;
+            basicBot.roomUtilities.updateBlacklists();
+            setInterval(basicBot.roomUtilities.updateBlacklists, 60 * 60 * 1000);
+            basicBot.getNewBlacklistedSongs = basicBot.roomUtilities.exportNewBlacklistedSongs;
+            basicBot.logNewBlacklistedSongs = basicBot.roomUtilities.logNewBlacklistedSongs;
+            if (basicBot.room.roomstats.launchTime === null) {
+                basicBot.room.roomstats.launchTime = Date.now();
+            }
+
+            for (var j = 0; j < basicBot.room.users.length; j++) {
+                basicBot.room.users[j].inRoom = false;
+            }
+            var userlist = API.getUsers();
+            for (var i = 0; i < userlist.length; i++) {
+                var known = false;
+                var ind = null;
+                for (var j = 0; j < basicBot.room.users.length; j++) {
+                    if (basicBot.room.users[j].id === userlist[i].id) {
+                        known = true;
+                        ind = j;
+                    }
+                }
+                if (known) {
+                    basicBot.room.users[ind].inRoom = true;
+                } 
+                else {
+                    basicBot.room.users.push(new basicBot.User(userlist[i].id, userlist[i].username));
+                    ind = basicBot.room.users.length - 1;
+                }
+                var wlIndex = API.getWaitListPosition(basicBot.room.users[ind].id) + 1;
+                basicBot.userUtilities.updatePosition(basicBot.room.users[ind], wlIndex);
+            }
+            basicBot.room.afkInterval = setInterval(function() {
+                basicBot.roomUtilities.afkCheck()
+            }, 10 * 1000);
+            basicBot.room.autodisableInterval = setInterval(function() {
+                basicBot.room.autodisableFunc();
+            }, 60 * 60 * 1000);
+            basicBot.room.autorouletteInterval = setInterval(function() {
+                basicBot.room.autorouletteFunc();
+            }, 45 * 60 * 1000);
+            basicBot.room.naktis = setInterval(function () {
+            var naktis = new Date();
+            if (naktis.getHours() === 6 && naktis.getMinutes() === 45 && naktis.getSeconds() === 0) {
+             API.sendChat('!autoroulette');
+                }
+           }, 1000);
+            basicBot.room.rytas = setInterval(function () {
+            var rytas = new Date();
+            if (rytas.getHours() === 6 && rytas.getMinutes() === 55 && rytas.getSeconds() === 0) {
+             API.sendChat('!autoroulette');
+            }
+           }, 1000);
+            basicBot.loggedInID = API.getUser().id;
+            basicBot.status = true;
+            API.sendChat('/cap ' + basicBot.settings.startupCap);
+            API.setVolume(basicBot.settings.startupVolume);
+            if (basicBot.settings.autowoot) {
+                $("#woot").click();
+            }
+            if (basicBot.settings.startupEmoji) {
+                var emojibuttonoff = $(".icon-emoji-off");
+                if (emojibuttonoff.length > 0) {
+                    emojibuttonoff[0].click();
+                }
+                API.chatLog(':smile: Emojis enabled.');
+            } 
+            else {
+                var emojibuttonon = $(".icon-emoji-on");
+                if (emojibuttonon.length > 0) {
+                    emojibuttonon[0].click();
+                }
+                API.chatLog('Emojis disabled.');
+            }
+            API.chatLog('Avatars capped at ' + basicBot.settings.startupCap);
+            API.chatLog('Volume set to ' + basicBot.settings.startupVolume);
+            //socket();
+            loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.version})));
+        },
+        commands: {
+            executable: function(minRank, chat) {
+                var id = chat.uid;
+                var perm = basicBot.userUtilities.getPermission(id);
+                var minPerm;
+                switch (minRank) {
+                    case 'admin':
+                        minPerm = 10;
+                        break;
+                    case 'ambassador':
+                        minPerm = 7;
+                        break;
+                    case 'host':
+                        minPerm = 5;
+                        break;
+                    case 'cohost':
+                        minPerm = 4;
+                        break;
+                    case 'manager':
+                        minPerm = 3;
+                        break;
+                    case 'mod':
+                        if (basicBot.settings.bouncerPlus) {
+                            minPerm = 2;
+                        } 
+                        else {
+                            minPerm = 3;
+                        }
+                        break;
+                    case 'bouncer':
+                        minPerm = 2;
+                        break;
+                    case 'residentdj':
+                        minPerm = 1;
+                        break;
+                    case 'user':
+                        minPerm = 0;
+                        break;
+                    default:
+                        API.chatLog('error assigning minimum permission');
+                }
+                return perm >= minPerm;
+
+            },
+            /**
+             command: {
+                        command: 'cmd',
+                        rank: 'user/bouncer/mod/manager',
+                        type: 'startsWith/exact',
+                        functionality: function(chat, cmd){
+                                if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                                if( !basicBot.commands.executable(this.rank, chat) ) return void (0);
+                                else{
+
+                                }
+                        }
+                },
+             **/
+
+            activeCommand: {
+                command: 'active',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        var now = Date.now();
+                        var chatters = 0;
+                        var time;
+
+                        var launchT = basicBot.room.roomstats.launchTime;
+                        var durationOnline = Date.now() - launchT;
+                        var since = durationOnline / 1000;
+
+                        if (msg.length === cmd.length) time = since;
+                        else {
+                            time = msg.substring(cmd.length + 1);
+                            if (isNaN(time)) return API.sendChat(subChat(basicBot.chat.invalidtime, {name: chat.un}));
+                        }
+                        for (var i = 0; i < basicBot.room.users.length; i++) {
+                            userTime = basicBot.userUtilities.getLastActivity(basicBot.room.users[i]);
+                            if ((now - userTime) <= (time * 60 * 1000)) {
+                                chatters++;
+                            }
+                        }
+                        API.sendChat(subChat(basicBot.chat.activeusersintime, {name: chat.un, amount: chatters, time: time}));
+                    }
+                }
+            },
+
+            addCommand: {
+                command: 'add',
+                rank: 'mod',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {name: chat.un}));
+                        var name = msg.substr(cmd.length + 2);
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (msg.length > cmd.length + 2) {
+                            if (typeof user !== 'undefined') {
+                                if (basicBot.room.roomevent) {
+                                    basicBot.room.eventArtists.push(user.id);
+                                }
+                                API.moderateAddDJ(user.id);
+                            } 
+                            else API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
+                        }
+                    }
+                }
+            },
+
+            afklimitCommand: {
+                command: 'afklimit',
+                rank: 'manager',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nolimitspecified, {name: chat.un}));
+                        var limit = msg.substring(cmd.length + 1);
+                        if (!isNaN(limit)) {
+                            basicBot.settings.maximumAfk = parseInt(limit, 10);
+                            API.sendChat(subChat(basicBot.chat.maximumafktimeset, {name: chat.un, time: basicBot.settings.maximumAfk}));
+                        } 
+                        else API.sendChat(subChat(basicBot.chat.invalidlimitspecified, {name: chat.un}));
+                    }
+                }
+            },
+
+            afkremovalCommand: {
+                command: 'afkremoval',
+                rank: 'mod',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.afkRemoval) {
+                            basicBot.settings.afkRemoval = !basicBot.settings.afkRemoval;
+                            clearInterval(basicBot.room.afkInterval);
+                            API.sendChat(subChat(basicBot.chat.toggleoff, {name: chat.un, 'function': basicBot.chat.afkremoval}));
+                        } 
+                        else {
+                            basicBot.settings.afkRemoval = !basicBot.settings.afkRemoval;
+                            basicBot.room.afkInterval = setInterval(function() {
+                                basicBot.roomUtilities.afkCheck()
+                            }, 2 * 1000);
+                            API.sendChat(subChat(basicBot.chat.toggleon, {name: chat.un, 'function': basicBot.chat.afkremoval}));
+                        }
+                    }
+                }
+            },
+
+            afkresetCommand: {
+                command: 'afkreset',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {name: chat.un}));
+                        var name = msg.substring(cmd.length + 2);
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
+                        basicBot.userUtilities.setLastActivity(user);
+                        API.sendChat(subChat(basicBot.chat.afkstatusreset, {name: chat.un, username: name}));
+                    }
+                }
+            },
+
+            afktimeCommand: {
+                command: 'afktime',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {name: chat.un}));
+                        var name = msg.substring(cmd.length + 2);
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
+                        var lastActive = basicBot.userUtilities.getLastActivity(user);
+                        var inactivity = Date.now() - lastActive;
+                        var time = basicBot.roomUtilities.msToStr(inactivity);
+
+                        var launchT = basicBot.room.roomstats.launchTime;
+                        var durationOnline = Date.now() - launchT;
+
+                        if (inactivity == durationOnline) {
+                            API.sendChat(subChat(basicBot.chat.inactivelonger, {botname: basicBot.settings.botName, name: chat.un, username: name}));
+                        } 
+                        else {
+                            API.sendChat(subChat(basicBot.chat.inactivefor, {name: chat.un, username: name, time: time}));
+                        }
+                    }
+                }
+            },
+
+            autoroulette: {
+                command: 'autoroulette',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.autoroulette) {
+                            basicBot.settings.autoroulette = !basicBot.settings.autoroulette;
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                'function': basicBot.chat.autoroulette
+                            }));
+                        } 
+                        else {
+                            basicBot.settings.autoroulette = !basicBot.settings.autoroulette;
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {name: chat.un, 'function': basicBot.chat.autoroulette}));
+                        }
+
+                    }
+                }
+            },
+
+            stoprouletteCommand: {
+                command: 'stoproulette', // The command to be called. With the standard command literal this would be: !bacon
+                rank: 'manager', // Minimum user permission to use the command
+                type: 'exact', // Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length)
+                        return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat))
+                        return void(0);
+                    else {
+                        API.sendChat("/me Ruletė sustabdyta!");
+                        clearTimeout(bot.room.roulette.countdown);
+                        basicBot.room.roulette.rouletteStatus = false;
+                    }
+                }
+            },
+
+            shushCommand: {
+                command: 'shush',
+                rank: 'user',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length)
+                        return;
+                    if (!bot.commands.executable(this.rank, chat))
+                        return;
+                    else {
+                        var msg = chat.message;
+                        var space = msg.indexOf(' ');
+                        var name = msg.substring(space + 2);
+                        API.sendChat("@" + name + " http://imgur.com/abxxwMo.png");
+
+                    }
+                }
+            },
+
+            autodisableCommand: {
+                command: 'autodisable',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.autodisable) {
+                            basicBot.settings.autodisable = !basicBot.settings.autodisable;
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {name: chat.un, 'function': basicBot.chat.autodisable}));
+                        } 
+                        else {
+                            basicBot.settings.autodisable = !basicBot.settings.autodisable;
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {name: chat.un, 'function': basicBot.chat.autodisable}));
+                        }
+
+                    }
+                }
+            },
+
+
+            autoskipCommand: {
+                command: 'autoskip',
+                rank: 'mod',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.autoskip) {
+                            basicBot.settings.autoskip = !basicBot.settings.autoskip;
+                            clearTimeout(basicBot.room.autoskipTimer);
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {name: chat.un, 'function': basicBot.chat.autoskip}));
+                        } 
+                        else {
+                            basicBot.settings.autoskip = !basicBot.settings.autoskip;
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {name: chat.un, 'function': basicBot.chat.autoskip}));
+                        }
+                    }
+                }
+            },
+
+            autowootCommand: {
+                command: 'autowoot',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        API.sendChat(basicBot.chat.autowoot);
+                    }
+                }
+            },
+
+            baCommand: {
+                command: 'ba',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        API.sendChat(basicBot.chat.brandambassador);
+                    }
+                }
+            },
+
+            ballCommand: {
+                command: ['8ball', 'ask'],
+                rank: 'user',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var crowd = API.getUsers();
+                        var msg = chat.message;
+                        var argument = msg.substring(cmd.length + 1).replace(/@/g, '');
+                        var randomUser = Math.floor(Math.random() * crowd.length);
+                        var randomBall = Math.floor(Math.random() * basicBot.chat.balls.length);
+                        var randomSentence = Math.floor(Math.random() * 1);
+                        API.sendChat(subChat(basicBot.chat.ball, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.chat.balls[randomBall]}));
+                    }
+                }
+            },
+
+            banCommand: {
+                command: 'ban',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {name: chat.un}));
+                        var name = msg.substr(cmd.length + 2);
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
+                        var permFrom = basicBot.userUtilities.getPermission(chat.uid);
+                        var permUser = basicBot.userUtilities.getPermission(user.id);
+                        if (permUser >= permFrom) return void(0);
+                        API.moderateBanUser(user.id, 1, API.BAN.DAY);
+                    }
+                }
+            },
+
+            blacklistCommand: {
+                command: ['blacklist', 'bl'],
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nolistspecified, {name: chat.un}));
+                        var list = msg.substr(cmd.length + 1);
+                        if (typeof basicBot.room.blacklists[list] === 'undefined') return API.sendChat(subChat(basicBot.chat.invalidlistspecified, {name: chat.un}));
+                        else {
+                            var media = API.getMedia();
+                            var timeLeft = API.getTimeRemaining();
+                            var timeElapsed = API.getTimeElapsed();
+                            var track = {
+                                list: list,
+                                author: media.author,
+                                title: media.title,
+                                mid: media.format + ':' + media.cid
+                            };
+                            basicBot.room.newBlacklisted.push(track);
+                            basicBot.room.blacklists[list].push(media.format + ':' + media.cid);
+                            API.sendChat(subChat(basicBot.chat.newblacklisted, {name: chat.un, blacklist: list, author: media.author, title: media.title, mid: media.format + ':' + media.cid}));
+                            if (basicBot.settings.smartSkip && timeLeft > timeElapsed) {
+                                basicBot.roomUtilities.smartSkip();
+                            } 
+                            else {
+                                API.moderateForceSkip();
+                            }
+                            if (typeof basicBot.room.newBlacklistedSongFunction === 'function') {
+                                basicBot.room.newBlacklistedSongFunction(track);
+                            }
+                        }
+                    }
+                }
+            },
+
+            blinfoCommand: {
+                command: 'blinfo',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var author = API.getMedia().author;
+                        var title = API.getMedia().title;
+                        var name = chat.un;
+                        var format = API.getMedia().format;
+                        var cid = API.getMedia().cid;
+                        var songid = format + ":" + cid;
+
+                        API.sendChat(subChat(basicBot.chat.blinfo, {
+                            name: name,
+                            author: author,
+                            title: title,
+                            songid: songid
+                        }));
+                    }
+                }
+            },
+
+            bouncerPlusCommand: {
+                command: 'bouncer+',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (basicBot.settings.bouncerPlus) {
+                            basicBot.settings.bouncerPlus = false;
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                'function': 'Bouncer+'
+                            }));
+                        } else {
+                            if (!basicBot.settings.bouncerPlus) {
+                                var id = chat.uid;
+                                var perm = basicBot.userUtilities.getPermission(id);
+                                if (perm > 2) {
+                                    basicBot.settings.bouncerPlus = true;
+                                    return API.sendChat(subChat(basicBot.chat.toggleon, {
+                                        name: chat.un,
+                                        'function': 'Bouncer+'
+                                    }));
+                                }
+                            } else return API.sendChat(subChat(basicBot.chat.bouncerplusrank, {
+                                name: chat.un
+                            }));
+                        }
+                    }
+                }
+            },
+
+            botnameCommand: {
+                command: 'botname',
+                rank: 'manager',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length <= cmd.length + 1) return API.sendChat(subChat(basicBot.chat.currentbotname, {
+                            botname: basicBot.settings.botName
+                        }));
+                        var argument = msg.substring(cmd.length + 1);
+                        if (argument) {
+                            basicBot.settings.botName = argument;
+                            API.sendChat(subChat(basicBot.chat.botnameset, {
+                                botName: basicBot.settings.botName
+                            }));
+                        }
+                    }
+                }
+            },
+
+            clearchatCommand: {
+                command: 'clearchat',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var currentchat = $('#chat-messages').children();
+                        for (var i = 0; i < currentchat.length; i++) {
+                            API.moderateDeleteChat(currentchat[i].getAttribute("data-cid"));
+                        }
+                        return API.sendChat(subChat(basicBot.chat.chatcleared, {
+                            name: chat.un
+                        }));
+                    }
+                }
+            },
+
+            clearlocalstorageCommand: {
+                command: 'clearlocalstorage',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        localStorage.clear();
+                        API.chatLog('Cleared localstorage, please refresh the page!');
+                    }
+                }
+            },
+
+            cmddeletionCommand: {
+                command: ['commanddeletion', 'cmddeletion', 'cmddel'],
+                rank: 'mod',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.cmdDeletion) {
+                            basicBot.settings.cmdDeletion = !basicBot.settings.cmdDeletion;
+                            API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                'function': basicBot.chat.cmddeletion
+                            }));
+                        } else {
+                            basicBot.settings.cmdDeletion = !basicBot.settings.cmdDeletion;
+                            API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                'function': basicBot.chat.cmddeletion
+                            }));
+                        }
+                    }
+                }
+            },
+
+            commandsCommand: {
+                command: 'commands',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        API.sendChat(subChat(basicBot.chat.commandslink, {
+                            botname: basicBot.settings.botName,
+                            link: basicBot.cmdLink
+                        }));
+                    }
+                }
+            },
+
+            cookieCommand: {
+                command: 'cookie',
+                rank: 'user',
+                type: 'startsWith',
+                getCookie: function(chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.cookies.length);
+                    return basicBot.chat.cookies[c];
+                },
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.eatcookie);
+                            return false;
+                        } else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nousercookie, {
+                                    name: name
+                                }));
+                            } else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selfcookie, {
+                                    name: name
+                                }));
+                            } else {
+                                return API.sendChat(subChat(basicBot.chat.cookie, {
+                                    nameto: user.username,
+                                    namefrom: chat.un,
+                                    cookie: this.getCookie()
+                                }));
+                            }
+                        }
+                    }
+                }
+            },
+
+            cycleCommand: {
+                command: 'cycle',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        basicBot.roomUtilities.changeDJCycle();
+                    }
+                }
+            },
+
+            cycleguardCommand: {
+                command: 'cycleguard',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.cycleGuard) {
+                            basicBot.settings.cycleGuard = !basicBot.settings.cycleGuard;
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                'function': basicBot.chat.cycleguard
+                            }));
+                        } else {
+                            basicBot.settings.cycleGuard = !basicBot.settings.cycleGuard;
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                'function': basicBot.chat.cycleguard
+                            }));
+                        }
+
+                    }
+                }
+            },
+
+            cycletimerCommand: {
+                command: 'cycletimer',
+                rank: 'manager',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        var cycleTime = msg.substring(cmd.length + 1);
+                        if (!isNaN(cycleTime) && cycleTime !== "") {
+                            basicBot.settings.maximumCycletime = cycleTime;
+                            return API.sendChat(subChat(basicBot.chat.cycleguardtime, {
+                                name: chat.un,
+                                time: basicBot.settings.maximumCycletime
+                            }));
+                        } else return API.sendChat(subChat(basicBot.chat.invalidtime, {
+                            name: chat.un
+                        }));
+
+                    }
+                }
+            },
+
+            dclookupCommand: {
+                command: ['dclookup', 'dc'],
+                rank: 'user',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        var name;
+                        if (msg.length === cmd.length) name = chat.un;
+                        else {
+                            name = msg.substring(cmd.length + 2);
+                            var perm = basicBot.userUtilities.getPermission(chat.uid);
+                            if (perm < 2) return API.sendChat(subChat(basicBot.chat.dclookuprank, {
+                                name: chat.un
+                            }));
+                        }
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {
+                            name: chat.un
+                        }));
+                        var toChat = basicBot.userUtilities.dclookup(user.id);
+                        API.sendChat(toChat);
+                    }
+                }
+            },
+
+            /*
+
+            // This does not work anymore.
+
+            deletechatCommand: {
+                command: 'deletechat',
+                rank: 'mod',
+                type: 'startsWith',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {name: chat.un}));
+                        var name = msg.substring(cmd.length + 2);
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
+                        var chats = $('.from');
+                        var message = $('.message');
+                        var emote = $('.emote');
+                        var from = $('.un.clickable');
+                        for (var i = 0; i < chats.length; i++) {
+                            var n = from[i].textContent;
+                            if (name.trim() === n.trim()) {
+
+                                // var messagecid = $(message)[i].getAttribute('data-cid');
+                                // var emotecid = $(emote)[i].getAttribute('data-cid');
+                                // API.moderateDeleteChat(messagecid);
+
+                                // try {
+                                //     API.moderateDeleteChat(messagecid);
+                                // }
+                                // finally {
+                                //     API.moderateDeleteChat(emotecid);
+                                // }
+
+                                if (typeof $(message)[i].getAttribute('data-cid') == "undefined"){
+                                    API.moderateDeleteChat($(emote)[i].getAttribute('data-cid')); // works well with normal messages but not with emotes due to emotes and messages are seperate.
+                                } else {
+                                    API.moderateDeleteChat($(message)[i].getAttribute('data-cid'));
+                                }
+                            }
+                        }
+                        API.sendChat(subChat(basicBot.chat.deletechat, {name: chat.un, username: name}));
+                    }
+                }
+            },
+
+            */
+
+            deletechatCommand: {
+                command: 'deletechat',
+                rank: 'mod',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {
+                            name: chat.un
+                        }));
+                        var name = msg.substring(cmd.length + 2);
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {
+                            name: chat.un
+                        }));
+                        for (var i = 1; i < basicBot.room.chatMessages.length; i++) {
+                            if (basicBot.room.chatMessages[i].indexOf(user.id) > -1) {
+                                API.moderateDeleteChat(basicBot.room.chatMessages[i][0]);
+                                basicBot.room.chatMessages[i].splice(0);
+                            }
+                        }
+                        API.sendChat(subChat(basicBot.chat.deletechat, {
+                            name: chat.un,
+                            username: name
+                        }));
+                    }
+                }
+            },
+
+
+            emojiCommand: {
+                command: 'emoji',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var link = 'http://www.emoji-cheat-sheet.com/';
+                        API.sendChat(subChat(basicBot.chat.emojilist, {
+                            link: link
+                        }));
+                    }
+                }
+            },
+
+            englishCommand: {
+                command: 'english',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (chat.message.length === cmd.length) return API.sendChat('/me No user specified.');
+                        var name = chat.message.substring(cmd.length + 2);
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (typeof user === 'boolean') return API.sendChat('/me Invalid user specified.');
+                        var lang = basicBot.userUtilities.getUser(user).language;
+                        var ch = '/me @' + name + ' ';
+                        switch (lang) {
+                            case 'en':
+                                break;
+                            case 'da':
+                                ch += 'Vær venlig at tale engelsk.';
+                                break;
+                            case 'de':
+                                ch += 'Bitte sprechen Sie Englisch.';
+                                break;
+                            case 'es':
+                                ch += 'Por favor, hable Inglés.';
+                                break;
+                            case 'fr':
+                                ch += 'Parlez anglais, s\'il vous plaît.';
+                                break;
+                            case 'nl':
+                                ch += 'Spreek Engels, alstublieft.';
+                                break;
+                            case 'pl':
+                                ch += 'Proszę mówić po angielsku.';
+                                break;
+                            case 'pt':
+                                ch += 'Por favor, fale Inglês.';
+                                break;
+                            case 'sk':
+                                ch += 'Hovorte po anglicky, prosím.';
+                                break;
+                            case 'cs':
+                                ch += 'Mluvte prosím anglicky.';
+                                break;
+                            case 'sr':
+                                ch += 'Молим Вас, говорите енглески.';
+                                break;
+                        }
+                        ch += ' English please.';
+                        API.sendChat(ch);
+                    }
+                }
+            },
+
+            etaCommand: {
+                command: 'eta',
+                rank: 'user',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var perm = basicBot.userUtilities.getPermission(chat.uid);
+                        var msg = chat.message;
+                        var dj = API.getDJ().username;
+                        var name;
+                        if (msg.length > cmd.length) {
+                            if (perm < 2) return void(0);
+                            name = msg.substring(cmd.length + 2);
+                        } else name = chat.un;
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {
+                            name: chat.un
+                        }));
+                        var pos = API.getWaitListPosition(user.id);
+                        var realpos = pos + 1;
+                        if (name == dj) return API.sendChat(subChat(basicBot.chat.youaredj, {
+                            name: name
+                        }));
+                        if (pos < 0) return API.sendChat(subChat(basicBot.chat.notinwaitlist, {
+                            name: name
+                        }));
+                        if (pos == 0) return API.sendChat(subChat(basicBot.chat.youarenext, {
+                            name: name
+                        }));
+                        var timeRemaining = API.getTimeRemaining();
+                        var estimateMS = ((pos + 1) * 4 * 60 + timeRemaining) * 1000;
+                        var estimateString = basicBot.roomUtilities.msToStr(estimateMS);
+                        API.sendChat(subChat(basicBot.chat.eta, {
+                            name: name,
+                            time: estimateString,
+                            position: realpos
+                        }));
+                    }
+                }
+            },
+
+            fbCommand: {
+                command: 'fb',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (typeof basicBot.settings.fbLink === "string")
+                            API.sendChat(subChat(basicBot.chat.facebook, {
+                                link: basicBot.settings.fbLink
+                            }));
+                    }
+                }
+            },
+
+            filterCommand: {
+                command: 'filter',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.filterChat) {
+                            basicBot.settings.filterChat = !basicBot.settings.filterChat;
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                'function': basicBot.chat.chatfilter
+                            }));
+                        } else {
+                            basicBot.settings.filterChat = !basicBot.settings.filterChat;
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                'function': basicBot.chat.chatfilter
+                            }));
+                        }
+                    }
+                }
+            },
+
+            forceskipCommand: {
+                command: ['forceskip', 'fs'],
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        API.sendChat(subChat(basicBot.chat.forceskip, {
+                            name: chat.un
+                        }));
+                        API.moderateForceSkip();
+                        basicBot.room.skippable = false;
+                        setTimeout(function() {
+                            basicBot.room.skippable = true
+                        }, 5 * 1000);
+
+                    }
+                }
+            },
+            
+              grojuCommand: {
+                command: 'groju',
+                rank: 'cohost',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                     var id = chat.uid;
+                     var from = chat.un;
+                               basicBot.userUtilities.moveUser(id, 1, false),
+                                API.sendChat(subChat(basicBot.chat.groju, {
+                                    name: from
+                                }));
+                    }
+                }
+            },
+            
+            ghostbusterCommand: {
+                command: 'ghostbuster',
+                rank: 'user',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        var name;
+                        if (msg.length === cmd.length) name = chat.un;
+                        else {
+                            name = msg.substr(cmd.length + 2);
+                        }
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (user === false || !user.inRoom) {
+                            return API.sendChat(subChat(basicBot.chat.ghosting, {
+                                name1: chat.un,
+                                name2: name
+                            }));
+                        } else API.sendChat(subChat(basicBot.chat.notghosting, {
+                            name1: chat.un,
+                            name2: name
+                        }));
+                    }
+                }
+            },
+
+            gifCommand: {
+                command: ['gif', 'giphy'],
+                rank: 'user',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length !== cmd.length) {
+                            function get_id(api_key, fixedtag, func) {
+                                $.getJSON(
+                                    "https://tv.giphy.com/v1/gifs/random?", {
+                                        "format": "json",
+                                        "api_key": api_key,
+                                        "rating": rating,
+                                        "tag": fixedtag
+                                    },
+                                    function(response) {
+                                        func(response.data.id);
+                                    }
+                                )
+                            }
+                            var api_key = "dc6zaTOxFJmzC"; // public beta key
+                            var rating = "pg-13"; // PG 13 gifs
+                            var tag = msg.substr(cmd.length + 1);
+                            var fixedtag = tag.replace(/ /g, "+");
+                            var commatag = tag.replace(/ /g, ", ");
+                            get_id(api_key, tag, function(id) {
+                                if (typeof id !== 'undefined') {
+                                    API.sendChat(subChat(basicBot.chat.validgiftags, {
+                                        name: chat.un,
+                                        id: id,
+                                        tags: commatag
+                                    }));
+                                } else {
+                                    API.sendChat(subChat(basicBot.chat.invalidgiftags, {
+                                        name: chat.un,
+                                        tags: commatag
+                                    }));
+                                }
+                            });
+                        } else {
+                            function get_random_id(api_key, func) {
+                                $.getJSON(
+                                    "https://tv.giphy.com/v1/gifs/random?", {
+                                        "format": "json",
+                                        "api_key": api_key,
+                                        "rating": rating
+                                    },
+                                    function(response) {
+                                        func(response.data.id);
+                                    }
+                                )
+                            }
+                            var api_key = "dc6zaTOxFJmzC"; // public beta key
+                            var rating = "pg-13"; // PG 13 gifs
+                            get_random_id(api_key, function(id) {
+                                if (typeof id !== 'undefined') {
+                                    API.sendChat(subChat(basicBot.chat.validgifrandom, {
+                                        name: chat.un,
+                                        id: id
+                                    }));
+                                } else {
+                                    API.sendChat(subChat(basicBot.chat.invalidgifrandom, {
+                                        name: chat.un
+                                    }));
+                                }
+                            });
+                        }
+                    }
+                }
+            },
+
+            helpCommand: {
+                command: 'help',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var link = "(Updated link coming soon)";
+                        API.sendChat(subChat(basicBot.chat.starterhelp, {
+                            link: link
+                        }));
+                    }
+                }
+            },
+
+            historyskipCommand: {
+                command: 'historyskip',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.historySkip) {
+                            basicBot.settings.historySkip = !basicBot.settings.historySkip;
+                            API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                'function': basicBot.chat.historyskip
+                            }));
+                        } else {
+                            basicBot.settings.historySkip = !basicBot.settings.historySkip;
+                            API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                'function': basicBot.chat.historyskip
+                            }));
+                        }
+                    }
+                }
+            },
+
+            joinCommand: {
+                command: 'play',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.room.roulette.rouletteStatus && basicBot.room.roulette.participants.indexOf(chat.uid) < 0) {
+                            basicBot.room.roulette.participants.push(chat.uid);
+                            API.sendChat(subChat(basicBot.chat.roulettejoin, {
+                                name: chat.un
+                            }));
+                        }
+                    }
+                }
+            },
+
+            jointimeCommand: {
+                command: 'jointime',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {
+                            name: chat.un
+                        }));
+                        var name = msg.substring(cmd.length + 2);
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {
+                            name: chat.un
+                        }));
+                        var join = basicBot.userUtilities.getJointime(user);
+                        var time = Date.now() - join;
+                        var timeString = basicBot.roomUtilities.msToStr(time);
+                        API.sendChat(subChat(basicBot.chat.jointime, {
+                            namefrom: chat.un,
+                            username: name,
+                            time: timeString
+                        }));
+                    }
+                }
+            },
+
+            kickCommand: {
+                command: 'kick',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        var lastSpace = msg.lastIndexOf(' ');
+                        var time;
+                        var name;
+                        if (lastSpace === msg.indexOf(' ')) {
+                            time = 0.25;
+                            name = msg.substring(cmd.length + 2);
+                        } else {
+                            time = msg.substring(lastSpace + 1);
+                            name = msg.substring(cmd.length + 2, lastSpace);
+                        }
+
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        var from = chat.un;
+                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.nouserspecified, {
+                            name: chat.un
+                        }));
+
+                        var permFrom = basicBot.userUtilities.getPermission(chat.uid);
+                        var permTokick = basicBot.userUtilities.getPermission(user.id);
+
+                        if (permFrom <= permTokick)
+                            return API.sendChat(subChat(basicBot.chat.kickrank, {
+                                name: chat.un
+                            }));
+
+                        if (!isNaN(time)) {
+                            API.sendChat(subChat(basicBot.chat.kick, {
+                                name: chat.un,
+                                username: name,
+                                time: time
+                            }));
+                            if (time > 24 * 60 * 60) API.moderateBanUser(user.id, 1, API.BAN.PERMA);
+                            else API.moderateBanUser(user.id, 1, API.BAN.DAY);
+                            setTimeout(function(id, name) {
+                                API.moderateUnbanUser(id);
+                                console.log('Unbanned @' + name + '. (' + id + ')');
+                            }, time * 60 * 1000, user.id, name);
+                        } else API.sendChat(subChat(basicBot.chat.invalidtime, {
+                            name: chat.un
+                        }));
+                    }
+                }
+            },
+
+            killCommand: {
+                command: 'kill',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        storeToStorage();
+                        //sendToSocket();
+                        API.sendChat(basicBot.chat.kill);
+                        basicBot.disconnectAPI();
+                        setTimeout(function() {
+                            kill();
+                        }, 1000);
+                    }
+                }
+            },
+
+            languageCommand: {
+                command: 'language',
+                rank: 'manager',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length <= cmd.length + 1) return API.sendChat(subChat(basicBot.chat.currentlang, {
+                            language: basicBot.settings.language
+                        }));
+                        var argument = msg.substring(cmd.length + 1);
+
+                        $.get("https://rawgit.com/basicBot/source/master/lang/langIndex.json", function(json) {
+                            var langIndex = json;
+                            var link = langIndex[argument.toLowerCase()];
+                            if (typeof link === "undefined") {
+                                API.sendChat(subChat(basicBot.chat.langerror, {
+                                    link: "http://git.io/vJ9nI"
+                                }));
+                            } else {
+                                basicBot.settings.language = argument;
+                                loadChat();
+                                API.sendChat(subChat(basicBot.chat.langset, {
+                                    language: basicBot.settings.language
+                                }));
+                            }
+                        });
+                    }
+                }
+            },
+
+            leaveCommand: {
+                command: 'leave',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var ind = basicBot.room.roulette.participants.indexOf(chat.uid);
+                        if (ind > -1) {
+                            basicBot.room.roulette.participants.splice(ind, 1);
+                            API.sendChat(subChat(basicBot.chat.rouletteleave, {
+                                name: chat.un
+                            }));
+                        }
+                    }
+                }
+            },
+
+            linkCommand: {
+                command: 'link',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var media = API.getMedia();
+                        var from = chat.un;
+                        var user = basicBot.userUtilities.lookupUser(chat.uid);
+                        var perm = basicBot.userUtilities.getPermission(chat.uid);
+                        var dj = API.getDJ().id;
+                        var isDj = false;
+                        if (dj === chat.uid) isDj = true;
+                        if (perm >= 1 || isDj) {
+                            if (media.format === 1) {
+                                var linkToSong = "https://youtu.be/" + media.cid;
+                                API.sendChat(subChat(basicBot.chat.songlink, {
+                                    name: from,
+                                    link: linkToSong
+                                }));
+                            }
+                            if (media.format === 2) {
+                                SC.get('/tracks/' + media.cid, function(sound) {
+                                    API.sendChat(subChat(basicBot.chat.songlink, {
+                                        name: from,
+                                        link: sound.permalink_url
+                                    }));
+                                });
+                            }
+                        }
+                    }
+                }
+            },
+
+            lockCommand: {
+                command: 'lock',
+                rank: 'mod',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        basicBot.roomUtilities.booth.lockBooth();
+                    }
+                }
+            },
+
+            lockdownCommand: {
+                command: 'lockdown',
+                rank: 'mod',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var temp = basicBot.settings.lockdownEnabled;
+                        basicBot.settings.lockdownEnabled = !temp;
+                        if (basicBot.settings.lockdownEnabled) {
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                'function': basicBot.chat.lockdown
+                            }));
+                        } else return API.sendChat(subChat(basicBot.chat.toggleoff, {
+                            name: chat.un,
+                            'function': basicBot.chat.lockdown
+                        }));
+                    }
+                }
+            },
+
+            lockguardCommand: {
+                command: 'lockguard',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.lockGuard) {
+                            basicBot.settings.lockGuard = !basicBot.settings.lockGuard;
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                'function': basicBot.chat.lockguard
+                            }));
+                        } else {
+                            basicBot.settings.lockGuard = !basicBot.settings.lockGuard;
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                'function': basicBot.chat.lockguard
+                            }));
+                        }
+                    }
+                }
+            },
+
+            lockskipCommand: {
+                command: 'lockskip',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.room.skippable) {
+                            var dj = API.getDJ();
+                            var id = dj.id;
+                            var name = dj.username;
+                            var msgSend = '@' + name + ': ';
+                            basicBot.room.queueable = false;
+
+                            if (chat.message.length === cmd.length) {
+                                API.sendChat(subChat(basicBot.chat.usedlockskip, {
+                                    name: chat.un
+                                }));
+                                basicBot.roomUtilities.booth.lockBooth();
+                                setTimeout(function(id) {
+                                    API.moderateForceSkip();
+                                    basicBot.room.skippable = false;
+                                    setTimeout(function() {
+                                        basicBot.room.skippable = true
+                                    }, 5 * 1000);
+                                    setTimeout(function(id) {
+                                        basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
+                                        basicBot.room.queueable = true;
+                                        setTimeout(function() {
+                                            basicBot.roomUtilities.booth.unlockBooth();
+                                        }, 1000);
+                                    }, 1500, id);
+                                }, 1000, id);
+                                return void(0);
+                            }
+                            var validReason = false;
+                            var msg = chat.message;
+                            var reason = msg.substring(cmd.length + 1);
+                            for (var i = 0; i < basicBot.settings.lockskipReasons.length; i++) {
+                                var r = basicBot.settings.lockskipReasons[i][0];
+                                if (reason.indexOf(r) !== -1) {
+                                    validReason = true;
+                                    msgSend += basicBot.settings.lockskipReasons[i][1];
+                                }
+                            }
+                            if (validReason) {
+                                API.sendChat(subChat(basicBot.chat.usedlockskip, {
+                                    name: chat.un
+                                }));
+                                basicBot.roomUtilities.booth.lockBooth();
+                                setTimeout(function(id) {
+                                    API.moderateForceSkip();
+                                    basicBot.room.skippable = false;
+                                    API.sendChat(msgSend);
+                                    setTimeout(function() {
+                                        basicBot.room.skippable = true
+                                    }, 5 * 1000);
+                                    setTimeout(function(id) {
+                                        basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
+                                        basicBot.room.queueable = true;
+                                        setTimeout(function() {
+                                            basicBot.roomUtilities.booth.unlockBooth();
+                                        }, 1000);
+                                    }, 1500, id);
+                                }, 1000, id);
+                                return void(0);
+                            }
+                        }
+                    }
+                }
+            },
+
+            locktimerCommand: {
+                command: 'locktimer',
+                rank: 'manager',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        var lockTime = msg.substring(cmd.length + 1);
+                        if (!isNaN(lockTime) && lockTime !== "") {
+                            basicBot.settings.maximumLocktime = lockTime;
+                            return API.sendChat(subChat(basicBot.chat.lockguardtime, {
+                                name: chat.un,
+                                time: basicBot.settings.maximumLocktime
+                            }));
+                        } else return API.sendChat(subChat(basicBot.chat.invalidtime, {
+                            name: chat.un
+                        }));
+                    }
+                }
+            },
+
+            logoutCommand: {
+                command: 'logout',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        API.sendChat(subChat(basicBot.chat.logout, {
+                            name: chat.un,
+                            botname: basicBot.settings.botName
+                        }));
+                        setTimeout(function() {
+                            $(".logout").mousedown()
+                        }, 1000);
+                    }
+                }
+            },
+
+            maxlengthCommand: {
+                command: 'maxlength',
+                rank: 'manager',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        var maxTime = msg.substring(cmd.length + 1);
+                        if (!isNaN(maxTime)) {
+                            basicBot.settings.maximumSongLength = maxTime;
+                            return API.sendChat(subChat(basicBot.chat.maxlengthtime, {
+                                name: chat.un,
+                                time: basicBot.settings.maximumSongLength
+                            }));
+                        } else return API.sendChat(subChat(basicBot.chat.invalidtime, {
+                            name: chat.un
+                        }));
+                    }
+                }
+            },
+
+            motdCommand: {
+                command: 'motd',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length <= cmd.length + 1) return API.sendChat('/me MotD: ' + basicBot.settings.motd);
+                        var argument = msg.substring(cmd.length + 1);
+                        if (!basicBot.settings.motdEnabled) basicBot.settings.motdEnabled = !basicBot.settings.motdEnabled;
+                        if (isNaN(argument)) {
+                            basicBot.settings.motd = argument;
+                            API.sendChat(subChat(basicBot.chat.motdset, {
+                                msg: basicBot.settings.motd
+                            }));
+                        } else {
+                            basicBot.settings.motdInterval = argument;
+                            API.sendChat(subChat(basicBot.chat.motdintervalset, {
+                                interval: basicBot.settings.motdInterval
+                            }));
+                        }
+                    }
+                }
+            },
+
+            moveCommand: {
+                command: 'move',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {
+                            name: chat.un
+                        }));
+                        var firstSpace = msg.indexOf(' ');
+                        var lastSpace = msg.lastIndexOf(' ');
+                        var pos;
+                        var name;
+                        if (isNaN(parseInt(msg.substring(lastSpace + 1)))) {
+                            pos = 1;
+                            name = msg.substring(cmd.length + 2);
+                        } else {
+                            pos = parseInt(msg.substring(lastSpace + 1));
+                            name = msg.substring(cmd.length + 2, lastSpace);
+                        }
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {
+                            name: chat.un
+                        }));
+                        if (user.id === basicBot.loggedInID) return API.sendChat(subChat(basicBot.chat.addbotwaitlist, {
+                            name: chat.un
+                        }));
+                        if (!isNaN(pos)) {
+                            API.sendChat(subChat(basicBot.chat.move, {
+                                name: chat.un
+                            }));
+                            basicBot.userUtilities.moveUser(user.id, pos, false);
+                        } else return API.sendChat(subChat(basicBot.chat.invalidpositionspecified, {
+                            name: chat.un
+                        }));
+                    }
+                }
+            },
+
+            muteCommand: {
+                command: 'mute',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {
+                            name: chat.un
+                        }));
+                        var lastSpace = msg.lastIndexOf(' ');
+                        var time = null;
+                        var name;
+                        if (lastSpace === msg.indexOf(' ')) {
+                            name = msg.substring(cmd.length + 2);
+                            time = 45;
+                        } else {
+                            time = msg.substring(lastSpace + 1);
+                            if (isNaN(time) || time == '' || time == null || typeof time == 'undefined') {
+                                return API.sendChat(subChat(basicBot.chat.invalidtime, {
+                                    name: chat.un
+                                }));
+                            }
+                            name = msg.substring(cmd.length + 2, lastSpace);
+                        }
+                        var from = chat.un;
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {
+                            name: chat.un
+                        }));
+                        var permFrom = basicBot.userUtilities.getPermission(chat.uid);
+                        var permUser = basicBot.userUtilities.getPermission(user.id);
+                        if (permUser == 0) {
+                            if (time > 45) {
+                                API.moderateMuteUser(user.id, 1, API.MUTE.LONG);
+                                API.sendChat(subChat(basicBot.chat.mutedmaxtime, {
+                                    name: chat.un,
+                                    time: '45'
+                                }));
+                            } else if (time === 45) {
+                                API.moderateMuteUser(user.id, 1, API.MUTE.LONG);
+                                API.sendChat(subChat(basicBot.chat.mutedtime, {
+                                    name: chat.un,
+                                    username: name,
+                                    time: time
+                                }));
+                            } else if (time > 30) {
+                                API.moderateMuteUser(user.id, 1, API.MUTE.LONG);
+                                API.sendChat(subChat(basicBot.chat.mutedtime, {
+                                    name: chat.un,
+                                    username: name,
+                                    time: time
+                                }));
+                            } else if (time > 15) {
+                                API.moderateMuteUser(user.id, 1, API.MUTE.MEDIUM);
+                                API.sendChat(subChat(basicBot.chat.mutedtime, {
+                                    name: chat.un,
+                                    username: name,
+                                    time: time
+                                }));
+                            } else {
+                                API.moderateMuteUser(user.id, 1, API.MUTE.SHORT);
+                                API.sendChat(subChat(basicBot.chat.mutedtime, {
+                                    name: chat.un,
+                                    username: name,
+                                    time: time
+                                }));
+                            }
+                        } else API.sendChat(subChat(basicBot.chat.muterank, {
+                            name: chat.un
+                        }));
+                    }
+                }
+            },
+
+            opCommand: {
+                command: 'op',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (typeof basicBot.settings.opLink === "string")
+                            return API.sendChat(subChat(basicBot.chat.oplist, {
+                                link: basicBot.settings.opLink
+                            }));
+                    }
+                }
+            },
+
+            pingCommand: {
+                command: 'ping',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        API.sendChat(basicBot.chat.pong)
+                    }
+                }
+            },
+
+            refreshCommand: {
+                command: 'refresh',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        //sendToSocket();
+                        storeToStorage();
+                        basicBot.disconnectAPI();
+                        setTimeout(function() {
+                            window.location.reload(false);
+                        }, 1000);
+
+                    }
+                }
+            },
+
+            reloadCommand: {
+                command: 'reload',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        API.sendChat(basicBot.chat.reload);
+                        //sendToSocket();
+                        storeToStorage();
+                        basicBot.disconnectAPI();
+                        kill();
+                        setTimeout(function() {
+                            $.getScript(basicBot.settings.scriptLink);
+                        }, 2000);
+                    }
+                }
+            },
+
+            removeCommand: {
+                command: 'remove',
+                rank: 'mod',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length > cmd.length + 2) {
+                            var name = msg.substr(cmd.length + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (typeof user !== 'boolean') {
+                                user.lastDC = {
+                                    time: null,
+                                    position: null,
+                                    songCount: 0
+                                };
+                                if (API.getDJ().id === user.id) {
+                                    API.moderateForceSkip();
+                                    setTimeout(function() {
+                                        API.moderateRemoveDJ(user.id);
+                                    }, 1 * 1000, user);
+                                } else API.moderateRemoveDJ(user.id);
+                            } else API.sendChat(subChat(basicBot.chat.removenotinwl, {
+                                name: chat.un,
+                                username: name
+                            }));
+                        } else API.sendChat(subChat(basicBot.chat.nouserspecified, {
+                            name: chat.un
+                        }));
+                    }
+                }
+            },
+
+            restrictetaCommand: {
+                command: 'restricteta',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.etaRestriction) {
+                            basicBot.settings.etaRestriction = !basicBot.settings.etaRestriction;
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                'function': basicBot.chat.etarestriction
+                            }));
+                        } else {
+                            basicBot.settings.etaRestriction = !basicBot.settings.etaRestriction;
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                'function': basicBot.chat.etarestriction
+                            }));
+                        }
+                    }
+                }
+            },
+
+            rouletteCommand: {
+                command: 'roulette',
+                rank: 'mod',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (!basicBot.room.roulette.rouletteStatus) {
+                            basicBot.room.roulette.startRoulette();
+                        }
+                    }
+                }
+            },
+
+            rulesCommand: {
+                command: 'rules',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (typeof basicBot.settings.rulesLink === "string")
+                            return API.sendChat(subChat(basicBot.chat.roomrules, {
+                                link: basicBot.settings.rulesLink
+                            }));
+                    }
+                }
+            },
+
+            sessionstatsCommand: {
+                command: 'sessionstats',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var from = chat.un;
+                        var woots = basicBot.room.roomstats.totalWoots;
+                        var mehs = basicBot.room.roomstats.totalMehs;
+                        var grabs = basicBot.room.roomstats.totalCurates;
+                        API.sendChat(subChat(basicBot.chat.sessionstats, {
+                            name: from,
+                            woots: woots,
+                            mehs: mehs,
+                            grabs: grabs
+                        }));
+                    }
+                }
+            },
+
+            skipCommand: {
+                command: ['skip', 'smartskip'],
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.room.skippable) {
+
+                            var timeLeft = API.getTimeRemaining();
+                            var timeElapsed = API.getTimeElapsed();
+                            var dj = API.getDJ();
+                            var name = dj.username;
+                            var msgSend = '@' + name + ', ';
+
+                            if (chat.message.length === cmd.length) {
+                                API.sendChat(subChat(basicBot.chat.usedskip, {
+                                    name: chat.un
+                                }));
+                                if (basicBot.settings.smartSkip && timeLeft > timeElapsed) {
+                                    basicBot.roomUtilities.smartSkip();
+                                } else {
+                                    API.moderateForceSkip();
+                                }
+                            }
+                            var validReason = false;
+                            var msg = chat.message;
+                            var reason = msg.substring(cmd.length + 1);
+                            for (var i = 0; i < basicBot.settings.skipReasons.length; i++) {
+                                var r = basicBot.settings.skipReasons[i][0];
+                                if (reason.indexOf(r) !== -1) {
+                                    validReason = true;
+                                    msgSend += basicBot.settings.skipReasons[i][1];
+                                }
+                            }
+                            if (validReason) {
+                                API.sendChat(subChat(basicBot.chat.usedskip, {
+                                    name: chat.un
+                                }));
+                                if (basicBot.settings.smartSkip && timeLeft > timeElapsed) {
+                                    basicBot.roomUtilities.smartSkip(msgSend);
+                                } else {
+                                    API.moderateForceSkip();
+                                    setTimeout(function() {
+                                        API.sendChat(msgSend);
+                                    }, 500);
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+
+            skipposCommand: {
+                command: 'skippos',
+                rank: 'manager',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        var pos = msg.substring(cmd.length + 1);
+                        if (!isNaN(pos)) {
+                            basicBot.settings.skipPosition = pos;
+                            return API.sendChat(subChat(basicBot.chat.skippos, {
+                                name: chat.un,
+                                position: basicBot.settings.skipPosition
+                            }));
+                        } else return API.sendChat(subChat(basicBot.chat.invalidpositionspecified, {
+                            name: chat.un
+                        }));
+                    }
+                }
+            },
+
+            songstatsCommand: {
+                command: 'songstats',
+                rank: 'mod',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.songstats) {
+                            basicBot.settings.songstats = !basicBot.settings.songstats;
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                'function': basicBot.chat.songstats
+                            }));
+                        } else {
+                            basicBot.settings.songstats = !basicBot.settings.songstats;
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                'function': basicBot.chat.songstats
+                            }));
+                        }
+                    }
+                }
+            },
+
+            sourceCommand: {
+                command: 'source',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        API.sendChat('/me This bot was created by ' + botCreator + ', but is now maintained by ' + botMaintainer + ".");
+                    }
+                }
+            },
+
+            statusCommand: {
+                command: 'status',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var from = chat.un;
+                        var msg = '[@' + from + '] ';
+
+                        msg += basicBot.chat.afkremoval + ': ';
+                        if (basicBot.settings.afkRemoval) msg += 'ON';
+                        else msg += 'OFF';
+                        msg += '. ';
+                        msg += basicBot.chat.afksremoved + ": " + basicBot.room.afkList.length + '. ';
+                        msg += basicBot.chat.afklimit + ': ' + basicBot.settings.maximumAfk + '. ';
+
+                        msg += 'Bouncer+: ';
+                        if (basicBot.settings.bouncerPlus) msg += 'ON';
+                        else msg += 'OFF';
+                        msg += '. ';
+
+                        msg += basicBot.chat.blacklist + ': ';
+                        if (basicBot.settings.blacklistEnabled) msg += 'ON';
+                        else msg += 'OFF';
+                        msg += '. ';
+
+                        msg += basicBot.chat.lockguard + ': ';
+                        if (basicBot.settings.lockGuard) msg += 'ON';
+                        else msg += 'OFF';
+                        msg += '. ';
+
+                        msg += basicBot.chat.cycleguard + ': ';
+                        if (basicBot.settings.cycleGuard) msg += 'ON';
+                        else msg += 'OFF';
+                        msg += '. ';
+
+                        msg += basicBot.chat.timeguard + ': ';
+                        if (basicBot.settings.timeGuard) msg += 'ON';
+                        else msg += 'OFF';
+                        msg += '. ';
+
+                        msg += basicBot.chat.chatfilter + ': ';
+                        if (basicBot.settings.filterChat) msg += 'ON';
+                        else msg += 'OFF';
+                        msg += '. ';
+
+                        msg += basicBot.chat.historyskip + ': ';
+                        if (basicBot.settings.historySkip) msg += 'ON';
+                        else msg += 'OFF';
+                        msg += '. ';
+
+                        msg += basicBot.chat.voteskip + ': ';
+                        if (basicBot.settings.voteSkip) msg += 'ON';
+                        else msg += 'OFF';
+                        msg += '. ';
+
+                        msg += basicBot.chat.cmddeletion + ': ';
+                        if (basicBot.settings.cmdDeletion) msg += 'ON';
+                        else msg += 'OFF';
+                        msg += '. ';
+
+                        msg += basicBot.chat.autoskip + ': ';
+                        if (basicBot.settings.autoskip) msg += 'ON';
+                        else msg += 'OFF';
+                        msg += '. ';
+
+                        // TODO: Display more toggleable bot settings.
+
+                        var launchT = basicBot.room.roomstats.launchTime;
+                        var durationOnline = Date.now() - launchT;
+                        var since = basicBot.roomUtilities.msToStr(durationOnline);
+                        msg += subChat(basicBot.chat.activefor, {
+                            time: since
+                        });
+
+                        /*
+                        // least efficient way to go about this, but it works :)
+                        if (msg.length > 250){
+                            firstpart = msg.substr(0, 250);
+                            secondpart = msg.substr(250);
+                            API.sendChat(firstpart);
+                            setTimeout(function () {
+                                API.sendChat(secondpart);
+                            }, 300);
+                        }
+                        else {
+                            API.sendChat(msg);
+                        }
+                        */
+
+                        // This is a more efficient solution
+                        if (msg.length > 250) {
+                            var split = msg.match(/.{1,250}/g);
+                            for (var i = 0; i < split.length; i++) {
+                                var func = function(index) {
+                                    setTimeout(function() {
+                                        API.sendChat("/me " + split[index]);
+                                    }, 500 * index);
+                                }
+                                func(i);
+                            }
+                        } else {
+                            return API.sendChat(msg);
+                        }
+                    }
+                }
+            },
+
+            swapCommand: {
+                command: 'swap',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {
+                            name: chat.un
+                        }));
+                        var firstSpace = msg.indexOf(' ');
+                        var lastSpace = msg.lastIndexOf(' ');
+                        var name1 = msg.split('@')[1].trim();
+                        var name2 = msg.split('@')[2].trim();
+                        var user1 = basicBot.userUtilities.lookupUserName(name1);
+                        var user2 = basicBot.userUtilities.lookupUserName(name2);
+                        if (typeof user1 === 'boolean' || typeof user2 === 'boolean') return API.sendChat(subChat(basicBot.chat.swapinvalid, {
+                            name: chat.un
+                        }));
+                        if (user1.id === basicBot.loggedInID || user2.id === basicBot.loggedInID) return API.sendChat(subChat(basicBot.chat.addbottowaitlist, {
+                            name: chat.un
+                        }));
+                        var p1 = API.getWaitListPosition(user1.id) + 1;
+                        var p2 = API.getWaitListPosition(user2.id) + 1;
+                        if (p1 < 0 && p2 < 0) return API.sendChat(subChat(basicBot.chat.swapwlonly, {
+                            name: chat.un
+                        }));
+                        API.sendChat(subChat(basicBot.chat.swapping, {
+                            'name1': name1,
+                            'name2': name2
+                        }));
+                        if (p1 === -1) {
+                            API.moderateRemoveDJ(user2.id);
+                            setTimeout(function(user1, p2) {
+                                basicBot.userUtilities.moveUser(user1.id, p2, true);
+                            }, 2000, user1, p2);
+                        } else if (p2 === -1) {
+                            API.moderateRemoveDJ(user1.id);
+                            setTimeout(function(user2, p1) {
+                                basicBot.userUtilities.moveUser(user2.id, p1, true);
+                            }, 2000, user2, p1);
+                        } else if (p1 < p2) {
+                            basicBot.userUtilities.moveUser(user2.id, p1, false);
+                            setTimeout(function(user1, p2) {
+                                basicBot.userUtilities.moveUser(user1.id, p2, false);
+                            }, 2000, user1, p2);
+                        } else {
+                            basicBot.userUtilities.moveUser(user1.id, p2, false);
+                            setTimeout(function(user2, p1) {
+                                basicBot.userUtilities.moveUser(user2.id, p1, false);
+                            }, 2000, user2, p1);
+                        }
+                    }
+                }
+            },
+
+            themeCommand: {
+                command: 'theme',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (typeof basicBot.settings.themeLink === "string")
+                            API.sendChat(subChat(basicBot.chat.genres, {
+                                link: basicBot.settings.themeLink
+                            }));
+                    }
+                }
+            },
+
+            thorCommand: {
+                command: 'thor',
+                rank: 'user',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.thorCommand) {
+                            var id = chat.uid,
+                                isDj = API.getDJ().id == id ? true : false,
+                                from = chat.un,
+                                djlist = API.getWaitList(),
+                                inDjList = false,
+                                oldTime = 0,
+                                usedThor = false,
+                                indexArrUsedThor,
+                                thorCd = false,
+                                timeInMinutes = 0,
+                                worthyAlg = Math.floor(Math.random() * 10),
+                                worthy = worthyAlg == 10 ? true : false;
+
+                            for (var i = 0; i < djlist.length; i++) {
+                                if (djlist[i].id == id)
+                                    inDjList = true;
+                            }
+
+                            if (inDjList) {
+                                for (var i = 0; i < basicBot.room.usersUsedThor.length; i++) {
+                                    if (basicBot.room.usersUsedThor[i].id == id) {
+                                        oldTime = basicBot.room.usersUsedThor[i].time;
+                                        usedThor = true;
+                                        indexArrUsedThor = i;
+                                    }
+                                }
+
+                                if (usedThor) {
+                                    timeInMinutes = (basicBot.settings.thorCooldown + 1) - (Math.floor((oldTime - Date.now()) * Math.pow(10, -5)) * -1);
+                                    thorCd = timeInMinutes > 0 ? true : false;
+                                    if (thorCd == false)
+                                        basicBot.room.usersUsedThor.splice(indexArrUsedThor, 1);
+                                }
+
+                                if (thorCd == false || usedThor == false) {
+                                    var user = {
+                                        id: id,
+                                        time: Date.now()
+                                    };
+                                    basicBot.room.usersUsedThor.push(user);
+                                }
+                            }
+
+                            if (!inDjList) {
+                                return API.sendChat(subChat(basicBot.chat.thorNotClose, {
+                                    name: from
+                                }));
+                            } else if (thorCd) {
+                                return API.sendChat(subChat(basicBot.chat.thorcd, {
+                                    name: from,
+                                    time: timeInMinutes
+                                }));
+                            }
+
+                            if (worthy) {
+                                if (API.getWaitListPosition(id) != 0)
+                                    basicBot.userUtilities.moveUser(id, 1, false);
+                                API.sendChat(subChat(basicBot.chat.thorWorthy, {
+                                    name: from
+                                }));
+                            } else {
+                                if (API.getWaitListPosition(id) != djlist.length - 1)
+                                    basicBot.userUtilities.moveUser(id, djlist.length, false);
+                                API.sendChat(subChat(basicBot.chat.thorNotWorthy, {
+                                    name: from
+                                }));
+                            }
+                        }
+                    }
+                }
+            },
+
+            timeguardCommand: {
+                command: 'timeguard',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.timeGuard) {
+                            basicBot.settings.timeGuard = !basicBot.settings.timeGuard;
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                'function': basicBot.chat.timeguard
+                            }));
+                        } else {
+                            basicBot.settings.timeGuard = !basicBot.settings.timeGuard;
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                'function': basicBot.chat.timeguard
+                            }));
+                        }
+
+                    }
+                }
+            },
+
+            toggleblCommand: {
+                command: 'togglebl',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var temp = basicBot.settings.blacklistEnabled;
+                        basicBot.settings.blacklistEnabled = !temp;
+                        if (basicBot.settings.blacklistEnabled) {
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                'function': basicBot.chat.blacklist
+                            }));
+                        } else return API.sendChat(subChat(basicBot.chat.toggleoff, {
+                            name: chat.un,
+                            'function': basicBot.chat.blacklist
+                        }));
+                    }
+                }
+            },
+
+            togglemotdCommand: {
+                command: 'togglemotd',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.motdEnabled) {
+                            basicBot.settings.motdEnabled = !basicBot.settings.motdEnabled;
+                            API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                'function': basicBot.chat.motd
+                            }));
+                        } else {
+                            basicBot.settings.motdEnabled = !basicBot.settings.motdEnabled;
+                            API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                'function': basicBot.chat.motd
+                            }));
+                        }
+                    }
+                }
+            },
+
+            togglevoteskipCommand: {
+                command: "togglevoteskip",
+                rank: "bouncer",
+                type: "exact",
+                functionality: function(chat, cmd) {
+                    if (this.type === "exact" && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.voteSkip) {
+                            basicBot.settings.voteSkip = !basicBot.settings.voteSkip;
+                            API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                'function': basicBot.chat.voteskip
+                            }));
+                        } else {
+                            basicBot.settings.voteSkip = !basicBot.settings.voteSkip;
+                            API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                "function": basicBot.chat.voteskip
+                            }));
+                        }
+                    }
+                }
+            },
+
+            unbanCommand: {
+                command: "unban",
+                rank: "bouncer",
+                type: "startsWith",
+                functionality: function(chat, cmd) {
+                    if (this.type === "exact" && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        $.getJSON('/_/bans', function(json) {
+                            var msg = chat.message;
+                            if (msg.length === cmd.length) return;
+                            var name = msg.substring(cmd.length + 2);
+                            var bannedUsers = json.data;
+                            var found = false;
+                            var bannedUser = null;
+                            for (var i = 0; i < bannedUsers.length; i++) {
+                                var user = bannedUsers[i];
+                                if (user.username === name) {
+                                    bannedUser = user;
+                                    found = true;
+                                }
+                            }
+                            if (!found) return API.sendChat(subChat(basicBot.chat.notbanned, {
+                                name: chat.un
+                            }));
+                            API.moderateUnbanUser(bannedUser.id);
+                            console.log("Unbanned:", name);
+                        });
+                    }
+                }
+            },
+
+            unlockCommand: {
+                command: "unlock",
+                rank: "mod",
+                type: "exact",
+                functionality: function(chat, cmd) {
+                    if (this.type === "exact" && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        basicBot.roomUtilities.booth.unlockBooth();
+                    }
+                }
+            },
+
+            unmuteCommand: {
+                command: "unmute",
+                rank: "bouncer",
+                type: "startsWith",
+                functionality: function(chat, cmd) {
+                    if (this.type === "exact" && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        $.getJSON("/_/mutes", function(json) {
+                            var msg = chat.message;
+                            if (msg.length === cmd.length) return;
+                            var name = msg.substring(cmd.length + 2);
+                            var arg = msg.substring(cmd.length + 1);
+                            var mutedUsers = json.data;
+                            var found = false;
+                            var mutedUser = null;
+                            var permFrom = basicBot.userUtilities.getPermission(chat.uid);
+                            if (msg.indexOf('@') === -1 && arg === "all") {
+                                if (permFrom > 2) {
+                                    for (var i = 0; i < mutedUsers.length; i++) {
+                                        API.moderateUnmuteUser(mutedUsers[i].id);
+                                    }
+                                    API.sendChat(subChat(basicBot.chat.unmutedeveryone, {
+                                        name: chat.un
+                                    }));
+                                } else API.sendChat(subChat(basicBot.chat.unmuteeveryonerank, {
+                                    name: chat.un
+                                }));
+                            } else {
+                                for (var i = 0; i < mutedUsers.length; i++) {
+                                    var user = mutedUsers[i];
+                                    if (user.username === name) {
+                                        mutedUser = user;
+                                        found = true;
+                                    }
+                                }
+                                if (!found) return API.sendChat(subChat(basicBot.chat.notbanned, {
+                                    name: chat.un
+                                }));
+                                API.moderateUnmuteUser(mutedUser.id);
+                                console.log("Unmuted:", name);
+                            }
+                        });
+                    }
+                }
+            },
+
+            usercmdcdCommand: {
+                command: "usercmdcd",
+                rank: "manager",
+                type: "startsWith",
+                functionality: function(chat, cmd) {
+                    if (this.type === "exact" && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        var cd = msg.substring(cmd.length + 1);
+                        if (!isNaN(cd)) {
+                            basicBot.settings.commandCooldown = cd;
+                            return API.sendChat(subChat(basicBot.chat.commandscd, {
+                                name: chat.un,
+                                time: basicBot.settings.commandCooldown
+                            }));
+                        } else return API.sendChat(subChat(basicBot.chat.invalidtime, {
+                            name: chat.un
+                        }));
+                    }
+                }
+            },
+
+            usercommandsCommand: {
+                command: "usercommands",
+                rank: "manager",
+                type: "exact",
+                functionality: function(chat, cmd) {
+                    if (this.type === "exact" && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.usercommandsEnabled) {
+                            API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                "function": basicBot.chat.usercommands
+                            }));
+                            basicBot.settings.usercommandsEnabled = !basicBot.settings.usercommandsEnabled;
+                        } else {
+                            API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                'function': basicBot.chat.usercommands
+                            }));
+                            basicBot.settings.usercommandsEnabled = !basicBot.settings.usercommandsEnabled;
+                        }
+                    }
+                }
+            },
+
+            voteratioCommand: {
+                command: "voteratio",
+                rank: "bouncer",
+                type: "startsWith",
+                functionality: function(chat, cmd) {
+                    if (this.type === "exact" && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {
+                            name: chat.un
+                        }));
+                        var name = msg.substring(cmd.length + 2);
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (user === false) return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {
+                            name: chat.un
+                        }));
+                        var vratio = user.votes;
+                        var ratio = vratio.woot / vratio.meh;
+                        API.sendChat(subChat(basicBot.chat.voteratio, {
+                            name: chat.un,
+                            username: name,
+                            woot: vratio.woot,
+                            mehs: vratio.meh,
+                            ratio: ratio.toFixed(2)
+                        }));
+                    }
+                }
+            },
+
+            voteskipCommand: {
+                command: "voteskip",
+                rank: "manager",
+                type: "startsWith",
+                functionality: function(chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length <= cmd.length + 1) return API.sendChat(subChat(basicBot.chat.voteskiplimit, {
+                            name: chat.un,
+                            limit: basicBot.settings.voteSkipLimit
+                        }));
+                        var argument = msg.substring(cmd.length + 1);
+                        if (!basicBot.settings.voteSkip) basicBot.settings.voteSkip = !basicBot.settings.voteSkip;
+                        if (isNaN(argument)) {
+                            API.sendChat(subChat(basicBot.chat.voteskipinvalidlimit, {
+                                name: chat.un
+                            }));
+                        } else {
+                            basicBot.settings.voteSkipLimit = argument;
+                            API.sendChat(subChat(basicBot.chat.voteskipsetlimit, {
+                                name: chat.un,
+                                limit: basicBot.settings.voteSkipLimit
+                            }));
+                        }
+                    }
+                }
+            },
+
+            welcomeCommand: {
+                command: "welcome",
+                rank: "mod",
+                type: "exact",
+                functionality: function(chat, cmd) {
+                    if (this.type === "exact" && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (basicBot.settings.welcome) {
+                            basicBot.settings.welcome = !basicBot.settings.welcome;
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {
+                                name: chat.un,
+                                "function": basicBot.chat.welcomemsg
+                            }));
+                        } else {
+                            basicBot.settings.welcome = !basicBot.settings.welcome;
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {
+                                name: chat.un,
+                                "function": basicBot.chat.welcomemsg
+                            }));
+                        }
+                    }
+                }
+            },
+
+            websiteCommand: {
+                command: "website",
+                rank: "user",
+                type: "exact",
+                functionality: function(chat, cmd) {
+                    if (this.type === "exact" && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (typeof basicBot.settings.website === "string")
+                            API.sendChat(subChat(basicBot.chat.website, {
+                                link: basicBot.settings.website
+                            }));
+                    }
+                }
+            },
+
+            whoisCommand: {
+                command: "whois",
+                rank: "bouncer",
+                type: "startsWith",
+                functionality: function(chat, cmd) {
+                    if (this.type === "exact" && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        var msg = chat.message;
+                        var name;
+                        if (msg.length === cmd.length) name = chat.un;
+                        else {
+                            name = msg.substr(cmd.length + 2);
+                        }
+                        users = API.getUsers();
+                        var len = users.length;
+                        for (var i = 0; i < len; ++i) {
+                            if (users[i].username == name) {
+                                var id = users[i].id;
+                                var avatar = API.getUser(id).avatarID;
+                                var level = API.getUser(id).level;
+                                var rawjoined = API.getUser(id).joined;
+                                var joined = rawjoined.substr(0, 10);
+                                var rawlang = API.getUser(id).language;
+                                if (rawlang == "en") {
+                                    var language = "English";
+                                } else if (rawlang == "bg") {
+                                    var language = "Bulgarian";
+                                } else if (rawlang == "cs") {
+                                    var language = "Czech";
+                                } else if (rawlang == "fi") {
+                                    var language = "Finnish"
+                                } else if (rawlang == "fr") {
+                                    var language = "French"
+                                } else if (rawlang == "pt") {
+                                    var language = "Portuguese"
+                                } else if (rawlang == "zh") {
+                                    var language = "Chinese"
+                                } else if (rawlang == "sk") {
+                                    var language = "Slovak"
+                                } else if (rawlang == "nl") {
+                                    var language = "Dutch"
+                                } else if (rawlang == "ms") {
+                                    var language = "Malay"
+                                }
+                                var rawrank = API.getUser(id).role;
+                                if (rawrank == "0") {
+                                    var rank = "User";
+                                } else if (rawrank == "1") {
+                                    var rank = "Resident DJ";
+                                } else if (rawrank == "2") {
+                                    var rank = "Bouncer";
+                                } else if (rawrank == "3") {
+                                    var rank = "Manager"
+                                } else if (rawrank == "4") {
+                                    var rank = "Co-Host"
+                                } else if (rawrank == "5") {
+                                    var rank = "Host"
+                                } else if (rawrank == "7") {
+                                    var rank = "Brand Ambassador"
+                                } else if (rawrank == "10") {
+                                    var rank = "Admin"
+                                }
+                                var slug = API.getUser(id).slug;
+                                if (typeof slug !== "undefined") {
+                                    var profile = "https://plug.dj/@/" + slug;
+                                } else {
+                                    var profile = "~";
+                                }
+
+                                API.sendChat(subChat(basicBot.chat.whois, {
+                                    name1: chat.un,
+                                    name2: name,
+                                    id: id,
+                                    avatar: avatar,
+                                    profile: profile,
+                                    language: language,
+                                    level: level,
+                                    joined: joined,
+                                    rank: rank
+                                }));
+                            }
+                        }
+                    }
+                }
+            },
+
+            discordCommand: {
+                command: "discord",
+                rank: "user",
+                type: "exact",
+                functionality: function(chat, cmd) {
+                    if (this.type === "exact" && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (typeof basicBot.settings.discordLink === "string")
+                            API.sendChat(subChat(basicBot.chat.discord, {
+                                link: basicBot.settings.discordLink
+                            }));
+                    }
+                }
+            },
+
+            youtubeCommand: {
+                command: "youtube",
+                rank: "user",
+                type: "exact",
+                functionality: function(chat, cmd) {
+                    if (this.type === "exact" && chat.message.length !== cmd.length) return void(0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    else {
+                        if (typeof basicBot.settings.youtubeLink === "string")
+                            API.sendChat(subChat(basicBot.chat.youtube, {
+                                name: chat.un,
+                                link: basicBot.settings.youtubeLink
+                            }));
+                    }
+                }
+            }
+        }
+    };
+
+    loadChat(basicBot.startup);
+}).call(this);

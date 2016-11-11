@@ -1379,7 +1379,7 @@
                 'gringo', 'fuder', 'foder', 'hua', 'ahue', 'modafuka', 'modafoka', 'mudafuka', 'mudafoka', 'ooooooooooooooo', 'foda'
             ],
             curses: [ 
-                "atmata", "acypisi", "atcypisi", "atsipisi", "atsipisk", "bibis", "blet", "blt", "bybi", "bybys", "ciulpk", "cbb", "ciulpk", "čiulpk", "čiulpk bybi", "duhas", "dūhas", "faggot", "fck", "fuck", "gandonas", "krv", "krw", "kurva", "kurwa", "kūrva", "modafocka", "motherfucker", "nahoi", "nahui", "nigga", "nigger", "niqqa", "nx", "pederastas", "pedikas", "pedofilas", "pidar", "pisk nx", "pisk nx", "pisk", "pohui", "pusk nx", "px", "pydaras", "pūsk nx", "uzsikrusk", "užsikrušk", "užsipisk"
+                "atmata", "acypisi", "atcypisi", "acypisat", "atsipisi", "atsipisk", "bibis", "blet", "bbd", "blt", "bybi", "bybys", "ciulpk", "cbb", "ciulpk", "čiulpk", "čiulpk bybi", "duhas", "dūhas", "faggot", "fck", "fuck", "gandonas", "krv", "krw", "kurva", "kurwa", "kūrva", "modafocka", "motherfucker", "nahoi", "nahui", "nigga", "nigger", "niqqa", "nx", "nachui", "pederastas", "pedikas", "pedofilas", "pidar", "pisk nx", "pisk nx", "pisk", "pohui", "pusk nx", "px", "pydaras", "pūsk nx", "uzsikrusk", "užsikrušk", "užsipisk"
             ]
         },
         connectAPI: function() {

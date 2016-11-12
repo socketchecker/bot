@@ -1208,7 +1208,7 @@
                 ch = msg.charAt(i);
                 if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z') || (ch >= '0' && ch <= '9') || ch === ':' || ch === '^') containsLetters = true;
             }
-            if (msg === '') {
+            if (msg === '.') {
                 return true;
             }
             if (!containsLetters && (msg.length === 1 || msg.length > 3)) return true;

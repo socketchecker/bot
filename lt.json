@@ -201,7 +201,7 @@
     "website": "/me Aplankykite mūsų svetainę adresu: %%LINK%%",
     "youtube": "/me Prenumeruokite mus youtube: %%LINK%%",
     "discord": "/me Discord kanalas: %%LINK%%",
-    "songstatistics": "/me %%ARTIST%% - %%TITLE%%:musical_note: %%WOOTS%%:thumbsup:%%GRABS%%:star:%%MEHS%%:thumbsdown:",
+    "songstatistics": "/me %%ARTIST%% - %%TITLE%%  [:thumbsup:%%WOOTS%% |:star:%%GRABS%%|:thumbsdown:%%MEHS%%]",
     "ball": "/me %%NAME%%'s Klausėte: \"%%QUESTION%%\" ir %%BOTNAME%% atsakymas yra: \"%%RESPONSE%%\"",
     "botnameset": "/me Boto vardas pakeistas į: %%BOTNAME%%",
     "cmddeletion": "Komandų trynimas",

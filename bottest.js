@@ -1304,6 +1304,17 @@
                     }));
                     return true;
                 }
+                
+                var welcomemsg = basicBot.chat.welcome;
+                var welcomebackmsg = basicBot.chat.welcomeback;
+                
+                if ((msg.indexOf(welcomemsg) > -1 || msg.indexOf(welcomebackmsg) > -1) && chat.uid === basicBot.loggedInID) {
+                    setTimeout(function(id) {
+                        API.moderateDeleteChat(id);
+                    }, 15 * 1000, chat.cid);
+                    return true;
+                }
+                
                 if (msg.indexOf('autojoin was not enabled') > 0 || msg.indexOf('AFK message was not enabled') > 0 || msg.indexOf('!afkdisable') > 0 || msg.indexOf('!joindisable') > 0 || msg.indexOf('autojoin disabled') > 0 || msg.indexOf('AFK message disabled') > 0) {
                     API.moderateDeleteChat(chat.cid);
                     return true;
@@ -1311,7 +1322,6 @@
 
                 var rlJoinChat = basicBot.chat.roulettejoin;
                 var rlLeaveChat = basicBot.chat.rouletteleave;
-                var WMessageChat = basicBot.chat.welcomemsg;
 
                 var joinedroulette = rlJoinChat.split('%%NAME%%');
                 if (joinedroulette[1].length > joinedroulette[0].length) joinedroulette = joinedroulette[1];
@@ -1320,12 +1330,8 @@
                 var leftroulette = rlLeaveChat.split('%%NAME%%');
                 if (leftroulette[1].length > leftroulette[0].length) leftroulette = leftroulette[1];
                 else leftroulette = leftroulette[0];
-                
-                var welcomemsg = WMessageChat.split('%%NAME%%');
-                if (welcomemsg[1].length > welcomemsg[0].length) welcomemsg = welcomemsg[1];
-                else welcomemsg = welcomemsg[0];
 
-                if ((msg.indexOf(joinedroulette) > -1 || msg.indexOf(leftroulette) > -1 || msg.indexOf(welcomemsg) > -1) && chat.uid === basicBot.loggedInID) {
+                if ((msg.indexOf(joinedroulette) > -1 || msg.indexOf(leftroulette) > -1) && chat.uid === basicBot.loggedInID) {
                     setTimeout(function(id) {
                         API.moderateDeleteChat(id);
                     }, 5 * 1000, chat.cid);

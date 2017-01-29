@@ -1308,7 +1308,7 @@
                 var welcome = basicBot.chat.welcome;
                 var welcomeback = basicBot.chat.welcomeback;
                 
-                if ((msg.indexOf(welcome) > -1 || msg.indexOf(welcomeback) > -1) && chat.uid === basicBot.loggedInID) {
+                if ((msg.indexOf('Sveiki atvykę') > -1 || msg.indexOf('Sveiki sugrįžę') > -1) {
                     setTimeout(function(id) {
                         API.moderateDeleteChat(id);
                     }, 15 * 1000, chat.cid);

@@ -1305,10 +1305,10 @@
                     return true;
                 }
                 
-                var welcomemsg = basicBot.chat.welcome;
-                var welcomebackmsg = basicBot.chat.welcomeback;
+                var welcome = basicBot.chat.welcome;
+                var welcomeback = basicBot.chat.welcomeback;
                 
-                if ((msg.indexOf(welcomemsg) > -1 || msg.indexOf(welcomebackmsg) > -1) && chat.uid === basicBot.loggedInID) {
+                if ((msg.indexOf(welcome) > -1 || msg.indexOf(welcomeback) > -1) && chat.uid === basicBot.loggedInID) {
                     setTimeout(function(id) {
                         API.moderateDeleteChat(id);
                     }, 15 * 1000, chat.cid);

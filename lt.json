@@ -82,7 +82,8 @@
 
 
     "usernotfound": "/me Vartotojas nerastas.",
-    "notdisconnected": "/me @%%NAME%% Jūsų duomenų bazėje nėra! .",
+    "notdisconnected": "/me @%%NAME%% Jūsų duomenų bazėje nėra!",
+    "notdisconnected2": "/me @%%NAME%% Jūsų duomenų bazėje nėra!.",
     "noposition": "/me Paskutinė vieta eilėje nežinoma.",
     "toolongago": "/me @%%NAME%%'s Paskutinis atsijungimas buvo per senai: %%TIME%%.",
     "valid": "/me @%%NAME%% atsijungė prieš %%TIME%% ir dabar turėtų būti %%POSITION%% vietoje.",

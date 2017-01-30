@@ -1284,14 +1284,19 @@
                 if (basicBot.settings.cmdDeletion && msg.startsWith(basicBot.settings.commandLiteral)) {
                     API.moderateDeleteChat(chat.cid);
                 }
+                
+                /*TESTING*/
+                
                 var pattern = new RegExp('\\b' + basicBot.chatUtilities.spam[j] + '\\b', 'g');
-                // Create a new string filled with '*'
-                var replacement = '*'.repeat(filter[i].length);
-                    txt = txt.replace(pattern, replacement);
-                   }
-                  return txt;
-                     });
-
+                if (pattern.exec(msg)) {
+                    if (perm === 0) {
+                        API.sendChat(subChat(basicBot.chat.spam, {
+                        name: chat.un
+                    }));
+                    return true;
+                }
+            }
+                 
                 var plugRoomLinkPatt = /(\bhttps?:\/\/(www.)?plug\.dj[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
                 if (plugRoomLinkPatt.exec(msg)) {
                     if (perm === 0) {

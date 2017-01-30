@@ -1250,9 +1250,9 @@
             }
             for (var j = 0; j < basicBot.chatUtilities.curses.length; j++) {
                 if (msg.includes(basicBot.chatUtilities.curses[j])) {
-                    API.sendChat(subChat(basicBot.chat.spam, {
-                        name: chat.un
-                    }));
+                    var replacement = '*'.repeat(basicBot.chatUtilities.curses[j].length);
+                    msg = msg.replace(basicBot.chatUtilities.curses[j], replacement);
+                   }
                     return true;
                 }
             }
@@ -1287,7 +1287,7 @@
                 
                 /*TESTING*/
                 
-                var pattern = new RegExp('\\b' + basicBot.chatUtilities.spam[j] + '\\b', 'g');
+                var pattern = /(\\b' + basicBot.chatUtilities.spam[j] + '\\b', 'g';
                 if (pattern.exec(msg)) {
                     if (perm === 0) {
                         API.sendChat(subChat(basicBot.chat.spam, {

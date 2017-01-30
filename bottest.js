@@ -1255,7 +1255,6 @@
                    }
                     return true;
                 }
-            }
             return false;
         },
         chatUtilities: {

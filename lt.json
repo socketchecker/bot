@@ -86,7 +86,7 @@
     "notdisconnected2": "/me @%%NAME%% Jūsų duomenų bazėje nėra!.",
     "noposition": "/me Paskutinė vieta eilėje nežinoma.",
     "toolongago": "/me @%%NAME%%'s Paskutinis atsijungimas buvo per senai: %%TIME%%.",
-    "valid": "/me @%%NAME%% atsijungė prieš %%TIME%% ir dabar turėtų būti %%POSITION%% vietoje.",
+    "valid": "/me :white_check_mark: @%%NAME%% atsijungėte iš %%POSITION%% vietos.",
 
 
     "warning1": "/me @%%NAME%%, Jūs buvote neaktyvus %%TIME%%, Prašome atsiliepti per 2 minutes arba būsite pašalinti.",

@@ -1250,11 +1250,10 @@
             }
             for (var j = 0; j < basicBot.chatUtilities.curses.length; j++) {
                 if (msg.includes(basicBot.chatUtilities.curses[j])) {
-                    var replacement = '*'.repeat(basicBot.chatUtilities.curses[j].length);
-                    msg = msg.replace(basicBot.chatUtilities.curses[j], replacement);
-                   }
+                    msg = msg.replace(basicBot.chatUtilities.curses[j], '*');
                     return true;
                 }
+            }
             return false;
         },
         chatUtilities: {
@@ -1283,19 +1282,7 @@
                 if (basicBot.settings.cmdDeletion && msg.startsWith(basicBot.settings.commandLiteral)) {
                     API.moderateDeleteChat(chat.cid);
                 }
-                
-                /*TESTING*/
-                
-                var pattern = /(\\b' + basicBot.chatUtilities.spam[j] + '\\b', 'g';
-                if (pattern.exec(msg)) {
-                    if (perm === 0) {
-                        API.sendChat(subChat(basicBot.chat.spam, {
-                        name: chat.un
-                    }));
-                    return true;
-                }
-            }
-                 
+
                 var plugRoomLinkPatt = /(\bhttps?:\/\/(www.)?plug\.dj[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
                 if (plugRoomLinkPatt.exec(msg)) {
                     if (perm === 0) {
@@ -1319,7 +1306,7 @@
                 if (msg.indexOf("Sveiki atvykę") > -1 || msg.indexOf("Sveiki sugrįžę") > -1) {
                     setTimeout(function(id) {
                         API.moderateDeleteChat(id);
-                    }, 30 * 1000, chat.cid);
+                    }, 22 * 1000, chat.cid);
                     return true;
                 }
                 

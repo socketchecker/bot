@@ -1250,10 +1250,15 @@
             }
             for (var j = 0; j < basicBot.chatUtilities.curses.length; j++) {
                 if (msg.includes(basicBot.chatUtilities.curses[j])) {
-                    msg = msg.replace(basicBot.chatUtilities.curses[j], '*');
+                    API.sendChat(subChat(basicBot.chat.spam, {
+                        name: chat.un
+                    }));
                     return true;
                 }
             }
+             var msg = chat.message;
+          if (!containsLetters && (msg.length === 1 || msg.length > 3)) return true;
+            
             return false;
         },
         chatUtilities: {

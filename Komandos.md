@@ -8,7 +8,7 @@ Priedai tarp ( ) yra nebūtini
 Vadovas / Manager
 -------
 
-|Komanda | Argumentas |  Aprašmas |
+|Komanda | Argumentas |  Aprašymas |
 |:------:|:---------:|:--------------------------------------:|
 |!afklimit | X | Nustato maksimalų laiką, kurio metu vartotojas gali nebalsuoti už dainas |
 |!botname | (vardas) | Pakeičia boto vardą |
@@ -71,7 +71,7 @@ Apsauginis / Bouncer
 Nuolatinis DJ / RDJ
 -----------
 
-|Komanda | Argumentas |  Aprašmas |
+|Komanda | Argumentas |  Aprašymas |
 |:------:|:---------:|:--------------------------------------:|
 |!link | | Nurodo dabartinės dainos nuorodą
 
@@ -80,7 +80,7 @@ Nuolatinis DJ / RDJ
 Vartotojas / User
 ----
 
-|Komanda | Argumentas |  Aprašmas |
+|Komanda | Argumentas |  Aprašymas |
 |:------:|:---------:|:--------------------------------------:|
 |!8ball | (žinutė) | Paklausia boto klausimo į kurį atsakymas būtų taip arba ne, botas parenka atsitiktinį atsakymą |
 |!autowoot | | Nurodo autowoot boto nuorodą |

@@ -30,7 +30,7 @@ Vadovas / Manager
 Apsauginis / Bouncer
 -------
 
-|Komanda | Argumentas |  Aprašmas |
+|Komanda | Argumentas |  Aprašymas |
 |:------:|:---------:|:--------------------------------------:|
 |!active | (X) | Parodo kiek vartotojų rašė žinutes per pastarasiąs X minutes. Jei X nenurodytas, rodoma paskutinės valandos statistika |
 |!afkreset | @vartotojas | Atstato vartotojo afk laiką |

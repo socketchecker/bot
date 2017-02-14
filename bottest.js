@@ -1521,7 +1521,7 @@
             }, 45 * 60 * 1000);
             basicBot.room.naktis = setInterval(function () {
             var naktis = new Date();
-            if (naktis.getHours() === 1 && naktis.getMinutes() === 0 && naktis.getSeconds() === 0) {
+            if (naktis.getHours() === 1 && naktis.getMinutes() === 30 && naktis.getSeconds() === 0) {
              API.sendChat('!autoroulette');
                 }
            }, 1000);

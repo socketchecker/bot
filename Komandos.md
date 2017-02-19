@@ -10,6 +10,7 @@ Vadovas / Manager
 
 |Komanda | Argumentas |  Aprašymas |
 |:------:|:---------:|:--------------------------------------:|
+|!autoroulette | | Įjungia automatinę ruletę |
 |!afklimit | X | Nustato maksimalų laiką, kurio metu vartotojas gali nebalsuoti už dainas |
 |!botname | (vardas) | Pakeičia boto vardą |
 |!bouncer+ | | Įjungia bouncer+ papildinį |

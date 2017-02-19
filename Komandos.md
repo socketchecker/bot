@@ -33,8 +33,11 @@ Apsauginis / Bouncer
 |Komanda | Argumentas |  Aprašymas |
 |:------:|:---------:|:--------------------------------------:|
 |!active | (X) | Parodo kiek vartotojų rašė žinutes per pastarasiąs X minutes. Jei X nenurodytas, rodoma paskutinės valandos statistika |
+|!add | @user | pridėti vartotoją į waitlistą |
+|!afkremoval | | įjungti afk vartotojų patikrinimą |
 |!afkreset | @vartotojas | Atstato vartotojo afk laiką |
-|!afktime | @vartotojas | Parodo kiek laiko vartotojas nedalyvavo chat`e |
+|!afktime | @vartotojas | Parodo kiek laiko vartotojas nedalyvavo chate |
+|!autoskip | | praskipina dainas po to, kai jos baigia groti (naudoti kai dainos pačios nepersijungia) |
 |!autodisable | | Įjungti autodisable komandą, kuri išjungia botą po tam tikro laiko |
 |!ban | @vartotojas | Užblokuoja vartotoją 1 dienai |
 |!blacklist / !bl | sąrašo pavadinimas | Įtraukią dainą į draudžiamų dainų sąrašą |
@@ -42,30 +45,39 @@ Apsauginis / Bouncer
 |!blinfo | | Pateikia informaciją apie dainą |
 |!cycleguard | | Įjungia ciklo apsaugą |
 |!dclookup / !dc | (@vartotojas) | Parodo vartoto pozicija iki atsijungimo |
+|!deletechat | @user | išvalo visas žinutes parašytas nurodyto vartotojo |
 |!english | @vartotojas | Paprašo vartotojo kalbėti angliškai (prašoma ta kalba kurią vartotojas nusistatęs) |
 |!eta | (@vartotojas) | Nurodo laiką iki grojimo |
-|!filter | | Įjungią chat`o apsaugą |
+|!filter | | Įjungią chato apsaugą |
 |!forceskip | | Praleidžia dabartinę dainą |
 |!historyskip | | Įjungia pasikartojančių dainų praleidimą |
 |!jointime | @user | Parodo kiek laiko vartotojas praleido kambaryje neatsijungęs |
 |!kick | (X) | Išmeta vartotoją iš kambario X minutėms, numatyta reikšmė yra 15 sekundžių (0.25 minutės) |
 |!kill | | Išjungia botą |
+|!lock | | užrakina waitlistą |
+|!lockdown | | užrakina chatą, tik valdžia gali rašyti |
 |!lockguard | | Įjungia lockguard |
-|!lockskip | (priežastis) | Praleidžią dainą, užrakiną waitlist`ą ir grąžina vartotoją į tam tikrą poziciją (pozicija nustatoma su !skippos komanda) |
+|!lockskip | (priežastis) | Praleidžią dainą, užrakiną waitlistą ir grąžina vartotoją į tam tikrą poziciją (pozicija nustatoma su !skippos komanda) |
 |!motd | (X)/(žinutė) | Jei argumentas nenurodytas, parodo dabartinę nustatytą žinute, kai X nurodytas, dienos žinutė yra rodoma kas X dainas, jei "žinutė" nurodyta, dienos žinutė pakeičiama |
+|!move | @vartotojas (X) | perkelia vartotoją į nurodytą poziciją, nieko nenurodžius perkeliama į 1 vietą |
 |!mute | @vartotojas/(X) | Uždraudžia rašyti vartotojui, X minutėms jei X nurodytas, kitu atveju neribotam laikui |
 |!reload | | Perkrauna botą |
+|!remove | @vartotojas | pašalina vartotoją iš waitlisto |
 |!restricteta | | Įjungi eta komandos apribojimą: pilki vartotojai komandą gali vartoti kas valandą |
+|~~!roulette~~ | | ~~paleidžia ruletę~~ |
 |!sessionstats | | Parodo dabartinės sesijos būseną |
 |!skip | (priežastis) | Praleidžia dainą bei parašo priežastį vartotojui |
+|!songstats | | įjungia dainų statistiką |
 |!status | | Parodo boto informacija bei keletą nustatymų |
 |!timeguard | | Įjungia dainos trukmės limitą |
 |!togglebl | | Įjungia draudžiamajį sąrašą |
 |!togglemotd | | Įjungia dienos žinutę |
 |!togglevoteskip | | Įjungia voteskip komandą, kuri skaičiuoja balsus reikalingus pakeisti dainai |
 |!unban | @vartotojas | Atblokuja vartotoją |
+|!unlock | | atrakina waitlistą |
 |!unmute | @vartotojas/all | Leidžia vartotojui vėl rašyti |
 |!voteratio | @vartotojas | Parodo vartotojo balsavimo už dainas statistiką |
+|!welcome | | įjungia pasisveikinimo žinutę |
 |!whois | @vartotojas | Parodo informaciją apie vartotoją |
 
 Nuolatinis DJ / RDJ

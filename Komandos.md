@@ -34,7 +34,7 @@ Apsauginis / Bouncer
 |Komanda | Argumentas |  Aprašymas |
 |:------:|:---------:|:--------------------------------------:|
 |!active | (X) | Parodo kiek vartotojų rašė žinutes per pastarasiąs X minutes. Jei X nenurodytas, rodoma paskutinės valandos statistika |
-|!add | @user | pridėti vartotoją į waitlistą |
+|!add | @vartotojas | pridėti vartotoją į waitlistą |
 |!afkremoval | | įjungti afk vartotojų patikrinimą |
 |!afkreset | @vartotojas | Atstato vartotojo afk laiką |
 |!afktime | @vartotojas | Parodo kiek laiko vartotojas nedalyvavo chate |
@@ -46,13 +46,13 @@ Apsauginis / Bouncer
 |!blinfo | | Pateikia informaciją apie dainą |
 |!cycleguard | | Įjungia ciklo apsaugą |
 |!dclookup / !dc | (@vartotojas) | Parodo vartoto pozicija iki atsijungimo |
-|!deletechat | @user | išvalo visas žinutes parašytas nurodyto vartotojo |
+|!deletechat | @vartotojas | išvalo visas žinutes parašytas nurodyto vartotojo |
 |!english | @vartotojas | Paprašo vartotojo kalbėti angliškai (prašoma ta kalba kurią vartotojas nusistatęs) |
 |!eta | (@vartotojas) | Nurodo laiką iki grojimo |
 |!filter | | Įjungią chato apsaugą |
 |!forceskip | | Praleidžia dabartinę dainą |
 |!historyskip | | Įjungia pasikartojančių dainų praleidimą |
-|!jointime | @user | Parodo kiek laiko vartotojas praleido kambaryje neatsijungęs |
+|!jointime | @vartotojas | Parodo kiek laiko vartotojas praleido kambaryje neatsijungęs |
 |!kick | (X) | Išmeta vartotoją iš kambario X minutėms, numatyta reikšmė yra 15 sekundžių (0.25 minutės) |
 |!kill | | Išjungia botą |
 |!lock | | užrakina waitlistą |

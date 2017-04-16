@@ -357,8 +357,8 @@
             afkpositionCheck: 0,
             afkRankCheck: "ambassador",
             motdEnabled: true,
-            motdInterval: 7,
-            motd: "Čia „Už Lietuvą“ Discord pokalbiai prieinami visiems! - https://discord.gg/KVmKREV // Iškritai iš DJ eilės? Rašyk !dc sugrįžimui. ",
+            motdInterval: 5,
+            motd: "@everyone Čia „Už Lietuvą“ Discord pokalbiai prieinami visiems! - https://discord.gg/KVmKREV // Iškritai iš DJ eilės? Rašyk !dc sugrįžimui. ",
             filterChat: true,
             etaRestriction: true,
             welcome: true,
@@ -2685,6 +2685,9 @@
                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
+                    if (pos < 0) return API.sendChat(subChat(basicBot.chat.notinwaitlist, {
+                            name: name
+                        }));
                     else {
                         if (basicBot.room.roulette.rouletteStatus && basicBot.room.roulette.participants.indexOf(chat.uid) < 0) {
                             basicBot.room.roulette.participants.push(chat.uid);
@@ -2780,7 +2783,7 @@
 
             killCommand: {
                 command: 'kill',
-                rank: 'manager',
+                rank: 'bouncer',
                 type: 'exact',
                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);

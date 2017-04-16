@@ -357,8 +357,8 @@
             afkpositionCheck: 0,
             afkRankCheck: "ambassador",
             motdEnabled: true,
-            motdInterval: 5,
-            motd: "@everyone Čia „Už Lietuvą“ Discord pokalbiai prieinami visiems! - https://discord.gg/KVmKREV // Iškritai iš DJ eilės? Rašyk !dc sugrįžimui. ",
+            motdInterval: 7,
+            motd: "Čia „Už Lietuvą“ Discord pokalbiai prieinami visiems! - https://discord.gg/KVmKREV // Iškritai iš DJ eilės? Rašyk !dc sugrįžimui. ",
             filterChat: true,
             etaRestriction: true,
             welcome: true,
@@ -2783,7 +2783,7 @@
 
             killCommand: {
                 command: 'kill',
-                rank: 'bouncer',
+                rank: 'manager',
                 type: 'exact',
                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);

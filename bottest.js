@@ -459,7 +459,8 @@
                     if (rip <= 4) {
                         basicBot.userUtilities.moveUser(winner, 5, false),
                             API.moderateMuteUser(winner, 1, API.MUTE.SHORT),
-                            API.sendChat(subChat(basicBot.chat.rouletterip, {name: name}));
+                            API.sendChat(subChat(basicBot.chat.rouletterip, {name: name}))
+                            basicBot.room.roulette.startRoulette();
                     } 
                     else {
                         setTimeout(function(winner, pos) {

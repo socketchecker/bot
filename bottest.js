@@ -460,7 +460,7 @@
                         basicBot.userUtilities.moveUser(winner, 5, false),
                             API.moderateMuteUser(winner, 1, API.MUTE.SHORT),
                             API.sendChat(subChat(basicBot.chat.rouletterip, {name: name}))
-                            basicBot.room.roulette.startRoulette();
+                            API.sendChat('!roulette');
                     } 
                     else {
                         setTimeout(function(winner, pos) {

@@ -1279,7 +1279,7 @@
                     return true;
                 }
                 
-                if (msg.indexOf("Sveiki atvykę") > -1 || msg.indexOf("Sveiki sugrįžę") > -1 || msg.indexOf(":thumbsup:") > -1 ) {
+                if (msg.indexOf("Sveiki atvykę") > -1 || msg.indexOf("Sveiki sugrįžę") > -1) {
                     setTimeout(function(id) {
                         API.moderateDeleteChat(id);
                     }, 22 * 1000, chat.cid);

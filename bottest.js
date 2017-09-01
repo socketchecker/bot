@@ -47,7 +47,7 @@
         var WaitlistCount = API.getWaitList().length;
         var UserCount = API.getUsers().length;
         if (WaitlistCount <= 50) {
-            var mehSkipCount = Math.round((WaitlistCount / 3) + 2);
+            var mehSkipCount = Math.round((WaitlistCount / 4));
             if (UserCount >= 50) {
                 if (mehSkipCount < 8) {
                     mehSkipCount = 8;

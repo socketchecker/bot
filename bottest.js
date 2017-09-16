@@ -648,25 +648,25 @@
                 var rankInt = null;
                 switch (rankString) {
                     case "admin":
-                        rankInt = 10;
+                        rankInt = 5000;
                         break;
                     case "ambassador":
-                        rankInt = 7;
+                        rankInt = 3000;
                         break;
                     case "host":
-                        rankInt = 5;
+                        rankInt = 5000;
                         break;
                     case "cohost":
-                        rankInt = 4;
+                        rankInt = 4000;
                         break;
                     case "manager":
-                        rankInt = 3;
+                        rankInt = 3000;
                         break;
                     case "bouncer":
-                        rankInt = 2;
+                        rankInt = 2000;
                         break;
                     case "residentdj":
-                        rankInt = 1;
+                        rankInt = 1000;
                         break;
                     case "user":
                         rankInt = 0;
@@ -1565,33 +1565,33 @@
                 var minPerm;
                 switch (minRank) {
                     case 'admin':
-                        minPerm = 10;
+                        minPerm = 5000;
                         break;
                     case 'ambassador':
-                        minPerm = 7;
+                        minPerm = 3000;
                         break;
                     case 'host':
-                        minPerm = 5;
+                        minPerm = 5000;
                         break;
                     case 'cohost':
-                        minPerm = 4;
+                        minPerm = 4000;
                         break;
                     case 'manager':
-                        minPerm = 3;
+                        minPerm = 3000;
                         break;
                     case 'mod':
                         if (basicBot.settings.bouncerPlus) {
-                            minPerm = 2;
+                            minPerm = 2000;
                         } 
                         else {
-                            minPerm = 3;
+                            minPerm = 3000;
                         }
                         break;
                     case 'bouncer':
-                        minPerm = 2;
+                        minPerm = 2000;
                         break;
                     case 'residentdj':
-                        minPerm = 1;
+                        minPerm = 1000;
                         break;
                     case 'user':
                         minPerm = 0;

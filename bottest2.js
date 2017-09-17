@@ -1,7 +1,8 @@
 /**
- *Copyright 2015 basicBot
- *Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original source.
- *This software is not for profit, any extension, or unauthorised person providing this software is not authorised to be in a position of any monetary gain from this use of this software. Any and all money gained under the use of the software (which includes donations) must be passed on to the original author.
+ Copyright © 2014-2017 basicBot
+ 
+ Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original source.
+ This software is not for profit, any extension, or unauthorised person providing this software is not authorised to be in a position of any monetary gain from this use of this software. Any and all money gained under the use of the software (which includes donations) must be passed on to the original author.
  */
 (function() {
 
@@ -293,10 +294,10 @@
 
     var botCreator = "Yemasthui";
     var botMaintainer = "Benzi"
-    var botCreatorIDs = ["3851534", "4105209"];
+    var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: "2.9.1",
+        version: "2.11.0",
         status: false,
         name: "basicBot",
         loggedInID: null,
@@ -548,24 +549,21 @@
                 return votes;
 
             },
-            getPermission: function(obj) { //1 requests
+           getPermission: function(obj) {
                 var u;
-                if (typeof obj === "object") u = obj;
+                if (typeof obj === 'object') u = obj;
                 else u = API.getUser(obj);
-                for (var i = 0; i < botCreatorIDs.length; i++) {
-                    if (botCreatorIDs[i].indexOf(u.id) > -1) return 10;
-                }
-                if (u.gRole < 2) return u.role;
+                if (botCreatorIDs.indexOf(u.id) > -1) return 9999;
+
+                if (u.gRole == 0) return u.role;
                 else {
                     switch (u.gRole) {
-                        case 2:
-                            return 7;
                         case 3:
-                            return 8;
-                        case 4:
-                            return 9;
+                        case 3000:
+                            return (1*(API.ROLE.HOST-API.ROLE.COHOST))+API.ROLE.HOST;
                         case 5:
-                            return 10;
+                        case 5000:
+                            return (2*(API.ROLE.HOST-API.ROLE.COHOST))+API.ROLE.HOST;
                     }
                 }
                 return 0;
@@ -648,25 +646,25 @@
                 var rankInt = null;
                 switch (rankString) {
                     case "admin":
-                        rankInt = 5000;
+                        rankInt = 10;
                         break;
                     case "ambassador":
-                        rankInt = 3000;
+                        rankInt = 7;
                         break;
                     case "host":
-                        rankInt = 5000;
+                        rankInt = 5;
                         break;
                     case "cohost":
-                        rankInt = 4000;
+                        rankInt = 4;
                         break;
                     case "manager":
-                        rankInt = 3000;
+                        rankInt = 3;
                         break;
                     case "bouncer":
-                        rankInt = 2000;
+                        rankInt = 2;
                         break;
                     case "residentdj":
-                        rankInt = 1000;
+                        rankInt = 1;
                         break;
                     case "user":
                         rankInt = 0;
@@ -830,7 +828,7 @@
             },
             changeDJCycle: function() {
                 $.getJSON('/_/rooms/state', function(data) {
-                    if (data.data[0].booth.shouldCycle) { // checks "" "shouldCycle": true "" if its true
+                    if (data.data[0].booth.shouldCycle) { //checks if shouldCycle is true
                         API.moderateDJCycle(false); // Disables the DJ Cycle
                         clearTimeout(basicBot.room.cycleTimer); // Clear the cycleguard timer
                     } 
@@ -969,7 +967,12 @@
                 }
 
             }
-            if (basicBot.settings.welcome && greet) {
+            if (botCreatorIDs.indexOf(user.id) > -1) {
+              console.log(true);
+                API.sendChat('@'+user.username+' '+':sparkles: :bow: :sparkles:');
+            } else if (basicBot.settings.welcome && greet) {
+              console.log(false);
+              console.log(botCreatorIDs); {
                 welcomeback ?
                     setTimeout(function(user) {
                         API.sendChat(subChat(basicBot.chat.welcomeback, {name: user.username}));
@@ -1202,7 +1205,7 @@
         },
         chatcleaner: function (chat) {
             if (!basicBot.settings.filterChat) return false;
-            if (basicBot.userUtilities.getPermission(chat.uid) > 1) return false;
+            if (basicBot.userUtilities.getPermission(chat.uid) >= API.ROLE.BOUNCER) return false;
             var msg = chat.message;
             var containsLetters = false;
             for (var i = 0; i < msg.length; i++) {
@@ -1251,7 +1254,7 @@
                     return true;
                 }
                 if (basicBot.settings.lockdownEnabled) {
-                    if (perm === 0) {
+                    if (perm === API.ROLE.NONE) {
                         API.moderateDeleteChat(chat.cid);
                         return true;
                     }
@@ -1265,7 +1268,7 @@
                 }
                 var plugRoomLinkPatt = /(\bhttps?:\/\/(www.)?plug\.dj[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
                 if (plugRoomLinkPatt.exec(msg)) {
-                    if (perm === 0) {
+                    if (perm === API.ROLE.NONE) {
                         API.sendChat(subChat(basicBot.chat.roomadvertising, {name: chat.un}));
                         API.moderateBanUser(user.id, 1, API.BAN.PERMA);
                         API.moderateDeleteChat(chat.cid);
@@ -1352,7 +1355,7 @@
                     }
                 }
 
-                if (executed && userPerm === 0) {
+                if (executed && userPerm === API.ROLE.NONE) {
                     basicBot.room.usercommand = false;
                     setTimeout(function() {
                         basicBot.room.usercommand = true;
@@ -1439,12 +1442,9 @@
             API.off(API.HISTORY_UPDATE, this.proxy.eventHistoryupdate);
         },
         startup: function() {
-            Function.prototype.toString = function() {
-                return 'Function.'
-            };
             var u = API.getUser();
-            if (basicBot.userUtilities.getPermission(u) < 2) return API.chatLog(basicBot.chat.greyuser);
-            if (basicBot.userUtilities.getPermission(u) === 2) API.chatLog(basicBot.chat.bouncer);
+            if (basicBot.userUtilities.getPermission(u) < API.ROLE.BOUNCER) return API.chatLog(basicBot.chat.greyuser);
+            if (basicBot.userUtilities.getPermission(u) === API.ROLE.BOUNCER) API.chatLog(basicBot.chat.bouncer);
             basicBot.connectAPI();
             API.moderateDeleteChat = function(cid) {
                 $.ajax({
@@ -1481,7 +1481,7 @@
             retrieveFromStorage();
             window.bot = basicBot;
             basicBot.roomUtilities.updateBlacklists();
-            setInterval(basicBot.roomUtilities.updateBlacklists, 5 * 60 * 1000);
+            setInterval(basicBot.roomUtilities.updateBlacklists, 30 * 60 * 1000);
             basicBot.getNewBlacklistedSongs = basicBot.roomUtilities.exportNewBlacklistedSongs;
             basicBot.logNewBlacklistedSongs = basicBot.roomUtilities.logNewBlacklistedSongs;
             if (basicBot.room.roomstats.launchTime === null) {
@@ -1558,43 +1558,56 @@
             //socket();
             loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.version})));
         },
+        	/*
+        if (u.gRole == 0) return u.role;
+        else {
+            switch (u.gRole) {
+                case 3:
+                case 3000:
+                    return (1*(API.ROLE.HOST-API.ROLE.COHOST))+API.ROLE.HOST;
+                case 5:
+                case 5000:
+                    return (2*(API.ROLE.HOST-API.ROLE.COHOST))+API.ROLE.HOST;
+            }
+        }
+        return 0;
+*/
         commands: {
             executable: function(minRank, chat) {
                 var id = chat.uid;
                 var perm = basicBot.userUtilities.getPermission(id);
                 var minPerm;
-                switch (minRank) {
+                 switch (minRank) {
                     case 'admin':
-                        minPerm = 5000;
+                        minPerm = (2*(API.ROLE.HOST-API.ROLE.COHOST))+API.ROLE.HOST;
                         break;
                     case 'ambassador':
-                        minPerm = 3000;
+                        minPerm = (1*(API.ROLE.HOST-API.ROLE.COHOST))+API.ROLE.HOST;
                         break;
                     case 'host':
-                        minPerm = 5000;
+                        minPerm = API.ROLE.HOST;
                         break;
                     case 'cohost':
-                        minPerm = 4000;
+                        minPerm = API.ROLE.COHOST;
                         break;
                     case 'manager':
-                        minPerm = 3000;
+                        minPerm = API.ROLE.MANAGER;
                         break;
                     case 'mod':
                         if (basicBot.settings.bouncerPlus) {
-                            minPerm = 2000;
-                        } 
-                        else {
-                            minPerm = 3000;
+                            minPerm = API.ROLE.BOUNCER;
+                        } else {
+                            minPerm = API.ROLE.MANAGER;
                         }
                         break;
                     case 'bouncer':
-                        minPerm = 2000;
+                        minPerm = API.ROLE.BOUNCER;
                         break;
                     case 'residentdj':
-                        minPerm = 1000;
+                        minPerm = API.ROLE.DJ;
                         break;
                     case 'user':
-                        minPerm = 0;
+                        minPerm = API.ROLE.NONE;
                         break;
                     default:
                         API.chatLog('error assigning minimum permission');
@@ -1602,7 +1615,8 @@
                 return perm >= minPerm;
 
             },
-            /**
+            
+            /*
              command: {
                         command: 'cmd',
                         rank: 'user/bouncer/mod/manager',
@@ -1794,7 +1808,7 @@
 
             stoprouletteCommand: {
                 command: 'stoproulette', // The command to be called. With the standard command literal this would be: !bacon
-                rank: 'manager', // Minimum user permission to use the command
+                rank: 'cohostr', // Minimum user permission to use the command
                 type: 'exact', // Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length)
@@ -2020,7 +2034,7 @@
                             if (!basicBot.settings.bouncerPlus) {
                                 var id = chat.uid;
                                 var perm = basicBot.userUtilities.getPermission(id);
-                                if (perm > 2) {
+                                if (perm > API.ROLE.BOUNCER) {
                                     basicBot.settings.bouncerPlus = true;
                                     return API.sendChat(subChat(basicBot.chat.toggleon, {
                                         name: chat.un,
@@ -2250,7 +2264,7 @@
                         else {
                             name = msg.substring(cmd.length + 2);
                             var perm = basicBot.userUtilities.getPermission(chat.uid);
-                            if (perm < 2) return API.sendChat(subChat(basicBot.chat.dclookuprank, {
+                            if (perm < API.ROLE.BOUNCER) return API.sendChat(subChat(basicBot.chat.dclookuprank, {
                                 name: chat.un
                             }));
                         }
@@ -2429,7 +2443,7 @@
                         var dj = API.getDJ().username;
                         var name;
                         if (msg.length > cmd.length) {
-                            if (perm < 2) return void(0);
+                            if (perm < API.ROLE.BOUNCER) return void(0);
                             name = msg.substring(cmd.length + 2);
                         } else name = chat.un;
                         var user = basicBot.userUtilities.lookupUserName(name);
@@ -3185,7 +3199,7 @@
                         }));
                         var permFrom = basicBot.userUtilities.getPermission(chat.uid);
                         var permUser = basicBot.userUtilities.getPermission(user.id);
-                        if (permUser == 0) {
+                        if (permUser == API.ROLE.NONE)) {
                             if (time > 45) {
                                 API.moderateMuteUser(user.id, 1, API.MUTE.LONG);
                                 API.sendChat(subChat(basicBot.chat.mutedmaxtime, {
@@ -3513,7 +3527,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
                     else {
-                        API.sendChat('/me This bot was created by ' + botCreator + ', but is now maintained by ' + botMaintainer + ".");
+                       API.sendChat('/me basicBot is an open-source bot for plug.dj. More info can be found here: https://github.com/basicBot/source');
                     }
                 }
             },
@@ -4168,23 +4182,26 @@
                                 } else if (rawlang == "ms") {
                                     var language = "Malay"
                                 }
-                                var rawrank = API.getUser(id).role;
-                                if (rawrank == "0") {
-                                    var rank = "User";
-                                } else if (rawrank == "1") {
-                                    var rank = "Resident DJ";
-                                } else if (rawrank == "2") {
-                                    var rank = "Bouncer";
-                                } else if (rawrank == "3") {
-                                    var rank = "Manager"
-                                } else if (rawrank == "4") {
-                                    var rank = "Co-Host"
-                                } else if (rawrank == "5") {
-                                    var rank = "Host"
-                                } else if (rawrank == "7") {
-                                    var rank = "Brand Ambassador"
-                                } else if (rawrank == "10") {
-                                    var rank = "Admin"
+                                var rawrank = API.getUser(id);
+
+                                if (rawrank.role == API.ROLE.NONE) {
+                                    var rank = 'User';
+                                } else if (rawrank.role == API.ROLE.DJ) {
+                                    var rank = 'Resident DJ';
+                                } else if (rawrank.role == API.ROLE.BOUNCER) {
+                                    var rank = 'Bouncer';
+                                } else if (rawrank.role == API.ROLE.MANAGER) {
+                                    var rank = 'Manager';
+                                } else if (rawrank.role == API.ROLE.COHOST) {
+                                    var rank = 'Co-Host';
+                                } else if (rawrank.role == API.ROLE.HOST) {
+                                    var rank = 'Host';
+                                }
+
+                                  if ([3, 3000].indexOf(rawrank.gRole) > -1) {
+                                    var rank = 'Brand Ambassador';
+                                } else if ([5, 5000].indexOf(rawrank.gRole) > -1) {
+                                    var rank = 'Admin';
                                 }
                                 var slug = API.getUser(id).slug;
                                 if (typeof slug !== "undefined") {

@@ -292,11 +292,11 @@
     };
 
     var botCreator = "Yemasthui";
-    var botMaintainer = "Benzi";
-    var botCreatorIDs = [3851534, 4105209];
+    var botMaintainer = "Benzi"
+    var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.11.0",
+        version: "2.9.1",
         status: false,
         name: "basicBot",
         loggedInID: null,
@@ -548,25 +548,28 @@
                 return votes;
 
             },
-            getPermission: function(obj) {
+            getPermission: function(obj) { //1 requests
                 var u;
-                if (typeof obj === 'object') u = obj;
+                if (typeof obj === "object") u = obj;
                 else u = API.getUser(obj);
-                if (botCreatorIDs.indexOf(u.id) > -1) return 9999;
-
-            /*    if (u.gRole == 0) return u.role;
+                for (var i = 0; i < botCreatorIDs.length; i++) {
+                    if (botCreatorIDs[i].indexOf(u.id) > -1) return 10;
+                }
+                if (u.gRole < 2) return u.role;
                 else {
                     switch (u.gRole) {
+                        case 2:
+                            return 7;
                         case 3:
-                        case 3000:
-                            return (1*(API.ROLE.HOST-API.ROLE.COHOST))+API.ROLE.HOST;
+                            return 8;
+                        case 4:
+                            return 9;
                         case 5:
-                        case 5000:
-                            return (2*(API.ROLE.HOST-API.ROLE.COHOST))+API.ROLE.HOST;
+                            return 10;
                     }
                 }
                 return 0;
-            },*/
+            },
             moveUser: function(id, pos, priority) {
                 var user = basicBot.userUtilities.lookupUser(id);
                 var wlist = API.getWaitList();
@@ -1199,7 +1202,7 @@
         },
         chatcleaner: function (chat) {
             if (!basicBot.settings.filterChat) return false;
-            if (basicBot.userUtilities.getPermission(chat.uid) >= API.ROLE.BOUNCER) return false;
+            if (basicBot.userUtilities.getPermission(chat.uid) > 1) return false;
             var msg = chat.message;
             var containsLetters = false;
             for (var i = 0; i < msg.length; i++) {
@@ -1248,7 +1251,7 @@
                     return true;
                 }
                 if (basicBot.settings.lockdownEnabled) {
-                    if (perm === API.ROLE.NONE) {
+                    if (perm === 0) {
                         API.moderateDeleteChat(chat.cid);
                         return true;
                     }
@@ -1262,7 +1265,7 @@
                 }
                 var plugRoomLinkPatt = /(\bhttps?:\/\/(www.)?plug\.dj[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
                 if (plugRoomLinkPatt.exec(msg)) {
-                    if (perm === API.ROLE.NONE) {
+                    if (perm === 0) {
                         API.sendChat(subChat(basicBot.chat.roomadvertising, {name: chat.un}));
                         API.moderateBanUser(user.id, 1, API.BAN.PERMA);
                         API.moderateDeleteChat(chat.cid);
@@ -1320,11 +1323,11 @@
                 var userPerm = basicBot.userUtilities.getPermission(chat.uid);
                 //console.log("name: " + chat.un + ", perm: " + userPerm);
                 if (chat.message !== basicBot.settings.commandLiteral + 'join' && chat.message !== basicBot.settings.commandLiteral + "leave") {
-                    if (userPerm === API.ROLE.NONE && !basicBot.room.usercommand) return void(0);
+                    if (userPerm === 0 && !basicBot.room.usercommand) return void(0);
                     if (!basicBot.room.allcommand) return void(0);
                 }
                 if (chat.message === basicBot.settings.commandLiteral + 'eta' && basicBot.settings.etaRestriction) {
-                    if (userPerm < API.ROLE.BOUNCER) {
+                    if (userPerm < 2) {
                         var u = basicBot.userUtilities.lookupUser(chat.uid);
                         if (u.lastEta !== null && (Date.now() - u.lastEta) < 1 * 60 * 60 * 1000) {
                             API.moderateDeleteChat(chat.cid);
@@ -1349,7 +1352,7 @@
                     }
                 }
 
-                if (executed && userPerm === API.ROLE.NONE) {
+                if (executed && userPerm === 0) {
                     basicBot.room.usercommand = false;
                     setTimeout(function() {
                         basicBot.room.usercommand = true;
@@ -1440,8 +1443,8 @@
                 return 'Function.'
             };
             var u = API.getUser();
-            if (basicBot.userUtilities.getPermission(u) < API.ROLE.BOUNCER) return API.chatLog(basicBot.chat.greyuser);
-            if (basicBot.userUtilities.getPermission(u) === API.ROLE.BOUNCER) API.chatLog(basicBot.chat.bouncer);
+            if (basicBot.userUtilities.getPermission(u) < 2) return API.chatLog(basicBot.chat.greyuser);
+            if (basicBot.userUtilities.getPermission(u) === 2) API.chatLog(basicBot.chat.bouncer);
             basicBot.connectAPI();
             API.moderateDeleteChat = function(cid) {
                 $.ajax({
@@ -1561,36 +1564,37 @@
                 var perm = basicBot.userUtilities.getPermission(id);
                 var minPerm;
                 switch (minRank) {
-                      case 'admin':
-                        minPerm = (2*(API.ROLE.HOST-API.ROLE.COHOST))+API.ROLE.HOST;
+                    case 'admin':
+                        minPerm = 10;
                         break;
                     case 'ambassador':
-                        minPerm = (1*(API.ROLE.HOST-API.ROLE.COHOST))+API.ROLE.HOST;
+                        minPerm = 7;
                         break;
                     case 'host':
-                        minPerm = API.ROLE.HOST;
+                        minPerm = 5;
                         break;
                     case 'cohost':
-                        minPerm = API.ROLE.COHOST;
+                        minPerm = 4;
                         break;
                     case 'manager':
-                        minPerm = API.ROLE.MANAGER;
+                        minPerm = 3;
                         break;
                     case 'mod':
                         if (basicBot.settings.bouncerPlus) {
-                            minPerm = API.ROLE.BOUNCER;
-                        } else {
-                            minPerm = API.ROLE.MANAGER;
+                            minPerm = 2;
+                        } 
+                        else {
+                            minPerm = 3;
                         }
                         break;
                     case 'bouncer':
-                        minPerm = API.ROLE.BOUNCER;
+                        minPerm = 2;
                         break;
                     case 'residentdj':
-                        minPerm = API.ROLE.DJ;
+                        minPerm = 1;
                         break;
                     case 'user':
-                        minPerm = API.ROLE.NONE;
+                        minPerm = 0;
                         break;
                     default:
                         API.chatLog('error assigning minimum permission');
@@ -2016,7 +2020,7 @@
                             if (!basicBot.settings.bouncerPlus) {
                                 var id = chat.uid;
                                 var perm = basicBot.userUtilities.getPermission(id);
-                                if (perm > API.ROLE.BOUNCER) {
+                                if (perm > 2) {
                                     basicBot.settings.bouncerPlus = true;
                                     return API.sendChat(subChat(basicBot.chat.toggleon, {
                                         name: chat.un,
@@ -2246,7 +2250,7 @@
                         else {
                             name = msg.substring(cmd.length + 2);
                             var perm = basicBot.userUtilities.getPermission(chat.uid);
-                            if (perm < API.ROLE.BOUNCER) return API.sendChat(subChat(basicBot.chat.dclookuprank, {
+                            if (perm < 2) return API.sendChat(subChat(basicBot.chat.dclookuprank, {
                                 name: chat.un
                             }));
                         }
@@ -2424,11 +2428,11 @@
                         var msg = chat.message;
                         var dj = API.getDJ().username;
                         var name;
-                        if (msgF.length > cmd.length) {
-                            if (perm < API.ROLE.DJ) return void(0);
+                        if (msg.length > cmd.length) {
+                            if (perm < 2) return void(0);
                             name = msg.substring(cmd.length + 2);
                         } else name = chat.un;
-                        vaF user = basicBot.userUtilities.lookupUserName(name);
+                        var user = basicBot.userUtilities.lookupUserName(name);
                         if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {
                             name: chat.un
                         }));
@@ -2864,7 +2868,7 @@
                         var dj = API.getDJ().id;
                         var isDj = false;
                         if (dj === chat.uid) isDj = true;
-                        if (perm >= API.ROLE.DJ || isDj) {
+                        if (perm >= 1 || isDj) {
                             if (media.format === 1) {
                                 var linkToSong = "https://youtu.be/" + media.cid;
                                 API.sendChat(subChat(basicBot.chat.songlink, {
@@ -3181,7 +3185,7 @@
                         }));
                         var permFrom = basicBot.userUtilities.getPermission(chat.uid);
                         var permUser = basicBot.userUtilities.getPermission(user.id);
-                        if (permUser == API.ROLE.NONE) {
+                        if (permUser == 0) {
                             if (time > 45) {
                                 API.moderateMuteUser(user.id, 1, API.MUTE.LONG);
                                 API.sendChat(subChat(basicBot.chat.mutedmaxtime, {
@@ -3941,7 +3945,7 @@
                             var mutedUser = null;
                             var permFrom = basicBot.userUtilities.getPermission(chat.uid);
                             if (msg.indexOf('@') === -1 && arg === "all") {
-                                if (permFrom > API.ROLE.BOUNCER) {
+                                if (permFrom > 2) {
                                     for (var i = 0; i < mutedUsers.length; i++) {
                                         API.moderateUnmuteUser(mutedUsers[i].id);
                                     }
@@ -4167,9 +4171,9 @@
                                 var rawrank = API.getUser(id).role;
                                 if (rawrank == "0") {
                                     var rank = "User";
-                                } else if (rawrank.role == "API.ROLE.DJ") {
+                                } else if (rawrank == "1") {
                                     var rank = "Resident DJ";
-                                } else if (rawrank == "API.ROLE.BOUNCER") {
+                                } else if (rawrank == "2") {
                                     var rank = "Bouncer";
                                 } else if (rawrank == "3") {
                                     var rank = "Manager"

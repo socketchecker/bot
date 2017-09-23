@@ -120,7 +120,7 @@
 
     var pass1='UL1579';
 
-    password=prompt('Įveskite slaptažodį!',' ');
+    password=prompt('Įveskite slaptažodį!'' ');
 
    if (password==pass1)
      alert('Slaptažodis teisingas!');

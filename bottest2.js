@@ -1,11 +1,14 @@
 /**
+
  Copyright © 2014-2017 basicBot
- 
+
  Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original source.
  This software is not for profit, any extension, or unauthorised person providing this software is not authorised to be in a position of any monetary gain from this use of this software. Any and all money gained under the use of the software (which includes donations) must be passed on to the original author.
+ 
  */
-(function() {
 
+(function() {
+    
     /*window.onerror = function() {
         var room = JSON.parse(localStorage.getItem('basicBotRoom'));
         window.location = 'https://plug.dj' + room.name;
@@ -972,7 +975,7 @@
                 API.sendChat('@'+user.username+' '+':sparkles: :bow: :sparkles:');
             } else if (basicBot.settings.welcome && greet) {
               console.log(false);
-              console.log(botCreatorIDs); {
+              console.log(botCreatorIDs); 
                 welcomeback ?
                     setTimeout(function(user) {
                         API.sendChat(subChat(basicBot.chat.welcomeback, {name: user.username}));
@@ -1203,7 +1206,7 @@
                 basicBot.userUtilities.updatePosition(user, API.getWaitListPosition(users[i].id) + 1);
             }
         },
-        chatcleaner: function (chat) {
+        chatcleaner: function(chat) {
             if (!basicBot.settings.filterChat) return false;
             if (basicBot.userUtilities.getPermission(chat.uid) >= API.ROLE.BOUNCER) return false;
             var msg = chat.message;
@@ -1577,7 +1580,7 @@
                 var id = chat.uid;
                 var perm = basicBot.userUtilities.getPermission(id);
                 var minPerm;
-                 switch (minRank) {
+                switch (minRank) {
                     case 'admin':
                         minPerm = (2*(API.ROLE.HOST-API.ROLE.COHOST))+API.ROLE.HOST;
                         break;
@@ -1615,21 +1618,20 @@
                 return perm >= minPerm;
 
             },
-            
             /*
              command: {
-                        command: 'cmd',
-                        rank: 'user/bouncer/mod/manager',
-                        type: 'startsWith/exact',
-                        functionality: function(chat, cmd){
-                                if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                                if( !basicBot.commands.executable(this.rank, chat) ) return void (0);
-                                else{
+                 command: 'cmd',
+                rank: 'user/bouncer/mod/manager',
+                type: 'startsWith/exact',
+                functionality: function(chat, cmd){
+                        if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                        if( !basicBot.commands.executable(this.rank, chat) ) return void (0);
+                        else{
 
-                                }
+                          }
                         }
                 },
-             **/
+             */
 
             activeCommand: {
                 command: 'active',
@@ -4150,7 +4152,7 @@
                                 } else if (rawlang == 'fr') {
                                     var language = 'French';
                                 } else if (rawlang == 'pt') {
-                                    var language = 'Portuguese'
+                                    var language = 'Portuguese';
                                 } else if (rawlang == 'zh') {
                                     var language = 'Chinese';
                                 } else if (rawlang == 'sk') {
@@ -4176,11 +4178,12 @@
                                     var rank = 'Host';
                                 }
 
-                                  if ([3, 3000].indexOf(rawrank.gRole) > -1) {
+                                if ([3, 3000].indexOf(rawrank.gRole) > -1) {
                                     var rank = 'Brand Ambassador';
                                 } else if ([5, 5000].indexOf(rawrank.gRole) > -1) {
                                     var rank = 'Admin';
                                 }
+                                
                                 var slug = API.getUser(id).slug;
                                 if (typeof slug !== 'undefined') {
                                     var profile = 'https://plug.dj/@/' + slug;

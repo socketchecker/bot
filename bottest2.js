@@ -828,7 +828,7 @@
             },
             changeDJCycle: function() {
                 $.getJSON('/_/rooms/state', function(data) {
-                    if (data.data[0].booth.shouldCycle) { //checks if shouldCycle is true
+                    if (data.data[0].booth.shouldCycle) { // checks if shouldCycle is true
                         API.moderateDJCycle(false); // Disables the DJ Cycle
                         clearTimeout(basicBot.room.cycleTimer); // Clear the cycleguard timer
                     } 
@@ -1216,7 +1216,7 @@
                 return true;
             }
             if (!containsLetters && (msg.length === 1 || msg.length > 3)) return true;
-            msg = msg.replace(/[ ,.\=~+%^*\-\\''&@#]/g, '');
+            msg = msg.replace(/[ ,.\=~+%^*\-\\"'&@#]/g, '');
             var capitals = 0;
             var ch;
             for (var i = 0; i < msg.length; i++) {
@@ -1326,11 +1326,11 @@
                 var userPerm = basicBot.userUtilities.getPermission(chat.uid);
                 //console.log('name: ' + chat.un + ', perm: ' + userPerm);
                 if (chat.message !== basicBot.settings.commandLiteral + 'join' && chat.message !== basicBot.settings.commandLiteral + 'leave') {
-                    if (userPerm === 0 && !basicBot.room.usercommand) return void(0);
+                    if (userPerm === API.ROLE.NONE && !basicBot.room.usercommand) return void(0);
                     if (!basicBot.room.allcommand) return void(0);
                 }
                 if (chat.message === basicBot.settings.commandLiteral + 'eta' && basicBot.settings.etaRestriction) {
-                    if (userPerm < 2) {
+                    if (userPerm < API.ROLE.BOUNCER) {
                         var u = basicBot.userUtilities.lookupUser(chat.uid);
                         if (u.lastEta !== null && (Date.now() - u.lastEta) < 1 * 60 * 60 * 1000) {
                             API.moderateDeleteChat(chat.cid);
@@ -2882,7 +2882,7 @@
                         var dj = API.getDJ().id;
                         var isDj = false;
                         if (dj === chat.uid) isDj = true;
-                        if (perm >= 1 || isDj) {
+                        if (perm >= API.ROLE.DJ || isDj) {
                             if (media.format === 1) {
                                 var linkToSong = 'https://youtu.be/' + media.cid;
                                 API.sendChat(subChat(basicBot.chat.songlink, {
@@ -3197,43 +3197,23 @@
                         if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {
                             name: chat.un
                         }));
-                        var permFrom = basicBot.userUtilities.getPermission(chat.uid);
                         var permUser = basicBot.userUtilities.getPermission(user.id);
-                        if (permUser == API.ROLE.NONE)) {
+                        if (permUser == API.ROLE.NONE) {
                             if (time > 45) {
                                 API.moderateMuteUser(user.id, 1, API.MUTE.LONG);
-                                API.sendChat(subChat(basicBot.chat.mutedmaxtime, {
-                                    name: chat.un,
-                                    time: '45'
-                                }));
+                                
                             } else if (time === 45) {
                                 API.moderateMuteUser(user.id, 1, API.MUTE.LONG);
-                                API.sendChat(subChat(basicBot.chat.mutedtime, {
-                                    name: chat.un,
-                                    username: name,
-                                    time: time
-                                }));
+                               
                             } else if (time > 30) {
                                 API.moderateMuteUser(user.id, 1, API.MUTE.LONG);
-                                API.sendChat(subChat(basicBot.chat.mutedtime, {
-                                    name: chat.un,
-                                    username: name,
-                                    time: time
-                                }));
+                               
                             } else if (time > 15) {
                                 API.moderateMuteUser(user.id, 1, API.MUTE.MEDIUM);
-                                API.sendChat(subChat(basicBot.chat.mutedtime, {
-                                    name: chat.un,
-                                    username: name,
-                                    time: time
-                                }));
+                                
                             } else {
                                 API.moderateMuteUser(user.id, 1, API.MUTE.SHORT);
-                                API.sendChat(subChat(basicBot.chat.mutedtime, {
-                                    name: chat.un,
-                                    username: name,
-                                    time: time
-                                }));
+                            
                             }
                         } else API.sendChat(subChat(basicBot.chat.muterank, {
                             name: chat.un
@@ -3959,13 +3939,11 @@
                             var mutedUser = null;
                             var permFrom = basicBot.userUtilities.getPermission(chat.uid);
                             if (msg.indexOf('@') === -1 && arg === 'all') {
-                                if (permFrom > 2) {
+                                if (permFrom > API.ROLE.BOUNCER) {
                                     for (var i = 0; i < mutedUsers.length; i++) {
                                         API.moderateUnmuteUser(mutedUsers[i].id);
                                     }
-                                    API.sendChat(subChat(basicBot.chat.unmutedeveryone, {
-                                        name: chat.un
-                                    }));
+                                   
                                 } else API.sendChat(subChat(basicBot.chat.unmuteeveryonerank, {
                                     name: chat.un
                                 }));
@@ -4168,19 +4146,19 @@
                                 } else if (rawlang == 'cs') {
                                     var language = 'Czech';
                                 } else if (rawlang == 'fi') {
-                                    var language = 'Finnish'
+                                    var language = 'Finnish';
                                 } else if (rawlang == 'fr') {
-                                    var language = 'French'
+                                    var language = 'French';
                                 } else if (rawlang == 'pt') {
                                     var language = 'Portuguese'
                                 } else if (rawlang == 'zh') {
-                                    var language = 'Chinese'
+                                    var language = 'Chinese';
                                 } else if (rawlang == 'sk') {
-                                    var language = 'Slovak'
+                                    var language = 'Slovak';
                                 } else if (rawlang == 'nl') {
-                                    var language = 'Dutch'
+                                    var language = 'Dutch';
                                 } else if (rawlang == 'ms') {
-                                    var language = 'Malay'
+                                    var language = 'Malay';
                                 }
                                 var rawrank = API.getUser(id);
 

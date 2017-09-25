@@ -464,7 +464,6 @@
                         basicBot.userUtilities.moveUser(winner, 5, false),
                             API.moderateMuteUser(winner, 1, API.MUTE.SHORT),
                             API.sendChat(subChat(basicBot.chat.rouletterip, {name: name}))
-                            API.sendChat('!roulette');
                     } 
                     else {
                         setTimeout(function(winner, pos) {
@@ -1531,7 +1530,7 @@
            }, 1000);
             basicBot.room.rytas = setInterval(function () {
             var rytas = new Date();
-            if (rytas.getHours() === 9 && rytas.getMinutes() === 30 && rytas.getSeconds() === 0) {
+            if (rytas.getHours() === 12 && rytas.getMinutes() === 0 && rytas.getSeconds() === 0) {
              API.sendChat('!autoroulette');
             }
            }, 1000);
@@ -1786,7 +1785,7 @@
 
             autoroulette: {
                 command: 'autoroulette',
-                rank: 'cohost',
+                rank: 'manager',
                 type: 'exact',
                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
@@ -4141,26 +4140,26 @@
                                 var rawjoined = API.getUser(id).joined;
                                 var joined = rawjoined.substr(0, 10);
                                 var rawlang = API.getUser(id).language;
-                                if (rawlang == 'en') {
-                                    var language = 'English';
-                                } else if (rawlang == 'bg') {
-                                    var language = 'Bulgarian';
-                                } else if (rawlang == 'cs') {
-                                    var language = 'Czech';
-                                } else if (rawlang == 'fi') {
-                                    var language = 'Finnish';
-                                } else if (rawlang == 'fr') {
-                                    var language = 'French';
-                                } else if (rawlang == 'pt') {
-                                    var language = 'Portuguese';
-                                } else if (rawlang == 'zh') {
-                                    var language = 'Chinese';
-                                } else if (rawlang == 'sk') {
-                                    var language = 'Slovak';
-                                } else if (rawlang == 'nl') {
-                                    var language = 'Dutch';
-                                } else if (rawlang == 'ms') {
-                                    var language = 'Malay';
+                               if (rawlang == "en") {
+                                    var language = "English";
+                                } else if (rawlang == "bg") {
+                                    var language = "Bulgarian";
+                                } else if (rawlang == "cs") {
+                                    var language = "Czech";
+                                } else if (rawlang == "fi") {
+                                    var language = "Finnish"
+                                } else if (rawlang == "fr") {
+                                    var language = "French"
+                                } else if (rawlang == "pt") {
+                                    var language = "Portuguese"
+                                } else if (rawlang == "zh") {
+                                    var language = "Chinese"
+                                } else if (rawlang == "sk") {
+                                    var language = "Slovak"
+                                } else if (rawlang == "nl") {
+                                    var language = "Dutch"
+                                } else if (rawlang == "ms") {
+                                    var language = "Malay"
                                 }
                                 var rawrank = API.getUser(id);
 

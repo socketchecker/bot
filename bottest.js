@@ -557,7 +557,7 @@
                 else u = API.getUser(obj);
                 if (botCreatorIDs.indexOf(u.id) > -1) return 9999;
 
-                if (u.gRole == 0) return u.role;
+                if (u.gRole < 1000) return u.role;
                 else {
                     switch (u.gRole) {
                         case 3:
@@ -2686,13 +2686,10 @@
                 rank: 'user',
                 type: 'exact',
                 functionality: function(chat, cmd) {
+                    var pos = API.getWaitListPosition(user.id);
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
-            else if {
-                var pos = API.getWaitListPosition(user.id);
-             if   (pos < 0) return API.sendChat(subChat(basicBot.chat.notinwaitlist, {
-                            name: name
-                        }));
+                    if (pos < 0) return API.sendChat("nesate waitliste");
                     else {
                         if (basicBot.room.roulette.rouletteStatus && basicBot.room.roulette.participants.indexOf(chat.uid) < 0) {
                             basicBot.room.roulette.participants.push(chat.uid);
@@ -2702,8 +2699,7 @@
                         }
                     }
                 }
-            }
- },
+            },
 
             jointimeCommand: {
                 command: 'jointime',

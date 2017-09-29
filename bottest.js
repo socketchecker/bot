@@ -2690,7 +2690,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0); 
                    else { 
                        var pos = API.getWaitListPosition(user.id);
-                       (basicBot.room.roulette.rouletteStatus && basicBot.room.roulette.participants.indexOf(chat.uid) < 0) && (pos < 0) {
+                       (basicBot.room.roulette.rouletteStatus && basicBot.room.roulette.participants.indexOf(chat.uid) < 0) && (pos > 0) {
                             basicBot.room.roulette.participants.push(chat.uid);
                             API.sendChat(subChat(basicBot.chat.roulettejoin, {
                                 name: chat.un

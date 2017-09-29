@@ -460,7 +460,7 @@
                     var user = basicBot.userUtilities.lookupUser(winner);
                     var rip = API.getWaitListPosition(winner);
                     var name = user.username;
-                    if (rip <= 4) {
+                    if (rip <= 4 && rip > -1 ) {
                         basicBot.userUtilities.moveUser(winner, 5, false),
                             API.moderateMuteUser(winner, 1, API.MUTE.SHORT),
                             API.sendChat(subChat(basicBot.chat.rouletterip, {name: name}))
@@ -1536,8 +1536,8 @@
            }, 1000);
             basicBot.loggedInID = API.getUser().id;
             basicBot.status = true;
-            API.sendChat('/cap ' + basicBot.settings.startupCap);
-            API.setVolume(basicBot.settings.startupVolume);
+            /*API.sendChat('/cap ' + basicBot.settings.startupCap);
+            API.setVolume(basicBot.settings.startupVolume); */
             if (basicBot.settings.autowoot) {
                 $('#woot').click();
             }
@@ -1555,8 +1555,8 @@
                 }
                 API.chatLog('Emojis disabled.');
             }
-            API.chatLog('Avatars capped at ' + basicBot.settings.startupCap);
-            API.chatLog('Volume set to ' + basicBot.settings.startupVolume);
+          /* API.chatLog('Avatars capped at ' + basicBot.settings.startupCap);
+            API.chatLog('Volume set to ' + basicBot.settings.startupVolume);*/
             //socket();
             loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.version})));
         },
@@ -2689,7 +2689,6 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
                     else {
-                        if (API.getWaitListPosition(id) === -1) return API.sendChat("nesate waitliste");
                         if (basicBot.room.roulette.rouletteStatus && basicBot.room.roulette.participants.indexOf(chat.uid) < 0) {
                             basicBot.room.roulette.participants.push(chat.uid);
                             API.sendChat(subChat(basicBot.chat.roulettejoin, {

@@ -383,7 +383,7 @@
             }
         },
         room: {
-            name: null,
+            name: "Už Lietuvą",
             chatMessages: [],
             users: [],
             afkList: [],
@@ -648,25 +648,25 @@
                 var rankInt = null;
                 switch (rankString) {
                     case 'admin':
-                        rankInt = 10;
+                        rankInt = 5000;
                         break;
                     case 'ambassador':
-                        rankInt = 7;
+                        rankInt = 3000;
                         break;
                     case 'host':
-                        rankInt = 5;
+                        rankInt = 5000;
                         break;
                     case 'cohost':
-                        rankInt = 4;
+                        rankInt = 4000;
                         break;
                     case 'manager':
-                        rankInt = 3;
+                        rankInt = 3000;
                         break;
                     case 'bouncer':
-                        rankInt = 2;
+                        rankInt = 2000;
                         break;
                     case 'residentdj':
-                        rankInt = 1;
+                        rankInt = 1000;
                         break;
                     case 'user':
                         rankInt = 0;

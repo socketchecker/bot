@@ -2689,10 +2689,6 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
                     else {
-                      if (pos < 0) return API.sendChat(subChat(basicBot.chat.notinwaitlist, {
-                            name: name
-                        }));
-                    else {
                         if (basicBot.room.roulette.rouletteStatus && basicBot.room.roulette.participants.indexOf(chat.uid) < 0) {
                             basicBot.room.roulette.participants.push(chat.uid);
                             API.sendChat(subChat(basicBot.chat.roulettejoin, {
@@ -2701,8 +2697,8 @@
                         }
                     }
                 }
-            }
-         },
+            },
+         
 
             jointimeCommand: {
                 command: 'jointime',

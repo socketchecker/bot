@@ -2691,7 +2691,7 @@
                     else {
                         var pos = API.getWaitListPosition(user.id);
                         if (pos < 0) return API.sendChat("nesate eilėje");
-                       else { (basicBot.room.roulette.rouletteStatus && basicBot.room.roulette.participants.indexOf(chat.uid) < 0) {
+                    } else { (basicBot.room.roulette.rouletteStatus && basicBot.room.roulette.participants.indexOf(chat.uid) < 0) {
                             basicBot.room.roulette.participants.push(chat.uid);
                             API.sendChat(subChat(basicBot.chat.roulettejoin, {
                                 name: chat.un

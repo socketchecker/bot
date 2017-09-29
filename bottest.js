@@ -2688,8 +2688,8 @@
                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
-                    if (API.getWaitListPosition(id) === -1) return API.sendChat("nesate waitliste");
                     else {
+                        if (API.getWaitListPosition(id) === -1) return API.sendChat("nesate waitliste");
                         if (basicBot.room.roulette.rouletteStatus && basicBot.room.roulette.participants.indexOf(chat.uid) < 0) {
                             basicBot.room.roulette.participants.push(chat.uid);
                             API.sendChat(subChat(basicBot.chat.roulettejoin, {

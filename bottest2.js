@@ -7,14 +7,14 @@
  
  */
 
-(function() {
+(function () {
     
     /*window.onerror = function() {
         var room = JSON.parse(localStorage.getItem('basicBotRoom'));
         window.location = 'https://plug.dj' + room.name;
     };*/
 
-    API.getWaitListPosition = function(id) {
+    API.getWaitListPosition = function (id) {
         if (typeof id === 'undefined' || id === null) {
             id = API.getUser().id;
         }
@@ -27,7 +27,7 @@
         return -1;
     };
 
-    var kill = function() {
+    var kill = function () {
         clearInterval(basicBot.room.autodisableInterval);
         clearInterval(basicBot.room.autorouletteInterval);
         clearInterval(basicBot.room.afkInterval);
@@ -300,7 +300,7 @@
     var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '2.11.0',
+        version: '2.11.1',
         status: false,
         name: 'basicBot',
         loggedInID: null,
@@ -313,7 +313,7 @@
             botName: 'Lietuviškas-Botas',
             language: 'english',
             chatLink: 'https://rawgit.com/PowerOfMad/bot/master/lt.json',
-            scriptLink: 'https://rawgit.com/PowerOfMad/bot/master/ULBot.js',
+            scriptLink: 'https://rawgit.com/PowerOfMad/bot/master/bottest2.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 50, // 1-200
             startupVolume: 15, // 0-100
@@ -1560,20 +1560,7 @@
             //socket();
             loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.version})));
         },
-        	/*
-        if (u.gRole == 0) return u.role;
-        else {
-            switch (u.gRole) {
-                case 3:
-                case 3000:
-                    return (1*(API.ROLE.HOST-API.ROLE.COHOST))+API.ROLE.HOST;
-                case 5:
-                case 5000:
-                    return (2*(API.ROLE.HOST-API.ROLE.COHOST))+API.ROLE.HOST;
-            }
-        }
-        return 0;
-*/
+
         commands: {
             executable: function(minRank, chat) {
                 var id = chat.uid;
@@ -4147,19 +4134,19 @@
                                 } else if (rawlang == "cs") {
                                     var language = "Czech";
                                 } else if (rawlang == "fi") {
-                                    var language = "Finnish"
+                                    var language = "Finnish";
                                 } else if (rawlang == "fr") {
-                                    var language = "French"
+                                    var language = "French";
                                 } else if (rawlang == "pt") {
-                                    var language = "Portuguese"
+                                    var language = "Portuguese";
                                 } else if (rawlang == "zh") {
-                                    var language = "Chinese"
+                                    var language = "Chinese";
                                 } else if (rawlang == "sk") {
-                                    var language = "Slovak"
+                                    var language = "Slovak";
                                 } else if (rawlang == "nl") {
-                                    var language = "Dutch"
+                                    var language = "Dutch";
                                 } else if (rawlang == "ms") {
-                                    var language = "Malay"
+                                    var language = "Malay";
                                 }
                                 var rawrank = API.getUser(id);
 

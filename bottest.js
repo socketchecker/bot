@@ -2686,10 +2686,9 @@
                 rank: 'user',
                 type: 'exact',
                 functionality: function(chat, cmd) {
-                    var pos = API.getWaitListPosition(user.id);
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
-                    if (pos < 0) return API.sendChat("nesate waitliste");
+                    if (API.getWaitListPosition(id) === -1) return API.sendChat("nesate waitliste");
                     else {
                         if (basicBot.room.roulette.rouletteStatus && basicBot.room.roulette.participants.indexOf(chat.uid) < 0) {
                             basicBot.room.roulette.participants.push(chat.uid);

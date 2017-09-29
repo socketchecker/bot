@@ -557,7 +557,7 @@
                 else u = API.getUser(obj);
                 if (botCreatorIDs.indexOf(u.id) > -1) return 9999;
 
-                if (u.gRole == 0) return u.role;
+                if (u.gRole < 1000) return u.role;
                 else {
                     switch (u.gRole) {
                         case 3:
@@ -648,25 +648,25 @@
                 var rankInt = null;
                 switch (rankString) {
                     case 'admin':
-                        rankInt = 5000;
+                        rankInt = 10;
                         break;
                     case 'ambassador':
-                        rankInt = 3000;
+                        rankInt = 7;
                         break;
                     case 'host':
-                        rankInt = 5000;
+                        rankInt = 5;
                         break;
                     case 'cohost':
-                        rankInt = 4000;
+                        rankInt = 4;
                         break;
                     case 'manager':
-                        rankInt = 3000;
+                        rankInt = 3;
                         break;
                     case 'bouncer':
-                        rankInt = 2000;
+                        rankInt = 2;
                         break;
                     case 'residentdj':
-                        rankInt = 1000;
+                        rankInt = 1;
                         break;
                     case 'user':
                         rankInt = 0;

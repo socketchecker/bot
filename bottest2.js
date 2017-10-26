@@ -343,7 +343,7 @@
             usercommandsEnabled: true,
             thorCommand: false,
             thorCooldown: 10,
-            lockskipPosition: 1,
+            lockskipPosition: 3,
             lockskipReasons: [
                 ['zanras', 'Daina buvo absurdiška. '],
                 ['op', 'Daina buvo per dažnai leidžiama šiame kambaryje. '],

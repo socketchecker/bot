@@ -343,7 +343,7 @@
             usercommandsEnabled: true,
             thorCommand: false,
             thorCooldown: 10,
-            lockskipPosition: 10,
+            lockskipPosition: 1,
             lockskipReasons: [
                 ['zanras', 'Daina buvo absurdiška. '],
                 ['op', 'Daina buvo per dažnai leidžiama šiame kambaryje. '],
@@ -1536,12 +1536,12 @@
            }, 1000);
             basicBot.loggedInID = API.getUser().id;
             basicBot.status = true;
-            API.sendChat('/cap ' + basicBot.settings.startupCap);
-            API.setVolume(basicBot.settings.startupVolume);
+            /*API.sendChat('/cap ' + basicBot.settings.startupCap);
+            API.setVolume(basicBot.settings.startupVolume); */
             if (basicBot.settings.autowoot) {
                 $('#woot').click();
             }
-            if (basicBot.settings.startupEmoji) {
+          /*  if (basicBot.settings.startupEmoji) {
                 var emojibuttonoff = $('.icon-emoji-off');
                 if (emojibuttonoff.length > 0) {
                     emojibuttonoff[0].click();
@@ -1555,8 +1555,8 @@
                 }
                 API.chatLog('Emojis disabled.');
             }
-            API.chatLog('Avatars capped at ' + basicBot.settings.startupCap);
-            API.chatLog('Volume set to ' + basicBot.settings.startupVolume);
+          /* API.chatLog('Avatars capped at ' + basicBot.settings.startupCap);
+            API.chatLog('Volume set to ' + basicBot.settings.startupVolume);*/
             //socket();
             loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.version})));
         },
@@ -2949,9 +2949,9 @@
                 }
             },
 
-            lockskipCommand: {
-                command: 'lockskip',
-                rank: 'cohost',
+            tryagainCommand: {
+                command: 'tryagain',
+                rank: 'bouncer',
                 type: 'startsWith',
                 functionality: function(chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
@@ -2965,6 +2965,7 @@
                             basicBot.room.queueable = false;
 
                             if (chat.message.length === cmd.length) {
+                                API.sendChat(basicBot.chat.tryagain);
                                 basicBot.roomUtilities.booth.lockBooth();
                                 setTimeout(function(id) {
                                     API.moderateForceSkip();

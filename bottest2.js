@@ -3423,15 +3423,16 @@
                                 var r = basicBot.settings.skipReasons[i][0];
                                 if (reason.indexOf(r) !== -1) {
                                     validReason = true;
+                                    basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                                     msgSend += basicBot.settings.skipReasons[i][1];
                                 }
                             }
                             if (validReason) {
                                 if (basicBot.settings.smartSkip && timeLeft > timeElapsed) {
                                     basicBot.roomUtilities.smartSkip(msgSend);
-                                    basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                                 } else {
                                     API.moderateForceSkip();
+                                    basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                                     setTimeout(function() {
                                         API.sendChat(msgSend);
                                     }, 500);

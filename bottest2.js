@@ -1110,11 +1110,9 @@
                             API.sendChat(subChat(basicBot.chat.notavailable, {name: name}));
                             if (basicBot.settings.smartSkip) {
                                 return basicBot.roomUtilities.smartSkip();
-                                basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                             } 
                             else {
                                 return API.moderateForceSkip();
-                                 basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                             }
                         }
                     });
@@ -3413,7 +3411,6 @@
                                      basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                                 } else {
                                     API.moderateForceSkip();
-                                     basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                                 }
                             }
                             var validReason = false;
@@ -3423,7 +3420,6 @@
                                 var r = basicBot.settings.skipReasons[i][0];
                                 if (reason.indexOf(r) !== -1) {
                                     validReason = true;
-                                    basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                                     msgSend += basicBot.settings.skipReasons[i][1];
                                 }
                             }
@@ -3432,9 +3428,9 @@
                                     basicBot.roomUtilities.smartSkip(msgSend);
                                 } else {
                                     API.moderateForceSkip();
-                                    basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                                     setTimeout(function() {
                                         API.sendChat(msgSend);
+                                        basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                                     }, 500);
                                 }
                             }

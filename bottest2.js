@@ -1110,9 +1110,11 @@
                             API.sendChat(subChat(basicBot.chat.notavailable, {name: name}));
                             if (basicBot.settings.smartSkip) {
                                 return basicBot.roomUtilities.smartSkip();
+                                basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                             } 
                             else {
                                 return API.moderateForceSkip();
+                                 basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                             }
                         }
                     });
@@ -3408,8 +3410,10 @@
                             if (chat.message.length === cmd.length) {
                                 if (basicBot.settings.smartSkip && timeLeft > timeElapsed) {
                                     basicBot.roomUtilities.smartSkip();
+                                     basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                                 } else {
                                     API.moderateForceSkip();
+                                     basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                                 }
                             }
                             var validReason = false;
@@ -3425,6 +3429,7 @@
                             if (validReason) {
                                 if (basicBot.settings.smartSkip && timeLeft > timeElapsed) {
                                     basicBot.roomUtilities.smartSkip(msgSend);
+                                    basicBot.userUtilities.moveUser(id, basicBot.settings.lockskipPosition, false);
                                 } else {
                                     API.moderateForceSkip();
                                     setTimeout(function() {

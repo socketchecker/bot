@@ -460,8 +460,8 @@
                     var user = basicBot.userUtilities.lookupUser(winner);
                     var rip = API.getWaitListPosition(winner);
                     var name = user.username;
-                    if (rip <= 4 && rip > -1 ) {
-                        basicBot.userUtilities.moveUser(winner, 5, false),
+                    if (rip <= 2 && rip > -1 ) {
+                        basicBot.userUtilities.moveUser(winner, 3, false),
                             API.moderateMuteUser(winner, 1, API.MUTE.SHORT),
                             API.sendChat(subChat(basicBot.chat.rouletterip, {name: name}))
                     } 

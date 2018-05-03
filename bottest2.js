@@ -462,7 +462,6 @@
                     var name = user.username;
                     if (rip <= 2 && rip > -1 ) {
                         basicBot.userUtilities.moveUser(winner, 3, false),
-                            API.moderateMuteUser(winner, 1, API.MUTE.SHORT),
                             API.sendChat(subChat(basicBot.chat.rouletterip, {name: name}))
                     } 
                     else {

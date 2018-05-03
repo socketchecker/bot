@@ -159,7 +159,7 @@
     "facebook": "/me Prisijunkite prie mūsų Facebook`e: %%LINK%%",
     "starterhelp": "/me Komandos: http://prntscr.com/e61bed",
     "roulettejoin": "/me @%%NAME%% Dalyvaujate ruletės žaidime!",
-    "rouletterip":"/me :x: @%%NAME%% Ruletės negalima žaisti esant 1-5 pozicijoje, buvote užtildytas 15min.",
+    "rouletterip":"/me :x: @%%NAME%% Ruletės negalima žaisti esant 1-3 pozicijoje",
     "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% vartotojas buvo kambaryje %%TIME%%.",
     "kickrank": "/me [@%%NAME%%] Jūs negalite išmesti vartotojų kurie turi aukštesnes pareigas negu Jūs!",
     "kick": "/me [@%%NAME%%], @%%USERNAME%% Jūs buvote išspirtas iš kambario %%TIME%% minutėms.",
